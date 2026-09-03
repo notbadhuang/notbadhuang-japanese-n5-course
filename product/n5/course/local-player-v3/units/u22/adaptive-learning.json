@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-022-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u22-group-01",
+      "title_zh": "歌到テレビ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1193180-v1",
+        "n5-vocabulary-jmdict-1038350-v1",
+        "n5-vocabulary-jmdict-1042820-v1",
+        "n5-vocabulary-jmdict-1080510-v1"
+      ],
+      "target_labels_zh": [
+        "歌",
+        "カメラ",
+        "ギター",
+        "テレビ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u22-group-02",
+      "title_zh": "ラジオ到絵",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1138860-v1",
+        "n5-vocabulary-jmdict-1109380-v1",
+        "n5-vocabulary-jmdict-1321900-v1",
+        "n5-vocabulary-jmdict-1202270-v1"
+      ],
+      "target_labels_zh": [
+        "ラジオ",
+        "フィルム",
+        "写真",
+        "絵"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u22-group-03",
+      "title_zh": "見る到V普通形",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1259290-v1",
+        "n5-vocabulary-jmdict-1298790-v1",
+        "n5-grammar-proposal-mashou-v1",
+        "n5-grammar-inflection-verb-plain-form-v1"
+      ],
+      "target_labels_zh": [
+        "見る",
+        "撮る",
+        "Vましょう",
+        "V普通形"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u22-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "提议说话人与对方共同做某事"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "提议说话人与对方共同做某事。基本形式是Vましょう。动词ます形词干后接ましょう。"
+    },
+    "n5-module-b-u22-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "连接名词化、原因、意图和时间关系"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "连接名词化、原因、意图和时间关系。基本形式是V普通形。至少区分辞书形、ない形、た形及其基本关系。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u22-checkpoint-vocab-1193180-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“歌／歌曲”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "C",
+          "text": "テレビ（テレビ）"
+        },
+        {
+          "option_id": "D",
+          "text": "歌（うた）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1038350-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“照相机”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "B",
+          "text": "テレビ（テレビ）"
+        },
+        {
+          "option_id": "C",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "D",
+          "text": "歌（うた）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1042820-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“吉他”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テレビ（テレビ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "C",
+          "text": "歌（うた）"
+        },
+        {
+          "option_id": "D",
+          "text": "カメラ（カメラ）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1080510-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“电视／电视机”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テレビ（テレビ）"
+        },
+        {
+          "option_id": "B",
+          "text": "歌（うた）"
+        },
+        {
+          "option_id": "C",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ギター（ギター）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1138860-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“收音机／广播”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "歌（うた）"
+        },
+        {
+          "option_id": "B",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "D",
+          "text": "ラジオ（ラジオ）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1109380-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“胶卷”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "C",
+          "text": "フィルム（フィルム）"
+        },
+        {
+          "option_id": "D",
+          "text": "歌（うた）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1321900-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“照片”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "B",
+          "text": "写真（しゃしん）"
+        },
+        {
+          "option_id": "C",
+          "text": "歌（うた）"
+        },
+        {
+          "option_id": "D",
+          "text": "カメラ（カメラ）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1202270-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“图画／绘画”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "絵（え）"
+        },
+        {
+          "option_id": "B",
+          "text": "歌（うた）"
+        },
+        {
+          "option_id": "C",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ギター（ギター）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1259290-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“看／观看”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "歌（うた）"
+        },
+        {
+          "option_id": "B",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "D",
+          "text": "見る（みる）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-vocab-1298790-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“拍照”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "カメラ（カメラ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ギター（ギター）"
+        },
+        {
+          "option_id": "C",
+          "text": "撮る（とる）"
+        },
+        {
+          "option_id": "D",
+          "text": "歌（うた）"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“提议说话人与对方共同做某事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "Vましょう"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    },
+    "n5-module-b-u22-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“连接名词化、原因、意图和时间关系”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "V普通形"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1193180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1193180-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "B",
+          "text": "照相机"
+        },
+        {
+          "option_id": "C",
+          "text": "吉他"
+        },
+        {
+          "option_id": "A",
+          "text": "电视／电视机"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「歌」的课程义。",
+      "prompt_ja": "歌です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1038350-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1038350-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "B",
+          "text": "吉他"
+        },
+        {
+          "option_id": "D",
+          "text": "电视／电视机"
+        },
+        {
+          "option_id": "C",
+          "text": "照相机"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「カメラ」的课程义。",
+      "prompt_ja": "カメラです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1042820-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1042820-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "照相机"
+        },
+        {
+          "option_id": "C",
+          "text": "电视／电视机"
+        },
+        {
+          "option_id": "B",
+          "text": "吉他"
+        },
+        {
+          "option_id": "D",
+          "text": "歌／歌曲"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ギター」的课程义。",
+      "prompt_ja": "ギターです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1080510-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1080510-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "吉他"
+        },
+        {
+          "option_id": "A",
+          "text": "电视／电视机"
+        },
+        {
+          "option_id": "C",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "D",
+          "text": "照相机"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「テレビ」的课程义。",
+      "prompt_ja": "テレビです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1138860-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1138860-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "收音机／广播"
+        },
+        {
+          "option_id": "B",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "C",
+          "text": "照相机"
+        },
+        {
+          "option_id": "A",
+          "text": "吉他"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ラジオ」的课程义。",
+      "prompt_ja": "ラジオです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1109380-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1109380-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "B",
+          "text": "照相机"
+        },
+        {
+          "option_id": "D",
+          "text": "吉他"
+        },
+        {
+          "option_id": "C",
+          "text": "胶卷"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「フィルム」的课程义。",
+      "prompt_ja": "フィルムです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1321900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1321900-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "照相机"
+        },
+        {
+          "option_id": "C",
+          "text": "吉他"
+        },
+        {
+          "option_id": "B",
+          "text": "照片"
+        },
+        {
+          "option_id": "D",
+          "text": "歌／歌曲"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「写真」的课程义。",
+      "prompt_ja": "写真です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1202270-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1202270-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "吉他"
+        },
+        {
+          "option_id": "A",
+          "text": "图画／绘画"
+        },
+        {
+          "option_id": "C",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "D",
+          "text": "照相机"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「絵」的课程义。",
+      "prompt_ja": "絵です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1259290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1259290-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "看／观看"
+        },
+        {
+          "option_id": "B",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "C",
+          "text": "照相机"
+        },
+        {
+          "option_id": "A",
+          "text": "吉他"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「見る」的课程义。",
+      "prompt_ja": "映画を見ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-vocab-1298790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1298790-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "歌／歌曲"
+        },
+        {
+          "option_id": "B",
+          "text": "照相机"
+        },
+        {
+          "option_id": "D",
+          "text": "吉他"
+        },
+        {
+          "option_id": "C",
+          "text": "拍照"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「撮る」的课程义。",
+      "prompt_ja": "写真を撮ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-proposal-mashou-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "提议说话人与对方共同做某事"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "一緒に帰りましょう。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u22-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u22-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-inflection-verb-plain-form-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "连接名词化、原因、意图和时间关系"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "遊びます → 遊ぶ／遊びません → 遊ばない"
+    }
+  ],
+  "embedded_support_placements": []
+}

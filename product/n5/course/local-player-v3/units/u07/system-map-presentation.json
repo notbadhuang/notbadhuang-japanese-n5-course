@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "status": "owner_approved_validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-007-v3",
+  "items": [
+    {
+      "system_map_snapshot_id": "n5-module-b-u07-n5-system-numbers-counters-time-v1-snapshot-v1",
+      "eyebrow_zh": "系统整理 · 时间词与整词读音",
+      "title_zh": "把时间词按用途整理，并记住完整词的读音",
+      "explanation_zh": "这里记的是完整词的读法。比如「四時」整体读作「よじ」，不要拆成「四＝よ」套到其他词里。",
+      "layout_variant": "dense_reading",
+      "columns": [
+        {
+          "label_zh": "一天中的时段",
+          "accent": "blue",
+          "items": [
+            {
+              "form": "朝",
+              "note_zh": "あさ"
+            },
+            {
+              "form": "昼",
+              "note_zh": "ひる"
+            },
+            {
+              "form": "午後",
+              "note_zh": "ごご"
+            },
+            {
+              "form": "夜",
+              "note_zh": "よる"
+            }
+          ]
+        },
+        {
+          "label_zh": "当前与先后",
+          "accent": "green",
+          "items": [
+            {
+              "form": "今日",
+              "note_zh": "きょう"
+            },
+            {
+              "form": "今",
+              "note_zh": "いま"
+            },
+            {
+              "form": "先",
+              "note_zh": "さき"
+            },
+            {
+              "form": "後",
+              "note_zh": "あと"
+            },
+            {
+              "form": "次",
+              "note_zh": "つぎ"
+            }
+          ]
+        },
+        {
+          "label_zh": "明确时刻",
+          "accent": "amber",
+          "items": [
+            {
+              "form": "四時",
+              "note_zh": "よじ · 把它作为完整表达来记"
+            }
+          ]
+        }
+      ],
+      "preview_title_zh": "正确记法",
+      "preview_items": [
+        "✓ 四時＝よじ"
+      ],
+      "preview_note_zh": "不推出「四」单独固定读作「よ」。",
+      "preview_tone": "amber",
+      "footer_note_zh": "只整理完整词和整词读音，不新增孤立汉字读音。"
+    }
+  ]
+}

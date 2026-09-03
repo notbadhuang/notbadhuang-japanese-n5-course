@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "catalog_id": "n5-local-player-v3-core-active-child-catalog",
+  "status": "active",
+  "runtime_contract_id": "n5-local-player-grouped-unit-runtime-v1",
+  "default_work_unit_id": "n5-work-unit-core-001-v3",
+  "active_work_unit_count": 72,
+  "supported_session_modes": [
+    "new_learning",
+    "delayed_review",
+    "mixed"
+  ],
+  "work_units": [
+    {
+      "work_unit_id": "n5-work-unit-core-001-v3",
+      "unit_code": "U01",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u01/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-002-v3",
+      "unit_code": "U02",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u02/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-003-v3",
+      "unit_code": "U03",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u03/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-004-v3",
+      "unit_code": "U04",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u04/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-005-v3",
+      "unit_code": "U05",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u05/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-006-v3",
+      "unit_code": "U06",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u06/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-007-v3",
+      "unit_code": "U07",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u07/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-008-v3",
+      "unit_code": "U08",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u08/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-009-v3",
+      "unit_code": "U09",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u09/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-010-v3",
+      "unit_code": "U10",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u10/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-011-v3",
+      "unit_code": "U11",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u11/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-012-v3",
+      "unit_code": "U12",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u12/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-013-v3",
+      "unit_code": "U13",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u13/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-014-v3",
+      "unit_code": "U14",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u14/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-015-v3",
+      "unit_code": "U15",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u15/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-016-v3",
+      "unit_code": "U16",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u16/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-017-v3",
+      "unit_code": "U17",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u17/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-018-v3",
+      "unit_code": "U18",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u18/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-019-v3",
+      "unit_code": "U19",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u19/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-020-v3",
+      "unit_code": "U20",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u20/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-021-v3",
+      "unit_code": "U21",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u21/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-022-v3",
+      "unit_code": "U22",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u22/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-023-v3",
+      "unit_code": "U23",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u23/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-024-v3",
+      "unit_code": "U24",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u24/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-025-v3",
+      "unit_code": "U25",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u25/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-026-v3",
+      "unit_code": "U26",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u26/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-027-v3",
+      "unit_code": "U27",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u27/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-028-v3",
+      "unit_code": "U28",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u28/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-029-v3",
+      "unit_code": "U29",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u29/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-030-v3",
+      "unit_code": "U30",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u30/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-031-v3",
+      "unit_code": "U31",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u31/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-032-v3",
+      "unit_code": "U32",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u32/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-033-v3",
+      "unit_code": "U33",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u33/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-034-v3",
+      "unit_code": "U34",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u34/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-035-v3",
+      "unit_code": "U35",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u35/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-036-v3",
+      "unit_code": "U36",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u36/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-037-v3",
+      "unit_code": "U37",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u37/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-038-v3",
+      "unit_code": "U38",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u38/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-039-v3",
+      "unit_code": "U39",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u39/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-040-v3",
+      "unit_code": "U40",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u40/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-041-v3",
+      "unit_code": "U41",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u41/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-042-v3",
+      "unit_code": "U42",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u42/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-043-v3",
+      "unit_code": "U43",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u43/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-044-v3",
+      "unit_code": "U44",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u44/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-045-v3",
+      "unit_code": "U45",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u45/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-046-v3",
+      "unit_code": "U46",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u46/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-047-v3",
+      "unit_code": "U47",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u47/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-048-v3",
+      "unit_code": "U48",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u48/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-049-v3",
+      "unit_code": "U49",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u49/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-050-v3",
+      "unit_code": "U50",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u50/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-051-v3",
+      "unit_code": "U51",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u51/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-052-v3",
+      "unit_code": "U52",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u52/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-053-v3",
+      "unit_code": "U53",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u53/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-054-v3",
+      "unit_code": "U54",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u54/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-055-v3",
+      "unit_code": "U55",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u55/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-056-v3",
+      "unit_code": "U56",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u56/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-057-v3",
+      "unit_code": "U57",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u57/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-058-v3",
+      "unit_code": "U58",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u58/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-059-v3",
+      "unit_code": "U59",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u59/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-060-v3",
+      "unit_code": "U60",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u60/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-061-v3",
+      "unit_code": "U61",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u61/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-062-v3",
+      "unit_code": "U62",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u62/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-063-v3",
+      "unit_code": "U63",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u63/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-064-v3",
+      "unit_code": "U64",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u64/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-065-v4",
+      "unit_code": "U65",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u65/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-066-v3",
+      "unit_code": "U66",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u66/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-067-v3",
+      "unit_code": "U67",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u67/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-068-v3",
+      "unit_code": "U68",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u68/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-069-v3",
+      "unit_code": "U69",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u69/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-070-v3",
+      "unit_code": "U70",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u70/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-071-v3",
+      "unit_code": "U71",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u71/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-core-072-v3",
+      "unit_code": "U72",
+      "status": "active",
+      "release_level": "owner_demo",
+      "runtime_definition": "product/n5/course/local-player-v3/units/u72/runtime-definition.json"
+    }
+  ]
+}

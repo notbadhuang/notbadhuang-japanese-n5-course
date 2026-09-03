@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-057-v3",
+  "items": {
+    "n5-module-b-u57-card-grammar-01-v1": {
+      "title_zh": "用つもり表达意图",
+      "learner_pattern_zh": "V辞书形＋つもりです",
+      "explanation_zh": "表达说话人的计划或意图",
+      "connection_zh": "动词普通形后接つもり；本候选先采用肯定意图",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "来年、車を買うつもりです。",
+      "example_zh": "打算明年买车。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

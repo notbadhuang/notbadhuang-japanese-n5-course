@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-055-v3",
+  "items": {
+    "n5-module-b-u55-card-grammar-01-v1": {
+      "title_zh": "まだ～ていない表示尚未完成",
+      "learner_pattern_zh": "まだVていません",
+      "explanation_zh": "表示到当前为止某事还没有完成",
+      "connection_zh": "まだ与Vている的否定形式共现",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "宿題はまだ終わっていません。",
+      "example_zh": "作业还没做完。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    },
+    "n5-module-b-u55-card-grammar-02-v1": {
+      "title_zh": "なくちゃ义务表达",
+      "learner_pattern_zh": "Vなくちゃ（いけない／ならない）／Vなくちゃ",
+      "explanation_zh": "表示必须做某事",
+      "connection_zh": "动词ない形去ない后接なくちゃ，可接いけない、ならない，口语中也可省略后项",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "明日は早く起きなくちゃいけません。",
+      "example_zh": "明天必须早起。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

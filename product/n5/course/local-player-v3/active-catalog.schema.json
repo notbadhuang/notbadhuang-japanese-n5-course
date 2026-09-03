@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "n5-local-player-multi-contract-active-catalog-v3.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "catalog_id",
+    "status",
+    "catalog_kind",
+    "default_work_unit_id",
+    "active_work_unit_count",
+    "activation_policy",
+    "runtime_families",
+    "work_units",
+    "rollback",
+    "boundaries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "status": {
+      "const": "active"
+    },
+    "catalog_kind": {
+      "const": "multi_contract"
+    },
+    "active_work_unit_count": {
+      "const": 84
+    },
+    "work_units": {
+      "type": "array",
+      "minItems": 84,
+      "maxItems": 84
+    }
+  }
+}

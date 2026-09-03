@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-020-v3",
+  "items": {
+    "n5-module-b-u20-card-grammar-01-v1": {
+      "title_zh": "い形容词的礼貌表达",
+      "learner_pattern_zh": "イA＋です",
+      "explanation_zh": "以礼貌形式描述性质或状态",
+      "connection_zh": "い形容词基本形后接です；不按名词判断式处理",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "店は狭いです。",
+      "example_zh": "店很狭窄。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "い形容词基本形直接接「です」；不要删掉词尾「い」，也不要加「な」。"
+    },
+    "n5-module-b-u20-card-grammar-02-v1": {
+      "title_zh": "い形容词礼貌体的否定与过去",
+      "learner_pattern_zh": "イAくないです・かったです・くなかったです",
+      "explanation_zh": "在已有肯定式之外表达否定、过去和过去否定",
+      "connection_zh": "去掉词尾い后接くないです、かったです或くなかったです；いい按よい的词干变化",
+      "term_note_zh": "只覆盖基础礼貌体活用；不把くて连接、くなる或普通形的语用差异混入",
+      "example_ja": "店は暗くないです。",
+      "example_zh": "店里不暗。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "一般い形容词用「くない／かった／くなかった」；「いい」的否定是「よくないです」，不是「いくないです」。"
+    }
+  }
+}

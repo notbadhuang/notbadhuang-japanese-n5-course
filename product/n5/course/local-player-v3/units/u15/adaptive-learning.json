@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-015-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u15-group-01",
+      "title_zh": "下手到暇",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1185200-v1",
+        "n5-vocabulary-jmdict-1198180-v1",
+        "n5-vocabulary-jmdict-1277450-v1",
+        "n5-vocabulary-jmdict-1577280-v1"
+      ],
+      "target_labels_zh": [
+        "下手",
+        "会う",
+        "好き",
+        "暇"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u15-group-02",
+      "title_zh": "嫌到嫌い",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1587610-v1",
+        "n5-vocabulary-jmdict-1009000-v1",
+        "n5-vocabulary-jmdict-1189130-v1",
+        "n5-vocabulary-jmdict-1257240-v1"
+      ],
+      "target_labels_zh": [
+        "嫌",
+        "どうも",
+        "どうぞ",
+        "嫌い"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u15-group-03",
+      "title_zh": "欲しい到NとV",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1547330-v1",
+        "n5-grammar-invitation-masenka-v1",
+        "n5-grammar-particle-to-companion-v1"
+      ],
+      "target_labels_zh": [
+        "欲しい",
+        "Vませんか",
+        "NとV"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u15-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "礼貌邀请对方共同做某事"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "礼貌邀请对方共同做某事。基本形式是Vませんか。动词ます形的否定疑问形式。"
+    },
+    "n5-module-b-u15-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示与某人共同进行动作"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "表示与某人共同进行动作。基本形式是NとV。共同参与者名词后接と。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u15-checkpoint-vocab-1185200-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“不擅长／水平差”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "B",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "C",
+          "text": "暇（ひま）"
+        },
+        {
+          "option_id": "D",
+          "text": "下手（へた）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1198180-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“见面／遇见”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "B",
+          "text": "暇（ひま）"
+        },
+        {
+          "option_id": "C",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "D",
+          "text": "下手（へた）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1277450-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“喜欢／喜爱”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暇（ひま）"
+        },
+        {
+          "option_id": "B",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "C",
+          "text": "下手（へた）"
+        },
+        {
+          "option_id": "D",
+          "text": "会う（あう）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1577280-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“空闲／闲暇”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暇（ひま）"
+        },
+        {
+          "option_id": "B",
+          "text": "下手（へた）"
+        },
+        {
+          "option_id": "C",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "D",
+          "text": "好き（すき）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1587610-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“讨厌的／不愿意的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下手（へた）"
+        },
+        {
+          "option_id": "B",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "C",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "D",
+          "text": "嫌（いや）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1009000-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“谢谢”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "B",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "C",
+          "text": "どうも（どうも）"
+        },
+        {
+          "option_id": "D",
+          "text": "下手（へた）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1189130-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“请／请便／给你”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "B",
+          "text": "どうぞ（どうぞ）"
+        },
+        {
+          "option_id": "C",
+          "text": "下手（へた）"
+        },
+        {
+          "option_id": "D",
+          "text": "会う（あう）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1257240-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“讨厌／不喜欢”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "嫌い（きらい）"
+        },
+        {
+          "option_id": "B",
+          "text": "下手（へた）"
+        },
+        {
+          "option_id": "C",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "D",
+          "text": "好き（すき）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-vocab-1547330-v1": {
+      "prompt_zh": "在新的“社交、喜好与意愿”情境中，选择表示“想要（某物）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下手（へた）"
+        },
+        {
+          "option_id": "B",
+          "text": "会う（あう）"
+        },
+        {
+          "option_id": "C",
+          "text": "好き（すき）"
+        },
+        {
+          "option_id": "D",
+          "text": "欲しい（ほしい）"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“礼貌邀请对方共同做某事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vませんか"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    },
+    "n5-module-b-u15-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“表示与某人共同进行动作”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "NとV"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1185200-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1185200-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "B",
+          "text": "见面／遇见"
+        },
+        {
+          "option_id": "C",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "A",
+          "text": "空闲／闲暇"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「下手」的课程义。",
+      "prompt_ja": "下手です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1198180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1198180-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "B",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "D",
+          "text": "空闲／闲暇"
+        },
+        {
+          "option_id": "C",
+          "text": "见面／遇见"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「会う」的课程义。",
+      "prompt_ja": "友達に会います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1277450-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1277450-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "见面／遇见"
+        },
+        {
+          "option_id": "C",
+          "text": "空闲／闲暇"
+        },
+        {
+          "option_id": "B",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "D",
+          "text": "不擅长／水平差"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「好き」的课程义。",
+      "prompt_ja": "好きです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1577280-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1577280-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "A",
+          "text": "空闲／闲暇"
+        },
+        {
+          "option_id": "C",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "D",
+          "text": "见面／遇见"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「暇」的课程义。",
+      "prompt_ja": "暇です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1587610-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1587610-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "讨厌的／不愿意的"
+        },
+        {
+          "option_id": "B",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "C",
+          "text": "见面／遇见"
+        },
+        {
+          "option_id": "A",
+          "text": "喜欢／喜爱"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「嫌」的课程义。",
+      "prompt_ja": "嫌です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1009000-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1009000-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "B",
+          "text": "见面／遇见"
+        },
+        {
+          "option_id": "D",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "C",
+          "text": "谢谢"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どうも」的课程义。",
+      "prompt_ja": "どうも、ありがとうございます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1189130-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1189130-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "见面／遇见"
+        },
+        {
+          "option_id": "C",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "B",
+          "text": "请／请便／给你"
+        },
+        {
+          "option_id": "D",
+          "text": "不擅长／水平差"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どうぞ」的课程义。",
+      "prompt_ja": "どうぞ、入ってください。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1257240-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1257240-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "喜欢／喜爱"
+        },
+        {
+          "option_id": "A",
+          "text": "讨厌／不喜欢"
+        },
+        {
+          "option_id": "C",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "D",
+          "text": "见面／遇见"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「嫌い」的课程义。",
+      "prompt_ja": "嫌いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-vocab-1547330-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1547330-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "想要（某物）"
+        },
+        {
+          "option_id": "B",
+          "text": "不擅长／水平差"
+        },
+        {
+          "option_id": "C",
+          "text": "见面／遇见"
+        },
+        {
+          "option_id": "A",
+          "text": "喜欢／喜爱"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「欲しい」的课程义。",
+      "prompt_ja": "新しいかばんが欲しいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-invitation-masenka-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "礼貌邀请对方共同做某事"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "一緒にパンを食べませんか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u15-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u15-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-particle-to-companion-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "表示与某人共同进行动作"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "友達と映画を見ます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

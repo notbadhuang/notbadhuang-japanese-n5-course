@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-042-v3",
+  "items": {
+    "n5-module-b-u42-card-grammar-01-v1": {
+      "title_zh": "用前に表达先后顺序",
+      "learner_pattern_zh": "V辞书形前に／Nの前に",
+      "explanation_zh": "表示在某动作或时间点之前做另一件事",
+      "connection_zh": "动词辞书形直接接前に；名词经の连接，作为受控变体",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "寝る前に、歯を磨きます。",
+      "example_zh": "睡觉前刷牙。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    },
+    "n5-module-b-u42-card-grammar-02-v1": {
+      "title_zh": "用すぎる表达过度",
+      "learner_pattern_zh": "Vます词干／形容词词干＋すぎる",
+      "explanation_zh": "表示动作或程度超过适当范围",
+      "connection_zh": "动词ます形词干、い形容词去い、な形容词词干后接すぎる",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "このかばんは大きすぎます。",
+      "example_zh": "这个包太大了。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

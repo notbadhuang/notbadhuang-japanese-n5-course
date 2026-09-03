@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "runtime_contract_id": "n5-local-player-grouped-unit-runtime-v1",
+  "status": "active",
+  "release_level": "owner_demo",
+  "work_unit_id": "n5-work-unit-core-053-v3",
+  "unit_code": "U53",
+  "display_title_zh": "位置、方向与道路（3/3）",
+  "delivery_surface": "localhost_browser_player",
+  "engine_profile": "grouped_learning_checkpoint_recovery_v1",
+  "content_sources": {
+    "course_dir": "product/n5/course/core-v2",
+    "audio_dir": "product/n5/audio/core-v2",
+    "unit_file": "product/n5/course/core-v2/units.json",
+    "teaching_cards": "product/n5/course/core-v2/target-teaching-cards.jsonl",
+    "guided_practice_items": "product/n5/course/core-v2/guided-practice-items.jsonl",
+    "checkpoints": "product/n5/course/core-v2/independent-checkpoints.public.jsonl",
+    "assessment_data": "product/n5/course/core-v2/assessment-data/answer-keys.jsonl",
+    "audio_assets": "product/n5/audio/core-v2/audio-assets.jsonl",
+    "variant_audio_assets": "product/n5/audio/vocabulary-v2/audio-assets.jsonl",
+    "variant_example_audio_assets": "product/n5/course/local-player-v3/assets/variant-example-audio-assets.jsonl",
+    "kanji_bindings": "product/n5/course/core-v2/kanji-word-bindings.jsonl",
+    "meaning_contexts": "product/n5/course/core-v2/meaning-group-contexts.jsonl",
+    "variant_cards": "product/n5/course/core-v2/form-reading-variant-cards.jsonl",
+    "variant_practice_items": "product/n5/course/local-player-v3/assets/form-reading-variant-practice-items.jsonl",
+    "embedded_support_cards": "product/n5/course/core-v2/embedded-support-cards.jsonl"
+  },
+  "runtime_overlays": {
+    "audio_bindings": "product/n5/course/local-player-v3/units/u53/audio-bindings.jsonl",
+    "grammar_teaching_copy": "product/n5/course/local-player-v3/units/u53/grammar-teaching-copy.json",
+    "adaptive_learning": "product/n5/course/local-player-v3/units/u53/adaptive-learning.json"
+  },
+  "result_contract": {
+    "session_request_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器会话请求",
+    "result_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器结果",
+    "scoring_contract_id": "n5-core-grouped-practice-v1",
+    "mastery_claim": "not_inferred_from_single_session"
+  },
+  "calibration": {
+    "baseline_minutes": null,
+    "numeric_mastery_threshold": null
+  }
+}

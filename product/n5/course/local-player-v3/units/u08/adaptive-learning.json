@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-008-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u08-group-01",
+      "title_zh": "旅行到橋",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1553170-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1237410-v1"
+      ],
+      "target_labels_zh": [
+        "旅行",
+        "バス",
+        "駅",
+        "橋"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u08-group-02",
+      "title_zh": "出る到飛ぶ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1338240-v1",
+        "n5-vocabulary-jmdict-1355120-v1",
+        "n5-vocabulary-jmdict-1422970-v1",
+        "n5-vocabulary-jmdict-1429700-v1"
+      ],
+      "target_labels_zh": [
+        "出る",
+        "乗る",
+        "着く",
+        "飛ぶ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u08-group-03",
+      "title_zh": "来る到场所Nに／へ＋移动V",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1547720-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-grammar-particle-de-means-instrument-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1"
+      ],
+      "target_labels_zh": [
+        "来る",
+        "行く",
+        "手段NでV",
+        "场所Nに／へ＋移动V"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u08-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "标记完成动作所用的交通、工具或手段"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "标记完成动作所用的交通、工具或手段。基本形式是手段NでV。手段名词后接で。"
+    },
+    "n5-module-b-u08-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "标记移动的方向或目的地"
+        }
+      ],
+      "feedback_zh": "标记移动的方向或目的地。基本形式是场所Nに／へ＋移动V。场所名词后接に或へ；只在此功能内作为受控变体。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u08-checkpoint-vocab-1553170-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“旅行”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "B",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "C",
+          "text": "橋（はし）"
+        },
+        {
+          "option_id": "D",
+          "text": "旅行（りょこう）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1098390-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“公共汽车”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "B",
+          "text": "橋（はし）"
+        },
+        {
+          "option_id": "C",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "D",
+          "text": "旅行（りょこう）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1175140-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“车站／火车站”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "橋（はし）"
+        },
+        {
+          "option_id": "B",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "C",
+          "text": "旅行（りょこう）"
+        },
+        {
+          "option_id": "D",
+          "text": "バス（バス）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1237410-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“桥”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "橋（はし）"
+        },
+        {
+          "option_id": "B",
+          "text": "旅行（りょこう）"
+        },
+        {
+          "option_id": "C",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "D",
+          "text": "駅（えき）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1338240-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“出去／离开”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "旅行（りょこう）"
+        },
+        {
+          "option_id": "B",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "C",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "D",
+          "text": "出る（でる）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1355120-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“乘坐／上（车、船等）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "B",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "C",
+          "text": "乗る（のる）"
+        },
+        {
+          "option_id": "D",
+          "text": "旅行（りょこう）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1422970-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“到达”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "B",
+          "text": "着く（つく）"
+        },
+        {
+          "option_id": "C",
+          "text": "旅行（りょこう）"
+        },
+        {
+          "option_id": "D",
+          "text": "バス（バス）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1429700-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“飞”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "飛ぶ（とぶ）"
+        },
+        {
+          "option_id": "B",
+          "text": "旅行（りょこう）"
+        },
+        {
+          "option_id": "C",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "D",
+          "text": "駅（えき）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1547720-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“来／到来”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "旅行（りょこう）"
+        },
+        {
+          "option_id": "B",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "C",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "D",
+          "text": "来る（くる）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-vocab-1578850-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“去／前往”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "バス（バス）"
+        },
+        {
+          "option_id": "B",
+          "text": "駅（えき）"
+        },
+        {
+          "option_id": "C",
+          "text": "行く（いく）"
+        },
+        {
+          "option_id": "D",
+          "text": "旅行（りょこう）"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“标记完成动作所用的交通、工具或手段”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "手段NでV"
+        }
+      ]
+    },
+    "n5-module-b-u08-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“标记移动的方向或目的地”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "场所Nに／へ＋移动V"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1553170-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1553170-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "旅行"
+        },
+        {
+          "option_id": "B",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "C",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "A",
+          "text": "桥"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「旅行」的课程义。",
+      "prompt_ja": "旅行です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1098390-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1098390-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "旅行"
+        },
+        {
+          "option_id": "B",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "D",
+          "text": "桥"
+        },
+        {
+          "option_id": "C",
+          "text": "公共汽车"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「バス」的课程义。",
+      "prompt_ja": "バスです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1175140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1175140-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "C",
+          "text": "桥"
+        },
+        {
+          "option_id": "B",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "D",
+          "text": "旅行"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「駅」的课程义。",
+      "prompt_ja": "駅です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1237410-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1237410-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "A",
+          "text": "桥"
+        },
+        {
+          "option_id": "C",
+          "text": "旅行"
+        },
+        {
+          "option_id": "D",
+          "text": "公共汽车"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「橋」的课程义。",
+      "prompt_ja": "橋です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1338240-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1338240-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "出去／离开"
+        },
+        {
+          "option_id": "B",
+          "text": "旅行"
+        },
+        {
+          "option_id": "C",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "A",
+          "text": "车站／火车站"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「出る」的课程义。",
+      "prompt_ja": "家を出ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1355120-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1355120-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "旅行"
+        },
+        {
+          "option_id": "B",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "D",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "C",
+          "text": "乘坐／上（车、船等）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「乗る」的课程义。",
+      "prompt_ja": "バスに乗ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1422970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1422970-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "C",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "B",
+          "text": "到达"
+        },
+        {
+          "option_id": "D",
+          "text": "旅行"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「着く」的课程义。",
+      "prompt_ja": "駅に着きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1429700-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1429700-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "A",
+          "text": "飞"
+        },
+        {
+          "option_id": "C",
+          "text": "旅行"
+        },
+        {
+          "option_id": "D",
+          "text": "公共汽车"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「飛ぶ」的课程义。",
+      "prompt_ja": "鳥が飛びます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1547720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1547720-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "来／到来"
+        },
+        {
+          "option_id": "B",
+          "text": "旅行"
+        },
+        {
+          "option_id": "C",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "A",
+          "text": "车站／火车站"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「来る」的课程义。",
+      "prompt_ja": "ここに来ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-vocab-1578850-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1578850-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "旅行"
+        },
+        {
+          "option_id": "B",
+          "text": "公共汽车"
+        },
+        {
+          "option_id": "D",
+          "text": "车站／火车站"
+        },
+        {
+          "option_id": "C",
+          "text": "去／前往"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「行く」的课程义。",
+      "prompt_ja": "駅に行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-particle-de-means-instrument-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "标记完成动作所用的交通、工具或手段"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "バスで学校へ行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u08-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u08-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-particle-ni-e-movement-goal-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "标记移动的方向或目的地"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "学校に行きます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

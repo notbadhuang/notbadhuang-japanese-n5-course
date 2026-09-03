@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "item_bank_map_id": "n5-entry-diagnostic-scoring-item-bank-map-v1",
+  "status": "active_54_formal_items",
+  "model_id": "n5-entry-diagnostic-scoring-routing-v1",
+  "formal_item_count": 54,
+  "ability_count": 18,
+  "item_assignments": {
+    "N5-FND-001": {
+      "title_zh": "平假名即时识别",
+      "anchor_item_id": "n5-diag-fnd001-asa-v1",
+      "probe_item_ids": [
+        "n5-diag-fnd001-hito-v1",
+        "n5-diag-fnd001-inu-v1"
+      ]
+    },
+    "N5-FND-002": {
+      "title_zh": "片假名即时识别",
+      "anchor_item_id": "n5-diag-fnd002-kamera-v1",
+      "probe_item_ids": [
+        "n5-diag-fnd002-hoteru-v1",
+        "n5-diag-fnd002-terebi-v1"
+      ]
+    },
+    "N5-FND-003": {
+      "title_zh": "音拍与特殊假名辨识",
+      "anchor_item_id": "n5-diag-fnd003-kitte-v1",
+      "probe_item_ids": [
+        "n5-diag-fnd003-byouin-v1",
+        "n5-diag-fnd003-shinbun-v1"
+      ]
+    },
+    "N5-VOC-001": {
+      "title_zh": "从汉字词形识别读音",
+      "anchor_item_id": "n5-diag-voc001-ginkou-01-v1",
+      "probe_item_ids": [
+        "n5-diag-voc001-denwa-02-v1",
+        "n5-diag-voc001-shinbun-03-v1"
+      ]
+    },
+    "N5-VOC-002": {
+      "title_zh": "从假名词形识别常用写法",
+      "anchor_item_id": "n5-diag-voc002-kaisha-01-v1",
+      "probe_item_ids": [
+        "n5-diag-voc002-byouin-02-v1",
+        "n5-diag-voc002-toshokan-03-v1"
+      ]
+    },
+    "N5-VOC-003": {
+      "title_zh": "根据短句语境判断词义",
+      "anchor_item_id": "n5-diag-voc003-shizuka-01-v1",
+      "probe_item_ids": [
+        "n5-diag-voc003-isogashii-03-v1",
+        "n5-diag-voc003-yasui-02-v1"
+      ]
+    },
+    "N5-VOC-004": {
+      "title_zh": "识别基础近义改写",
+      "anchor_item_id": "n5-diag-voc004-yasashii-01-v1",
+      "probe_item_ids": [
+        "n5-diag-voc004-kesa-02-v1",
+        "n5-diag-voc004-ryouri-03-v1"
+      ]
+    },
+    "N5-KAN-001": {
+      "title_zh": "在词语和短句中识别基础汉字",
+      "anchor_item_id": "n5-diag-kan001-sensei-01-v1",
+      "probe_item_ids": [
+        "n5-diag-kan001-densha-03-v1",
+        "n5-diag-kan001-gakkou-02-v1"
+      ]
+    },
+    "N5-GRA-001": {
+      "title_zh": "选择适合句子的语法形式",
+      "anchor_item_id": "n5-diag-gra001-time-ni-01-v1",
+      "probe_item_ids": [
+        "n5-diag-gra001-location-de-02-v1",
+        "n5-diag-gra001-object-wo-03-v1"
+      ]
+    },
+    "N5-GRA-002": {
+      "title_zh": "组成语法和意义成立的基础句子",
+      "anchor_item_id": "n5-diag-gra002-tekara-01-v1",
+      "probe_item_ids": [
+        "n5-diag-gra002-advice-03-v1",
+        "n5-diag-gra002-purpose-02-v1"
+      ]
+    },
+    "N5-GRA-003": {
+      "title_zh": "判断基础篇章中的语法衔接",
+      "anchor_item_id": "n5-diag-gra003-reason-01-v1",
+      "probe_item_ids": [
+        "n5-diag-gra003-additive-02-v1",
+        "n5-diag-gra003-sequence-03-v1"
+      ]
+    },
+    "N5-REA-001": {
+      "title_zh": "理解熟悉主题的简短文本",
+      "anchor_item_id": "n5-diag-rea001-fact-01-v1",
+      "probe_item_ids": [
+        "n5-diag-rea001-chronology-03-v1",
+        "n5-diag-rea001-reference-02-v1"
+      ]
+    },
+    "N5-REA-002": {
+      "title_zh": "理解日常主题的中等长度文本",
+      "anchor_item_id": "n5-diag-rea002-plan-change-01-v1",
+      "probe_item_ids": [
+        "n5-diag-rea002-message-intent-03-v1",
+        "n5-diag-rea002-reason-action-02-v1"
+      ]
+    },
+    "N5-REA-003": {
+      "title_zh": "从通知等材料检索必要信息",
+      "anchor_item_id": "n5-diag-rea003-schedule-01-v1",
+      "probe_item_ids": [
+        "n5-diag-rea003-price-02-v1",
+        "n5-diag-rea003-route-03-v1"
+      ]
+    },
+    "N5-LIS-001": {
+      "title_zh": "听取完成日常任务所需的信息",
+      "anchor_item_id": "n5-diag-lis001-eggs-01-v1",
+      "probe_item_ids": [
+        "n5-diag-lis001-call-first-02-v1",
+        "n5-diag-lis001-submit-paper-03-v1"
+      ]
+    },
+    "N5-LIS-002": {
+      "title_zh": "按预设目标抓取听力关键点",
+      "anchor_item_id": "n5-diag-lis002-friday-01-v1",
+      "probe_item_ids": [
+        "n5-diag-lis002-cafe-03-v1",
+        "n5-diag-lis002-eight-02-v1"
+      ]
+    },
+    "N5-LIS-003": {
+      "title_zh": "结合情境选择合适口头表达",
+      "anchor_item_id": "n5-diag-lis003-stamp-01-v1",
+      "probe_item_ids": [
+        "n5-diag-lis003-luggage-02-v1",
+        "n5-diag-lis003-window-03-v1"
+      ]
+    },
+    "N5-LIS-004": {
+      "title_zh": "对简短话语选择合适回应",
+      "anchor_item_id": "n5-diag-lis004-invitation-01-v1",
+      "probe_item_ids": [
+        "n5-diag-lis004-homework-03-v1",
+        "n5-diag-lis004-station-02-v1"
+      ]
+    }
+  },
+  "item_to_ability": {
+    "n5-diag-fnd001-asa-v1": "N5-FND-001",
+    "n5-diag-fnd001-hito-v1": "N5-FND-001",
+    "n5-diag-fnd001-inu-v1": "N5-FND-001",
+    "n5-diag-fnd002-hoteru-v1": "N5-FND-002",
+    "n5-diag-fnd002-kamera-v1": "N5-FND-002",
+    "n5-diag-fnd002-terebi-v1": "N5-FND-002",
+    "n5-diag-fnd003-byouin-v1": "N5-FND-003",
+    "n5-diag-fnd003-kitte-v1": "N5-FND-003",
+    "n5-diag-fnd003-shinbun-v1": "N5-FND-003",
+    "n5-diag-gra001-location-de-02-v1": "N5-GRA-001",
+    "n5-diag-gra001-object-wo-03-v1": "N5-GRA-001",
+    "n5-diag-gra001-time-ni-01-v1": "N5-GRA-001",
+    "n5-diag-gra002-advice-03-v1": "N5-GRA-002",
+    "n5-diag-gra002-purpose-02-v1": "N5-GRA-002",
+    "n5-diag-gra002-tekara-01-v1": "N5-GRA-002",
+    "n5-diag-gra003-additive-02-v1": "N5-GRA-003",
+    "n5-diag-gra003-reason-01-v1": "N5-GRA-003",
+    "n5-diag-gra003-sequence-03-v1": "N5-GRA-003",
+    "n5-diag-kan001-densha-03-v1": "N5-KAN-001",
+    "n5-diag-kan001-gakkou-02-v1": "N5-KAN-001",
+    "n5-diag-kan001-sensei-01-v1": "N5-KAN-001",
+    "n5-diag-lis001-call-first-02-v1": "N5-LIS-001",
+    "n5-diag-lis001-eggs-01-v1": "N5-LIS-001",
+    "n5-diag-lis001-submit-paper-03-v1": "N5-LIS-001",
+    "n5-diag-lis002-cafe-03-v1": "N5-LIS-002",
+    "n5-diag-lis002-eight-02-v1": "N5-LIS-002",
+    "n5-diag-lis002-friday-01-v1": "N5-LIS-002",
+    "n5-diag-lis003-luggage-02-v1": "N5-LIS-003",
+    "n5-diag-lis003-stamp-01-v1": "N5-LIS-003",
+    "n5-diag-lis003-window-03-v1": "N5-LIS-003",
+    "n5-diag-lis004-homework-03-v1": "N5-LIS-004",
+    "n5-diag-lis004-invitation-01-v1": "N5-LIS-004",
+    "n5-diag-lis004-station-02-v1": "N5-LIS-004",
+    "n5-diag-rea001-chronology-03-v1": "N5-REA-001",
+    "n5-diag-rea001-fact-01-v1": "N5-REA-001",
+    "n5-diag-rea001-reference-02-v1": "N5-REA-001",
+    "n5-diag-rea002-message-intent-03-v1": "N5-REA-002",
+    "n5-diag-rea002-plan-change-01-v1": "N5-REA-002",
+    "n5-diag-rea002-reason-action-02-v1": "N5-REA-002",
+    "n5-diag-rea003-price-02-v1": "N5-REA-003",
+    "n5-diag-rea003-route-03-v1": "N5-REA-003",
+    "n5-diag-rea003-schedule-01-v1": "N5-REA-003",
+    "n5-diag-voc001-denwa-02-v1": "N5-VOC-001",
+    "n5-diag-voc001-ginkou-01-v1": "N5-VOC-001",
+    "n5-diag-voc001-shinbun-03-v1": "N5-VOC-001",
+    "n5-diag-voc002-byouin-02-v1": "N5-VOC-002",
+    "n5-diag-voc002-kaisha-01-v1": "N5-VOC-002",
+    "n5-diag-voc002-toshokan-03-v1": "N5-VOC-002",
+    "n5-diag-voc003-isogashii-03-v1": "N5-VOC-003",
+    "n5-diag-voc003-shizuka-01-v1": "N5-VOC-003",
+    "n5-diag-voc003-yasui-02-v1": "N5-VOC-003",
+    "n5-diag-voc004-kesa-02-v1": "N5-VOC-004",
+    "n5-diag-voc004-ryouri-03-v1": "N5-VOC-004",
+    "n5-diag-voc004-yasashii-01-v1": "N5-VOC-004"
+  },
+  "item_asset_versions": {
+    "n5-diag-fnd001-asa-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd001-hito-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd001-inu-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd002-hoteru-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd002-kamera-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd002-terebi-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd003-byouin-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd003-kitte-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-fnd003-shinbun-v1": "n5-entry-diagnostic-foundation-v1",
+    "n5-diag-gra001-location-de-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-gra001-object-wo-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-gra001-time-ni-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-gra002-advice-03-v1": "n5-entry-diagnostic-ordering-v1",
+    "n5-diag-gra002-purpose-02-v1": "n5-entry-diagnostic-ordering-v1",
+    "n5-diag-gra002-tekara-01-v1": "n5-entry-diagnostic-ordering-v1",
+    "n5-diag-gra003-additive-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-gra003-reason-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-gra003-sequence-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-kan001-densha-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-kan001-gakkou-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-kan001-sensei-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-lis001-call-first-02-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis001-eggs-01-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis001-submit-paper-03-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis002-cafe-03-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis002-eight-02-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis002-friday-01-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis003-luggage-02-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis003-stamp-01-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis003-window-03-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis004-homework-03-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis004-invitation-01-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-lis004-station-02-v1": "n5-entry-diagnostic-listening-v1",
+    "n5-diag-rea001-chronology-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea001-fact-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea001-reference-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea002-message-intent-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea002-plan-change-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea002-reason-action-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea003-price-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea003-route-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-rea003-schedule-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc001-denwa-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc001-ginkou-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc001-shinbun-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc002-byouin-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc002-kaisha-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc002-toshokan-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc003-isogashii-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc003-shizuka-01-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc003-yasui-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc004-kesa-02-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc004-ryouri-03-v1": "n5-entry-diagnostic-text-v1",
+    "n5-diag-voc004-yasashii-01-v1": "n5-entry-diagnostic-text-v1"
+  },
+  "ability_prerequisite_ids": {
+    "N5-FND-001": [],
+    "N5-FND-002": [],
+    "N5-FND-003": [
+      "N5-FND-001",
+      "N5-FND-002"
+    ],
+    "N5-VOC-001": [
+      "N5-FND-001",
+      "N5-FND-003"
+    ],
+    "N5-VOC-002": [
+      "N5-FND-001",
+      "N5-FND-002",
+      "N5-FND-003"
+    ],
+    "N5-VOC-003": [
+      "N5-FND-001"
+    ],
+    "N5-VOC-004": [
+      "N5-VOC-003"
+    ],
+    "N5-KAN-001": [
+      "N5-FND-001"
+    ],
+    "N5-GRA-001": [
+      "N5-FND-001",
+      "N5-VOC-003"
+    ],
+    "N5-GRA-002": [
+      "N5-GRA-001",
+      "N5-VOC-003"
+    ],
+    "N5-GRA-003": [
+      "N5-GRA-001",
+      "N5-GRA-002"
+    ],
+    "N5-REA-001": [
+      "N5-VOC-003",
+      "N5-KAN-001",
+      "N5-GRA-001"
+    ],
+    "N5-REA-002": [
+      "N5-REA-001",
+      "N5-GRA-003"
+    ],
+    "N5-REA-003": [
+      "N5-REA-001"
+    ],
+    "N5-LIS-001": [
+      "N5-FND-003",
+      "N5-VOC-003",
+      "N5-GRA-001"
+    ],
+    "N5-LIS-002": [
+      "N5-LIS-001"
+    ],
+    "N5-LIS-003": [
+      "N5-VOC-003",
+      "N5-GRA-001"
+    ],
+    "N5-LIS-004": [
+      "N5-LIS-003"
+    ]
+  },
+  "source_item_paths": [
+    "product/n5/diagnostic/foundation-v1/items.jsonl",
+    "product/n5/diagnostic/text-v1/items.jsonl",
+    "product/n5/diagnostic/listening-v1/items.jsonl",
+    "product/n5/diagnostic/ordering-v1/items.jsonl"
+  ],
+  "source_item_sha256s": {
+    "product/n5/diagnostic/foundation-v1/items.jsonl": "583b8664ff018c6b3bfdf861474e550831651bc3ea992e447042dca21e962c5b",
+    "product/n5/diagnostic/text-v1/items.jsonl": "513c4704c87eca8c2aaa7c57b7dffb2a4207d4fe7612c4a1352495d4cb501b09",
+    "product/n5/diagnostic/listening-v1/items.jsonl": "f967912f0e37b9b7b067917c5ad7325b53fe28e3a5526fb92ed712ad964bb64a",
+    "product/n5/diagnostic/ordering-v1/items.jsonl": "b061910616b5d5bea5b794816c1e4a8d13693a376eee744e9c9d0a518563f8ce"
+  }
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>日语起点课程</title>
+    <link rel="stylesheet" href="/styles.css?v=3" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">あ</span>
+        <span class="brand-name">日语起点课程</span>
+      </div>
+      <span class="save-status">学习进度已自动保存</span>
+    </header>
+    <main id="app" tabindex="-1">
+      <section class="loading-state" aria-live="polite">
+        <span></span>
+        <p>正在准备本次学习…</p>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <div class="visually-hidden" id="liveRegion" aria-live="polite"></div>
+    <script src="/app.js?v=4" defer></script>
+  </body>
+</html>

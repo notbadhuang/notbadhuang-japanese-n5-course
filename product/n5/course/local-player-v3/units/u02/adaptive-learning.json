@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-002-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经掌握？跳过这一项的学习",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u02-group-place-and-things",
+      "title_zh": "指出地点和东西",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1288810-v1",
+        "n5-vocabulary-jmdict-1006670-v1",
+        "n5-vocabulary-jmdict-1006970-v1",
+        "n5-vocabulary-jmdict-1000580-v1"
+      ],
+      "target_labels_zh": [
+        "ここ",
+        "そこ",
+        "それ",
+        "あれ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u02-group-modify-and-choose",
+      "title_zh": "修饰名词并进行选择",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1000420-v1",
+        "n5-vocabulary-jmdict-1006830-v1",
+        "n5-vocabulary-jmdict-1008910-v1",
+        "n5-vocabulary-jmdict-1009290-v1"
+      ],
+      "target_labels_zh": [
+        "あの",
+        "その",
+        "どう",
+        "どれ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u02-group-questions-and-listing",
+      "title_zh": "询问时间并连接表达",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1188760-v1",
+        "n5-grammar-particle-to-exhaustive-list-v1",
+        "n5-grammar-question-particle-ka-v1"
+      ],
+      "target_labels_zh": [
+        "いつ",
+        "と",
+        "か"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u02-guided-grammar-01-v1": {
+      "prompt_ja": "私___あなたです。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "と"
+        },
+        {
+          "option_id": "B",
+          "text": "を"
+        },
+        {
+          "option_id": "C",
+          "text": "か"
+        },
+        {
+          "option_id": "D",
+          "text": "に"
+        }
+      ],
+      "feedback_zh": "这里的「と」连接被视为列举完整的名词，不教学表示引用或共同动作的其他功能。"
+    },
+    "n5-module-b-u02-guided-grammar-02-v1": {
+      "prompt_ja": "それです___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "と"
+        },
+        {
+          "option_id": "C",
+          "text": "に"
+        },
+        {
+          "option_id": "D",
+          "text": "か"
+        }
+      ],
+      "feedback_zh": "在完整礼貌句末加「か」；本单元不把「誰か」中的「か」解释成一般疑问句。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u02-checkpoint-vocab-1288810-v1": {
+      "prompt_zh": "说话人指着自己所在的位置：___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あの"
+        },
+        {
+          "option_id": "B",
+          "text": "あれ"
+        },
+        {
+          "option_id": "C",
+          "text": "そこ"
+        },
+        {
+          "option_id": "D",
+          "text": "ここ"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1000420-v1": {
+      "prompt_zh": "修饰远离双方的“人”：___人ですか。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あれ"
+        },
+        {
+          "option_id": "B",
+          "text": "そこ"
+        },
+        {
+          "option_id": "C",
+          "text": "あの"
+        },
+        {
+          "option_id": "D",
+          "text": "ここ"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1000580-v1": {
+      "prompt_zh": "双方都离得远的物品：___ですか。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そこ"
+        },
+        {
+          "option_id": "B",
+          "text": "あれ"
+        },
+        {
+          "option_id": "C",
+          "text": "ここ"
+        },
+        {
+          "option_id": "D",
+          "text": "あの"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1006670-v1": {
+      "prompt_zh": "说话人指听话人附近的位置：___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そこ"
+        },
+        {
+          "option_id": "B",
+          "text": "ここ"
+        },
+        {
+          "option_id": "C",
+          "text": "あの"
+        },
+        {
+          "option_id": "D",
+          "text": "あれ"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1006830-v1": {
+      "prompt_zh": "修饰听话人一侧的“国”：___国ですか。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ここ"
+        },
+        {
+          "option_id": "B",
+          "text": "あの"
+        },
+        {
+          "option_id": "C",
+          "text": "あれ"
+        },
+        {
+          "option_id": "D",
+          "text": "その"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1006970-v1": {
+      "prompt_zh": "指听话人手边的物品：___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あの"
+        },
+        {
+          "option_id": "B",
+          "text": "あれ"
+        },
+        {
+          "option_id": "C",
+          "text": "それ"
+        },
+        {
+          "option_id": "D",
+          "text": "ここ"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1008910-v1": {
+      "prompt_zh": "询问情况或评价：___ですか。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あれ"
+        },
+        {
+          "option_id": "B",
+          "text": "どう"
+        },
+        {
+          "option_id": "C",
+          "text": "ここ"
+        },
+        {
+          "option_id": "D",
+          "text": "あの"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1009290-v1": {
+      "prompt_zh": "三件物品中询问哪一个：___ですか。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "どれ"
+        },
+        {
+          "option_id": "B",
+          "text": "ここ"
+        },
+        {
+          "option_id": "C",
+          "text": "あの"
+        },
+        {
+          "option_id": "D",
+          "text": "あれ"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-vocab-1188760-v1": {
+      "prompt_zh": "询问休息的时间：休みは___ですか。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ここ"
+        },
+        {
+          "option_id": "B",
+          "text": "あの"
+        },
+        {
+          "option_id": "C",
+          "text": "あれ"
+        },
+        {
+          "option_id": "D",
+          "text": "いつ"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-grammar-01-v1": {
+      "prompt_ja": "それ___あれです。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "か"
+        },
+        {
+          "option_id": "C",
+          "text": "と"
+        },
+        {
+          "option_id": "D",
+          "text": "は"
+        }
+      ]
+    },
+    "n5-module-b-u02-checkpoint-grammar-02-v1": {
+      "prompt_ja": "その国です___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "と"
+        },
+        {
+          "option_id": "B",
+          "text": "か"
+        },
+        {
+          "option_id": "C",
+          "text": "は"
+        },
+        {
+          "option_id": "D",
+          "text": "を"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1288810-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1288810-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あの"
+        },
+        {
+          "option_id": "B",
+          "text": "あれ"
+        },
+        {
+          "option_id": "C",
+          "text": "そこ"
+        },
+        {
+          "option_id": "D",
+          "text": "ここ"
+        }
+      ],
+      "prompt_zh": "说话人指着脚下的位置：“就是___。”"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1000420-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1000420-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あれ"
+        },
+        {
+          "option_id": "B",
+          "text": "そこ"
+        },
+        {
+          "option_id": "C",
+          "text": "あの"
+        },
+        {
+          "option_id": "D",
+          "text": "ここ"
+        }
+      ],
+      "prompt_zh": "指着远处的人，补完整：「___人です。」"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1000580-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1000580-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そこ"
+        },
+        {
+          "option_id": "B",
+          "text": "あれ"
+        },
+        {
+          "option_id": "C",
+          "text": "ここ"
+        },
+        {
+          "option_id": "D",
+          "text": "あの"
+        }
+      ],
+      "prompt_zh": "指着远离双方的一个物品，选择合适的词。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1006670-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1006670-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そこ"
+        },
+        {
+          "option_id": "B",
+          "text": "ここ"
+        },
+        {
+          "option_id": "C",
+          "text": "あの"
+        },
+        {
+          "option_id": "D",
+          "text": "あれ"
+        }
+      ],
+      "prompt_zh": "问对方身边的位置时，回答“在那里”，选择合适的词。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1006830-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1006830-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ここ"
+        },
+        {
+          "option_id": "B",
+          "text": "あの"
+        },
+        {
+          "option_id": "C",
+          "text": "あれ"
+        },
+        {
+          "option_id": "D",
+          "text": "その"
+        }
+      ],
+      "prompt_zh": "指着对方提到的国家，补完整：「___国です。」"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1006970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1006970-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あの"
+        },
+        {
+          "option_id": "B",
+          "text": "あれ"
+        },
+        {
+          "option_id": "C",
+          "text": "それ"
+        },
+        {
+          "option_id": "D",
+          "text": "ここ"
+        }
+      ],
+      "prompt_zh": "对方手里拿着一个物品，你想说“就是那个”，选择合适的词。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1008910-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1008910-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あれ"
+        },
+        {
+          "option_id": "B",
+          "text": "どう"
+        },
+        {
+          "option_id": "C",
+          "text": "ここ"
+        },
+        {
+          "option_id": "D",
+          "text": "あの"
+        }
+      ],
+      "prompt_zh": "想询问对方“怎么样？”，选择合适的日语词。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1009290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1009290-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "どれ"
+        },
+        {
+          "option_id": "B",
+          "text": "ここ"
+        },
+        {
+          "option_id": "C",
+          "text": "あの"
+        },
+        {
+          "option_id": "D",
+          "text": "あれ"
+        }
+      ],
+      "prompt_zh": "面对三件商品，想问“哪一个？”，选择合适的日语词。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-vocab-1188760-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1188760-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ここ"
+        },
+        {
+          "option_id": "B",
+          "text": "あの"
+        },
+        {
+          "option_id": "C",
+          "text": "あれ"
+        },
+        {
+          "option_id": "D",
+          "text": "いつ"
+        }
+      ],
+      "prompt_zh": "想询问活动在什么时候，选择表示“什么时候”的词。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-particle-to-exhaustive-list-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "か"
+        },
+        {
+          "option_id": "C",
+          "text": "と"
+        },
+        {
+          "option_id": "D",
+          "text": "は"
+        }
+      ],
+      "prompt_ja": "私___あなたです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u02-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u02-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-question-particle-ka-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "と"
+        },
+        {
+          "option_id": "B",
+          "text": "か"
+        },
+        {
+          "option_id": "C",
+          "text": "は"
+        },
+        {
+          "option_id": "D",
+          "text": "を"
+        }
+      ],
+      "prompt_ja": "あれです___。"
+    }
+  ]
+}

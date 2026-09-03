@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "catalog_id": "n5-local-player-v3-foundation-active-child-catalog",
+  "status": "active",
+  "runtime_contract_id": "n5-local-player-foundation-microbatch-runtime-v1",
+  "default_work_unit_id": "n5-work-unit-foundation-hiragana-a-ka-sa-v1",
+  "active_work_unit_count": 12,
+  "supported_session_modes": [
+    "new_learning"
+  ],
+  "engine_profiles": [
+    "foundation_microbatch_audio_checkpoint_v1",
+    "foundation_contextual_pattern_checkpoint_v1"
+  ],
+  "work_units": [
+    {
+      "work_unit_id": "n5-work-unit-foundation-hiragana-a-ka-sa-v1",
+      "unit_code": "F01",
+      "display_title_zh": "平假名：あ行到さ行",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f01/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-hiragana-ta-na-ha-v1",
+      "unit_code": "F02",
+      "display_title_zh": "平假名：た行到は行",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f02/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-hiragana-ma-ya-ra-wa-n-v1",
+      "unit_code": "F03",
+      "display_title_zh": "平假名：ま行到ん",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f03/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-hiragana-diacritics-v1",
+      "unit_code": "F04",
+      "display_title_zh": "平假名：浊音与半浊音",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f04/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-katakana-a-ka-sa-v1",
+      "unit_code": "F05",
+      "display_title_zh": "片假名：ア行到サ行",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f05/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-katakana-ta-na-ha-v1",
+      "unit_code": "F06",
+      "display_title_zh": "片假名：タ行到ハ行",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f06/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-katakana-ma-ya-ra-wa-n-v1",
+      "unit_code": "F07",
+      "display_title_zh": "片假名：マ行到ン",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f07/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-katakana-diacritics-and-active-extensions-v1",
+      "unit_code": "F08",
+      "display_title_zh": "片假名：浊半浊音与当前扩展组合",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f08/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-youon-unvoiced-v1",
+      "unit_code": "F09",
+      "display_title_zh": "拗音：清音组合",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f09/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-youon-voiced-v1",
+      "unit_code": "F10",
+      "display_title_zh": "拗音：浊音与半浊音组合",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f10/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-sokuon-and-nasal-v1",
+      "unit_code": "F11",
+      "display_title_zh": "促音与拨音：不漏掉小写っ／ッ和ん／ン",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_contextual_pattern_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f11/runtime-definition.json"
+    },
+    {
+      "work_unit_id": "n5-work-unit-foundation-long-vowel-v1",
+      "unit_code": "F12",
+      "display_title_zh": "长音：平假名常见组合与片假名ー",
+      "status": "active",
+      "release_level": "owner_demo",
+      "engine_profile": "foundation_contextual_pattern_checkpoint_v1",
+      "runtime_definition": "product/n5/course/local-player-v3/units/f12/runtime-definition.json"
+    }
+  ],
+  "boundaries": {
+    "formal_active_catalog_modified": true,
+    "formal_activation_authorized": true,
+    "learner_archive_access_authorized": false
+  }
+}

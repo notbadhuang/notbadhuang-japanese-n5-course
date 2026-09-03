@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-060-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u60-group-01",
+      "title_zh": "大学到ボールペン",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1413240-v1",
+        "n5-vocabulary-jmdict-1449540-v1",
+        "n5-vocabulary-jmdict-1536010-v1",
+        "n5-vocabulary-jmdict-1123590-v1"
+      ],
+      "target_labels_zh": [
+        "大学",
+        "答える",
+        "問題",
+        "ボールペン"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u60-group-02",
+      "title_zh": "教室到文章",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1237150-v1",
+        "n5-vocabulary-jmdict-1330290-v1",
+        "n5-vocabulary-jmdict-1337270-v1",
+        "n5-vocabulary-jmdict-1505470-v1"
+      ],
+      "target_labels_zh": [
+        "教室",
+        "授業",
+        "宿題",
+        "文章"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u60-group-03",
+      "title_zh": "勉強到V普通形＋のが下手です",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1512670-v1",
+        "n5-vocabulary-jmdict-1559160-v1",
+        "n5-vocabulary-jmdict-1526360-v1",
+        "n5-grammar-lack-skill-no-ga-heta-v1"
+      ],
+      "target_labels_zh": [
+        "勉強",
+        "練習",
+        "万年筆",
+        "V普通形＋のが下手です"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u60-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表达某人不擅长某项活动"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "表达某人不擅长某项活动。基本形式是V普通形＋のが下手です。依赖の名词化，名词化成分以が连接下手。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u60-checkpoint-vocab-1413240-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“大学”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "B",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "C",
+          "text": "ボールペン（ボールペン）"
+        },
+        {
+          "option_id": "D",
+          "text": "大学（だいがく）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1449540-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“回答”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "B",
+          "text": "ボールペン（ボールペン）"
+        },
+        {
+          "option_id": "C",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "D",
+          "text": "大学（だいがく）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1536010-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“题目／问题”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ボールペン（ボールペン）"
+        },
+        {
+          "option_id": "B",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "C",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "D",
+          "text": "答える（こたえる）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1123590-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“圆珠笔”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ボールペン（ボールペン）"
+        },
+        {
+          "option_id": "B",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "C",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "D",
+          "text": "問題（もんだい）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1237150-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“教室”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "B",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "D",
+          "text": "教室（きょうしつ）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1330290-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“课”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "B",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "C",
+          "text": "授業（じゅぎょう）"
+        },
+        {
+          "option_id": "D",
+          "text": "大学（だいがく）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1337270-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“作业／家庭作业”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "B",
+          "text": "宿題（しゅくだい）"
+        },
+        {
+          "option_id": "C",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "D",
+          "text": "答える（こたえる）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1505470-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“文章／篇章”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "文章（ぶんしょう）"
+        },
+        {
+          "option_id": "B",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "C",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "D",
+          "text": "問題（もんだい）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1512670-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“学习”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "B",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "D",
+          "text": "勉強（べんきょう）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1559160-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“练习／训练”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "答える（こたえる）"
+        },
+        {
+          "option_id": "B",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "C",
+          "text": "練習（れんしゅう）"
+        },
+        {
+          "option_id": "D",
+          "text": "大学（だいがく）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-vocab-1526360-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“钢笔”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "問題（もんだい）"
+        },
+        {
+          "option_id": "B",
+          "text": "万年筆（まんねんひつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "大学（だいがく）"
+        },
+        {
+          "option_id": "D",
+          "text": "答える（こたえる）"
+        }
+      ]
+    },
+    "n5-module-b-u60-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表达某人不擅长某项活动”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "V普通形＋のが下手です"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1413240-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1413240-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "大学"
+        },
+        {
+          "option_id": "B",
+          "text": "回答"
+        },
+        {
+          "option_id": "C",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "A",
+          "text": "圆珠笔"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「大学」的课程义。",
+      "prompt_ja": "大学です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1449540-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1449540-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大学"
+        },
+        {
+          "option_id": "B",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "D",
+          "text": "圆珠笔"
+        },
+        {
+          "option_id": "C",
+          "text": "回答"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「答える」的课程义。",
+      "prompt_ja": "質問に答えます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1536010-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1536010-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "回答"
+        },
+        {
+          "option_id": "C",
+          "text": "圆珠笔"
+        },
+        {
+          "option_id": "B",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "D",
+          "text": "大学"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「問題」的课程义。",
+      "prompt_ja": "この問題を解きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1123590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1123590-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "A",
+          "text": "圆珠笔"
+        },
+        {
+          "option_id": "C",
+          "text": "大学"
+        },
+        {
+          "option_id": "D",
+          "text": "回答"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ボールペン」的课程义。",
+      "prompt_ja": "ボールペンです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1237150-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1237150-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "教室"
+        },
+        {
+          "option_id": "B",
+          "text": "大学"
+        },
+        {
+          "option_id": "C",
+          "text": "回答"
+        },
+        {
+          "option_id": "A",
+          "text": "题目／问题"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「教室」的课程义。",
+      "prompt_ja": "教室です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1330290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1330290-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大学"
+        },
+        {
+          "option_id": "B",
+          "text": "回答"
+        },
+        {
+          "option_id": "D",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "C",
+          "text": "课"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「授業」的课程义。",
+      "prompt_ja": "授業です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1337270-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1337270-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "回答"
+        },
+        {
+          "option_id": "C",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "B",
+          "text": "作业／家庭作业"
+        },
+        {
+          "option_id": "D",
+          "text": "大学"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「宿題」的课程义。",
+      "prompt_ja": "宿題です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1505470-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1505470-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "A",
+          "text": "文章／篇章"
+        },
+        {
+          "option_id": "C",
+          "text": "大学"
+        },
+        {
+          "option_id": "D",
+          "text": "回答"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「文章」的课程义。",
+      "prompt_ja": "長い文章を読みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1512670-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1512670-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "学习"
+        },
+        {
+          "option_id": "B",
+          "text": "大学"
+        },
+        {
+          "option_id": "C",
+          "text": "回答"
+        },
+        {
+          "option_id": "A",
+          "text": "题目／问题"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「勉強」的课程义。",
+      "prompt_ja": "勉強です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1559160-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1559160-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大学"
+        },
+        {
+          "option_id": "B",
+          "text": "回答"
+        },
+        {
+          "option_id": "D",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "C",
+          "text": "练习／训练"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「練習」的课程义。",
+      "prompt_ja": "練習です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-vocab-1526360-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1526360-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "回答"
+        },
+        {
+          "option_id": "C",
+          "text": "题目／问题"
+        },
+        {
+          "option_id": "B",
+          "text": "钢笔"
+        },
+        {
+          "option_id": "D",
+          "text": "大学"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「万年筆」的课程义。",
+      "prompt_ja": "万年筆です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u60-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u60-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-lack-skill-no-ga-heta-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "表达某人不擅长某项活动"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "私は漢字を書くのが下手です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

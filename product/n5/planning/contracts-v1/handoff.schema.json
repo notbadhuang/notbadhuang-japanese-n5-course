@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "n5-agent-planning-handoff-v1.schema.json",
+  "title": "N5 diagnostic to Agent planning handoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "handoff_id",
+    "diagnostic_contract",
+    "ability_evidence",
+    "learner_constraints",
+    "course_catalog_contract"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "handoff_id": {
+      "type": "string",
+      "pattern": "^n5-handoff-[a-z0-9-]+$"
+    },
+    "diagnostic_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "application_id",
+        "scoring_model_id",
+        "session_id",
+        "recommended_start_lane",
+        "screening_coverage_percent",
+        "diagnostic_coverage_percent"
+      ],
+      "properties": {
+        "application_id": {
+          "const": "n5-entry-diagnostic-browser-application-v1"
+        },
+        "scoring_model_id": {
+          "const": "n5-entry-diagnostic-scoring-model-v1"
+        },
+        "session_id": {
+          "type": "string"
+        },
+        "recommended_start_lane": {
+          "enum": [
+            "start_from_zero",
+            "foundation_repair",
+            "core_language_build",
+            "receptive_integration",
+            "mock_readiness_candidate",
+            "insufficient_evidence"
+          ]
+        },
+        "screening_coverage_percent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "diagnostic_coverage_percent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "ability_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ability_point_id",
+          "status"
+        ],
+        "properties": {
+          "ability_point_id": {
+            "type": "string",
+            "pattern": "^N5-[A-Z]{3}-[0-9]{3}$"
+          },
+          "status": {
+            "enum": [
+              "confirmed_strength",
+              "priority_gap",
+              "unmeasured"
+            ]
+          },
+          "evidence_count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      },
+      "minItems": 18,
+      "maxItems": 18
+    },
+    "learner_constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "weekly_time_bucket",
+        "available_minutes_by_weekday",
+        "target_date",
+        "timezone"
+      ],
+      "properties": {
+        "weekly_time_bucket": {
+          "enum": [
+            "under3",
+            "3to5",
+            "5to8",
+            "over8"
+          ]
+        },
+        "available_minutes_by_weekday": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "propertyNames": {
+            "enum": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ]
+          },
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1440
+          }
+        },
+        "target_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "timezone": {
+          "type": "string"
+        }
+      }
+    },
+    "course_catalog_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_catalog_id",
+        "allow_unlisted_units"
+      ],
+      "properties": {
+        "required_catalog_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "allow_unlisted_units": {
+          "const": false
+        }
+      }
+    }
+  }
+}

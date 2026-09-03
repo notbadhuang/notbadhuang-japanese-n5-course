@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-004-v3",
+  "items": {
+    "n5-module-b-u04-card-grammar-01-v1": {
+      "title_zh": "无生命事物的存在",
+      "learner_pattern_zh": "场所にNがあります",
+      "explanation_zh": "表达无生命事物存在",
+      "connection_zh": "存在场所通常用に，存在主体用が",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "机の上に本があります。",
+      "example_zh": "桌子上有一本书。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表达无生命事物存在”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u04-card-grammar-02-v1": {
+      "title_zh": "に表示存在位置",
+      "learner_pattern_zh": "场所NにNがある／いる",
+      "explanation_zh": "标记人或物存在的位置",
+      "connection_zh": "场所名词后接に，与ある／いる等存在表达共现",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "部屋にテレビがあります。",
+      "example_zh": "房间里有电视。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“标记人或物存在的位置”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

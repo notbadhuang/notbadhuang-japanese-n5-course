@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "project_owner_requested_plain_language_revision",
+  "work_unit_id": "n5-work-unit-core-001-v3",
+  "items": {
+    "n5-module-b-u01-card-grammar-01-v1": {
+      "title_zh": "用「は」提出话题",
+      "learner_pattern_zh": "名词 ＋ は ＋ 对这个名词的说明",
+      "explanation_zh": "「は」的作用，是先告诉对方“接下来要说的是谁或什么”。把想谈的人或事物放在「は」前面，再在后面说明它的身份、状态或其他信息。",
+      "connection_zh": "先放表示人或事物的名词，再接「は」，最后补充你想说明的内容。",
+      "term_note_zh": "语法书有时把「は」后面的说明叫作“述部”。“述部”并不神秘，就是句子里用来说明前面话题的部分。初学阶段记成“后面的说明”即可。",
+      "example_ja": "あの人は大人です。",
+      "example_zh": "那个人是成年人。",
+      "example_explanation_zh": "「あの人」是要谈的话题，「は」提示“说到那个人”，「大人です」是对这个人的说明。",
+      "error_or_contrast_zh": "作助词时，「は」写作「は」，但读作「わ」。它标记的是句子正在谈论的话题，不要简单把它死记成中文里的“主语”。"
+    },
+    "n5-module-b-u01-card-grammar-02-v1": {
+      "title_zh": "用「です」礼貌地说“是……”",
+      "learner_pattern_zh": "名词 ＋ です",
+      "explanation_zh": "「です」放在名词后面，可以礼貌地说明一个人或事物“是什么”。中文里常常可以理解成“是……”。这节先掌握最常用的名词句，例如说明姓名、身份、职业或国籍。",
+      "connection_zh": "把表示身份或类别的名词直接放在「です」前面，例如「学生です」「中国人です」。",
+      "term_note_zh": "完整的语法范围还包括“な形容词＋です”，但本单元只先练习“名词＋です”，不用现在一次记完。",
+      "example_ja": "女の人です。",
+      "example_zh": "是女性。",
+      "example_explanation_zh": "「女の人」是一个名词短语，后面直接接「です」，就能礼貌地说明这个人的身份。",
+      "error_or_contrast_zh": "名词后面直接接「です」即可。不要说「大人だです」；「だ」和「です」不能这样叠在一起。"
+    }
+  }
+}

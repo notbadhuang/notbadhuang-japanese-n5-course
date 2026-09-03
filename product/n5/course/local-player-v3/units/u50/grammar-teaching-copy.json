@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-050-v3",
+  "items": {
+    "n5-module-b-u50-card-grammar-01-v1": {
+      "title_zh": "ている表示反复习惯",
+      "learner_pattern_zh": "频率表达＋Vている",
+      "explanation_zh": "表示经常反复进行的动作或当前习惯",
+      "connection_zh": "动作动词て形后接いる并常与频率表达共现",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "毎朝、家で本を読んでいます。",
+      "example_zh": "每天早上都在家看书。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示经常反复进行的动作或当前习惯”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

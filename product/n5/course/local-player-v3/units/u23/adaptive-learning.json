@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-023-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u23-group-01",
+      "title_zh": "コップ到はし",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1050390-v1",
+        "n5-vocabulary-jmdict-1089890-v1",
+        "n5-vocabulary-jmdict-1110110-v1",
+        "n5-vocabulary-jmdict-1476410-v1"
+      ],
+      "target_labels_zh": [
+        "コップ",
+        "ナイフ",
+        "フォーク",
+        "はし"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u23-group-02",
+      "title_zh": "カップ到ちゃわん",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1037670-v1",
+        "n5-vocabulary-jmdict-1299685-v1",
+        "n5-vocabulary-jmdict-1072590-v1",
+        "n5-vocabulary-jmdict-1597530-v1"
+      ],
+      "target_labels_zh": [
+        "カップ",
+        "お皿",
+        "スプーン",
+        "ちゃわん"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u23-checkpoint-vocab-1050390-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“玻璃杯”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ナイフ（ナイフ）"
+        },
+        {
+          "option_id": "B",
+          "text": "フォーク（フォーク）"
+        },
+        {
+          "option_id": "C",
+          "text": "はし（はし）"
+        },
+        {
+          "option_id": "D",
+          "text": "コップ（コップ）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1089890-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“刀”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "フォーク（フォーク）"
+        },
+        {
+          "option_id": "B",
+          "text": "はし（はし）"
+        },
+        {
+          "option_id": "C",
+          "text": "ナイフ（ナイフ）"
+        },
+        {
+          "option_id": "D",
+          "text": "コップ（コップ）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1110110-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“叉子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "はし（はし）"
+        },
+        {
+          "option_id": "B",
+          "text": "フォーク（フォーク）"
+        },
+        {
+          "option_id": "C",
+          "text": "コップ（コップ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ナイフ（ナイフ）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1476410-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“筷子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "はし（はし）"
+        },
+        {
+          "option_id": "B",
+          "text": "コップ（コップ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ナイフ（ナイフ）"
+        },
+        {
+          "option_id": "D",
+          "text": "フォーク（フォーク）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1037670-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“杯子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "コップ（コップ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ナイフ（ナイフ）"
+        },
+        {
+          "option_id": "C",
+          "text": "フォーク（フォーク）"
+        },
+        {
+          "option_id": "D",
+          "text": "カップ（カップ）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1299685-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“盘子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ナイフ（ナイフ）"
+        },
+        {
+          "option_id": "B",
+          "text": "フォーク（フォーク）"
+        },
+        {
+          "option_id": "C",
+          "text": "お皿（おさら）"
+        },
+        {
+          "option_id": "D",
+          "text": "コップ（コップ）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1072590-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“勺子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "フォーク（フォーク）"
+        },
+        {
+          "option_id": "B",
+          "text": "スプーン（スプーン）"
+        },
+        {
+          "option_id": "C",
+          "text": "コップ（コップ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ナイフ（ナイフ）"
+        }
+      ]
+    },
+    "n5-module-b-u23-checkpoint-vocab-1597530-v1": {
+      "prompt_zh": "在新的“餐具、容器与用餐场景”情境中，选择表示“饭碗／茶杯”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ちゃわん（ちゃわん）"
+        },
+        {
+          "option_id": "B",
+          "text": "コップ（コップ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ナイフ（ナイフ）"
+        },
+        {
+          "option_id": "D",
+          "text": "フォーク（フォーク）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1050390-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1050390-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "玻璃杯"
+        },
+        {
+          "option_id": "B",
+          "text": "刀"
+        },
+        {
+          "option_id": "C",
+          "text": "叉子"
+        },
+        {
+          "option_id": "A",
+          "text": "筷子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「コップ」的课程义。",
+      "prompt_ja": "コップです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1089890-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1089890-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "玻璃杯"
+        },
+        {
+          "option_id": "B",
+          "text": "叉子"
+        },
+        {
+          "option_id": "D",
+          "text": "筷子"
+        },
+        {
+          "option_id": "C",
+          "text": "刀"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ナイフ」的课程义。",
+      "prompt_ja": "ナイフです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1110110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1110110-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "刀"
+        },
+        {
+          "option_id": "C",
+          "text": "筷子"
+        },
+        {
+          "option_id": "B",
+          "text": "叉子"
+        },
+        {
+          "option_id": "D",
+          "text": "玻璃杯"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「フォーク」的课程义。",
+      "prompt_ja": "フォークです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1476410-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1476410-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "叉子"
+        },
+        {
+          "option_id": "A",
+          "text": "筷子"
+        },
+        {
+          "option_id": "C",
+          "text": "玻璃杯"
+        },
+        {
+          "option_id": "D",
+          "text": "刀"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「はし」的课程义。",
+      "prompt_ja": "はしです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1037670-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1037670-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "杯子"
+        },
+        {
+          "option_id": "B",
+          "text": "玻璃杯"
+        },
+        {
+          "option_id": "C",
+          "text": "刀"
+        },
+        {
+          "option_id": "A",
+          "text": "叉子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「カップ」的课程义。",
+      "prompt_ja": "カップです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1299685-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1299685-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "玻璃杯"
+        },
+        {
+          "option_id": "B",
+          "text": "刀"
+        },
+        {
+          "option_id": "D",
+          "text": "叉子"
+        },
+        {
+          "option_id": "C",
+          "text": "盘子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「お皿」的课程义。",
+      "prompt_ja": "お皿です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1072590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1072590-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "刀"
+        },
+        {
+          "option_id": "C",
+          "text": "叉子"
+        },
+        {
+          "option_id": "B",
+          "text": "勺子"
+        },
+        {
+          "option_id": "D",
+          "text": "玻璃杯"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「スプーン」的课程义。",
+      "prompt_ja": "スプーンです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u23-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u23-checkpoint-vocab-1597530-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1597530-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "叉子"
+        },
+        {
+          "option_id": "A",
+          "text": "饭碗／茶杯"
+        },
+        {
+          "option_id": "C",
+          "text": "玻璃杯"
+        },
+        {
+          "option_id": "D",
+          "text": "刀"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ちゃわん」的课程义。",
+      "prompt_ja": "ちゃわんです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

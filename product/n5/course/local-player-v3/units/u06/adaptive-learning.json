@@ -1,0 +1,722 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-006-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u06-group-01",
+      "title_zh": "マッチ到寝る",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1128430-v1",
+        "n5-vocabulary-jmdict-1338180-v1",
+        "n5-vocabulary-jmdict-1350110-v1",
+        "n5-vocabulary-jmdict-1360010-v1"
+      ],
+      "target_labels_zh": [
+        "マッチ",
+        "出す",
+        "消す",
+        "寝る"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u06-group-02",
+      "title_zh": "待つ到開く",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1410590-v1",
+        "n5-vocabulary-jmdict-1421850-v1",
+        "n5-vocabulary-jmdict-1500100-v1",
+        "n5-vocabulary-jmdict-1586270-v1"
+      ],
+      "target_labels_zh": [
+        "待つ",
+        "置く",
+        "ふろ",
+        "開く"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u06-group-03",
+      "title_zh": "開ける到Vます／Vません／Vました／Vませんでした",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1202450-v1",
+        "n5-vocabulary-jmdict-1223640-v1",
+        "n5-vocabulary-jmdict-1227500-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "target_labels_zh": [
+        "開ける",
+        "起きる",
+        "休み",
+        "Nを他动词",
+        "Vます／Vません／Vました／Vませんでした"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u06-guided-grammar-01-v1": {
+      "prompt_ja": "かぎ___出します。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "は"
+        },
+        {
+          "option_id": "C",
+          "text": "か"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ],
+      "feedback_zh": "「を」标记动作直接作用的对象，现代标准语通常读作「お」。"
+    },
+    "n5-module-b-u06-guided-grammar-02-v1": {
+      "prompt_ja": "きのうは休み___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ません"
+        },
+        {
+          "option_id": "B",
+          "text": "ます"
+        },
+        {
+          "option_id": "C",
+          "text": "ですか"
+        },
+        {
+          "option_id": "D",
+          "text": "ませんでした"
+        }
+      ],
+      "feedback_zh": "四种句末分别表达非过去肯定、非过去否定、过去肯定和过去否定；不在本对象中加入「ませんか」或「ましょう」。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u06-checkpoint-vocab-1128430-v1": {
+      "prompt_zh": "从盒子里拿出火柴：___を出します。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "出す"
+        },
+        {
+          "option_id": "B",
+          "text": "消す"
+        },
+        {
+          "option_id": "C",
+          "text": "寝る"
+        },
+        {
+          "option_id": "D",
+          "text": "マッチ"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1338180-v1": {
+      "prompt_zh": "把钥匙拿出来：かぎを___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "消す"
+        },
+        {
+          "option_id": "B",
+          "text": "寝る"
+        },
+        {
+          "option_id": "C",
+          "text": "出す"
+        },
+        {
+          "option_id": "D",
+          "text": "マッチ"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1350110-v1": {
+      "prompt_zh": "离开前关掉空调：エアコンを___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "寝る"
+        },
+        {
+          "option_id": "B",
+          "text": "消す"
+        },
+        {
+          "option_id": "C",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "D",
+          "text": "出す"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1360010-v1": {
+      "prompt_zh": "晚上去睡觉：夜に___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "寝る"
+        },
+        {
+          "option_id": "B",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "C",
+          "text": "出す"
+        },
+        {
+          "option_id": "D",
+          "text": "消す"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1410590-v1": {
+      "prompt_zh": "在这里等待：ここで___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "B",
+          "text": "出す"
+        },
+        {
+          "option_id": "C",
+          "text": "消す"
+        },
+        {
+          "option_id": "D",
+          "text": "待つ"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1421850-v1": {
+      "prompt_zh": "把钥匙放在这里：かぎをここに___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "出す"
+        },
+        {
+          "option_id": "B",
+          "text": "消す"
+        },
+        {
+          "option_id": "C",
+          "text": "置く"
+        },
+        {
+          "option_id": "D",
+          "text": "マッチ"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1500100-v1": {
+      "prompt_zh": "准备洗澡：___に入ります。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "消す"
+        },
+        {
+          "option_id": "B",
+          "text": "ふろ"
+        },
+        {
+          "option_id": "C",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "D",
+          "text": "出す"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1586270-v1": {
+      "prompt_zh": "自动门打开：ドアが___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "開く"
+        },
+        {
+          "option_id": "B",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "C",
+          "text": "出す"
+        },
+        {
+          "option_id": "D",
+          "text": "消す"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1202450-v1": {
+      "prompt_zh": "主动打开窗户：窓を___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "B",
+          "text": "出す"
+        },
+        {
+          "option_id": "C",
+          "text": "消す"
+        },
+        {
+          "option_id": "D",
+          "text": "開ける"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1223640-v1": {
+      "prompt_zh": "早晨起床：朝に___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "出す"
+        },
+        {
+          "option_id": "B",
+          "text": "消す"
+        },
+        {
+          "option_id": "C",
+          "text": "起きる"
+        },
+        {
+          "option_id": "D",
+          "text": "マッチ"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-vocab-1227500-v1": {
+      "prompt_zh": "日历显示今天休息：今日は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "消す"
+        },
+        {
+          "option_id": "B",
+          "text": "休み"
+        },
+        {
+          "option_id": "C",
+          "text": "マッチ"
+        },
+        {
+          "option_id": "D",
+          "text": "出す"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-grammar-01-v1": {
+      "prompt_ja": "エアコン___消します。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "と"
+        },
+        {
+          "option_id": "B",
+          "text": "か"
+        },
+        {
+          "option_id": "C",
+          "text": "を"
+        },
+        {
+          "option_id": "D",
+          "text": "に"
+        }
+      ]
+    },
+    "n5-module-b-u06-checkpoint-grammar-02-v1": {
+      "prompt_ja": "きのう、窓を開け___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "です"
+        },
+        {
+          "option_id": "B",
+          "text": "ました"
+        },
+        {
+          "option_id": "C",
+          "text": "ません"
+        },
+        {
+          "option_id": "D",
+          "text": "ますか"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1128430-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1128430-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "火柴"
+        },
+        {
+          "option_id": "B",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "C",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "A",
+          "text": "睡觉"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「マッチ」在这里的课程义。",
+      "prompt_ja": "マッチを出します。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1338180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1338180-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "火柴"
+        },
+        {
+          "option_id": "B",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "D",
+          "text": "睡觉"
+        },
+        {
+          "option_id": "C",
+          "text": "拿出／出示"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「出す」在这里的课程义。",
+      "prompt_ja": "かぎを出します。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1350110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1350110-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "C",
+          "text": "睡觉"
+        },
+        {
+          "option_id": "B",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "D",
+          "text": "火柴"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「消す」在这里的课程义。",
+      "prompt_ja": "黒板の字を消します。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1360010-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1360010-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "A",
+          "text": "睡觉"
+        },
+        {
+          "option_id": "C",
+          "text": "火柴"
+        },
+        {
+          "option_id": "D",
+          "text": "拿出／出示"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「寝る」在这里的课程义。",
+      "prompt_ja": "毎晩、八時間寝ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1410590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1410590-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "等／等待"
+        },
+        {
+          "option_id": "B",
+          "text": "火柴"
+        },
+        {
+          "option_id": "C",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "A",
+          "text": "擦掉／删除"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「待つ」在这里的课程义。",
+      "prompt_ja": "ここで待ちます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1421850-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1421850-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "火柴"
+        },
+        {
+          "option_id": "B",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "D",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "C",
+          "text": "放／放置"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「置く」在这里的课程义。",
+      "prompt_ja": "かぎをここに置きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1500100-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1500100-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "C",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "B",
+          "text": "洗澡／浴室"
+        },
+        {
+          "option_id": "D",
+          "text": "火柴"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「ふろ」在这里的课程义。",
+      "prompt_ja": "ふろに入ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1586270-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1586270-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "A",
+          "text": "打开／开了（门窗等）"
+        },
+        {
+          "option_id": "C",
+          "text": "火柴"
+        },
+        {
+          "option_id": "D",
+          "text": "拿出／出示"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「開く」在这里的课程义。",
+      "prompt_ja": "ドアが開きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1202450-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1202450-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "打开／拆开／解锁"
+        },
+        {
+          "option_id": "B",
+          "text": "火柴"
+        },
+        {
+          "option_id": "C",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "A",
+          "text": "擦掉／删除"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「開ける」在这里的课程义。",
+      "prompt_ja": "窓を開けます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1223640-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1223640-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "火柴"
+        },
+        {
+          "option_id": "B",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "D",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "C",
+          "text": "起床／起来"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「起きる」在这里的课程义。",
+      "prompt_ja": "朝に起きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-vocab-1227500-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1227500-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "拿出／出示"
+        },
+        {
+          "option_id": "C",
+          "text": "擦掉／删除"
+        },
+        {
+          "option_id": "B",
+          "text": "休息"
+        },
+        {
+          "option_id": "D",
+          "text": "火柴"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「休み」在这里的课程义。",
+      "prompt_ja": "昼は休みです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-particle-wo-direct-object-v1",
+      "options": [
+        {
+          "option_id": "C",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "は"
+        },
+        {
+          "option_id": "A",
+          "text": "か"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ],
+      "prompt_ja": "かぎ___出します。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u06-recovery-13-v1",
+      "source_checkpoint_item_id": "n5-module-b-u06-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-inflection-verb-polite-paradigm-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ません"
+        },
+        {
+          "option_id": "D",
+          "text": "ます"
+        },
+        {
+          "option_id": "C",
+          "text": "ですか"
+        },
+        {
+          "option_id": "B",
+          "text": "ませんでした"
+        }
+      ],
+      "prompt_ja": "きのうは休み___。"
+    }
+  ],
+  "embedded_support_placements": [
+    {
+      "embedded_support_card_id": "n5-module-b-u06-embedded-support-grammar-v1",
+      "before_primary_target_id": "n5-grammar-inflection-verb-polite-paradigm-v1"
+    }
+  ]
+}

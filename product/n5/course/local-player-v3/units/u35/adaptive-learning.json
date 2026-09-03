@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-035-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u35-group-01",
+      "title_zh": "立つ到曲がる",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1597040-v1",
+        "n5-vocabulary-jmdict-1195430-v1",
+        "n5-vocabulary-jmdict-1221270-v1",
+        "n5-vocabulary-jmdict-1239730-v1"
+      ],
+      "target_labels_zh": [
+        "立つ",
+        "荷物",
+        "帰る",
+        "曲がる"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u35-group-02",
+      "title_zh": "座る到車",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1291800-v1",
+        "n5-vocabulary-jmdict-1303620-v1",
+        "n5-vocabulary-jmdict-1310620-v1",
+        "n5-vocabulary-jmdict-1323080-v1"
+      ],
+      "target_labels_zh": [
+        "座る",
+        "散歩",
+        "止まる",
+        "車"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u35-group-03",
+      "title_zh": "走る到Vます词干＋に行く",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1402540-v1",
+        "n5-vocabulary-jmdict-1465590-v1",
+        "n5-grammar-movement-purpose-ni-iku-v1"
+      ],
+      "target_labels_zh": [
+        "走る",
+        "入る",
+        "Vます词干＋に行く"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u35-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "表示移动的目的"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "表示移动的目的。基本形式是Vます词干＋に行く。动词ます形去ます后接に行く。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u35-checkpoint-vocab-1597040-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“站起来”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "曲がる（まがる）"
+        },
+        {
+          "option_id": "D",
+          "text": "立つ（たつ）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1195430-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“行李／包裹”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "B",
+          "text": "曲がる（まがる）"
+        },
+        {
+          "option_id": "C",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "立つ（たつ）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1221270-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“回去／回家”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "曲がる（まがる）"
+        },
+        {
+          "option_id": "B",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "立つ（たつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "荷物（にもつ）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1239730-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“弯曲”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "曲がる（まがる）"
+        },
+        {
+          "option_id": "B",
+          "text": "立つ（たつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "帰る（かえる）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1291800-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“坐／坐下”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "立つ（たつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "D",
+          "text": "座る（すわる）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1303620-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“散步”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "散歩（さんぽ）"
+        },
+        {
+          "option_id": "D",
+          "text": "立つ（たつ）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1310620-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“停下／停止移动”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "B",
+          "text": "止まる（とまる）"
+        },
+        {
+          "option_id": "C",
+          "text": "立つ（たつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "荷物（にもつ）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1323080-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“汽车／车辆”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "車（くるま）"
+        },
+        {
+          "option_id": "B",
+          "text": "立つ（たつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "帰る（かえる）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1402540-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“跑／奔跑”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "立つ（たつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "D",
+          "text": "走る（はしる）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-vocab-1465590-v1": {
+      "prompt_zh": "在新的“移动、交通与出行”情境中，选择表示“进入／进去”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "荷物（にもつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "帰る（かえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "入る（はいる）"
+        },
+        {
+          "option_id": "D",
+          "text": "立つ（たつ）"
+        }
+      ]
+    },
+    "n5-module-b-u35-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表示移动的目的”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vます词干＋に行く"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1597040-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1597040-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "站起来"
+        },
+        {
+          "option_id": "B",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "C",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "A",
+          "text": "弯曲"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「立つ」的课程义。",
+      "prompt_ja": "いすから立ちます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1195430-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1195430-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "站起来"
+        },
+        {
+          "option_id": "B",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "D",
+          "text": "弯曲"
+        },
+        {
+          "option_id": "C",
+          "text": "行李／包裹"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「荷物」的课程义。",
+      "prompt_ja": "荷物です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1221270-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1221270-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "C",
+          "text": "弯曲"
+        },
+        {
+          "option_id": "B",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "D",
+          "text": "站起来"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「帰る」的课程义。",
+      "prompt_ja": "家に帰ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1239730-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1239730-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "A",
+          "text": "弯曲"
+        },
+        {
+          "option_id": "C",
+          "text": "站起来"
+        },
+        {
+          "option_id": "D",
+          "text": "行李／包裹"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「曲がる」的课程义。",
+      "prompt_ja": "この線は曲がっています。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1291800-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1291800-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "坐／坐下"
+        },
+        {
+          "option_id": "B",
+          "text": "站起来"
+        },
+        {
+          "option_id": "C",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "A",
+          "text": "回去／回家"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「座る」的课程义。",
+      "prompt_ja": "ここに座ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1303620-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1303620-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "站起来"
+        },
+        {
+          "option_id": "B",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "D",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "C",
+          "text": "散步"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「散歩」的课程义。",
+      "prompt_ja": "散歩です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1310620-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1310620-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "C",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "B",
+          "text": "停下／停止移动"
+        },
+        {
+          "option_id": "D",
+          "text": "站起来"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「止まる」的课程义。",
+      "prompt_ja": "バスが止まります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1323080-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1323080-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "A",
+          "text": "汽车／车辆"
+        },
+        {
+          "option_id": "C",
+          "text": "站起来"
+        },
+        {
+          "option_id": "D",
+          "text": "行李／包裹"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「車」的课程义。",
+      "prompt_ja": "車です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1402540-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1402540-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "跑／奔跑"
+        },
+        {
+          "option_id": "B",
+          "text": "站起来"
+        },
+        {
+          "option_id": "C",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "A",
+          "text": "回去／回家"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「走る」的课程义。",
+      "prompt_ja": "公園で走ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-vocab-1465590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1465590-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "站起来"
+        },
+        {
+          "option_id": "B",
+          "text": "行李／包裹"
+        },
+        {
+          "option_id": "D",
+          "text": "回去／回家"
+        },
+        {
+          "option_id": "C",
+          "text": "进入／进去"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「入る」的课程义。",
+      "prompt_ja": "部屋に入ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u35-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u35-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-movement-purpose-ni-iku-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "表示移动的目的"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "図書館へ本を読みに行きます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

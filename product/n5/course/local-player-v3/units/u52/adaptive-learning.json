@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-052-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u52-group-01",
+      "title_zh": "こちら到どちら",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1004500-v1",
+        "n5-vocabulary-jmdict-1004880-v1",
+        "n5-vocabulary-jmdict-1006780-v1",
+        "n5-vocabulary-jmdict-1189360-v1"
+      ],
+      "target_labels_zh": [
+        "こちら",
+        "こんな",
+        "そちら",
+        "どちら"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u52-group-02",
+      "title_zh": "どなた到どうして",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1189370-v1",
+        "n5-vocabulary-jmdict-1219960-v1",
+        "n5-vocabulary-jmdict-1483185-v1",
+        "n5-vocabulary-jmdict-2845606-v1",
+        "n5-vocabulary-jmdict-1466940-v1"
+      ],
+      "target_labels_zh": [
+        "どなた",
+        "いくつ",
+        "あちら",
+        "いかが",
+        "どうして"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u52-checkpoint-vocab-1004500-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“这边／这个方向”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "B",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "どちら（どちら）"
+        },
+        {
+          "option_id": "D",
+          "text": "こちら（こちら）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1004880-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“这样的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "B",
+          "text": "どちら（どちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "D",
+          "text": "こちら（こちら）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1006780-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“那边／那个方向”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "どちら（どちら）"
+        },
+        {
+          "option_id": "B",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "こちら（こちら）"
+        },
+        {
+          "option_id": "D",
+          "text": "こんな（こんな）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1189360-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“哪边／哪里”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "どちら（どちら）"
+        },
+        {
+          "option_id": "B",
+          "text": "こちら（こちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "D",
+          "text": "そちら（そちら）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1189370-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“哪位（礼貌）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "こちら（こちら）"
+        },
+        {
+          "option_id": "B",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "C",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "D",
+          "text": "どなた（どなた）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1219960-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“几个／多少个”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "B",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "いくつ（いくつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "こちら（こちら）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1483185-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“那边／那个方向”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "B",
+          "text": "あちら（あちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "こちら（こちら）"
+        },
+        {
+          "option_id": "D",
+          "text": "こんな（こんな）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-2845606-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“怎么样／如何”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いかが（いかが）"
+        },
+        {
+          "option_id": "B",
+          "text": "こちら（こちら）"
+        },
+        {
+          "option_id": "C",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "D",
+          "text": "そちら（そちら）"
+        }
+      ]
+    },
+    "n5-module-b-u52-checkpoint-vocab-1466940-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“为什么”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "こちら（こちら）"
+        },
+        {
+          "option_id": "B",
+          "text": "こんな（こんな）"
+        },
+        {
+          "option_id": "C",
+          "text": "そちら（そちら）"
+        },
+        {
+          "option_id": "D",
+          "text": "どうして（どうして）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1004500-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1004500-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "B",
+          "text": "这样的"
+        },
+        {
+          "option_id": "C",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "A",
+          "text": "哪边／哪里"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「こちら」的课程义。",
+      "prompt_ja": "こちらへどうぞ。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1004880-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1004880-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "B",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "D",
+          "text": "哪边／哪里"
+        },
+        {
+          "option_id": "C",
+          "text": "这样的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「こんな」的课程义。",
+      "prompt_ja": "こんな本です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1006780-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1006780-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "这样的"
+        },
+        {
+          "option_id": "C",
+          "text": "哪边／哪里"
+        },
+        {
+          "option_id": "B",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "D",
+          "text": "这边／这个方向"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「そちら」的课程义。",
+      "prompt_ja": "そちらです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1189360-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1189360-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "A",
+          "text": "哪边／哪里"
+        },
+        {
+          "option_id": "C",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "D",
+          "text": "这样的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どちら」的课程义。",
+      "prompt_ja": "駅はどちらですか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1189370-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1189370-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "哪位（礼貌）"
+        },
+        {
+          "option_id": "B",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "C",
+          "text": "这样的"
+        },
+        {
+          "option_id": "A",
+          "text": "那边／那个方向"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どなた」的课程义。",
+      "prompt_ja": "どなたです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1219960-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1219960-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "B",
+          "text": "这样的"
+        },
+        {
+          "option_id": "D",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "C",
+          "text": "几个／多少个"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「いくつ」的课程义。",
+      "prompt_ja": "りんごはいくつありますか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1483185-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1483185-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "这样的"
+        },
+        {
+          "option_id": "C",
+          "text": "哪边／哪里"
+        },
+        {
+          "option_id": "B",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "D",
+          "text": "这边／这个方向"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「あちら」的课程义。",
+      "prompt_ja": "あちらです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-2845606-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2845606-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "那边／那个方向"
+        },
+        {
+          "option_id": "A",
+          "text": "怎么样／如何"
+        },
+        {
+          "option_id": "C",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "D",
+          "text": "这样的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「いかが」的课程义。",
+      "prompt_ja": "いかがですか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u52-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u52-checkpoint-vocab-1466940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1466940-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "为什么"
+        },
+        {
+          "option_id": "B",
+          "text": "这边／这个方向"
+        },
+        {
+          "option_id": "C",
+          "text": "这样的"
+        },
+        {
+          "option_id": "A",
+          "text": "那边／那个方向"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どうして」的课程义。",
+      "prompt_ja": "どうしてですか。"
+    }
+  ],
+  "embedded_support_placements": []
+}

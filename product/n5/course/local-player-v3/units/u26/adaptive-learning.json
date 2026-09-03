@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-026-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u26-group-01",
+      "title_zh": "ちょっと到まだ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1163940-v1",
+        "n5-vocabulary-jmdict-1012480-v1",
+        "n5-vocabulary-jmdict-1524930-v1",
+        "n5-vocabulary-jmdict-1527110-v1"
+      ],
+      "target_labels_zh": [
+        "ちょっと",
+        "もう",
+        "また",
+        "まだ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u26-group-02",
+      "title_zh": "よく到少し",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1605870-v1",
+        "n5-vocabulary-jmdict-1008630-v1",
+        "n5-vocabulary-jmdict-1012620-v1",
+        "n5-vocabulary-jmdict-1188890-v1",
+        "n5-vocabulary-jmdict-1348870-v1"
+      ],
+      "target_labels_zh": [
+        "よく",
+        "とても",
+        "もっと",
+        "いつも",
+        "少し"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u26-checkpoint-vocab-1163940-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“有点／稍微”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "B",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "C",
+          "text": "まだ（まだ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ちょっと（ちょっと）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1012480-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“已经；再也（不）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "B",
+          "text": "まだ（まだ）"
+        },
+        {
+          "option_id": "C",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "D",
+          "text": "ちょっと（ちょっと）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1524930-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“又／再次”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "まだ（まだ）"
+        },
+        {
+          "option_id": "B",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "C",
+          "text": "ちょっと（ちょっと）"
+        },
+        {
+          "option_id": "D",
+          "text": "もう（もう）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1527110-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“还／还没”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "まだ（まだ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ちょっと（ちょっと）"
+        },
+        {
+          "option_id": "C",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "D",
+          "text": "また（また）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1605870-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“好好地／很好地”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ちょっと（ちょっと）"
+        },
+        {
+          "option_id": "B",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "C",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "D",
+          "text": "よく（よく）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1008630-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“非常／很”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "B",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "C",
+          "text": "とても（とても）"
+        },
+        {
+          "option_id": "D",
+          "text": "ちょっと（ちょっと）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1012620-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“更”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "B",
+          "text": "もっと（もっと）"
+        },
+        {
+          "option_id": "C",
+          "text": "ちょっと（ちょっと）"
+        },
+        {
+          "option_id": "D",
+          "text": "もう（もう）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1188890-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“总是／一直”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いつも（いつも）"
+        },
+        {
+          "option_id": "B",
+          "text": "ちょっと（ちょっと）"
+        },
+        {
+          "option_id": "C",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "D",
+          "text": "また（また）"
+        }
+      ]
+    },
+    "n5-module-b-u26-checkpoint-vocab-1348870-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“一点／少量／稍微”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ちょっと（ちょっと）"
+        },
+        {
+          "option_id": "B",
+          "text": "もう（もう）"
+        },
+        {
+          "option_id": "C",
+          "text": "また（また）"
+        },
+        {
+          "option_id": "D",
+          "text": "少し（すこし）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1163940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1163940-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "B",
+          "text": "已经；再也（不）"
+        },
+        {
+          "option_id": "C",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "A",
+          "text": "还／还没"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ちょっと」的课程义。",
+      "prompt_ja": "ちょっと待ちます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1012480-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1012480-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "B",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "D",
+          "text": "还／还没"
+        },
+        {
+          "option_id": "C",
+          "text": "已经；再也（不）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「もう」的课程义。",
+      "prompt_ja": "もう終わりました。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1524930-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1524930-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "已经；再也（不）"
+        },
+        {
+          "option_id": "C",
+          "text": "还／还没"
+        },
+        {
+          "option_id": "B",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "D",
+          "text": "有点／稍微"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「また」的课程义。",
+      "prompt_ja": "また明日来ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1527110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1527110-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "A",
+          "text": "还／还没"
+        },
+        {
+          "option_id": "C",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "D",
+          "text": "已经；再也（不）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「まだ」的课程义。",
+      "prompt_ja": "まだです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1605870-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1605870-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "好好地／很好地"
+        },
+        {
+          "option_id": "B",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "C",
+          "text": "已经；再也（不）"
+        },
+        {
+          "option_id": "A",
+          "text": "又／再次"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「よく」的课程义。",
+      "prompt_ja": "よくできました。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1008630-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1008630-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "B",
+          "text": "已经；再也（不）"
+        },
+        {
+          "option_id": "D",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "C",
+          "text": "非常／很"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「とても」的课程义。",
+      "prompt_ja": "とてもいいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1012620-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1012620-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "已经；再也（不）"
+        },
+        {
+          "option_id": "C",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "B",
+          "text": "更"
+        },
+        {
+          "option_id": "D",
+          "text": "有点／稍微"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「もっと」的课程义。",
+      "prompt_ja": "もっとください。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1188890-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1188890-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "又／再次"
+        },
+        {
+          "option_id": "A",
+          "text": "总是／一直"
+        },
+        {
+          "option_id": "C",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "D",
+          "text": "已经；再也（不）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「いつも」的课程义。",
+      "prompt_ja": "いつも行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u26-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u26-checkpoint-vocab-1348870-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1348870-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "一点／少量／稍微"
+        },
+        {
+          "option_id": "B",
+          "text": "有点／稍微"
+        },
+        {
+          "option_id": "C",
+          "text": "已经；再也（不）"
+        },
+        {
+          "option_id": "A",
+          "text": "又／再次"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「少し」的课程义。",
+      "prompt_ja": "少し休みます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

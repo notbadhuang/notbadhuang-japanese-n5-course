@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-020-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u20-group-01",
+      "title_zh": "よい到暗い",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1605820-v1",
+        "n5-vocabulary-jmdict-2820690-v1",
+        "n5-vocabulary-jmdict-1151260-v1",
+        "n5-vocabulary-jmdict-1154330-v1"
+      ],
+      "target_labels_zh": [
+        "よい",
+        "いい",
+        "悪い",
+        "暗い"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u20-group-02",
+      "title_zh": "違う到強い",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1158880-v1",
+        "n5-vocabulary-jmdict-1177800-v1",
+        "n5-vocabulary-jmdict-1183300-v1",
+        "n5-vocabulary-jmdict-1236070-v1"
+      ],
+      "target_labels_zh": [
+        "違う",
+        "遠い",
+        "温い",
+        "強い"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u20-group-03",
+      "title_zh": "狭い到イAくないです・かったです・くなかったです",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1237680-v1",
+        "n5-vocabulary-jmdict-1242130-v1",
+        "n5-grammar-polite-predication-iadjective-desu-v1",
+        "n5-grammar-inflection-iadjective-polite-nonaffirmative-v1"
+      ],
+      "target_labels_zh": [
+        "狭い",
+        "近い",
+        "イA＋です",
+        "イAくないです・かったです・くなかったです"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u20-guided-grammar-01-v1": {
+      "prompt_ja": "店は近い___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "です"
+        },
+        {
+          "option_id": "B",
+          "text": "ます"
+        },
+        {
+          "option_id": "C",
+          "text": "なです"
+        },
+        {
+          "option_id": "D",
+          "text": "を"
+        }
+      ],
+      "feedback_zh": "い形容词基本形直接接「です」；不要删掉词尾「い」，也不要加「な」。"
+    },
+    "n5-module-b-u20-guided-grammar-02-v1": {
+      "prompt_ja": "店は狭___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いでした"
+        },
+        {
+          "option_id": "B",
+          "text": "くです"
+        },
+        {
+          "option_id": "C",
+          "text": "なかったです"
+        },
+        {
+          "option_id": "D",
+          "text": "かったです"
+        }
+      ],
+      "feedback_zh": "一般い形容词用「くない／かった／くなかった」；「いい」的否定是「よくないです」，不是「いくないです」。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u20-checkpoint-vocab-1605820-v1": {
+      "prompt_zh": "较正式地说“是好日子”：今日は___日です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いい"
+        },
+        {
+          "option_id": "B",
+          "text": "悪い"
+        },
+        {
+          "option_id": "C",
+          "text": "暗い"
+        },
+        {
+          "option_id": "D",
+          "text": "よい"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-2820690-v1": {
+      "prompt_zh": "日常口语评价这家店不错：この店は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "悪い"
+        },
+        {
+          "option_id": "B",
+          "text": "暗い"
+        },
+        {
+          "option_id": "C",
+          "text": "いい"
+        },
+        {
+          "option_id": "D",
+          "text": "よい"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1151260-v1": {
+      "prompt_zh": "评价这家店不好：この店は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暗い"
+        },
+        {
+          "option_id": "B",
+          "text": "悪い"
+        },
+        {
+          "option_id": "C",
+          "text": "よい"
+        },
+        {
+          "option_id": "D",
+          "text": "いい"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1154330-v1": {
+      "prompt_zh": "灯光不足：店は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暗い"
+        },
+        {
+          "option_id": "B",
+          "text": "よい"
+        },
+        {
+          "option_id": "C",
+          "text": "いい"
+        },
+        {
+          "option_id": "D",
+          "text": "悪い"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1158880-v1": {
+      "prompt_zh": "比较两个物品并说不一样：それとあれは___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "よい"
+        },
+        {
+          "option_id": "B",
+          "text": "いい"
+        },
+        {
+          "option_id": "C",
+          "text": "悪い"
+        },
+        {
+          "option_id": "D",
+          "text": "違う"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1177800-v1": {
+      "prompt_zh": "走很久才能到：店は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いい"
+        },
+        {
+          "option_id": "B",
+          "text": "悪い"
+        },
+        {
+          "option_id": "C",
+          "text": "遠い"
+        },
+        {
+          "option_id": "D",
+          "text": "よい"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1183300-v1": {
+      "prompt_zh": "洗澡水不够热：ふろは___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "悪い"
+        },
+        {
+          "option_id": "B",
+          "text": "温い"
+        },
+        {
+          "option_id": "C",
+          "text": "よい"
+        },
+        {
+          "option_id": "D",
+          "text": "いい"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1236070-v1": {
+      "prompt_zh": "评价那个人很强壮：あの人は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "強い"
+        },
+        {
+          "option_id": "B",
+          "text": "よい"
+        },
+        {
+          "option_id": "C",
+          "text": "いい"
+        },
+        {
+          "option_id": "D",
+          "text": "悪い"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1237680-v1": {
+      "prompt_zh": "店内空间很小：店は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "よい"
+        },
+        {
+          "option_id": "B",
+          "text": "いい"
+        },
+        {
+          "option_id": "C",
+          "text": "悪い"
+        },
+        {
+          "option_id": "D",
+          "text": "狭い"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-vocab-1242130-v1": {
+      "prompt_zh": "走几步就能到：店は___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いい"
+        },
+        {
+          "option_id": "B",
+          "text": "悪い"
+        },
+        {
+          "option_id": "C",
+          "text": "近い"
+        },
+        {
+          "option_id": "D",
+          "text": "よい"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-grammar-01-v1": {
+      "prompt_ja": "あの店は遠い___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "でしたか"
+        },
+        {
+          "option_id": "B",
+          "text": "な"
+        },
+        {
+          "option_id": "C",
+          "text": "です"
+        },
+        {
+          "option_id": "D",
+          "text": "ます"
+        }
+      ]
+    },
+    "n5-module-b-u20-checkpoint-grammar-02-v1": {
+      "prompt_ja": "この店はよく___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ありませんい"
+        },
+        {
+          "option_id": "B",
+          "text": "ないです"
+        },
+        {
+          "option_id": "C",
+          "text": "いです"
+        },
+        {
+          "option_id": "D",
+          "text": "なです"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1605820-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1605820-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "B",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "C",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "A",
+          "text": "不同／不一样"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「よい」在这里的课程义。",
+      "prompt_ja": "今日はよい日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-2820690-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2820690-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "B",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "D",
+          "text": "不同／不一样"
+        },
+        {
+          "option_id": "C",
+          "text": "好／不错"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「いい」在这里的课程义。",
+      "prompt_ja": "この店はいいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1151260-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1151260-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "C",
+          "text": "不同／不一样"
+        },
+        {
+          "option_id": "B",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "D",
+          "text": "好／不错"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「悪い」在这里的课程义。",
+      "prompt_ja": "この店は悪いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1154330-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1154330-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "不同／不一样"
+        },
+        {
+          "option_id": "A",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "C",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "D",
+          "text": "坏的／不好的"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「暗い」在这里的课程义。",
+      "prompt_ja": "店は暗いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1158880-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1158880-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "不同／不一样"
+        },
+        {
+          "option_id": "B",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "C",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "A",
+          "text": "暗的／昏暗的"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「違う」在这里的课程义。",
+      "prompt_ja": "それとあれは違います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1177800-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1177800-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "B",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "D",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "C",
+          "text": "远的／遥远的"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「遠い」在这里的课程义。",
+      "prompt_ja": "店は遠いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1183300-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1183300-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "C",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "B",
+          "text": "温的／不够热的"
+        },
+        {
+          "option_id": "D",
+          "text": "好／不错"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「温い」在这里的课程义。",
+      "prompt_ja": "ふろはぬるいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1236070-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1236070-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "A",
+          "text": "强壮／强"
+        },
+        {
+          "option_id": "C",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "D",
+          "text": "坏的／不好的"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「強い」在这里的课程义。",
+      "prompt_ja": "あの人は強いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1237680-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1237680-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "狭窄的／窄小的"
+        },
+        {
+          "option_id": "B",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "C",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "A",
+          "text": "暗的／昏暗的"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「狭い」在这里的课程义。",
+      "prompt_ja": "店は狭いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-vocab-1242130-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1242130-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "好／不错"
+        },
+        {
+          "option_id": "B",
+          "text": "坏的／不好的"
+        },
+        {
+          "option_id": "D",
+          "text": "暗的／昏暗的"
+        },
+        {
+          "option_id": "C",
+          "text": "近的／距离短的"
+        }
+      ],
+      "prompt_zh": "结合语境，选择「近い」在这里的课程义。",
+      "prompt_ja": "店は近いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-polite-predication-iadjective-desu-v1",
+      "options": [
+        {
+          "option_id": "C",
+          "text": "です"
+        },
+        {
+          "option_id": "B",
+          "text": "ます"
+        },
+        {
+          "option_id": "A",
+          "text": "なです"
+        },
+        {
+          "option_id": "D",
+          "text": "を"
+        }
+      ],
+      "prompt_ja": "店は近い___。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u20-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u20-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-inflection-iadjective-polite-nonaffirmative-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いでした"
+        },
+        {
+          "option_id": "D",
+          "text": "くです"
+        },
+        {
+          "option_id": "C",
+          "text": "なかったです"
+        },
+        {
+          "option_id": "B",
+          "text": "かったです"
+        }
+      ],
+      "prompt_ja": "店は狭___。"
+    }
+  ],
+  "embedded_support_placements": []
+}

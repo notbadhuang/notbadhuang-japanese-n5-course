@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-018-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u18-group-01",
+      "title_zh": "十到九",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1579840-v1",
+        "n5-vocabulary-jmdict-1268060-v1",
+        "n5-vocabulary-jmdict-1461140-v1",
+        "n5-vocabulary-jmdict-1578150-v1"
+      ],
+      "target_labels_zh": [
+        "十",
+        "五",
+        "二",
+        "九"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u18-group-02",
+      "title_zh": "四到七",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1579470-v1",
+        "n5-vocabulary-jmdict-1160790-v1",
+        "n5-vocabulary-jmdict-1298520-v1",
+        "n5-vocabulary-jmdict-1319210-v1"
+      ],
+      "target_labels_zh": [
+        "四",
+        "一",
+        "さつ",
+        "七"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u18-group-03",
+      "title_zh": "千到半",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1388740-v1",
+        "n5-vocabulary-jmdict-1478750-v1"
+      ],
+      "target_labels_zh": [
+        "千",
+        "半"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u18-checkpoint-vocab-1579840-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“十”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "B",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "C",
+          "text": "九（きゅう）"
+        },
+        {
+          "option_id": "D",
+          "text": "十（じゅう）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1268060-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“五”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "B",
+          "text": "九（きゅう）"
+        },
+        {
+          "option_id": "C",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "D",
+          "text": "十（じゅう）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1461140-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“二”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "九（きゅう）"
+        },
+        {
+          "option_id": "B",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "C",
+          "text": "十（じゅう）"
+        },
+        {
+          "option_id": "D",
+          "text": "五（ご）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1578150-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“九”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "九（きゅう）"
+        },
+        {
+          "option_id": "B",
+          "text": "十（じゅう）"
+        },
+        {
+          "option_id": "C",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "D",
+          "text": "二（に）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1579470-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“四”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "十（じゅう）"
+        },
+        {
+          "option_id": "B",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "C",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "D",
+          "text": "四（し）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1160790-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“一／一个”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "B",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "C",
+          "text": "一（いち）"
+        },
+        {
+          "option_id": "D",
+          "text": "十（じゅう）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1298520-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“册（书本量词）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "B",
+          "text": "さつ（さつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "十（じゅう）"
+        },
+        {
+          "option_id": "D",
+          "text": "五（ご）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1319210-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“七”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "七（しち）"
+        },
+        {
+          "option_id": "B",
+          "text": "十（じゅう）"
+        },
+        {
+          "option_id": "C",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "D",
+          "text": "二（に）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1388740-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“一千”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "十（じゅう）"
+        },
+        {
+          "option_id": "B",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "C",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "D",
+          "text": "千（せん）"
+        }
+      ]
+    },
+    "n5-module-b-u18-checkpoint-vocab-1478750-v1": {
+      "prompt_zh": "在新的“数字、数量与量词”情境中，选择表示“一半／半”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "五（ご）"
+        },
+        {
+          "option_id": "B",
+          "text": "二（に）"
+        },
+        {
+          "option_id": "C",
+          "text": "半（はん）"
+        },
+        {
+          "option_id": "D",
+          "text": "十（じゅう）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1579840-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1579840-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "十"
+        },
+        {
+          "option_id": "B",
+          "text": "五"
+        },
+        {
+          "option_id": "C",
+          "text": "二"
+        },
+        {
+          "option_id": "A",
+          "text": "九"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「十」的课程义。",
+      "prompt_ja": "十です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1268060-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1268060-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "十"
+        },
+        {
+          "option_id": "B",
+          "text": "二"
+        },
+        {
+          "option_id": "D",
+          "text": "九"
+        },
+        {
+          "option_id": "C",
+          "text": "五"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「五」的课程义。",
+      "prompt_ja": "五です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1461140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1461140-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "五"
+        },
+        {
+          "option_id": "C",
+          "text": "九"
+        },
+        {
+          "option_id": "B",
+          "text": "二"
+        },
+        {
+          "option_id": "D",
+          "text": "十"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「二」的课程义。",
+      "prompt_ja": "二です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1578150-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1578150-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "二"
+        },
+        {
+          "option_id": "A",
+          "text": "九"
+        },
+        {
+          "option_id": "C",
+          "text": "十"
+        },
+        {
+          "option_id": "D",
+          "text": "五"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「九」的课程义。",
+      "prompt_ja": "九です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1579470-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1579470-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "四"
+        },
+        {
+          "option_id": "B",
+          "text": "十"
+        },
+        {
+          "option_id": "C",
+          "text": "五"
+        },
+        {
+          "option_id": "A",
+          "text": "二"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「四」的课程义。",
+      "prompt_ja": "四です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1160790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1160790-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "十"
+        },
+        {
+          "option_id": "B",
+          "text": "五"
+        },
+        {
+          "option_id": "D",
+          "text": "二"
+        },
+        {
+          "option_id": "C",
+          "text": "一／一个"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「一」的课程义。",
+      "prompt_ja": "一です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1298520-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1298520-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "五"
+        },
+        {
+          "option_id": "C",
+          "text": "二"
+        },
+        {
+          "option_id": "B",
+          "text": "册（书本量词）"
+        },
+        {
+          "option_id": "D",
+          "text": "十"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「さつ」的课程义。",
+      "prompt_ja": "二さつです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1319210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1319210-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "二"
+        },
+        {
+          "option_id": "A",
+          "text": "七"
+        },
+        {
+          "option_id": "C",
+          "text": "十"
+        },
+        {
+          "option_id": "D",
+          "text": "五"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「七」的课程义。",
+      "prompt_ja": "七です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1388740-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1388740-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "一千"
+        },
+        {
+          "option_id": "B",
+          "text": "十"
+        },
+        {
+          "option_id": "C",
+          "text": "五"
+        },
+        {
+          "option_id": "A",
+          "text": "二"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「千」的课程义。",
+      "prompt_ja": "千です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u18-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u18-checkpoint-vocab-1478750-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1478750-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "十"
+        },
+        {
+          "option_id": "B",
+          "text": "五"
+        },
+        {
+          "option_id": "D",
+          "text": "二"
+        },
+        {
+          "option_id": "C",
+          "text": "一半／半"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「半」的课程义。",
+      "prompt_ja": "半キロです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

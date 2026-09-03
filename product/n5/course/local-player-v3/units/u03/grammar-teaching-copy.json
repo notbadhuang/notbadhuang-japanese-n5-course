@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-003-v3",
+  "items": {
+    "n5-module-b-u03-card-grammar-01-v1": {
+      "title_zh": "も表示追加与相同",
+      "learner_pattern_zh": "Nも",
+      "explanation_zh": "表示也、同样或追加同类项",
+      "connection_zh": "附着于名词性成分；不含数量＋も等其他功能",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "妹も学生です。",
+      "example_zh": "妹妹也是学生。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    },
+    "n5-module-b-u03-card-grammar-02-v1": {
+      "title_zh": "用の连接两个名词",
+      "learner_pattern_zh": "N1のN2",
+      "explanation_zh": "表示所属、类别、内容等基础名词间关系",
+      "connection_zh": "把说明N2的N1放在前面，中间使用の",
+      "term_note_zh": "当前对象只覆盖名词连接，不覆盖の名词化、句末の或其他高级关系",
+      "example_ja": "私の母です。",
+      "example_zh": "是我的母亲。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "当前对象只覆盖名词连接，不覆盖の名词化、句末の或其他高级关系"
+    }
+  }
+}

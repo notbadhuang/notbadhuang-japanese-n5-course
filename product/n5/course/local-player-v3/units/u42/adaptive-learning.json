@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-042-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u42-group-01",
+      "title_zh": "おなか到痛い",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1002610-v1",
+        "n5-vocabulary-jmdict-1260720-v1",
+        "n5-vocabulary-jmdict-1409140-v1",
+        "n5-vocabulary-jmdict-1432680-v1"
+      ],
+      "target_labels_zh": [
+        "おなか",
+        "元気",
+        "体",
+        "痛い"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u42-group-02",
+      "title_zh": "熱い到生まれる",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1467720-v1",
+        "n5-vocabulary-jmdict-1538160-v1",
+        "n5-vocabulary-jmdict-1582310-v1",
+        "n5-vocabulary-jmdict-1378690-v1"
+      ],
+      "target_labels_zh": [
+        "熱い",
+        "薬",
+        "頭",
+        "生まれる"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u42-group-03",
+      "title_zh": "疲れる到Vます词干／形容词词干＋すぎる",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1483740-v1",
+        "n5-vocabulary-jmdict-1556730-v1",
+        "n5-grammar-temporal-before-maeni-v1",
+        "n5-grammar-excess-sugiru-v1"
+      ],
+      "target_labels_zh": [
+        "疲れる",
+        "冷たい",
+        "V辞书形前に／Nの前に",
+        "Vます词干／形容词词干＋すぎる"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u42-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "表示在某动作或时间点之前做另一件事"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "表示在某动作或时间点之前做另一件事。基本形式是V辞书形前に／Nの前に。动词辞书形直接接前に；名词经の连接，作为受控变体。"
+    },
+    "n5-module-b-u42-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "表示动作或程度超过适当范围"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "表示动作或程度超过适当范围。基本形式是Vます词干／形容词词干＋すぎる。动词ます形词干、い形容词去い、な形容词词干后接すぎる。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u42-checkpoint-vocab-1002610-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“肚子／胃”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "B",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "C",
+          "text": "痛い（いたい）"
+        },
+        {
+          "option_id": "D",
+          "text": "おなか（おなか）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1260720-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“有精神／精力充沛”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "B",
+          "text": "痛い（いたい）"
+        },
+        {
+          "option_id": "C",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "D",
+          "text": "おなか（おなか）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1409140-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“身体”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "痛い（いたい）"
+        },
+        {
+          "option_id": "B",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "C",
+          "text": "おなか（おなか）"
+        },
+        {
+          "option_id": "D",
+          "text": "元気（げんき）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1432680-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“疼的／痛的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "痛い（いたい）"
+        },
+        {
+          "option_id": "B",
+          "text": "おなか（おなか）"
+        },
+        {
+          "option_id": "C",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "D",
+          "text": "体（からだ）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1467720-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“烫的／热的（触感）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "おなか（おなか）"
+        },
+        {
+          "option_id": "B",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "C",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "D",
+          "text": "熱い（あつい）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1538160-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“药／药品”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "B",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "C",
+          "text": "薬（くすり）"
+        },
+        {
+          "option_id": "D",
+          "text": "おなか（おなか）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1582310-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“头／脑袋”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "B",
+          "text": "頭（あたま）"
+        },
+        {
+          "option_id": "C",
+          "text": "おなか（おなか）"
+        },
+        {
+          "option_id": "D",
+          "text": "元気（げんき）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1378690-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“出生”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "生まれる（うまれる）"
+        },
+        {
+          "option_id": "B",
+          "text": "おなか（おなか）"
+        },
+        {
+          "option_id": "C",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "D",
+          "text": "体（からだ）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1483740-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“累／疲倦”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "おなか（おなか）"
+        },
+        {
+          "option_id": "B",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "C",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "D",
+          "text": "疲れる（つかれる）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-vocab-1556730-v1": {
+      "prompt_zh": "在新的“身体、健康与感受”情境中，选择表示“冰凉的／冷的（触感）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "元気（げんき）"
+        },
+        {
+          "option_id": "B",
+          "text": "体（からだ）"
+        },
+        {
+          "option_id": "C",
+          "text": "冷たい（つめたい）"
+        },
+        {
+          "option_id": "D",
+          "text": "おなか（おなか）"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表示在某动作或时间点之前做另一件事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "V辞书形前に／Nの前に"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    },
+    "n5-module-b-u42-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“表示动作或程度超过适当范围”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vます词干／形容词词干＋すぎる"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1002610-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1002610-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "B",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "C",
+          "text": "身体"
+        },
+        {
+          "option_id": "A",
+          "text": "疼的／痛的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「おなか」的课程义。",
+      "prompt_ja": "おなかです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1260720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1260720-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "B",
+          "text": "身体"
+        },
+        {
+          "option_id": "D",
+          "text": "疼的／痛的"
+        },
+        {
+          "option_id": "C",
+          "text": "有精神／精力充沛"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「元気」的课程义。",
+      "prompt_ja": "子供は元気です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1409140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1409140-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "C",
+          "text": "疼的／痛的"
+        },
+        {
+          "option_id": "B",
+          "text": "身体"
+        },
+        {
+          "option_id": "D",
+          "text": "肚子／胃"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「体」的课程义。",
+      "prompt_ja": "体です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1432680-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1432680-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "身体"
+        },
+        {
+          "option_id": "A",
+          "text": "疼的／痛的"
+        },
+        {
+          "option_id": "C",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "D",
+          "text": "有精神／精力充沛"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「痛い」的课程义。",
+      "prompt_ja": "ここが痛いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1467720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1467720-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "烫的／热的（触感）"
+        },
+        {
+          "option_id": "B",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "C",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "A",
+          "text": "身体"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「熱い」的课程义。",
+      "prompt_ja": "これは熱いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1538160-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1538160-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "B",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "D",
+          "text": "身体"
+        },
+        {
+          "option_id": "C",
+          "text": "药／药品"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「薬」的课程义。",
+      "prompt_ja": "薬です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1582310-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1582310-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "C",
+          "text": "身体"
+        },
+        {
+          "option_id": "B",
+          "text": "头／脑袋"
+        },
+        {
+          "option_id": "D",
+          "text": "肚子／胃"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「頭」的课程义。",
+      "prompt_ja": "頭です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1378690-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1378690-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "身体"
+        },
+        {
+          "option_id": "A",
+          "text": "出生"
+        },
+        {
+          "option_id": "C",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "D",
+          "text": "有精神／精力充沛"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「生まれる」的课程义。",
+      "prompt_ja": "日本で生まれました。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1483740-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1483740-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "累／疲倦"
+        },
+        {
+          "option_id": "B",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "C",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "A",
+          "text": "身体"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「疲れる」的课程义。",
+      "prompt_ja": "疲れました。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-vocab-1556730-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1556730-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "肚子／胃"
+        },
+        {
+          "option_id": "B",
+          "text": "有精神／精力充沛"
+        },
+        {
+          "option_id": "D",
+          "text": "身体"
+        },
+        {
+          "option_id": "C",
+          "text": "冰凉的／冷的（触感）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「冷たい」的课程义。",
+      "prompt_ja": "これは冷たいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-temporal-before-maeni-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "表示在某动作或时间点之前做另一件事"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "寝る前に、歯を磨きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u42-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u42-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-excess-sugiru-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "表示动作或程度超过适当范围"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "このかばんは大きすぎます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

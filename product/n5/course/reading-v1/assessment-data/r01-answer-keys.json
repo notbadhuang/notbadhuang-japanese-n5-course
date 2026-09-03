@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "answer_keys": [
+    {
+      "item_id": "n5-g3-reading-r01-transfer-practice-001-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「那里」回指佐藤前一句要去的车站，所以他在车站见田中。",
+      "distractor_rationales_zh": {
+        "B": "把山田的目的地错误绑定给佐藤。",
+        "C": "文章没有提到公司。",
+        "D": "文章没有说在家见面。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-fact-time-002-v1",
+      "correct_option_id": "C",
+      "answer_rationale_zh": "木村去公司的信息在第三句，对应九点。",
+      "distractor_rationales_zh": {
+        "A": "七点对应木村去车站，不是去公司。",
+        "B": "八点是山本去学校的时间。",
+        "D": "文章没有出现木村十点去公司的信息。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-sore-003-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「それ」回指第一句中田中买的面包；第二句说明他在家吃了它。",
+      "distractor_rationales_zh": {
+        "B": "文章没有提到书。",
+        "C": "文章没有提到花。",
+        "D": "文章没有提到信。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-soko-004-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「そこで」回指山田刚去的图书馆，所以读书地点是图书馆。",
+      "distractor_rationales_zh": {
+        "B": "车站只出现在选项中。",
+        "C": "学校只出现在选项中。",
+        "D": "公司只出现在选项中。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-ellipsis-005-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "第二句没有切换话题，省略的主语仍是前一句的佐藤。",
+      "distractor_rationales_zh": {
+        "B": "老师是提交对象，不是省略的主语。",
+        "C": "田中没有出现在短文中。",
+        "D": "山田没有出现在短文中。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-mixed-006-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "最后一句回到木村的信息线；能在家读的是木村买的书，不是中村买的花。",
+      "distractor_rationales_zh": {
+        "B": "花属于中村的信息线，而且“读花”不合语境。",
+        "C": "文章没有提到信。",
+        "D": "文章没有提到面包。"
+      }
+    }
+  ]
+}

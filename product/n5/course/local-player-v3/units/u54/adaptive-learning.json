@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-054-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u54-group-01",
+      "title_zh": "アパート到階段",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1017760-v1",
+        "n5-vocabulary-jmdict-1070790-v1",
+        "n5-vocabulary-jmdict-1078630-v1",
+        "n5-vocabulary-jmdict-1203090-v1"
+      ],
+      "target_labels_zh": [
+        "アパート",
+        "ストーブ",
+        "テーブル",
+        "階段"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u54-group-02",
+      "title_zh": "玄関到台所",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1263400-v1",
+        "n5-vocabulary-jmdict-1522980-v1",
+        "n5-vocabulary-jmdict-1002100-v1",
+        "n5-vocabulary-jmdict-1412640-v1"
+      ],
+      "target_labels_zh": [
+        "玄関",
+        "本棚",
+        "お手洗い",
+        "台所"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u54-group-03",
+      "title_zh": "冷蔵庫到エレベーター",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1557110-v1",
+        "n5-vocabulary-jmdict-1030630-v1"
+      ],
+      "target_labels_zh": [
+        "冷蔵庫",
+        "エレベーター"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u54-checkpoint-vocab-1017760-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“公寓／公寓楼”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "B",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "C",
+          "text": "階段（かいだん）"
+        },
+        {
+          "option_id": "D",
+          "text": "アパート（アパート）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1070790-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“取暖炉”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "B",
+          "text": "階段（かいだん）"
+        },
+        {
+          "option_id": "C",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "D",
+          "text": "アパート（アパート）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1078630-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“桌子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "階段（かいだん）"
+        },
+        {
+          "option_id": "B",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "C",
+          "text": "アパート（アパート）"
+        },
+        {
+          "option_id": "D",
+          "text": "ストーブ（ストーブ）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1203090-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“楼梯”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "階段（かいだん）"
+        },
+        {
+          "option_id": "B",
+          "text": "アパート（アパート）"
+        },
+        {
+          "option_id": "C",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "D",
+          "text": "テーブル（テーブル）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1263400-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“玄关”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "アパート（アパート）"
+        },
+        {
+          "option_id": "B",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "C",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "D",
+          "text": "玄関（げんかん）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1522980-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“书架”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "B",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "C",
+          "text": "本棚（ほんだな）"
+        },
+        {
+          "option_id": "D",
+          "text": "アパート（アパート）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1002100-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“洗手间／厕所”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "B",
+          "text": "お手洗い（おてあらい）"
+        },
+        {
+          "option_id": "C",
+          "text": "アパート（アパート）"
+        },
+        {
+          "option_id": "D",
+          "text": "ストーブ（ストーブ）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1412640-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“厨房”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "台所（だいどころ）"
+        },
+        {
+          "option_id": "B",
+          "text": "アパート（アパート）"
+        },
+        {
+          "option_id": "C",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "D",
+          "text": "テーブル（テーブル）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1557110-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“冰箱”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "アパート（アパート）"
+        },
+        {
+          "option_id": "B",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "C",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "D",
+          "text": "冷蔵庫（れいぞうこ）"
+        }
+      ]
+    },
+    "n5-module-b-u54-checkpoint-vocab-1030630-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“电梯”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ストーブ（ストーブ）"
+        },
+        {
+          "option_id": "B",
+          "text": "テーブル（テーブル）"
+        },
+        {
+          "option_id": "C",
+          "text": "エレベーター（エレベーター）"
+        },
+        {
+          "option_id": "D",
+          "text": "アパート（アパート）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1017760-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1017760-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "B",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "C",
+          "text": "桌子"
+        },
+        {
+          "option_id": "A",
+          "text": "楼梯"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「アパート」的课程义。",
+      "prompt_ja": "アパートです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1070790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1070790-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "B",
+          "text": "桌子"
+        },
+        {
+          "option_id": "D",
+          "text": "楼梯"
+        },
+        {
+          "option_id": "C",
+          "text": "取暖炉"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ストーブ」的课程义。",
+      "prompt_ja": "ストーブです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1078630-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1078630-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "C",
+          "text": "楼梯"
+        },
+        {
+          "option_id": "B",
+          "text": "桌子"
+        },
+        {
+          "option_id": "D",
+          "text": "公寓／公寓楼"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「テーブル」的课程义。",
+      "prompt_ja": "テーブルです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1203090-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1203090-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "桌子"
+        },
+        {
+          "option_id": "A",
+          "text": "楼梯"
+        },
+        {
+          "option_id": "C",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "D",
+          "text": "取暖炉"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「階段」的课程义。",
+      "prompt_ja": "階段です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1263400-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1263400-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "玄关"
+        },
+        {
+          "option_id": "B",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "C",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "A",
+          "text": "桌子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「玄関」的课程义。",
+      "prompt_ja": "玄関です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1522980-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1522980-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "B",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "D",
+          "text": "桌子"
+        },
+        {
+          "option_id": "C",
+          "text": "书架"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「本棚」的课程义。",
+      "prompt_ja": "本棚です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1002100-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1002100-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "C",
+          "text": "桌子"
+        },
+        {
+          "option_id": "B",
+          "text": "洗手间／厕所"
+        },
+        {
+          "option_id": "D",
+          "text": "公寓／公寓楼"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「お手洗い」的课程义。",
+      "prompt_ja": "お手洗いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1412640-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1412640-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "桌子"
+        },
+        {
+          "option_id": "A",
+          "text": "厨房"
+        },
+        {
+          "option_id": "C",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "D",
+          "text": "取暖炉"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「台所」的课程义。",
+      "prompt_ja": "台所です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1557110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1557110-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "冰箱"
+        },
+        {
+          "option_id": "B",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "C",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "A",
+          "text": "桌子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「冷蔵庫」的课程义。",
+      "prompt_ja": "冷蔵庫です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u54-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u54-checkpoint-vocab-1030630-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1030630-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "公寓／公寓楼"
+        },
+        {
+          "option_id": "B",
+          "text": "取暖炉"
+        },
+        {
+          "option_id": "D",
+          "text": "桌子"
+        },
+        {
+          "option_id": "C",
+          "text": "电梯"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「エレベーター」的课程义。",
+      "prompt_ja": "エレベーターです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

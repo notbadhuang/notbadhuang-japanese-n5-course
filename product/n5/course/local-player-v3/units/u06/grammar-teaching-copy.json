@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-006-v3",
+  "items": {
+    "n5-module-b-u06-card-grammar-01-v1": {
+      "title_zh": "を表示直接宾语",
+      "learner_pattern_zh": "Nを他动词",
+      "explanation_zh": "标记动作直接作用的对象",
+      "connection_zh": "名词后接を并连接相应他动词",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "窓を開けます。",
+      "example_zh": "打开窗户。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "「を」标记动作直接作用的对象，现代标准语通常读作「お」。"
+    },
+    "n5-module-b-u06-card-grammar-02-v1": {
+      "title_zh": "动词礼貌体四种基本句末",
+      "learner_pattern_zh": "Vます／Vません／Vました／Vませんでした",
+      "explanation_zh": "表达动作的非过去肯定、非过去否定、过去肯定和过去否定",
+      "connection_zh": "从动词ます形词干接ます、ません、ました或ませんでした",
+      "term_note_zh": "只覆盖基础礼貌体时态和肯否，不把邀请ませんか、提议ましょう或普通形混入本对象",
+      "example_ja": "かぎを出しました。",
+      "example_zh": "拿出了钥匙。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "四种句末分别表达非过去肯定、非过去否定、过去肯定和过去否定；不在本对象中加入「ませんか」或「ましょう」。"
+    }
+  }
+}

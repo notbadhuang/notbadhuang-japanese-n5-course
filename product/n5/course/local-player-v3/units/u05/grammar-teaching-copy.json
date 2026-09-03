@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-005-v3",
+  "items": {
+    "n5-module-b-u05-card-grammar-01-v1": {
+      "title_zh": "人和动物的存在",
+      "learner_pattern_zh": "场所にNがいます",
+      "explanation_zh": "表达人或动物存在",
+      "connection_zh": "存在场所通常用に，存在主体用が",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "教室に先生がいます。",
+      "example_zh": "教室里有老师。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表达人或动物存在”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u05-card-grammar-02-v1": {
+      "title_zh": "や连接非穷尽列举",
+      "learner_pattern_zh": "N1やN2",
+      "explanation_zh": "列举若干代表项并暗示还有其他项",
+      "connection_zh": "名词之间使用や；与封闭列举と对比",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "かばんに本やノートがあります。",
+      "example_zh": "包里有书、笔记本等东西。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

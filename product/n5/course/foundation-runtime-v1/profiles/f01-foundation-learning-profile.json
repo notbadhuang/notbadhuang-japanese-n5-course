@@ -1,0 +1,443 @@
+{
+  "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+  "feedback_policy": {
+    "guided_practice": "retry_until_correct_with_immediate_feedback",
+    "incorrect_target_repair": "only_show_targets_answered_incorrectly",
+    "incorrect_target_retest": "one_reordered_shape_to_sound_item_per_incorrect_target",
+    "stage_checkpoint": "withhold_all_item_results_until_checkpoint_completion"
+  },
+  "guided_practice_modes": [
+    "direct_sound_to_shape",
+    "direct_shape_to_sound"
+  ],
+  "learner_copy": {
+    "batch_intro_body": "可以重复播放。听过整组后，再分别练习听音选字和看字选音。",
+    "batch_intro_title": "先听整组发音",
+    "checkpoint_intro_body": "下面15题会打乱同组提示，并且不逐题公布对错。答错的内容会在小测后单独短补和复测。",
+    "checkpoint_intro_title": "开始阶段小测",
+    "repair_body": "先重新听清楚这个假名，再用一道不同排列的题确认。",
+    "repair_title": "只补刚才答错的内容",
+    "retest_body": "听过三个选项后，选择和上方假名相符的发音。",
+    "retest_title": "换一道题，再试一次",
+    "unit_task_brief": "先分三组熟悉あ行、か行、さ行，再做一次不逐题公布答案的阶段小测。"
+  },
+  "micro_batches": [
+    {
+      "batch_number": 1,
+      "micro_batch_id": "u01-a-ka-sa-01",
+      "practice_item_ids": [
+        "n5-practice-u01-sound-to-shape-u3042-v1",
+        "n5-practice-u01-sound-to-shape-u3044-v1",
+        "n5-practice-u01-sound-to-shape-u3046-v1",
+        "n5-practice-u01-sound-to-shape-u3048-v1",
+        "n5-practice-u01-sound-to-shape-u304a-v1"
+      ],
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3042-u3044-u3046-u3048-u304a-v1",
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3042-u3044-u3046-u3048-u304a-v2",
+      "target_displays_ja": [
+        "あ",
+        "い",
+        "う",
+        "え",
+        "お"
+      ],
+      "target_ids": [
+        "n5-fnd-u01-target-u3042-v1",
+        "n5-fnd-u01-target-u3044-v1",
+        "n5-fnd-u01-target-u3046-v1",
+        "n5-fnd-u01-target-u3048-v1",
+        "n5-fnd-u01-target-u304a-v1"
+      ],
+      "title_zh": "第1组"
+    },
+    {
+      "articulation_support": {
+        "alt_zh": "か行共同起音的口腔侧面示意图，舌背抬起并贴住软腭",
+        "body_zh": "舌背抬起，贴住软腭；放开后接不同元音。",
+        "cta_label_zh": "开始本组练习",
+        "intro_body_zh": "不用记规则，先听清五个声音怎样连续出现。",
+        "intro_title_zh": "先完整听一遍「か行」",
+        "row_name_zh": "か行",
+        "support_kind": "shared_consonant_closure",
+        "title_zh": "共同的 /k/ 起音",
+        "visual_path": "product/n5/release-assets/foundation/f01/articulation/k-row-closure-f01-style-v2.png",
+        "visual_sha256": "5af0227d8b6c8ba96e5132a18adfbcee48e47e50bbbb6fd29113f670eebee6f8"
+      },
+      "batch_number": 2,
+      "micro_batch_id": "u01-a-ka-sa-02",
+      "practice_item_ids": [
+        "n5-practice-u01-sound-to-shape-u304b-v1",
+        "n5-practice-u01-sound-to-shape-u304d-v1",
+        "n5-practice-u01-sound-to-shape-u304f-v1",
+        "n5-practice-u01-sound-to-shape-u3051-v1",
+        "n5-practice-u01-sound-to-shape-u3053-v1"
+      ],
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u304b-u304d-u304f-u3051-u3053-v1",
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u304b-u304d-u304f-u3051-u3053-v2",
+      "target_displays_ja": [
+        "か",
+        "き",
+        "く",
+        "け",
+        "こ"
+      ],
+      "target_ids": [
+        "n5-fnd-u01-target-u304b-v1",
+        "n5-fnd-u01-target-u304d-v1",
+        "n5-fnd-u01-target-u304f-v1",
+        "n5-fnd-u01-target-u3051-v1",
+        "n5-fnd-u01-target-u3053-v1"
+      ],
+      "title_zh": "第2组"
+    },
+    {
+      "batch_number": 3,
+      "micro_batch_id": "u01-a-ka-sa-03",
+      "practice_item_ids": [
+        "n5-practice-u01-sound-to-shape-u3055-v1",
+        "n5-practice-u01-sound-to-shape-u3057-v1",
+        "n5-practice-u01-sound-to-shape-u3059-v1",
+        "n5-practice-u01-sound-to-shape-u305b-v1",
+        "n5-practice-u01-sound-to-shape-u305d-v1"
+      ],
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3055-u3057-u3059-u305b-u305d-v1",
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3055-u3057-u3059-u305b-u305d-v2",
+      "target_displays_ja": [
+        "さ",
+        "し",
+        "す",
+        "せ",
+        "そ"
+      ],
+      "target_ids": [
+        "n5-fnd-u01-target-u3055-v1",
+        "n5-fnd-u01-target-u3057-v1",
+        "n5-fnd-u01-target-u3059-v1",
+        "n5-fnd-u01-target-u305b-v1",
+        "n5-fnd-u01-target-u305d-v1"
+      ],
+      "title_zh": "第3组"
+    }
+  ],
+  "phase_order": [
+    "micro_batch_audio_exposure",
+    "approved_single_kana_detailed_learning",
+    "micro_batch_immediate_feedback_practice",
+    "stage_checkpoint_without_item_feedback",
+    "incorrect_target_brief_repair",
+    "incorrect_target_reordered_retest",
+    "result_mapping"
+  ],
+  "profile_id": "n5-foundation-f01-audio-first-profile-v1",
+  "repair_guidance_by_target": {
+    "n5-fnd-u01-target-u3042-v1": {
+      "hint_zh": "嘴巴自然张开，舌头放松，声音短而清楚。",
+      "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/a.png",
+      "source_kanji": "安"
+    },
+    "n5-fnd-u01-target-u3044-v1": {
+      "hint_zh": "嘴角轻轻向两侧展开，舌位比「あ」更靠前。",
+      "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/i.png",
+      "source_kanji": "以"
+    },
+    "n5-fnd-u01-target-u3046-v1": {
+      "hint_zh": "嘴唇轻收但不要用力噘起，舌头自然靠后。",
+      "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/u.png",
+      "source_kanji": "宇"
+    },
+    "n5-fnd-u01-target-u3048-v1": {
+      "hint_zh": "嘴巴开度介于「あ」和「い」之间，保持自然。",
+      "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/e.png",
+      "source_kanji": "衣"
+    },
+    "n5-fnd-u01-target-u304a-v1": {
+      "hint_zh": "嘴唇自然收圆，开口不要过大。",
+      "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/o.png",
+      "source_kanji": "於"
+    }
+  },
+  "result_mapping": {
+    "answered_count_source": "stage_checkpoint_responses",
+    "correct_count_source": "server_side_stage_checkpoint_evaluation",
+    "delayed_review_target_ids_source": "stage_checkpoint_correct_targets_plus_recovered_targets",
+    "mastery_claim": "not_inferred_from_single_session",
+    "recovered_target_ids_source": "incorrect_target_retest_correct_targets",
+    "unresolved_target_ids_source": "incorrect_target_retest_incorrect_targets"
+  },
+  "schema_version": 1,
+  "single_kana_learning_batches": [
+    {
+      "items": [
+        {
+          "cta_label_zh": "继续学「い」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-40ae6dddb10aa4bd-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "朝",
+            "l2_object_id": "n5-vocabulary-jmdict-1428280-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-40ae6dddb10aa4bd-v2.mp3",
+            "script_ja": "あさ",
+            "sha256": "cbeaa8ba2e3128fa6245138ea0f657f275442be78a479a054262e9599a6fcd73",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "早晨",
+          "example_reading_ja": "あさ",
+          "example_written_ja": "朝",
+          "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/a.png",
+          "pronunciation_hint_zh": "嘴巴自然打开，舌头放松，短而清楚地发音。不要刻意把嘴张得很大。",
+          "source_kanji": "安",
+          "stroke_count": 3,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/03042.svg",
+          "target_id": "n5-fnd-u01-target-u3042-v1"
+        },
+        {
+          "cta_label_zh": "继续学「う」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-fa3db4e904e0a34d-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "いす",
+            "l2_object_id": "n5-vocabulary-jmdict-1157070-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-fa3db4e904e0a34d-v2.mp3",
+            "script_ja": "いす",
+            "sha256": "ddc92fd46567b55959c865974e8287294d294d08f49dd5c706e453e4a5edfd7b",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "椅子",
+          "example_reading_ja": "いす",
+          "example_written_ja": "いす",
+          "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/i.png",
+          "pronunciation_hint_zh": "嘴角轻轻向两侧展开，舌位靠前；保持自然，不要咬紧牙齿。",
+          "source_kanji": "以",
+          "stroke_count": 2,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/03044.svg",
+          "target_id": "n5-fnd-u01-target-u3044-v1"
+        },
+        {
+          "cta_label_zh": "继续学「え」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-c563c884f48f2f37-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "歌",
+            "l2_object_id": "n5-vocabulary-jmdict-1193180-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-c563c884f48f2f37-v2.mp3",
+            "script_ja": "うた",
+            "sha256": "506cbf5abf9c605a6746e74ff4cea0147915ea2a318fff730d0c1372097afbd3",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "歌曲",
+          "example_reading_ja": "うた",
+          "example_written_ja": "歌",
+          "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/u.png",
+          "pronunciation_hint_zh": "嘴唇轻收但不要用力噘起，舌头自然靠后，声音保持短而轻。",
+          "source_kanji": "宇",
+          "stroke_count": 2,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/03046.svg",
+          "target_id": "n5-fnd-u01-target-u3046-v1"
+        },
+        {
+          "cta_label_zh": "继续学「お」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-d29031265cf4e338-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "駅",
+            "l2_object_id": "n5-vocabulary-jmdict-1175140-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-d29031265cf4e338-v2.mp3",
+            "script_ja": "えき",
+            "sha256": "67ff9e4a4653df4008614fa115c9730d614a7ee7d3ed3b8802af393838877c4e",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "车站",
+          "example_reading_ja": "えき",
+          "example_written_ja": "駅",
+          "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/e.png",
+          "pronunciation_hint_zh": "嘴巴开度介于「あ」和「い」之间，舌头靠前，整体保持自然。",
+          "source_kanji": "衣",
+          "stroke_count": 2,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/03048.svg",
+          "target_id": "n5-fnd-u01-target-u3048-v1"
+        },
+        {
+          "cta_label_zh": "进入本组练习",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-3841b646739fe4da-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "お菓子",
+            "l2_object_id": "n5-vocabulary-jmdict-1001710-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-3841b646739fe4da-v2.mp3",
+            "script_ja": "おかし",
+            "sha256": "f95ab5cdff5d9e069c8bd9067272ec7a6877511b984857009ae9ed77699ef299",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "点心",
+          "example_reading_ja": "おかし",
+          "example_written_ja": "お菓子",
+          "mouth_visual_path": "product/n5/release-assets/foundation/f01/mouth/o.png",
+          "pronunciation_hint_zh": "嘴唇自然收圆，开口不要过大；声音从口腔后部自然送出。",
+          "source_kanji": "於",
+          "stroke_count": 3,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/0304a.svg",
+          "target_id": "n5-fnd-u01-target-u304a-v1"
+        }
+      ],
+      "micro_batch_id": "u01-a-ka-sa-01",
+      "presentation_kind": "vowel_with_mouth",
+      "stroke_source": {
+        "homepage": "https://kanjivg.tagaini.net/",
+        "license": "CC BY-SA 3.0",
+        "license_path": "THIRD_PARTY_LICENSES/KanjiVG-CC-BY-SA-3.0.txt",
+        "name": "KanjiVG",
+        "repository": "https://github.com/KanjiVG/kanjivg",
+        "retrieved_at": "2026-09-01"
+      }
+    },
+    {
+      "items": [
+        {
+          "cta_label_zh": "继续学「き」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-e58fdfd2a16bd6dc-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "傘",
+            "l2_object_id": "n5-vocabulary-jmdict-1301940-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-e58fdfd2a16bd6dc-v2.mp3",
+            "script_ja": "かさ",
+            "sha256": "9566894f17a3202b7b84b3a9226609de4db88baad0bd63a8c0360d19a190077b",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "伞",
+          "example_reading_ja": "かさ",
+          "example_written_ja": "傘",
+          "pronunciation_hint_zh": "舌后部短暂贴住软腭，放开后立刻接「あ」。中间不要多出额外元音。",
+          "romanization": "ka",
+          "source_kanji": "加",
+          "stroke_count": 3,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/0304b.svg",
+          "target_id": "n5-fnd-u01-target-u304b-v1",
+          "vowel_kana": "あ"
+        },
+        {
+          "cta_label_zh": "继续学「く」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-a5d390dc48050f6a-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "木",
+            "l2_object_id": "n5-vocabulary-jmdict-1534520-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-a5d390dc48050f6a-v2.mp3",
+            "script_ja": "き",
+            "sha256": "a525cef253565fbf8ea4f473c50eff7ff2d583b2a80e6f046612512f66b52ee2",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "树木",
+          "example_reading_ja": "き",
+          "example_written_ja": "木",
+          "pronunciation_hint_zh": "舌后部短暂贴住软腭，放开后立刻接「い」。中间不要多出额外元音。",
+          "romanization": "ki",
+          "source_kanji": "幾",
+          "stroke_count": 4,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/0304d.svg",
+          "target_id": "n5-fnd-u01-target-u304d-v1",
+          "vowel_kana": "い"
+        },
+        {
+          "cta_label_zh": "继续学「け」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-9e64feeea5ea4d4d-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "口",
+            "l2_object_id": "n5-vocabulary-jmdict-1275640-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-9e64feeea5ea4d4d-v2.mp3",
+            "script_ja": "くち",
+            "sha256": "6249e96e941f25925d3347fa41160ceaf1f36ddbb038b49dd3ea6e17c4382662",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "嘴／口",
+          "example_reading_ja": "くち",
+          "example_written_ja": "口",
+          "pronunciation_hint_zh": "舌后部短暂贴住软腭，放开后立刻接「う」。中间不要多出额外元音。",
+          "romanization": "ku",
+          "source_kanji": "久",
+          "stroke_count": 1,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/0304f.svg",
+          "target_id": "n5-fnd-u01-target-u304f-v1",
+          "vowel_kana": "う"
+        },
+        {
+          "cta_label_zh": "继续学「こ」",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-c290e4d3a56ea206-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "今朝",
+            "l2_object_id": "n5-vocabulary-jmdict-1579100-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-c290e4d3a56ea206-v2.mp3",
+            "script_ja": "けさ",
+            "sha256": "ebd8036ce9c4f7c792b68a34c423ec18882690df3edc3aac3cceda732600d469",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "今天早晨",
+          "example_reading_ja": "けさ",
+          "example_written_ja": "今朝",
+          "pronunciation_hint_zh": "舌后部短暂贴住软腭，放开后立刻接「え」。中间不要多出额外元音。",
+          "romanization": "ke",
+          "source_kanji": "計",
+          "stroke_count": 3,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/03051.svg",
+          "target_id": "n5-fnd-u01-target-u3051-v1",
+          "vowel_kana": "え"
+        },
+        {
+          "cta_label_zh": "进入本组练习",
+          "example_audio": {
+            "asset_id": "n5-vocab-audio-135a822fbf3ae456-v2",
+            "binding_registry": "product/n5/audio/vocabulary-v2/bindings.jsonl",
+            "form": "声",
+            "l2_object_id": "n5-vocabulary-jmdict-1380440-v1",
+            "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-135a822fbf3ae456-v2.mp3",
+            "script_ja": "こえ",
+            "sha256": "325862c68519b5d7b80166f7e4609eb0305c349bc23ec0ed8ef3c28143ed7ea2",
+            "speaking_rate": 1.0
+          },
+          "example_meaning_zh": "声音／嗓音",
+          "example_reading_ja": "こえ",
+          "example_written_ja": "声",
+          "pronunciation_hint_zh": "舌后部短暂贴住软腭，放开后立刻接「お」。中间不要多出额外元音。",
+          "romanization": "ko",
+          "source_kanji": "己",
+          "stroke_count": 2,
+          "stroke_svg_path": "product/n5/release-assets/foundation/f01/kanjivg/03053.svg",
+          "target_id": "n5-fnd-u01-target-u3053-v1",
+          "vowel_kana": "お"
+        }
+      ],
+      "micro_batch_id": "u01-a-ka-sa-02",
+      "presentation_kind": "consonant_without_mouth",
+      "sound_onset_ipa": "/k/",
+      "stroke_source": {
+        "homepage": "https://kanjivg.tagaini.net/",
+        "license": "CC BY-SA 3.0",
+        "license_path": "THIRD_PARTY_LICENSES/KanjiVG-CC-BY-SA-3.0.txt",
+        "name": "KanjiVG",
+        "repository": "https://github.com/KanjiVG/kanjivg",
+        "retrieved_at": "2026-09-02"
+      }
+    }
+  ],
+  "stage_checkpoint_item_ids": [
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3042-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3044-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3046-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3048-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304a-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304b-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304d-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304f-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3051-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3053-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3055-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3057-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3059-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u305b-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u305d-v1"
+  ],
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-foundation-hiragana-a-ka-sa-v1"
+}

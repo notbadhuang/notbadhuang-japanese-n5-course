@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-014-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u14-group-01",
+      "title_zh": "電話到呼ぶ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1443840-v1",
+        "n5-vocabulary-jmdict-1362360-v1",
+        "n5-vocabulary-jmdict-1156800-v1",
+        "n5-vocabulary-jmdict-1266440-v1"
+      ],
+      "target_labels_zh": [
+        "電話",
+        "新聞",
+        "意味",
+        "呼ぶ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u14-group-02",
+      "title_zh": "知る到ポスト",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1420470-v1",
+        "n5-vocabulary-jmdict-1587040-v1",
+        "n5-vocabulary-jmdict-1591110-v1",
+        "n5-vocabulary-jmdict-1125150-v1"
+      ],
+      "target_labels_zh": [
+        "知る",
+        "言う",
+        "聞く",
+        "ポスト"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u14-group-03",
+      "title_zh": "かける到引用内容＋と＋言う等",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1207610-v1",
+        "n5-vocabulary-jmdict-1259210-v1",
+        "n5-vocabulary-jmdict-1327720-v1",
+        "n5-grammar-offer-mashouka-v1",
+        "n5-grammar-particle-to-quotation-v1"
+      ],
+      "target_labels_zh": [
+        "かける",
+        "見せる",
+        "手紙",
+        "Vましょうか",
+        "引用内容＋と＋言う等"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u14-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "主动提出由说话人做某事"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "主动提出由说话人做某事。基本形式是Vましょうか。动词ます形词干后接ましょうか。"
+    },
+    "n5-module-b-u14-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "标记说话、思考或称呼的内容"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "标记说话、思考或称呼的内容。基本形式是引用内容＋と＋言う等。引用内容后接と并连接有限的引用动词。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u14-checkpoint-vocab-1443840-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“电话／通话”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "B",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "呼ぶ（よぶ）"
+        },
+        {
+          "option_id": "D",
+          "text": "電話（でんわ）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1362360-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“报纸”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "B",
+          "text": "呼ぶ（よぶ）"
+        },
+        {
+          "option_id": "C",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "D",
+          "text": "電話（でんわ）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1156800-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“意思”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "呼ぶ（よぶ）"
+        },
+        {
+          "option_id": "B",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "D",
+          "text": "新聞（しんぶん）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1266440-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“呼喊／叫”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "呼ぶ（よぶ）"
+        },
+        {
+          "option_id": "B",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "C",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "D",
+          "text": "意味（いみ）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1420470-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“知道／得知”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "B",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "C",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "D",
+          "text": "知る（しる）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1587040-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“说”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "B",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "言う（いう）"
+        },
+        {
+          "option_id": "D",
+          "text": "電話（でんわ）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1591110-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“听见”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "B",
+          "text": "聞く（きく）"
+        },
+        {
+          "option_id": "C",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "D",
+          "text": "新聞（しんぶん）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1125150-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“邮筒／信箱”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ポスト（ポスト）"
+        },
+        {
+          "option_id": "B",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "C",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "D",
+          "text": "意味（いみ）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1207610-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“打电话”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "B",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "C",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "D",
+          "text": "かける（かける）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1259210-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“给……看／展示”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "新聞（しんぶん）"
+        },
+        {
+          "option_id": "B",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "見せる（みせる）"
+        },
+        {
+          "option_id": "D",
+          "text": "電話（でんわ）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-vocab-1327720-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“信”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "意味（いみ）"
+        },
+        {
+          "option_id": "B",
+          "text": "手紙（てがみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "電話（でんわ）"
+        },
+        {
+          "option_id": "D",
+          "text": "新聞（しんぶん）"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“主动提出由说话人做某事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "Vましょうか"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    },
+    "n5-module-b-u14-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“标记说话、思考或称呼的内容”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "引用内容＋と＋言う等"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1443840-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1443840-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "B",
+          "text": "报纸"
+        },
+        {
+          "option_id": "C",
+          "text": "意思"
+        },
+        {
+          "option_id": "A",
+          "text": "呼喊／叫"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「電話」的课程义。",
+      "prompt_ja": "電話で話します。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1362360-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1362360-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "B",
+          "text": "意思"
+        },
+        {
+          "option_id": "D",
+          "text": "呼喊／叫"
+        },
+        {
+          "option_id": "C",
+          "text": "报纸"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「新聞」的课程义。",
+      "prompt_ja": "新聞です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1156800-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1156800-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "报纸"
+        },
+        {
+          "option_id": "C",
+          "text": "呼喊／叫"
+        },
+        {
+          "option_id": "B",
+          "text": "意思"
+        },
+        {
+          "option_id": "D",
+          "text": "电话／通话"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「意味」的课程义。",
+      "prompt_ja": "意味です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1266440-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1266440-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "意思"
+        },
+        {
+          "option_id": "A",
+          "text": "呼喊／叫"
+        },
+        {
+          "option_id": "C",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "D",
+          "text": "报纸"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「呼ぶ」的课程义。",
+      "prompt_ja": "友達の名前を呼びます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1420470-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1420470-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "知道／得知"
+        },
+        {
+          "option_id": "B",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "C",
+          "text": "报纸"
+        },
+        {
+          "option_id": "A",
+          "text": "意思"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「知る」的课程义。",
+      "prompt_ja": "それを知っています。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1587040-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1587040-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "B",
+          "text": "报纸"
+        },
+        {
+          "option_id": "D",
+          "text": "意思"
+        },
+        {
+          "option_id": "C",
+          "text": "说"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「言う」的课程义。",
+      "prompt_ja": "名前を言います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1591110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1591110-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "报纸"
+        },
+        {
+          "option_id": "C",
+          "text": "意思"
+        },
+        {
+          "option_id": "B",
+          "text": "听见"
+        },
+        {
+          "option_id": "D",
+          "text": "电话／通话"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「聞く」的课程义。",
+      "prompt_ja": "外で変な音を聞きました。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1125150-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1125150-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "意思"
+        },
+        {
+          "option_id": "A",
+          "text": "邮筒／信箱"
+        },
+        {
+          "option_id": "C",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "D",
+          "text": "报纸"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ポスト」的课程义。",
+      "prompt_ja": "ポストです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1207610-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1207610-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "打电话"
+        },
+        {
+          "option_id": "B",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "C",
+          "text": "报纸"
+        },
+        {
+          "option_id": "A",
+          "text": "意思"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「かける」的课程义。",
+      "prompt_ja": "電話をかけます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1259210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1259210-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "电话／通话"
+        },
+        {
+          "option_id": "B",
+          "text": "报纸"
+        },
+        {
+          "option_id": "D",
+          "text": "意思"
+        },
+        {
+          "option_id": "C",
+          "text": "给……看／展示"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「見せる」的课程义。",
+      "prompt_ja": "写真を見せます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-vocab-1327720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1327720-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "报纸"
+        },
+        {
+          "option_id": "C",
+          "text": "意思"
+        },
+        {
+          "option_id": "B",
+          "text": "信"
+        },
+        {
+          "option_id": "D",
+          "text": "电话／通话"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「手紙」的课程义。",
+      "prompt_ja": "手紙です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-offer-mashouka-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "主动提出由说话人做某事"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "荷物を持ちましょうか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u14-recovery-13-v1",
+      "source_checkpoint_item_id": "n5-module-b-u14-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-particle-to-quotation-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "标记说话、思考或称呼的内容"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "先生は「明日、テストです」と言いました。"
+    }
+  ],
+  "embedded_support_placements": []
+}

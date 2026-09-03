@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-011-v3",
+  "items": {
+    "n5-module-b-u11-card-grammar-01-v1": {
+      "title_zh": "用が标记主语或新信息焦点",
+      "learner_pattern_zh": "Nが述部",
+      "explanation_zh": "标记被说明的主语，尤其用于疑问词及其回答中的新信息",
+      "connection_zh": "名词后接が，再接说明该名词的述部",
+      "term_note_zh": "先固定主语和新信息这一最小功能；は／が的完整信息结构对比只做必要提示，不扩写成高级专题",
+      "example_ja": "先生が来ます。",
+      "example_zh": "老师来了／会来。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "先固定主语和新信息这一最小功能；は／が的完整信息结构对比只做必要提示，不扩写成高级专题"
+    }
+  }
+}

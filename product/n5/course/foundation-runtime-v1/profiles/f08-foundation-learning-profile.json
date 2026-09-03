@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "profile_id": "n5-foundation-f08-audio-first-profile-v1",
+  "status": "validation_candidate_not_active",
+  "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+  "work_unit_id": "n5-work-unit-foundation-katakana-diacritics-and-active-extensions-v1",
+  "phase_order": [
+    "micro_batch_audio_exposure",
+    "micro_batch_immediate_feedback_practice",
+    "stage_checkpoint_without_item_feedback",
+    "incorrect_target_brief_repair",
+    "incorrect_target_reordered_retest",
+    "result_mapping"
+  ],
+  "guided_practice_modes": [
+    "direct_sound_to_shape",
+    "direct_shape_to_sound"
+  ],
+  "micro_batches": [
+    {
+      "batch_number": 1,
+      "micro_batch_id": "u08-voiced-01",
+      "title_zh": "第1组",
+      "target_ids": [
+        "n5-fnd-u08-target-u30ac-v1",
+        "n5-fnd-u08-target-u30ae-v1",
+        "n5-fnd-u08-target-u30b0-v1",
+        "n5-fnd-u08-target-u30b2-v1",
+        "n5-fnd-u08-target-u30b4-v1"
+      ],
+      "target_displays_ja": [
+        "ガ",
+        "ギ",
+        "グ",
+        "ゲ",
+        "ゴ"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u304c-u304e-u3050-u3052-u3054-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u304c-u304e-u3050-u3052-u3054-v1",
+      "practice_item_ids": [
+        "n5-practice-u08-sound-to-shape-u30ac-v1",
+        "n5-practice-u08-sound-to-shape-u30ae-v1",
+        "n5-practice-u08-sound-to-shape-u30b0-v1",
+        "n5-practice-u08-sound-to-shape-u30b2-v1",
+        "n5-practice-u08-sound-to-shape-u30b4-v1"
+      ]
+    },
+    {
+      "batch_number": 2,
+      "micro_batch_id": "u08-voiced-02",
+      "title_zh": "第2组",
+      "target_ids": [
+        "n5-fnd-u08-target-u30b6-v1",
+        "n5-fnd-u08-target-u30b8-v1",
+        "n5-fnd-u08-target-u30ba-v1",
+        "n5-fnd-u08-target-u30bc-v1",
+        "n5-fnd-u08-target-u30be-v1"
+      ],
+      "target_displays_ja": [
+        "ザ",
+        "ジ",
+        "ズ",
+        "ゼ",
+        "ゾ"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3056-u3058-u305a-u305c-u305e-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3056-u3058-u305a-u305c-u305e-v1",
+      "practice_item_ids": [
+        "n5-practice-u08-sound-to-shape-u30b6-v1",
+        "n5-practice-u08-sound-to-shape-u30b8-v1",
+        "n5-practice-u08-sound-to-shape-u30ba-v1",
+        "n5-practice-u08-sound-to-shape-u30bc-v1",
+        "n5-practice-u08-sound-to-shape-u30be-v1"
+      ]
+    },
+    {
+      "batch_number": 3,
+      "micro_batch_id": "u08-voiced-03",
+      "title_zh": "第3组",
+      "target_ids": [
+        "n5-fnd-u08-target-u30c0-v1",
+        "n5-fnd-u08-target-u30c2-v1",
+        "n5-fnd-u08-target-u30c5-v1",
+        "n5-fnd-u08-target-u30c7-v1",
+        "n5-fnd-u08-target-u30c9-v1"
+      ],
+      "target_displays_ja": [
+        "ダ",
+        "ヂ",
+        "ヅ",
+        "デ",
+        "ド"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3060-u3062-u3065-u3067-u3069-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3060-u3062-u3065-u3067-u3069-v1",
+      "practice_item_ids": [
+        "n5-practice-u08-sound-to-shape-u30c0-v1",
+        "n5-practice-u08-sound-to-shape-u30c2-v1",
+        "n5-practice-u08-sound-to-shape-u30c5-v1",
+        "n5-practice-u08-sound-to-shape-u30c7-v1",
+        "n5-practice-u08-sound-to-shape-u30c9-v1"
+      ]
+    },
+    {
+      "batch_number": 4,
+      "micro_batch_id": "u08-voiced-04",
+      "title_zh": "第4组",
+      "target_ids": [
+        "n5-fnd-u08-target-u30d0-v1",
+        "n5-fnd-u08-target-u30d3-v1",
+        "n5-fnd-u08-target-u30d6-v1",
+        "n5-fnd-u08-target-u30d9-v1",
+        "n5-fnd-u08-target-u30dc-v1"
+      ],
+      "target_displays_ja": [
+        "バ",
+        "ビ",
+        "ブ",
+        "ベ",
+        "ボ"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3070-u3073-u3076-u3079-u307c-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3070-u3073-u3076-u3079-u307c-v1",
+      "practice_item_ids": [
+        "n5-practice-u08-sound-to-shape-u30d0-v1",
+        "n5-practice-u08-sound-to-shape-u30d3-v1",
+        "n5-practice-u08-sound-to-shape-u30d6-v1",
+        "n5-practice-u08-sound-to-shape-u30d9-v1",
+        "n5-practice-u08-sound-to-shape-u30dc-v1"
+      ]
+    },
+    {
+      "batch_number": 5,
+      "micro_batch_id": "u08-semi-voiced-01",
+      "title_zh": "第5组",
+      "target_ids": [
+        "n5-fnd-u08-target-u30d1-v1",
+        "n5-fnd-u08-target-u30d4-v1",
+        "n5-fnd-u08-target-u30d7-v1",
+        "n5-fnd-u08-target-u30da-v1",
+        "n5-fnd-u08-target-u30dd-v1"
+      ],
+      "target_displays_ja": [
+        "パ",
+        "ピ",
+        "プ",
+        "ペ",
+        "ポ"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3071-u3074-u3077-u307a-u307d-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3071-u3074-u3077-u307a-u307d-v1",
+      "practice_item_ids": [
+        "n5-practice-u08-sound-to-shape-u30d1-v1",
+        "n5-practice-u08-sound-to-shape-u30d4-v1",
+        "n5-practice-u08-sound-to-shape-u30d7-v1",
+        "n5-practice-u08-sound-to-shape-u30da-v1",
+        "n5-practice-u08-sound-to-shape-u30dd-v1"
+      ]
+    },
+    {
+      "batch_number": 6,
+      "micro_batch_id": "u08-active-extension-ti-fi-fo-01",
+      "title_zh": "第6组",
+      "target_ids": [
+        "n5-fnd-u08-target-u30c6-u30a3-v1",
+        "n5-fnd-u08-target-u30d5-u30a3-v1",
+        "n5-fnd-u08-target-u30d5-u30a9-v1"
+      ],
+      "target_displays_ja": [
+        "ティ",
+        "フィ",
+        "フォ"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3066-u3043-u3075-u3043-u3075-u3049-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u3066-u3043-u3075-u3043-u3075-u3049-v1",
+      "practice_item_ids": [
+        "n5-practice-u08-sound-to-shape-u30c6-u30a3-v1",
+        "n5-practice-u08-sound-to-shape-u30d5-u30a3-v1",
+        "n5-practice-u08-sound-to-shape-u30d5-u30a9-v1"
+      ]
+    }
+  ],
+  "stage_checkpoint_item_ids": [
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30ac-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30ae-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30b0-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30b2-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30b4-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30b6-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30b8-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30ba-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30bc-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30be-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30c0-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30c2-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30c5-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30c7-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30c9-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d0-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d3-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d6-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d9-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30dc-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d1-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d4-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d7-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30da-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30dd-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30c6-u30a3-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d5-u30a3-v1",
+    "n5-checkpoint-stage-02-sound-to-shape-n5-fnd-u08-target-u30d5-u30a9-v1"
+  ],
+  "feedback_policy": {
+    "guided_practice": "retry_until_correct_with_immediate_feedback",
+    "stage_checkpoint": "withhold_all_item_results_until_checkpoint_completion",
+    "incorrect_target_repair": "only_show_targets_answered_incorrectly",
+    "incorrect_target_retest": "one_reordered_shape_to_sound_item_per_incorrect_target"
+  },
+  "repair_guidance_by_target": {},
+  "learner_copy": {
+    "unit_task_brief": "按组熟悉片假名：浊半浊音与当前扩展组合，完成双向练习和一次不逐题公布答案的阶段小测。",
+    "batch_intro_title": "先听整组发音",
+    "batch_intro_body": "可以重复播放。听过整组后，再分别练习听音选字和看字选音。",
+    "checkpoint_intro_title": "开始阶段小测",
+    "checkpoint_intro_body": "下面28题会打乱同组提示，并且不逐题公布对错。答错的内容会在小测后单独短补和复测。",
+    "repair_title": "只补刚才答错的内容",
+    "repair_body": "重新听清楚这个假名或组合音，再用一道不同排列的题确认。",
+    "retest_title": "换一道题，再试一次",
+    "retest_body": "听过三个选项后，选择和上方写法相符的发音。"
+  },
+  "result_mapping": {
+    "answered_count_source": "stage_checkpoint_responses",
+    "correct_count_source": "server_side_stage_checkpoint_evaluation",
+    "recovered_target_ids_source": "incorrect_target_retest_correct_targets",
+    "delayed_review_target_ids_source": "stage_checkpoint_correct_targets_plus_recovered_targets",
+    "unresolved_target_ids_source": "incorrect_target_retest_incorrect_targets",
+    "mastery_claim": "not_inferred_from_single_session"
+  }
+}

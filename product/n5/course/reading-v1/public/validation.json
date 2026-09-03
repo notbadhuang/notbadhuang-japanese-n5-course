@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "candidate_id": "n5-g3-reading-validation-v1",
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-reading-validation-v1",
+  "display_title_zh": "独立阅读检查",
+  "delivery_surface": "localhost_desktop_browser",
+  "audio_allowed": false,
+  "pools": {
+    "stage_check": [
+      {
+        "item_id": "n5-g3-reading-stage-check-001-v1",
+        "stimulus_id": "n5-g3-reading-stage-check-stimulus-001-v1",
+        "unit_code": "R01",
+        "exposure_domain": "stage_check",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "田中さんは七時に駅へ行きます。山田さんは八時に学校へ行きます。"
+        },
+        "prompt_zh": "田中几点去车站？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "七時"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "八時"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "九時"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "十時"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-explicit-fact-binding-v1",
+        "supporting_l2_object_ids": [],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_submission"
+      },
+      {
+        "item_id": "n5-g3-reading-stage-check-002-v1",
+        "stimulus_id": "n5-g3-reading-stage-check-stimulus-002-v1",
+        "unit_code": "R02",
+        "exposure_domain": "stage_check",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "この店は木曜日は休みです。金曜日と土曜日は午後七時まで開いています。"
+        },
+        "prompt_zh": "哪一天不能去这家店？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "木曜日"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "金曜日"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "土曜日"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "金曜日と土曜日"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-condition-negation-contrast-v1",
+        "supporting_l2_object_ids": [],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_submission"
+      },
+      {
+        "item_id": "n5-g3-reading-stage-check-003-v1",
+        "stimulus_id": "n5-g3-reading-stage-check-stimulus-003-v1",
+        "unit_code": "R02",
+        "exposure_domain": "stage_check",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "朝ご飯を食べてから、駅で友達に会います。それから、いっしょに学校へ行きます。"
+        },
+        "prompt_zh": "吃完早饭后，接下来先做什么？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "学校へ行きます。"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "駅で友達に会います。"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "家へ帰ります。"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "店へ行きます。"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-chronology-v1",
+        "supporting_l2_object_ids": [],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_submission"
+      },
+      {
+        "item_id": "n5-g3-reading-stage-check-004-v1",
+        "stimulus_id": "n5-g3-reading-stage-check-stimulus-004-v1",
+        "unit_code": "R03",
+        "exposure_domain": "stage_check",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "日曜日、家族と公園へ行くつもりでした。でも、朝から雨でした。ですから、家で映画を見て、いっしょに晩ご飯を作りました。"
+        },
+        "prompt_zh": "这段话主要在说什么？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "日曜日に家で何をしたか"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "公園はどこにあるか"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "映画は何時からか"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "晩ご飯はいくらか"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-main-intent-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-reason-result-action-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_submission"
+      },
+      {
+        "item_id": "n5-g3-reading-stage-check-005-v1",
+        "stimulus_id": "n5-g3-reading-stage-check-stimulus-005-v1",
+        "unit_code": "R04",
+        "exposure_domain": "stage_check",
+        "stimulus": {
+          "kind": "memo",
+          "addressee_ja": "小川さんへ",
+          "lines_ja": [
+            "会議は午後三時からです。",
+            "二時五十分までに三階へ来てください。"
+          ],
+          "sender_ja": "中村"
+        },
+        "prompt_zh": "小川最晚应在几点前到三楼？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "二時三十分"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "二時五十分"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "三時"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "三時五十分"
+          }
+        ],
+        "primary_l2_object_id": "n5-document-message-memo-v1",
+        "supporting_l2_object_ids": [],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_submission"
+      },
+      {
+        "item_id": "n5-g3-reading-stage-check-006-v1",
+        "stimulus_id": "n5-g3-reading-stage-check-stimulus-006-v1",
+        "unit_code": "R04",
+        "exposure_domain": "stage_check",
+        "stimulus": {
+          "kind": "table",
+          "title_ja": "図書館へ行くバス",
+          "columns_ja": [
+            "バス",
+            "駅を出ます",
+            "図書館に着きます"
+          ],
+          "rows": [
+            [
+              "一番",
+              "9:05",
+              "9:35"
+            ],
+            [
+              "二番",
+              "9:25",
+              "9:55"
+            ],
+            [
+              "三番",
+              "9:45",
+              "10:15"
+            ]
+          ]
+        },
+        "prompt_zh": "十点前到图书馆，最晚可以坐哪班车？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "一番"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "二番"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "三番"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "どれもだめです"
+          }
+        ],
+        "primary_l2_object_id": "n5-document-schedule-timetable-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-query-to-constraints-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_submission"
+      }
+    ],
+    "hidden_validation": [
+      {
+        "item_id": "n5-g3-reading-hidden-validation-001-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-001-v1",
+        "unit_code": "R01",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "母は店で新しい傘を買いました。それを父に見せました。"
+        },
+        "prompt_zh": "「それ」指什么？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "店"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "新しい傘"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "母"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "父"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-reference-and-ellipsis-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-explicit-fact-binding-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      },
+      {
+        "item_id": "n5-g3-reading-hidden-validation-002-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-002-v1",
+        "unit_code": "R02",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "今日は雪ですから、自転車に乗りません。電車で会社へ行きます。"
+        },
+        "prompt_zh": "为什么不骑自行车？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "雪ですから。"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "電車が休みですから。"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "会社が休みですから。"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "自転車が高いですから。"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-reason-result-action-v1",
+        "supporting_l2_object_ids": [],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      },
+      {
+        "item_id": "n5-g3-reading-hidden-validation-003-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-003-v1",
+        "unit_code": "R03",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "きのう、弟の誕生日でした。私は学校の帰りにケーキを買いました。家では母が弟の好きな料理を作りました。夜、みんなで食べて、写真を撮りました。"
+        },
+        "prompt_zh": "作者主要在讲什么？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "弟の誕生日に家族がしたこと"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "学校の授業の時間"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "ケーキの店の場所"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "写真のお金"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-main-intent-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-chronology-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      },
+      {
+        "item_id": "n5-g3-reading-hidden-validation-004-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-004-v1",
+        "unit_code": "R04",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "passage",
+          "text_ja": "土曜日の午前十一時までに着きたいです。お金は四百円までです。"
+        },
+        "prompt_zh": "查找交通方式时，要保留哪两个条件？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "土曜日・十一時まで・四百円まで"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "日曜日・十一時より後・四百円より上"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "土曜日・十一時に出る・お金は見ない"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "土曜日・十一時ちょうど・四百円ちょうど"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-query-to-constraints-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-all-constraints-elimination-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      },
+      {
+        "item_id": "n5-g3-reading-hidden-validation-005-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-005-v1",
+        "unit_code": "R04",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "table",
+          "title_ja": "町の教室",
+          "columns_ja": [
+            "教室",
+            "曜日",
+            "時間",
+            "お金"
+          ],
+          "rows": [
+            [
+              "A",
+              "土曜日",
+              "10:00-11:00",
+              "300円"
+            ],
+            [
+              "B",
+              "土曜日",
+              "14:00-15:00",
+              "500円"
+            ],
+            [
+              "C",
+              "日曜日",
+              "10:00-11:00",
+              "200円"
+            ]
+          ]
+        },
+        "prompt_zh": "周六上午上课，而且费用不超过400日元，应选哪个？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "A"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "B"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "C"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "どれもだめです"
+          }
+        ],
+        "primary_l2_object_id": "n5-reading-all-constraints-elimination-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-query-to-constraints-v1",
+          "n5-document-listing-price-calendar-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      },
+      {
+        "item_id": "n5-g3-reading-hidden-validation-006-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-006-v1",
+        "unit_code": "R04",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "table",
+          "title_ja": "プール",
+          "columns_ja": [
+            "曜日",
+            "時間",
+            "大人"
+          ],
+          "rows": [
+            [
+              "月曜日",
+              "休み",
+              "—"
+            ],
+            [
+              "火曜日",
+              "9:00-17:00",
+              "600円"
+            ],
+            [
+              "水曜日",
+              "12:00-20:00",
+              "500円"
+            ]
+          ],
+          "note_ja": "午後六時からは100円安くなります。"
+        },
+        "prompt_zh": "星期三晚上六点以后，成人票多少钱？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "400円"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "500円"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "600円"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "休み"
+          }
+        ],
+        "primary_l2_object_id": "n5-document-listing-price-calendar-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-all-constraints-elimination-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      },
+      {
+        "item_id": "n5-g3-reading-hidden-validation-007-v1",
+        "stimulus_id": "n5-g3-reading-hidden-validation-stimulus-007-v1",
+        "unit_code": "R04",
+        "exposure_domain": "hidden_validation",
+        "stimulus": {
+          "kind": "table",
+          "title_ja": "駅から病院まで",
+          "columns_ja": [
+            "行き方",
+            "時間",
+            "お金"
+          ],
+          "rows": [
+            [
+              "バス",
+              "25分",
+              "280円"
+            ],
+            [
+              "電車",
+              "15分",
+              "360円"
+            ],
+            [
+              "歩いて",
+              "45分",
+              "0円"
+            ]
+          ]
+        },
+        "prompt_zh": "20分钟以内到医院，并且费用不超过400日元，应选什么？",
+        "response_mode": "single_choice",
+        "options": [
+          {
+            "option_id": "A",
+            "display_text_ja": "バス"
+          },
+          {
+            "option_id": "B",
+            "display_text_ja": "電車"
+          },
+          {
+            "option_id": "C",
+            "display_text_ja": "歩いて"
+          },
+          {
+            "option_id": "D",
+            "display_text_ja": "どれもだめです"
+          }
+        ],
+        "primary_l2_object_id": "n5-document-route-option-comparison-v1",
+        "supporting_l2_object_ids": [
+          "n5-reading-query-to-constraints-v1",
+          "n5-reading-all-constraints-elimination-v1"
+        ],
+        "audio_allowed": false,
+        "public_payload_contains_answer": false,
+        "answer_feedback_policy": "after_locked_completion"
+      }
+    ]
+  }
+}

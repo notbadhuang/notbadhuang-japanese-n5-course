@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "item_id": "n5-mock-voc-kr-001",
+      "correct_option_id": "B",
+      "explanation_zh": "駅读作えき。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-kr-002",
+      "correct_option_id": "A",
+      "explanation_zh": "毎朝读作まいあさ。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-or-001",
+      "correct_option_id": "B",
+      "explanation_zh": "学校是がっこう的正确写法。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-or-002",
+      "correct_option_id": "A",
+      "explanation_zh": "電車是でんしゃ的正确写法。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-ctx-001",
+      "correct_option_id": "B",
+      "explanation_zh": "雨天带伞用もちます。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-ctx-002",
+      "correct_option_id": "A",
+      "explanation_zh": "从图书馆借书用かりました。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-para-001",
+      "correct_option_id": "A",
+      "explanation_zh": "休み表示店没有营业。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-voc-para-002",
+      "correct_option_id": "B",
+      "explanation_zh": "すぐ表示马上、现在就去。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-gra-form-001",
+      "correct_option_id": "B",
+      "explanation_zh": "具体时间点用助词に。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-gra-form-002",
+      "correct_option_id": "A",
+      "explanation_zh": "动作发生地点用で。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-gra-order-001",
+      "correct_option_id": "A",
+      "explanation_zh": "A的语序和谓语形态完整。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-gra-order-002",
+      "correct_option_id": "A",
+      "explanation_zh": "移动主体用は，目的地用へ。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-gra-text-001",
+      "correct_option_id": "B",
+      "explanation_zh": "先吃饭、之后出门，需要顺序连接词それから。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-gra-text-002",
+      "correct_option_id": "A",
+      "explanation_zh": "前句是下雨，后句是带伞，使用因果ですから。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-rea-short-001",
+      "correct_option_id": "B",
+      "explanation_zh": "第一句明确说八点去车站。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-rea-short-002",
+      "correct_option_id": "C",
+      "explanation_zh": "“そこで”回指图书馆。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-rea-mid-001",
+      "correct_option_id": "B",
+      "explanation_zh": "周日计划是和妹妹购物。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-rea-mid-002",
+      "correct_option_id": "B",
+      "explanation_zh": "车坏了，无法开车，所以改乘电车。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-rea-info-001",
+      "correct_option_id": "C",
+      "explanation_zh": "体育馆开放到五点，三点可用。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-rea-info-002",
+      "correct_option_id": "B",
+      "explanation_zh": "会话教室是周二上午十点。",
+      "review_l2_object_ids": []
+    },
+    {
+      "item_id": "n5-mock-lis-task-001",
+      "correct_option_id": "A",
+      "explanation_zh": "先买票，之后再在入口等。",
+      "review_l2_object_ids": [
+        "n5-listening-sequence-condition-action-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "駅に着いたら、まず切符を買ってください。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "はい。そのあと、入口で待ちます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-task-002",
+      "correct_option_id": "B",
+      "explanation_zh": "到公司是条件，之后给田中打电话。",
+      "review_l2_object_ids": [
+        "n5-listening-sequence-condition-action-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "会社に着いたら、田中さんに電話してください。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "わかりました。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-key-001",
+      "correct_option_id": "C",
+      "explanation_zh": "七点方案被工作安排否定，最终是八点。",
+      "review_l2_object_ids": [
+        "n5-listening-revision-final-decision-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "七時に駅で会いませんか。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "七時は仕事です。八時なら大丈夫です。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "では、八時にしましょう。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-key-002",
+      "correct_option_id": "B",
+      "explanation_zh": "先提白色，最后改成蓝色衬衫。",
+      "review_l2_object_ids": [
+        "n5-listening-revision-final-decision-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "白いシャツをください。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "白はありません。青ならあります。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "じゃ、青いシャツにします。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-verbal-001",
+      "correct_option_id": "A",
+      "explanation_zh": "有即时危险时直接提醒。",
+      "review_l2_object_ids": [
+        "n5-situation-warning-attention-assistance-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "前から自転車が来ています。友だちは見ていません。何と言いますか。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-verbal-002",
+      "correct_option_id": "A",
+      "explanation_zh": "服务场景中用“見せてください”提出请求。",
+      "review_l2_object_ids": [
+        "n5-situation-service-request-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "店で、棚の上の時計を見たいです。店の人に何と言いますか。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-quick-001",
+      "correct_option_id": "A",
+      "explanation_zh": "对提供帮助可以接受并表示请求。",
+      "review_l2_object_ids": [
+        "n5-listening-adjacency-response-fit-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "その荷物、持ちましょうか。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-mock-lis-quick-002",
+      "correct_option_id": "B",
+      "explanation_zh": "“行ってきます”对应“いってらっしゃい”。",
+      "review_l2_object_ids": [
+        "n5-listening-adjacency-response-fit-v1"
+      ],
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "行ってきます。"
+        }
+      ]
+    }
+  ]
+}

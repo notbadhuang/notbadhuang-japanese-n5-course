@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-065-v4",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u65-group-01",
+      "title_zh": "明日到一月",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1600850-v1",
+        "n5-vocabulary-jmdict-2863051-v1",
+        "n5-vocabulary-jmdict-1162120-v1"
+      ],
+      "target_labels_zh": [
+        "明日",
+        "二十日",
+        "ゆうべ",
+        "一月"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u65-group-02",
+      "title_zh": "一か月到去年",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1587410-v1",
+        "n5-vocabulary-jmdict-1162130-v1",
+        "n5-vocabulary-jmdict-1194290-v1",
+        "n5-vocabulary-jmdict-1231690-v1"
+      ],
+      "target_labels_zh": [
+        "一か月",
+        "ひと月",
+        "火曜日",
+        "去年"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u65-group-03",
+      "title_zh": "九日到初めて",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1243850-v1",
+        "n5-vocabulary-jmdict-1289100-v1",
+        "n5-vocabulary-jmdict-1289470-v1",
+        "n5-vocabulary-jmdict-1342550-v1"
+      ],
+      "target_labels_zh": [
+        "九日",
+        "今月",
+        "今晩",
+        "初めて"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u65-checkpoint-vocab-1584660-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“明天”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "B",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "C",
+          "text": "一月（ひとつき）"
+        },
+        {
+          "option_id": "D",
+          "text": "明日（あした）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1600850-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“二十号／二十日”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "B",
+          "text": "一月（ひとつき）"
+        },
+        {
+          "option_id": "C",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "D",
+          "text": "明日（あした）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-2863051-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“昨晚”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一月（ひとつき）"
+        },
+        {
+          "option_id": "B",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "C",
+          "text": "明日（あした）"
+        },
+        {
+          "option_id": "D",
+          "text": "二十日（はつか）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1162130-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“一个月（词汇表达）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ひと月（ひとつき）"
+        },
+        {
+          "option_id": "B",
+          "text": "一月（いちがつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "一か月（いっかげつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "今月（こんげつ）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1194290-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“星期二”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明日（あした）"
+        },
+        {
+          "option_id": "B",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "C",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "D",
+          "text": "火曜日（かようび）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1231690-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“去年”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "B",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "C",
+          "text": "去年（きょねん）"
+        },
+        {
+          "option_id": "D",
+          "text": "明日（あした）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1243850-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“九号／九日”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "B",
+          "text": "九日（ここのか）"
+        },
+        {
+          "option_id": "C",
+          "text": "明日（あした）"
+        },
+        {
+          "option_id": "D",
+          "text": "二十日（はつか）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1289100-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“这个月”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今月（こんげつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "明日（あした）"
+        },
+        {
+          "option_id": "C",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "D",
+          "text": "ゆうべ（ゆうべ）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1289470-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“今晚”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明日（あした）"
+        },
+        {
+          "option_id": "B",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "C",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "D",
+          "text": "今晩（こんばん）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1342550-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“第一次／初次”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十日（はつか）"
+        },
+        {
+          "option_id": "B",
+          "text": "ゆうべ（ゆうべ）"
+        },
+        {
+          "option_id": "C",
+          "text": "初めて（はじめて）"
+        },
+        {
+          "option_id": "D",
+          "text": "明日（あした）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1162120-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“一月／January”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一月（いちがつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ひと月（ひとつき）"
+        },
+        {
+          "option_id": "C",
+          "text": "一か月（いっかげつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "今月（こんげつ）"
+        }
+      ]
+    },
+    "n5-module-b-u65-checkpoint-vocab-1587410-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“一个月（计数表达）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一か月（いっかげつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "一月（いちがつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ひと月（ひとつき）"
+        },
+        {
+          "option_id": "D",
+          "text": "今月（こんげつ）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1584660-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1584660-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "明天"
+        },
+        {
+          "option_id": "B",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "C",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "A",
+          "text": "一个月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「明日」的课程义。",
+      "prompt_ja": "明日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1600850-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1600850-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明天"
+        },
+        {
+          "option_id": "B",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "D",
+          "text": "一个月"
+        },
+        {
+          "option_id": "C",
+          "text": "二十号／二十日"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「二十日」的课程义。",
+      "prompt_ja": "八月二十日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-2863051-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2863051-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "C",
+          "text": "一个月"
+        },
+        {
+          "option_id": "B",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "D",
+          "text": "明天"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ゆうべ」的课程义。",
+      "prompt_ja": "ゆうべです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1162130-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1162130-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一个月（词汇表达）"
+        },
+        {
+          "option_id": "B",
+          "text": "一月／January"
+        },
+        {
+          "option_id": "C",
+          "text": "一个月（计数表达）"
+        },
+        {
+          "option_id": "D",
+          "text": "这个月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ひと月」的课程义。",
+      "prompt_ja": "ひと月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1194290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1194290-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "星期二"
+        },
+        {
+          "option_id": "B",
+          "text": "明天"
+        },
+        {
+          "option_id": "C",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "A",
+          "text": "昨晚"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「火曜日」的课程义。",
+      "prompt_ja": "火曜日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1231690-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1231690-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明天"
+        },
+        {
+          "option_id": "B",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "D",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "C",
+          "text": "去年"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「去年」的课程义。",
+      "prompt_ja": "去年です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1243850-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1243850-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "C",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "B",
+          "text": "九号／九日"
+        },
+        {
+          "option_id": "D",
+          "text": "明天"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「九日」的课程义。",
+      "prompt_ja": "九月九日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1289100-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1289100-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "A",
+          "text": "这个月"
+        },
+        {
+          "option_id": "C",
+          "text": "明天"
+        },
+        {
+          "option_id": "D",
+          "text": "二十号／二十日"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「今月」的课程义。",
+      "prompt_ja": "今月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1289470-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1289470-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "今晚"
+        },
+        {
+          "option_id": "B",
+          "text": "明天"
+        },
+        {
+          "option_id": "C",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "A",
+          "text": "昨晚"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「今晩」的课程义。",
+      "prompt_ja": "今晩です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1342550-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1342550-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明天"
+        },
+        {
+          "option_id": "B",
+          "text": "二十号／二十日"
+        },
+        {
+          "option_id": "D",
+          "text": "昨晚"
+        },
+        {
+          "option_id": "C",
+          "text": "第一次／初次"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「初めて」的课程义。",
+      "prompt_ja": "初めて行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1162120-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1162120-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一月／January"
+        },
+        {
+          "option_id": "B",
+          "text": "一个月（词汇表达）"
+        },
+        {
+          "option_id": "C",
+          "text": "一个月（计数表达）"
+        },
+        {
+          "option_id": "D",
+          "text": "这个月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「一月」的课程义。",
+      "prompt_ja": "一月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u65-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u65-checkpoint-vocab-1587410-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1587410-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一个月（计数表达）"
+        },
+        {
+          "option_id": "B",
+          "text": "一月／January"
+        },
+        {
+          "option_id": "C",
+          "text": "一个月（词汇表达）"
+        },
+        {
+          "option_id": "D",
+          "text": "这个月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「一か月」的课程义。",
+      "prompt_ja": "一か月です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

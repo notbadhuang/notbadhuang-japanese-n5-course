@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-040-v3",
+  "items": {
+    "n5-module-b-u40-card-grammar-01-v1": {
+      "title_zh": "用てください提出请求",
+      "learner_pattern_zh": "Vてください",
+      "explanation_zh": "礼貌请求对方做某事",
+      "connection_zh": "动词て形后接ください",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "名前を書いてください。",
+      "example_zh": "请写下名字。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    },
+    "n5-module-b-u40-card-grammar-02-v1": {
+      "title_zh": "用ないでください请求不要做",
+      "learner_pattern_zh": "Vないでください",
+      "explanation_zh": "礼貌请求对方不要做某事",
+      "connection_zh": "动词ない形后加で形成Vないで，再接ください",
+      "term_note_zh": "用于指示或较强地请求对方不要做某事；课程例句要注意说话人与听者的关系和场景",
+      "example_ja": "ここで写真を撮らないでください。",
+      "example_zh": "请不要在这里拍照。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“礼貌请求对方不要做某事”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

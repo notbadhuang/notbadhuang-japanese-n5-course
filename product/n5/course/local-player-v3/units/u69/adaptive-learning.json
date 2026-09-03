@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-069-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u69-group-01",
+      "title_zh": "先月到毎日",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1387500-v1",
+        "n5-vocabulary-jmdict-1445590-v1",
+        "n5-vocabulary-jmdict-1524700-v1",
+        "n5-vocabulary-jmdict-1524720-v1"
+      ],
+      "target_labels_zh": [
+        "先月",
+        "土曜日",
+        "毎朝",
+        "毎日"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u69-group-02",
+      "title_zh": "毎晩到来年",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1524730-v1",
+        "n5-vocabulary-jmdict-1542790-v1",
+        "n5-vocabulary-jmdict-1547900-v1",
+        "n5-vocabulary-jmdict-1548220-v1"
+      ],
+      "target_labels_zh": [
+        "毎晩",
+        "夕方",
+        "来月",
+        "来年"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u69-group-03",
+      "title_zh": "一昨日到一昨年",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1576050-v1",
+        "n5-vocabulary-jmdict-1576060-v1"
+      ],
+      "target_labels_zh": [
+        "一昨日",
+        "一昨年"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u69-checkpoint-vocab-1387500-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“上个月”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "B",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "毎日（まいにち）"
+        },
+        {
+          "option_id": "D",
+          "text": "先月（せんげつ）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1445590-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“星期六”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "毎日（まいにち）"
+        },
+        {
+          "option_id": "C",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "D",
+          "text": "先月（せんげつ）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1524700-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“每天早晨”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "毎日（まいにち）"
+        },
+        {
+          "option_id": "B",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "先月（せんげつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "土曜日（どようび）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1524720-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“每天”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "毎日（まいにち）"
+        },
+        {
+          "option_id": "B",
+          "text": "先月（せんげつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "D",
+          "text": "毎朝（まいあさ）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1524730-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“每天晚上”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "先月（せんげつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "C",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "毎晩（まいばん）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1542790-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“傍晚”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "B",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "夕方（ゆうがた）"
+        },
+        {
+          "option_id": "D",
+          "text": "先月（せんげつ）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1547900-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“下个月”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "来月（らいげつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "先月（せんげつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "土曜日（どようび）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1548220-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“明年”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "来年（らいねん）"
+        },
+        {
+          "option_id": "B",
+          "text": "先月（せんげつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "D",
+          "text": "毎朝（まいあさ）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1576050-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“前天”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "先月（せんげつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "C",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "一昨日（おととい）"
+        }
+      ]
+    },
+    "n5-module-b-u69-checkpoint-vocab-1576060-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“前年”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "土曜日（どようび）"
+        },
+        {
+          "option_id": "B",
+          "text": "毎朝（まいあさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "一昨年（おととし）"
+        },
+        {
+          "option_id": "D",
+          "text": "先月（せんげつ）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1387500-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1387500-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "上个月"
+        },
+        {
+          "option_id": "B",
+          "text": "星期六"
+        },
+        {
+          "option_id": "C",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "A",
+          "text": "每天"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「先月」的课程义。",
+      "prompt_ja": "先月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1445590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1445590-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "上个月"
+        },
+        {
+          "option_id": "B",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "D",
+          "text": "每天"
+        },
+        {
+          "option_id": "C",
+          "text": "星期六"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「土曜日」的课程义。",
+      "prompt_ja": "土曜日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1524700-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1524700-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "星期六"
+        },
+        {
+          "option_id": "C",
+          "text": "每天"
+        },
+        {
+          "option_id": "B",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "D",
+          "text": "上个月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「毎朝」的课程义。",
+      "prompt_ja": "毎朝です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1524720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1524720-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "A",
+          "text": "每天"
+        },
+        {
+          "option_id": "C",
+          "text": "上个月"
+        },
+        {
+          "option_id": "D",
+          "text": "星期六"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「毎日」的课程义。",
+      "prompt_ja": "毎日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1524730-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1524730-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "每天晚上"
+        },
+        {
+          "option_id": "B",
+          "text": "上个月"
+        },
+        {
+          "option_id": "C",
+          "text": "星期六"
+        },
+        {
+          "option_id": "A",
+          "text": "每天早晨"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「毎晩」的课程义。",
+      "prompt_ja": "毎晩です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1542790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1542790-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "上个月"
+        },
+        {
+          "option_id": "B",
+          "text": "星期六"
+        },
+        {
+          "option_id": "D",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "C",
+          "text": "傍晚"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「夕方」的课程义。",
+      "prompt_ja": "夕方です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1547900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1547900-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "星期六"
+        },
+        {
+          "option_id": "C",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "B",
+          "text": "下个月"
+        },
+        {
+          "option_id": "D",
+          "text": "上个月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「来月」的课程义。",
+      "prompt_ja": "来月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1548220-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1548220-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "A",
+          "text": "明年"
+        },
+        {
+          "option_id": "C",
+          "text": "上个月"
+        },
+        {
+          "option_id": "D",
+          "text": "星期六"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「来年」的课程义。",
+      "prompt_ja": "来年です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1576050-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1576050-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "前天"
+        },
+        {
+          "option_id": "B",
+          "text": "上个月"
+        },
+        {
+          "option_id": "C",
+          "text": "星期六"
+        },
+        {
+          "option_id": "A",
+          "text": "每天早晨"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「一昨日」的课程义。",
+      "prompt_ja": "一昨日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u69-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u69-checkpoint-vocab-1576060-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1576060-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "上个月"
+        },
+        {
+          "option_id": "B",
+          "text": "星期六"
+        },
+        {
+          "option_id": "D",
+          "text": "每天早晨"
+        },
+        {
+          "option_id": "C",
+          "text": "前年"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「一昨年」的课程义。",
+      "prompt_ja": "一昨年です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

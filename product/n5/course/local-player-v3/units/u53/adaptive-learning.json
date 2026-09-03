@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-053-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u53-group-01",
+      "title_zh": "渡る到隣",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1444680-v1",
+        "n5-vocabulary-jmdict-1447440-v1",
+        "n5-vocabulary-jmdict-1459870-v1",
+        "n5-vocabulary-jmdict-1555830-v1"
+      ],
+      "target_labels_zh": [
+        "渡る",
+        "東",
+        "南",
+        "隣"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u53-group-02",
+      "title_zh": "北口到交差点",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1520970-v1",
+        "n5-vocabulary-jmdict-1580600-v1",
+        "n5-vocabulary-jmdict-1582820-v1",
+        "n5-vocabulary-jmdict-1584180-v1",
+        "n5-vocabulary-jmdict-1592970-v1"
+      ],
+      "target_labels_zh": [
+        "北口",
+        "まっすぐ",
+        "入口",
+        "きたがわ",
+        "交差点"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u53-checkpoint-vocab-1444680-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“穿过／横过”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "B",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "隣（となり）"
+        },
+        {
+          "option_id": "D",
+          "text": "渡る（わたる）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1447440-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“东”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "B",
+          "text": "隣（となり）"
+        },
+        {
+          "option_id": "C",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "D",
+          "text": "渡る（わたる）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1459870-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“南”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "隣（となり）"
+        },
+        {
+          "option_id": "B",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "渡る（わたる）"
+        },
+        {
+          "option_id": "D",
+          "text": "東（ひがし）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1555830-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“旁边／相邻处”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "隣（となり）"
+        },
+        {
+          "option_id": "B",
+          "text": "渡る（わたる）"
+        },
+        {
+          "option_id": "C",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "D",
+          "text": "南（みなみ）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1520970-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“北口／北侧出入口”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "渡る（わたる）"
+        },
+        {
+          "option_id": "B",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "C",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "D",
+          "text": "北口（きたぐち）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1580600-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“一直向前／笔直”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "B",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "まっすぐ（まっすぐ）"
+        },
+        {
+          "option_id": "D",
+          "text": "渡る（わたる）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1582820-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“入口”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "B",
+          "text": "入口（いりぐち）"
+        },
+        {
+          "option_id": "C",
+          "text": "渡る（わたる）"
+        },
+        {
+          "option_id": "D",
+          "text": "東（ひがし）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1584180-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“北侧／北岸”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "きたがわ（きたがわ）"
+        },
+        {
+          "option_id": "B",
+          "text": "渡る（わたる）"
+        },
+        {
+          "option_id": "C",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "D",
+          "text": "南（みなみ）"
+        }
+      ]
+    },
+    "n5-module-b-u53-checkpoint-vocab-1592970-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“十字路口”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "渡る（わたる）"
+        },
+        {
+          "option_id": "B",
+          "text": "東（ひがし）"
+        },
+        {
+          "option_id": "C",
+          "text": "南（みなみ）"
+        },
+        {
+          "option_id": "D",
+          "text": "交差点（こうさてん）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1444680-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1444680-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "B",
+          "text": "东"
+        },
+        {
+          "option_id": "C",
+          "text": "南"
+        },
+        {
+          "option_id": "A",
+          "text": "旁边／相邻处"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「渡る」的课程义。",
+      "prompt_ja": "橋を渡ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1447440-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1447440-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "B",
+          "text": "南"
+        },
+        {
+          "option_id": "D",
+          "text": "旁边／相邻处"
+        },
+        {
+          "option_id": "C",
+          "text": "东"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「東」的课程义。",
+      "prompt_ja": "東です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1459870-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1459870-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "东"
+        },
+        {
+          "option_id": "C",
+          "text": "旁边／相邻处"
+        },
+        {
+          "option_id": "B",
+          "text": "南"
+        },
+        {
+          "option_id": "D",
+          "text": "穿过／横过"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「南」的课程义。",
+      "prompt_ja": "南です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1555830-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1555830-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "南"
+        },
+        {
+          "option_id": "A",
+          "text": "旁边／相邻处"
+        },
+        {
+          "option_id": "C",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "D",
+          "text": "东"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「隣」的课程义。",
+      "prompt_ja": "隣です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1520970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1520970-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "北口／北侧出入口"
+        },
+        {
+          "option_id": "B",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "C",
+          "text": "东"
+        },
+        {
+          "option_id": "A",
+          "text": "南"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「北口」的课程义。",
+      "prompt_ja": "北口です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1580600-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1580600-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "B",
+          "text": "东"
+        },
+        {
+          "option_id": "D",
+          "text": "南"
+        },
+        {
+          "option_id": "C",
+          "text": "一直向前／笔直"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「まっすぐ」的课程义。",
+      "prompt_ja": "まっすぐ行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1582820-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1582820-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "东"
+        },
+        {
+          "option_id": "C",
+          "text": "南"
+        },
+        {
+          "option_id": "B",
+          "text": "入口"
+        },
+        {
+          "option_id": "D",
+          "text": "穿过／横过"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「入口」的课程义。",
+      "prompt_ja": "入口です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1584180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1584180-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "南"
+        },
+        {
+          "option_id": "A",
+          "text": "北侧／北岸"
+        },
+        {
+          "option_id": "C",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "D",
+          "text": "东"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「きたがわ」的课程义。",
+      "prompt_ja": "きたがわです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u53-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u53-checkpoint-vocab-1592970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1592970-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "十字路口"
+        },
+        {
+          "option_id": "B",
+          "text": "穿过／横过"
+        },
+        {
+          "option_id": "C",
+          "text": "东"
+        },
+        {
+          "option_id": "A",
+          "text": "南"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「交差点」的课程义。",
+      "prompt_ja": "交差点です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

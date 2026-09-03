@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-063-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u63-group-01",
+      "title_zh": "寒い到天気",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1210360-v1",
+        "n5-vocabulary-jmdict-1343460-v1",
+        "n5-vocabulary-jmdict-1376470-v1",
+        "n5-vocabulary-jmdict-1438690-v1"
+      ],
+      "target_labels_zh": [
+        "寒い",
+        "暑い",
+        "晴れる",
+        "天気"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u63-group-02",
+      "title_zh": "曇る到暖かい",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1457560-v1",
+        "n5-vocabulary-jmdict-1592340-v1",
+        "n5-vocabulary-jmdict-1554370-v1",
+        "n5-vocabulary-jmdict-1586420-v1"
+      ],
+      "target_labels_zh": [
+        "曇る",
+        "曇り",
+        "涼しい",
+        "暖かい"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u63-checkpoint-vocab-1210360-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“冷的／寒冷的（天气）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暑い（あつい）"
+        },
+        {
+          "option_id": "B",
+          "text": "晴れる（はれる）"
+        },
+        {
+          "option_id": "C",
+          "text": "天気（てんき）"
+        },
+        {
+          "option_id": "D",
+          "text": "寒い（さむい）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1343460-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“热的／炎热的（天气）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晴れる（はれる）"
+        },
+        {
+          "option_id": "B",
+          "text": "天気（てんき）"
+        },
+        {
+          "option_id": "C",
+          "text": "暑い（あつい）"
+        },
+        {
+          "option_id": "D",
+          "text": "寒い（さむい）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1376470-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“放晴／天晴”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "天気（てんき）"
+        },
+        {
+          "option_id": "B",
+          "text": "晴れる（はれる）"
+        },
+        {
+          "option_id": "C",
+          "text": "寒い（さむい）"
+        },
+        {
+          "option_id": "D",
+          "text": "暑い（あつい）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1438690-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“天气”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "天気（てんき）"
+        },
+        {
+          "option_id": "B",
+          "text": "寒い（さむい）"
+        },
+        {
+          "option_id": "C",
+          "text": "暑い（あつい）"
+        },
+        {
+          "option_id": "D",
+          "text": "晴れる（はれる）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1457560-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“阴天／变阴”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "寒い（さむい）"
+        },
+        {
+          "option_id": "B",
+          "text": "暑い（あつい）"
+        },
+        {
+          "option_id": "C",
+          "text": "晴れる（はれる）"
+        },
+        {
+          "option_id": "D",
+          "text": "曇る（くもる）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1592340-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“阴天／多云”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暑い（あつい）"
+        },
+        {
+          "option_id": "B",
+          "text": "晴れる（はれる）"
+        },
+        {
+          "option_id": "C",
+          "text": "曇り（くもり）"
+        },
+        {
+          "option_id": "D",
+          "text": "寒い（さむい）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1554370-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“凉爽的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晴れる（はれる）"
+        },
+        {
+          "option_id": "B",
+          "text": "涼しい（すずしい）"
+        },
+        {
+          "option_id": "C",
+          "text": "寒い（さむい）"
+        },
+        {
+          "option_id": "D",
+          "text": "暑い（あつい）"
+        }
+      ]
+    },
+    "n5-module-b-u63-checkpoint-vocab-1586420-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“温暖／暖和”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "暖かい（あたたかい）"
+        },
+        {
+          "option_id": "B",
+          "text": "寒い（さむい）"
+        },
+        {
+          "option_id": "C",
+          "text": "暑い（あつい）"
+        },
+        {
+          "option_id": "D",
+          "text": "晴れる（はれる）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1210360-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1210360-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "冷的／寒冷的（天气）"
+        },
+        {
+          "option_id": "B",
+          "text": "热的／炎热的（天气）"
+        },
+        {
+          "option_id": "C",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "A",
+          "text": "天气"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「寒い」的课程义。",
+      "prompt_ja": "今日は寒いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1343460-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1343460-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "冷的／寒冷的（天气）"
+        },
+        {
+          "option_id": "B",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "D",
+          "text": "天气"
+        },
+        {
+          "option_id": "C",
+          "text": "热的／炎热的（天气）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「暑い」的课程义。",
+      "prompt_ja": "今日は暑いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1376470-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1376470-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "热的／炎热的（天气）"
+        },
+        {
+          "option_id": "C",
+          "text": "天气"
+        },
+        {
+          "option_id": "B",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "D",
+          "text": "冷的／寒冷的（天气）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「晴れる」的课程义。",
+      "prompt_ja": "今日は晴れます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1438690-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1438690-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "A",
+          "text": "天气"
+        },
+        {
+          "option_id": "C",
+          "text": "冷的／寒冷的（天气）"
+        },
+        {
+          "option_id": "D",
+          "text": "热的／炎热的（天气）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「天気」的课程义。",
+      "prompt_ja": "天気です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1457560-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1457560-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "阴天／变阴"
+        },
+        {
+          "option_id": "B",
+          "text": "冷的／寒冷的（天气）"
+        },
+        {
+          "option_id": "C",
+          "text": "热的／炎热的（天气）"
+        },
+        {
+          "option_id": "A",
+          "text": "放晴／天晴"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「曇る」的课程义。",
+      "prompt_ja": "空が曇っています。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1592340-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1592340-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "冷的／寒冷的（天气）"
+        },
+        {
+          "option_id": "B",
+          "text": "热的／炎热的（天气）"
+        },
+        {
+          "option_id": "D",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "C",
+          "text": "阴天／多云"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「曇り」的课程义。",
+      "prompt_ja": "曇りです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1554370-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1554370-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "热的／炎热的（天气）"
+        },
+        {
+          "option_id": "C",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "B",
+          "text": "凉爽的"
+        },
+        {
+          "option_id": "D",
+          "text": "冷的／寒冷的（天气）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「涼しい」的课程义。",
+      "prompt_ja": "今日は涼しいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u63-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u63-checkpoint-vocab-1586420-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1586420-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "放晴／天晴"
+        },
+        {
+          "option_id": "A",
+          "text": "温暖／暖和"
+        },
+        {
+          "option_id": "C",
+          "text": "冷的／寒冷的（天气）"
+        },
+        {
+          "option_id": "D",
+          "text": "热的／炎热的（天气）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「暖かい」的课程义。",
+      "prompt_ja": "今日は暖かいです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-040-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u40-group-01",
+      "title_zh": "葉書到話",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1546590-v1",
+        "n5-vocabulary-jmdict-1548370-v1",
+        "n5-vocabulary-jmdict-1562350-v1",
+        "n5-vocabulary-jmdict-1600900-v1"
+      ],
+      "target_labels_zh": [
+        "葉書",
+        "頼む",
+        "話す",
+        "話"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u40-group-02",
+      "title_zh": "分かる到番号",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1606560-v1",
+        "n5-vocabulary-jmdict-1091500-v1",
+        "n5-vocabulary-jmdict-1236900-v1",
+        "n5-vocabulary-jmdict-1482290-v1"
+      ],
+      "target_labels_zh": [
+        "分かる",
+        "ニュース",
+        "教える",
+        "番号"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u40-group-03",
+      "title_zh": "封筒到Vないでください",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1499690-v1",
+        "n5-vocabulary-jmdict-1523060-v1",
+        "n5-grammar-request-te-kudasai-v1",
+        "n5-grammar-request-naide-kudasai-v1"
+      ],
+      "target_labels_zh": [
+        "封筒",
+        "ほんとう",
+        "Vてください",
+        "Vないでください"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u40-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "礼貌请求对方做某事"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "礼貌请求对方做某事。基本形式是Vてください。动词て形后接ください。"
+    },
+    "n5-module-b-u40-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "礼貌请求对方不要做某事"
+        }
+      ],
+      "feedback_zh": "礼貌请求对方不要做某事。基本形式是Vないでください。动词ない形后加で形成Vないで，再接ください。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u40-checkpoint-vocab-1546590-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“明信片”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "B",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "C",
+          "text": "話（はなし）"
+        },
+        {
+          "option_id": "D",
+          "text": "葉書（はがき）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1548370-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“请求／拜托”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "B",
+          "text": "話（はなし）"
+        },
+        {
+          "option_id": "C",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "D",
+          "text": "葉書（はがき）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1562350-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“说话／交谈”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "話（はなし）"
+        },
+        {
+          "option_id": "B",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "C",
+          "text": "葉書（はがき）"
+        },
+        {
+          "option_id": "D",
+          "text": "頼む（たのむ）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1600900-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“谈话／对话”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "話（はなし）"
+        },
+        {
+          "option_id": "B",
+          "text": "葉書（はがき）"
+        },
+        {
+          "option_id": "C",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "D",
+          "text": "話す（はなす）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1606560-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“理解／懂”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "葉書（はがき）"
+        },
+        {
+          "option_id": "B",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "C",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "D",
+          "text": "分かる（わかる）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1091500-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“新闻”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "B",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "C",
+          "text": "ニュース（ニュース）"
+        },
+        {
+          "option_id": "D",
+          "text": "葉書（はがき）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1236900-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“教／教授”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "B",
+          "text": "教える（おしえる）"
+        },
+        {
+          "option_id": "C",
+          "text": "葉書（はがき）"
+        },
+        {
+          "option_id": "D",
+          "text": "頼む（たのむ）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1482290-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“号码”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "番号（ばんごう）"
+        },
+        {
+          "option_id": "B",
+          "text": "葉書（はがき）"
+        },
+        {
+          "option_id": "C",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "D",
+          "text": "話す（はなす）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1499690-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“信封”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "葉書（はがき）"
+        },
+        {
+          "option_id": "B",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "C",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "D",
+          "text": "封筒（ふうとう）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-vocab-1523060-v1": {
+      "prompt_zh": "在新的“交流、语言与信息”情境中，选择表示“事实／真实”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "頼む（たのむ）"
+        },
+        {
+          "option_id": "B",
+          "text": "話す（はなす）"
+        },
+        {
+          "option_id": "C",
+          "text": "ほんとう（ほんとう）"
+        },
+        {
+          "option_id": "D",
+          "text": "葉書（はがき）"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“礼貌请求对方做某事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "Vてください"
+        }
+      ]
+    },
+    "n5-module-b-u40-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“礼貌请求对方不要做某事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "Vないでください"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1546590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1546590-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "明信片"
+        },
+        {
+          "option_id": "B",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "C",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "A",
+          "text": "谈话／对话"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「葉書」的课程义。",
+      "prompt_ja": "葉書です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1548370-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1548370-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明信片"
+        },
+        {
+          "option_id": "B",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "D",
+          "text": "谈话／对话"
+        },
+        {
+          "option_id": "C",
+          "text": "请求／拜托"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「頼む」的课程义。",
+      "prompt_ja": "友達に頼みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1562350-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1562350-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "C",
+          "text": "谈话／对话"
+        },
+        {
+          "option_id": "B",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "D",
+          "text": "明信片"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「話す」的课程义。",
+      "prompt_ja": "日本語で話します。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1600900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1600900-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "A",
+          "text": "谈话／对话"
+        },
+        {
+          "option_id": "C",
+          "text": "明信片"
+        },
+        {
+          "option_id": "D",
+          "text": "请求／拜托"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「話」的课程义。",
+      "prompt_ja": "友達と話をします。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1606560-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1606560-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "理解／懂"
+        },
+        {
+          "option_id": "B",
+          "text": "明信片"
+        },
+        {
+          "option_id": "C",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "A",
+          "text": "说话／交谈"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「分かる」的课程义。",
+      "prompt_ja": "この質問の意味が分かります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1091500-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1091500-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明信片"
+        },
+        {
+          "option_id": "B",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "D",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "C",
+          "text": "新闻"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ニュース」的课程义。",
+      "prompt_ja": "ニュースです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1236900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1236900-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "C",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "B",
+          "text": "教／教授"
+        },
+        {
+          "option_id": "D",
+          "text": "明信片"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「教える」的课程义。",
+      "prompt_ja": "先生が日本語を教えます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1482290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1482290-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "A",
+          "text": "号码"
+        },
+        {
+          "option_id": "C",
+          "text": "明信片"
+        },
+        {
+          "option_id": "D",
+          "text": "请求／拜托"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「番号」的课程义。",
+      "prompt_ja": "番号です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1499690-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1499690-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "信封"
+        },
+        {
+          "option_id": "B",
+          "text": "明信片"
+        },
+        {
+          "option_id": "C",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "A",
+          "text": "说话／交谈"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「封筒」的课程义。",
+      "prompt_ja": "封筒です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-vocab-1523060-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1523060-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "明信片"
+        },
+        {
+          "option_id": "B",
+          "text": "请求／拜托"
+        },
+        {
+          "option_id": "D",
+          "text": "说话／交谈"
+        },
+        {
+          "option_id": "C",
+          "text": "事实／真实"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ほんとう」的课程义。",
+      "prompt_ja": "ほんとうです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-request-te-kudasai-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "礼貌请求对方做某事"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "名前を書いてください。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u40-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u40-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-request-naide-kudasai-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "礼貌请求对方不要做某事"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "ここで写真を撮らないでください。"
+    }
+  ],
+  "embedded_support_placements": []
+}

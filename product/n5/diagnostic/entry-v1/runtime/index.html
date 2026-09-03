@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>日语起点测试</title>
+    <link rel="stylesheet" href="/styles.css?v=2" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <a class="brand" href="/" aria-label="日语起点测试首页">
+          <span class="brand-mark" aria-hidden="true">あ</span>
+          <span class="brand-name">日语起点测试</span>
+        </a>
+        <button class="header-action" id="headerAction" type="button" hidden>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+          <span>暂时退出</span>
+        </button>
+      </header>
+
+      <main id="app" tabindex="-1">
+        <section class="loading-state" aria-live="polite">
+          <span class="loading-dot"></span>
+          <p>正在准备测试…</p>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <div class="visually-hidden" id="liveRegion" aria-live="polite"></div>
+    <script src="/app.js?v=2" defer></script>
+  </body>
+</html>

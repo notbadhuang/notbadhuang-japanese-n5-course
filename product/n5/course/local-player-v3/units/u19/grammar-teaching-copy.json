@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-019-v3",
+  "items": {
+    "n5-module-b-u19-card-grammar-01-v1": {
+      "title_zh": "用形容词修饰名词",
+      "learner_pattern_zh": "イA＋N／ナAな＋N",
+      "explanation_zh": "把性质或状态放在名词前面，组成一个名词短语",
+      "connection_zh": "い形容词直接接名词；な形容词词干后加な再接名词",
+      "term_note_zh": "当前对象只覆盖基础定语连接，不覆盖带主语的小句修饰或长定语从句",
+      "example_ja": "黒いかばんです。",
+      "example_zh": "是黑色的包。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "当前对象只覆盖基础定语连接，不覆盖带主语的小句修饰或长定语从句"
+    }
+  }
+}

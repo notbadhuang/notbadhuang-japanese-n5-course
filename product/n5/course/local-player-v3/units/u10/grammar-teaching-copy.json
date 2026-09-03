@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-010-v3",
+  "items": {
+    "n5-module-b-u10-card-grammar-01-v1": {
+      "title_zh": "用から和まで表示起点与终点",
+      "learner_pattern_zh": "Nから／Nまで",
+      "explanation_zh": "表示时间或空间范围的开始点和结束点",
+      "connection_zh": "起点名词后接から，终点名词后接まで；两者可以同现，也可以按语境单独出现",
+      "term_note_zh": "不与表示原因的から合并；までに的截止时点另行处理",
+      "example_ja": "店は朝から夜までです。",
+      "example_zh": "店铺从早上营业到晚上。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "不与表示原因的から合并；までに的截止时点另行处理"
+    }
+  }
+}

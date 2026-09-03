@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "candidate_id": "n5-g3-reading-validation-v1",
+  "answer_keys": [
+    {
+      "item_id": "n5-g3-reading-stage-check-001-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "句子把田中、七点和车站绑定在一起。",
+      "distractor_rationales_zh": {
+        "B": "八点属于山田。",
+        "C": "文中没有九点。",
+        "D": "文中没有十点。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-stage-check-002-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "木曜日后面明确写着休息。",
+      "distractor_rationales_zh": {
+        "B": "星期五营业到晚上七点。",
+        "C": "星期六营业到晚上七点。",
+        "D": "这两天都营业。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-stage-check-003-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "「食べてから」后的第一个动作是在车站见朋友。",
+      "distractor_rationales_zh": {
+        "A": "去学校发生在见朋友之后。",
+        "C": "文中没有回家。",
+        "D": "文中没有去商店。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-stage-check-004-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "全文围绕下雨后，一家人改在家里度过星期日。",
+      "distractor_rationales_zh": {
+        "B": "没有介绍公园位置。",
+        "C": "没有电影时间。",
+        "D": "没有价格信息。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-stage-check-005-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "便条要求在二点五十分以前到三楼。",
+      "distractor_rationales_zh": {
+        "A": "文中不是二点半。",
+        "C": "三点是会议开始时间。",
+        "D": "文中没有三点五十分。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-stage-check-006-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "二班9:55到达，是十点前到达的最晚一班。",
+      "distractor_rationales_zh": {
+        "A": "一班能到，但不是最晚。",
+        "C": "三班十点以后到。",
+        "D": "一班和二班都满足。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-001-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "「それ」承接前句中买到的新伞。",
+      "distractor_rationales_zh": {
+        "A": "店是购买地点。",
+        "C": "母是动作主体。",
+        "D": "父是展示对象。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-002-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「雪ですから」明确给出了原因。",
+      "distractor_rationales_zh": {
+        "B": "文中说要坐电车。",
+        "C": "没有说公司休息。",
+        "D": "没有价格信息。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-003-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "各句共同说明家人如何庆祝弟弟生日。",
+      "distractor_rationales_zh": {
+        "B": "没有课程时间。",
+        "C": "没有店铺位置。",
+        "D": "没有价格。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-004-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "条件是周六、到达时限与费用上限。",
+      "distractor_rationales_zh": {
+        "B": "日期和比较方向都反了。",
+        "C": "把到达误作出发并漏掉价格。",
+        "D": "「まで」不是必须恰好等于。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-005-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "A同时满足周六、上午和400日元以内。",
+      "distractor_rationales_zh": {
+        "B": "B在下午且价格超过上限。",
+        "C": "C是星期日。",
+        "D": "A满足全部条件。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-006-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "星期三原价500日元，六点以后便宜100日元，所以是400日元。",
+      "distractor_rationales_zh": {
+        "B": "没有应用六点后的优惠。",
+        "C": "600日元属于星期二。",
+        "D": "休息日是星期一。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-hidden-validation-007-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "电车15分钟、360日元，同时满足两个条件。",
+      "distractor_rationales_zh": {
+        "A": "公交需要25分钟。",
+        "C": "步行需要45分钟。",
+        "D": "电车满足全部条件。"
+      }
+    }
+  ]
+}

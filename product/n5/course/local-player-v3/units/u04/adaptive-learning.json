@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-004-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u04-group-01",
+      "title_zh": "右到角",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1171010-v1",
+        "n5-vocabulary-jmdict-1184140-v1",
+        "n5-vocabulary-jmdict-1203250-v1",
+        "n5-vocabulary-jmdict-1206110-v1"
+      ],
+      "target_labels_zh": [
+        "右",
+        "下",
+        "外",
+        "角"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u04-group-02",
+      "title_zh": "上到そば",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1352130-v1",
+        "n5-vocabulary-jmdict-1380840-v1",
+        "n5-vocabulary-jmdict-1392580-v1",
+        "n5-vocabulary-jmdict-1403830-v1"
+      ],
+      "target_labels_zh": [
+        "上",
+        "西",
+        "前",
+        "そば"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u04-group-03",
+      "title_zh": "地図到场所NにNがある／いる",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1421290-v1",
+        "n5-vocabulary-jmdict-1423310-v1",
+        "n5-grammar-existence-inanimate-arimasu-v1",
+        "n5-grammar-particle-ni-existence-location-v1"
+      ],
+      "target_labels_zh": [
+        "地図",
+        "中",
+        "场所にNがあります",
+        "场所NにNがある／いる"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u04-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表达无生命事物存在"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "表达无生命事物存在。基本形式是场所にNがあります。存在场所通常用に，存在主体用が。"
+    },
+    "n5-module-b-u04-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "标记人或物存在的位置"
+        }
+      ],
+      "feedback_zh": "标记人或物存在的位置。基本形式是场所NにNがある／いる。场所名词后接に，与ある／いる等存在表达共现。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u04-checkpoint-vocab-1171010-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“右／右边”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "B",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "C",
+          "text": "角（かど）"
+        },
+        {
+          "option_id": "D",
+          "text": "右（みぎ）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1184140-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“下面／下方”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "B",
+          "text": "角（かど）"
+        },
+        {
+          "option_id": "C",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "D",
+          "text": "右（みぎ）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1203250-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“外面／外部”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "角（かど）"
+        },
+        {
+          "option_id": "B",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "C",
+          "text": "右（みぎ）"
+        },
+        {
+          "option_id": "D",
+          "text": "下（した）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1206110-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“角／角落”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "角（かど）"
+        },
+        {
+          "option_id": "B",
+          "text": "右（みぎ）"
+        },
+        {
+          "option_id": "C",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "D",
+          "text": "外（そと）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1352130-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“上面／表面”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "右（みぎ）"
+        },
+        {
+          "option_id": "B",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "C",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "D",
+          "text": "上（うえ）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1380840-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“西”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "B",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "C",
+          "text": "西（にし）"
+        },
+        {
+          "option_id": "D",
+          "text": "右（みぎ）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1392580-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“前面／在……前面”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "B",
+          "text": "前（まえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "右（みぎ）"
+        },
+        {
+          "option_id": "D",
+          "text": "下（した）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1403830-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“旁边／附近”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そば（そば）"
+        },
+        {
+          "option_id": "B",
+          "text": "右（みぎ）"
+        },
+        {
+          "option_id": "C",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "D",
+          "text": "外（そと）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1421290-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“地图”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "右（みぎ）"
+        },
+        {
+          "option_id": "B",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "C",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "D",
+          "text": "地図（ちず）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-vocab-1423310-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“中间／中央”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下（した）"
+        },
+        {
+          "option_id": "B",
+          "text": "外（そと）"
+        },
+        {
+          "option_id": "C",
+          "text": "中（なか）"
+        },
+        {
+          "option_id": "D",
+          "text": "右（みぎ）"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表达无生命事物存在”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "场所にNがあります"
+        }
+      ]
+    },
+    "n5-module-b-u04-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“标记人或物存在的位置”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "场所NにNがある／いる"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1171010-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1171010-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "B",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "C",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "A",
+          "text": "角／角落"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「右」的课程义。",
+      "prompt_ja": "右です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1184140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1184140-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "B",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "D",
+          "text": "角／角落"
+        },
+        {
+          "option_id": "C",
+          "text": "下面／下方"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「下」的课程义。",
+      "prompt_ja": "下です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1203250-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1203250-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "C",
+          "text": "角／角落"
+        },
+        {
+          "option_id": "B",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "D",
+          "text": "右／右边"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「外」的课程义。",
+      "prompt_ja": "外です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1206110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1206110-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "A",
+          "text": "角／角落"
+        },
+        {
+          "option_id": "C",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "D",
+          "text": "下面／下方"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「角」的课程义。",
+      "prompt_ja": "机の角です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1352130-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1352130-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "上面／表面"
+        },
+        {
+          "option_id": "B",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "C",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "A",
+          "text": "外面／外部"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「上」的课程义。",
+      "prompt_ja": "上です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1380840-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1380840-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "B",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "D",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "C",
+          "text": "西"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「西」的课程义。",
+      "prompt_ja": "西です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1392580-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1392580-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "C",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "B",
+          "text": "前面／在……前面"
+        },
+        {
+          "option_id": "D",
+          "text": "右／右边"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「前」的课程义。",
+      "prompt_ja": "駅の前です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1403830-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1403830-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "A",
+          "text": "旁边／附近"
+        },
+        {
+          "option_id": "C",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "D",
+          "text": "下面／下方"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「そば」的课程义。",
+      "prompt_ja": "そばです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1421290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1421290-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "地图"
+        },
+        {
+          "option_id": "B",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "C",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "A",
+          "text": "外面／外部"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「地図」的课程义。",
+      "prompt_ja": "地図です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-vocab-1423310-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1423310-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "右／右边"
+        },
+        {
+          "option_id": "B",
+          "text": "下面／下方"
+        },
+        {
+          "option_id": "D",
+          "text": "外面／外部"
+        },
+        {
+          "option_id": "C",
+          "text": "中间／中央"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「中」的课程义。",
+      "prompt_ja": "中です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-existence-inanimate-arimasu-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "表达无生命事物存在"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "机の上に本があります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u04-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u04-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-particle-ni-existence-location-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "标记人或物存在的位置"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "部屋にテレビがあります。"
+    }
+  ],
+  "embedded_support_placements": []
+}

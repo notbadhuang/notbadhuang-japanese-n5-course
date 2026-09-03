@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "visual_set_id": "n5-entry-diagnostic-listening-visual-v1",
+  "status": "active",
+  "asset_version_id": "n5-entry-diagnostic-listening-v1",
+  "visual_asset_count": 3,
+  "visual_assets": [
+    {
+      "schema_version": 1,
+      "visual_asset_id": "n5-diag-visual-lis003-stamp-01-product-v1",
+      "status": "active",
+      "asset_role": "diagnostic_scene_visual",
+      "asset_version_id": "n5-entry-diagnostic-listening-v1",
+      "candidate_item_id": "n5-diag-candidate-lis003-stamp-01-v1",
+      "scene_spec_zh": "邮局窗口前，顾客手里拿着信封并指着柜台上的邮票；箭头指向顾客。",
+      "path": "product/n5/diagnostic/listening-v1/visuals/lis003-stamp-01.png",
+      "format": "png",
+      "pixel_width": 1448,
+      "pixel_height": 1086,
+      "aspect_ratio": "4:3",
+      "sha256": "ce9b7a6eb073e3072130b36fe881475e16d499a533e5badfb97b8bc466621aa8"
+    },
+    {
+      "schema_version": 1,
+      "visual_asset_id": "n5-diag-visual-lis003-luggage-02-product-v1",
+      "status": "active",
+      "asset_role": "diagnostic_scene_visual",
+      "asset_version_id": "n5-entry-diagnostic-listening-v1",
+      "candidate_item_id": "n5-diag-candidate-lis003-luggage-02-v1",
+      "scene_spec_zh": "车站里，朋友双手拿着两个大箱子，看起来很吃力；箭头指向你。",
+      "path": "product/n5/diagnostic/listening-v1/visuals/lis003-luggage-02.png",
+      "format": "png",
+      "pixel_width": 1448,
+      "pixel_height": 1086,
+      "aspect_ratio": "4:3",
+      "sha256": "fc216b058d661584f7f5807703e8adff692c7dfca0dd69167515763762313787"
+    },
+    {
+      "schema_version": 1,
+      "visual_asset_id": "n5-diag-visual-lis003-window-03-product-v1",
+      "status": "active",
+      "asset_role": "diagnostic_scene_visual",
+      "asset_version_id": "n5-entry-diagnostic-listening-v1",
+      "candidate_item_id": "n5-diag-candidate-lis003-window-03-v1",
+      "scene_spec_zh": "教室里窗户开着，冷风吹进来；同学坐在窗边，箭头指向你。",
+      "path": "product/n5/diagnostic/listening-v1/visuals/lis003-window-03.png",
+      "format": "png",
+      "pixel_width": 1448,
+      "pixel_height": 1086,
+      "aspect_ratio": "4:3",
+      "sha256": "b5859a9f92794e5a8f1997f82086875eadcd3df1663190dedc4624c474e73fd4"
+    }
+  ]
+}

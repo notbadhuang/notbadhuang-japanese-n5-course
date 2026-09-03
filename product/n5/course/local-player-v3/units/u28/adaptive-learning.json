@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-028-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u28-group-01",
+      "title_zh": "名前到外国",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1531710-v1",
+        "n5-vocabulary-jmdict-1600790-v1",
+        "n5-vocabulary-jmdict-1202170-v1",
+        "n5-vocabulary-jmdict-1203620-v1"
+      ],
+      "target_labels_zh": [
+        "名前",
+        "二十歳",
+        "皆さん",
+        "外国"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u28-group-02",
+      "title_zh": "私到外国人",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-2842390-v1",
+        "n5-vocabulary-jmdict-1344970-v1",
+        "n5-vocabulary-jmdict-1420010-v1",
+        "n5-vocabulary-jmdict-1203650-v1"
+      ],
+      "target_labels_zh": [
+        "私",
+        "女の子",
+        "男の子",
+        "外国人"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u28-group-03",
+      "title_zh": "留学生到N／ナAではありません・でした・ではありませんでした",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1552750-v1",
+        "n5-grammar-inflection-noun-naadjective-polite-nonaffirmative-v1"
+      ],
+      "target_labels_zh": [
+        "留学生",
+        "N／ナAではありません・でした・ではありませんでした"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u28-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "在已有肯定式之外表达否定、过去和过去否定"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "名词和な形容词的肯定式已经由です对象承担；本对象补齐另外三格，形成可复习的四格系统。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u28-checkpoint-vocab-1531710-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“名字／姓名”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "B",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "外国（がいこく）"
+        },
+        {
+          "option_id": "D",
+          "text": "名前（なまえ）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1600790-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“二十岁”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "外国（がいこく）"
+        },
+        {
+          "option_id": "C",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "D",
+          "text": "名前（なまえ）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1202170-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“大家”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "外国（がいこく）"
+        },
+        {
+          "option_id": "B",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "名前（なまえ）"
+        },
+        {
+          "option_id": "D",
+          "text": "二十歳（はたち）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1203620-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“外国”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "外国（がいこく）"
+        },
+        {
+          "option_id": "B",
+          "text": "名前（なまえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "D",
+          "text": "皆さん（みなさん）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-2842390-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“我（较正式）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "名前（なまえ）"
+        },
+        {
+          "option_id": "B",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "C",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "私（わたくし）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1344970-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“女孩／女儿”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "B",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "女の子（おんなのこ）"
+        },
+        {
+          "option_id": "D",
+          "text": "名前（なまえ）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1420010-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“男孩／儿子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "男の子（おとこのこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "名前（なまえ）"
+        },
+        {
+          "option_id": "D",
+          "text": "二十歳（はたち）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1203650-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“外国人”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "外国人（がいこくじん）"
+        },
+        {
+          "option_id": "B",
+          "text": "名前（なまえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "D",
+          "text": "皆さん（みなさん）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-vocab-1552750-v1": {
+      "prompt_zh": "在新的“人称、身份与国家”情境中，选择表示“留学生”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "名前（なまえ）"
+        },
+        {
+          "option_id": "B",
+          "text": "二十歳（はたち）"
+        },
+        {
+          "option_id": "C",
+          "text": "皆さん（みなさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "留学生（りゅうがくせい）"
+        }
+      ]
+    },
+    "n5-module-b-u28-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“在已有肯定式之外表达否定、过去和过去否定”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "N／ナAではありません・でした・ではありませんでした"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1531710-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1531710-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "B",
+          "text": "二十岁"
+        },
+        {
+          "option_id": "C",
+          "text": "大家"
+        },
+        {
+          "option_id": "A",
+          "text": "外国"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「名前」的课程义。",
+      "prompt_ja": "名前です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1600790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1600790-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "B",
+          "text": "大家"
+        },
+        {
+          "option_id": "D",
+          "text": "外国"
+        },
+        {
+          "option_id": "C",
+          "text": "二十岁"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「二十歳」的课程义。",
+      "prompt_ja": "二十歳です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1202170-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1202170-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十岁"
+        },
+        {
+          "option_id": "C",
+          "text": "外国"
+        },
+        {
+          "option_id": "B",
+          "text": "大家"
+        },
+        {
+          "option_id": "D",
+          "text": "名字／姓名"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「皆さん」的课程义。",
+      "prompt_ja": "皆さんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1203620-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1203620-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "大家"
+        },
+        {
+          "option_id": "A",
+          "text": "外国"
+        },
+        {
+          "option_id": "C",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "D",
+          "text": "二十岁"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「外国」的课程义。",
+      "prompt_ja": "外国です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-2842390-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2842390-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "我（较正式）"
+        },
+        {
+          "option_id": "B",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "C",
+          "text": "二十岁"
+        },
+        {
+          "option_id": "A",
+          "text": "大家"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「私」的课程义。",
+      "prompt_ja": "わたくしは田中です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1344970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1344970-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "B",
+          "text": "二十岁"
+        },
+        {
+          "option_id": "D",
+          "text": "大家"
+        },
+        {
+          "option_id": "C",
+          "text": "女孩／女儿"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「女の子」的课程义。",
+      "prompt_ja": "女の子です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1420010-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1420010-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "二十岁"
+        },
+        {
+          "option_id": "C",
+          "text": "大家"
+        },
+        {
+          "option_id": "B",
+          "text": "男孩／儿子"
+        },
+        {
+          "option_id": "D",
+          "text": "名字／姓名"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「男の子」的课程义。",
+      "prompt_ja": "男の子です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1203650-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1203650-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "大家"
+        },
+        {
+          "option_id": "A",
+          "text": "外国人"
+        },
+        {
+          "option_id": "C",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "D",
+          "text": "二十岁"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「外国人」的课程义。",
+      "prompt_ja": "外国人です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-vocab-1552750-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1552750-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "留学生"
+        },
+        {
+          "option_id": "B",
+          "text": "名字／姓名"
+        },
+        {
+          "option_id": "C",
+          "text": "二十岁"
+        },
+        {
+          "option_id": "A",
+          "text": "大家"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「留学生」的课程义。",
+      "prompt_ja": "留学生です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u28-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u28-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-inflection-noun-naadjective-polite-nonaffirmative-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "在已有肯定式之外表达否定、过去和过去否定"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "私は留学生でした。"
+    }
+  ],
+  "embedded_support_placements": []
+}

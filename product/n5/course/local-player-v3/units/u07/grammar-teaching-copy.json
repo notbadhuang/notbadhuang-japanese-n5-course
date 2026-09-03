@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-007-v3",
+  "items": {
+    "n5-module-b-u07-card-grammar-01-v1": {
+      "title_zh": "用「に」标出动作发生的具体时间",
+      "learner_pattern_zh": "具体时刻／日期／星期 ＋ に ＋ 动作",
+      "explanation_zh": "说一个动作在具体几点、哪一天发生时，可以在时间后面加「に」。例如「四時に起きます」表示四点起床。",
+      "connection_zh": "把「に」放在具体时间和动作之间，例如「午後四時に休みます」。",
+      "term_note_zh": "「今」「今日」「いつ」后面不能机械地加这个「に」；星期后面的「に」有时可以省略。这个单元先学会区分具体时刻和这些不用「に」的时间词。",
+      "example_ja": "午後四時に休みます。",
+      "example_zh": "下午四点休息。",
+      "example_explanation_zh": "「午後四時」是动作发生的具体时间，「に」把这个时间点标出来。",
+      "error_or_contrast_zh": "可以说「四時に起きます」，但不能按同一规则说成「今日に休みます」或「今に起きます」。"
+    }
+  }
+}

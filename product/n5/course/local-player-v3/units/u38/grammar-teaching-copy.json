@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-038-v3",
+  "items": {
+    "n5-module-b-u38-card-grammar-01-v1": {
+      "title_zh": "の将动作或状态名词化",
+      "learner_pattern_zh": "普通形S＋の",
+      "explanation_zh": "把小句作为名词性成分使用",
+      "connection_zh": "动词普通形后接の，使小句成为名词性成分",
+      "term_note_zh": "当前只作为好き、上手、下手三个已纳入句型的共同前置，不扩张到の名词化的全部用法",
+      "example_ja": "歌うのが好きです。",
+      "example_zh": "喜欢唱歌。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "当前只作为好き、上手、下手三个已纳入句型的共同前置，不扩张到の名词化的全部用法"
+    }
+  }
+}

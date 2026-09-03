@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "status": "project_owner_approved_for_u01_runtime_revision",
+  "work_unit_id": "n5-work-unit-core-001-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经掌握？跳过这一项的学习",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u01-group-self-and-others",
+      "title_zh": "认识自己和他人",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1311110-v1",
+        "n5-vocabulary-jmdict-1223615-v1",
+        "n5-vocabulary-jmdict-1318610-v1",
+        "n5-vocabulary-jmdict-1416840-v1"
+      ],
+      "target_labels_zh": [
+        "私",
+        "あなた",
+        "自分",
+        "誰か"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u01-group-person-descriptions",
+      "title_zh": "描述人物",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1580640-v1",
+        "n5-vocabulary-jmdict-1419990-v1",
+        "n5-vocabulary-jmdict-1344930-v1",
+        "n5-vocabulary-jmdict-1414170-v1"
+      ],
+      "target_labels_zh": [
+        "人",
+        "男",
+        "女",
+        "大人"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u01-group-country-and-age",
+      "title_zh": "国籍和年龄",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1592250-v1",
+        "n5-vocabulary-jmdict-1294940-v1"
+      ],
+      "target_labels_zh": [
+        "国",
+        "さい"
+      ],
+      "guided_practice_limit": 2
+    },
+    {
+      "group_id": "u01-group-complete-sentences",
+      "title_zh": "组成完整判断句",
+      "primary_target_ids": [
+        "n5-grammar-particle-wa-topic-v1",
+        "n5-grammar-polite-predication-noun-naadjective-desu-v1"
+      ],
+      "target_labels_zh": [
+        "は",
+        "です"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u01-guided-grammar-01-v1": {
+      "prompt_ja": "あの人___大人です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "は"
+        },
+        {
+          "option_id": "B",
+          "text": "を"
+        },
+        {
+          "option_id": "C",
+          "text": "か"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ],
+      "feedback_zh": "这里要先提出「あの人」作为话题，所以用「は」。完整句子是「あの人は大人です」。"
+    },
+    "n5-module-b-u01-guided-grammar-02-v1": {
+      "prompt_ja": "女の人___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ます"
+        },
+        {
+          "option_id": "B",
+          "text": "でしたか"
+        },
+        {
+          "option_id": "C",
+          "text": "を"
+        },
+        {
+          "option_id": "D",
+          "text": "です"
+        }
+      ],
+      "feedback_zh": "「女の人」是名词短语，后面直接接礼貌表达「です」。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u01-checkpoint-vocab-1311110-v1": {
+      "prompt_zh": "同事问“谁来说明？”，你想回答“我”，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "誰か"
+        },
+        {
+          "option_id": "B",
+          "text": "あなた"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "私"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1294940-v1": {
+      "prompt_zh": "填写年龄：“十八岁”是「十八___です」。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "人"
+        },
+        {
+          "option_id": "B",
+          "text": "国"
+        },
+        {
+          "option_id": "C",
+          "text": "さい"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1580640-v1": {
+      "prompt_zh": "把“这个人”补完整：「この___」。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "国"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "男"
+        },
+        {
+          "option_id": "D",
+          "text": "女"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1592250-v1": {
+      "prompt_zh": "旅行资料中要填写“国家”，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "国"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1223615-v1": {
+      "prompt_zh": "面对对方说话时，选择表示“你”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "私"
+        },
+        {
+          "option_id": "B",
+          "text": "自分"
+        },
+        {
+          "option_id": "C",
+          "text": "誰か"
+        },
+        {
+          "option_id": "D",
+          "text": "あなた"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1318610-v1": {
+      "prompt_zh": "强调事情由“自己／本人”完成，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あなた"
+        },
+        {
+          "option_id": "B",
+          "text": "私"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "誰か"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1344930-v1": {
+      "prompt_zh": "人物资料写着“女性”，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "男"
+        },
+        {
+          "option_id": "B",
+          "text": "女"
+        },
+        {
+          "option_id": "C",
+          "text": "人"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1414170-v1": {
+      "prompt_zh": "区分儿童票和成人票时，选择表示“成年人”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大人"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "男"
+        },
+        {
+          "option_id": "D",
+          "text": "女"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1416840-v1": {
+      "prompt_zh": "听见敲门声但不知道是谁，选择表示“某人／有人”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "私"
+        },
+        {
+          "option_id": "B",
+          "text": "あなた"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "誰か"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-vocab-1419990-v1": {
+      "prompt_zh": "人物资料写着“男性”，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "女"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "男"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-grammar-01-v1": {
+      "prompt_ja": "リン___大人です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "に"
+        },
+        {
+          "option_id": "B",
+          "text": "を"
+        },
+        {
+          "option_id": "C",
+          "text": "は"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ]
+    },
+    "n5-module-b-u01-checkpoint-grammar-02-v1": {
+      "prompt_ja": "あの人は大人___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ます"
+        },
+        {
+          "option_id": "B",
+          "text": "です"
+        },
+        {
+          "option_id": "C",
+          "text": "を"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1311110-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1311110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1311110-v1",
+      "prompt_zh": "填写自我介绍中的“我”：「___はリンです」。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "誰か"
+        },
+        {
+          "option_id": "B",
+          "text": "あなた"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "私"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1294940-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1294940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1294940-v1",
+      "prompt_zh": "填写年龄：“七岁”是「七___です」。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "人"
+        },
+        {
+          "option_id": "B",
+          "text": "国"
+        },
+        {
+          "option_id": "C",
+          "text": "さい"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1580640-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1580640-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1580640-v1",
+      "prompt_zh": "把“那个人”补完整：「あの___」。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "国"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "男"
+        },
+        {
+          "option_id": "D",
+          "text": "女"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1592250-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1592250-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1592250-v1",
+      "prompt_zh": "地图上指着一个国家，选择表示“国家”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "国"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1223615-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1223615-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1223615-v1",
+      "prompt_zh": "老师直接询问对方时，要表达“你”，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "私"
+        },
+        {
+          "option_id": "B",
+          "text": "自分"
+        },
+        {
+          "option_id": "C",
+          "text": "誰か"
+        },
+        {
+          "option_id": "D",
+          "text": "あなた"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1318610-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1318610-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1318610-v1",
+      "prompt_zh": "不要别人帮忙，想表达“自己来做”，选择对应的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あなた"
+        },
+        {
+          "option_id": "B",
+          "text": "私"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "誰か"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1344930-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1344930-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1344930-v1",
+      "prompt_zh": "选择能够表示“女人／女性”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "男"
+        },
+        {
+          "option_id": "B",
+          "text": "女"
+        },
+        {
+          "option_id": "C",
+          "text": "人"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1414170-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1414170-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1414170-v1",
+      "prompt_zh": "成人入口处要选择表示“成年人”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大人"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "男"
+        },
+        {
+          "option_id": "D",
+          "text": "女"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1416840-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1416840-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1416840-v1",
+      "prompt_zh": "屋里似乎有人，但不知道是谁，选择表示“某人”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "私"
+        },
+        {
+          "option_id": "B",
+          "text": "あなた"
+        },
+        {
+          "option_id": "C",
+          "text": "自分"
+        },
+        {
+          "option_id": "D",
+          "text": "誰か"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-vocab-1419990-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-vocab-1419990-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1419990-v1",
+      "prompt_zh": "选择能够表示“男人／男性”的日语词。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "女"
+        },
+        {
+          "option_id": "B",
+          "text": "人"
+        },
+        {
+          "option_id": "C",
+          "text": "男"
+        },
+        {
+          "option_id": "D",
+          "text": "大人"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-grammar-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-particle-wa-topic-v1",
+      "prompt_ja": "あの人___男の人です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "に"
+        },
+        {
+          "option_id": "B",
+          "text": "を"
+        },
+        {
+          "option_id": "C",
+          "text": "は"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ]
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u01-recovery-grammar-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u01-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-polite-predication-noun-naadjective-desu-v1",
+      "prompt_ja": "私は男の人___。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ます"
+        },
+        {
+          "option_id": "B",
+          "text": "です"
+        },
+        {
+          "option_id": "C",
+          "text": "を"
+        },
+        {
+          "option_id": "D",
+          "text": "と"
+        }
+      ]
+    }
+  ]
+}

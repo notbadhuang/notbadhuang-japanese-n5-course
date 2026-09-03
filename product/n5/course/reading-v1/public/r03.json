@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "candidate_id": "n5-g3-reading-r03-complete-content-v1",
+  "status": "validation_candidate_not_active",
+  "unit_code": "R03",
+  "work_unit_id": "n5-work-unit-reading-medium-main-intent-v1",
+  "display_title_zh": "中篇主旨与支持细节",
+  "learning_task_zh": "先压缩全文主旨，再区分真实细节与核心意图。",
+  "steps": [
+    "确认对象",
+    "压缩全文",
+    "排除细节",
+    "独立判断"
+  ],
+  "teaching_blocks": [
+    {
+      "asset_id": "n5-g3-reading-r03-teaching-intent-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-teaching-intent-v1",
+      "title_zh": "先用一句话压缩全文",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "私は毎朝、駅まで歩きます。\n前はバスで駅へ行きました。\n町の小さい店を見ますから、今は歩くのが好きです。"
+      },
+      "reading_focus_zh": "主旨：现在喜欢每天早晨步行去车站",
+      "explanation_zh": "“以前乘公交”和“看店”都是真实细节，但只有“现在喜欢步行”能覆盖整段的变化与结论。",
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reason-result-action-v1",
+        "n5-reading-chronology-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1311110-v1",
+        "n5-vocabulary-jmdict-1524700-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1514320-v1",
+        "n5-vocabulary-jmdict-1392580-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1603990-v1",
+        "n5-vocabulary-jmdict-1347750-v1",
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1259290-v1",
+        "n5-vocabulary-jmdict-1288850-v1",
+        "n5-vocabulary-jmdict-1277450-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-reason-kara-v1",
+        "n5-grammar-preference-no-ga-suki-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r03-teaching-detail-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-teaching-detail-v1",
+      "title_zh": "真实细节不一定是主旨",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "明日は雨です。\n田中さんは学校へ行きません。\n家で本を読みます。"
+      },
+      "reading_focus_zh": "主旨：田中明天不去学校，改在家读书",
+      "explanation_zh": "“明天下雨”是原因，“在家读书”是替代安排。主旨要把最重要的变化讲完整，不能只抄第一句。",
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reason-result-action-v1",
+        "n5-reading-condition-negation-contrast-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1171900-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1456360-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-nai-form-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r03-teaching-whole-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-teaching-whole-v1",
+      "title_zh": "检查答案能否覆盖整段",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "来週、姉と町へ行きます。\n店で赤いかばんを見ました。\n安いですから、来週買います。"
+      },
+      "reading_focus_zh": "主旨：下周和姐姐进城买看到的红色包",
+      "explanation_zh": "地点、颜色和价格都是支持信息；最能覆盖全文的是下周去买包这一计划。",
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reason-result-action-v1",
+        "n5-reading-chronology-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1548010-v1",
+        "n5-vocabulary-jmdict-1307630-v1",
+        "n5-vocabulary-jmdict-1603990-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1383240-v1",
+        "n5-vocabulary-jmdict-1208910-v1",
+        "n5-vocabulary-jmdict-1259290-v1",
+        "n5-vocabulary-jmdict-1153670-v1",
+        "n5-vocabulary-jmdict-1473740-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-reason-kara-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ]
+    }
+  ],
+  "practice_items": [
+    {
+      "item_id": "n5-g3-reading-r03-practice-walk-001-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-walk-001-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "私は毎朝、家から会社まで歩きます。\n前はバスで行きました。\n今は町を見るのが好きですから、歩きます。"
+      },
+      "prompt_zh": "这段话最想表达什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "今は会社まで歩きます。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "毎朝バスで会社へ行きます。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "町を見ません。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "会社へ行きません。"
+        }
+      ],
+      "declared_format_tokens": [],
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-chronology-v1",
+        "n5-reading-reason-result-action-v1"
+      ],
+      "failure_signature_targets": [
+        "true_detail_selected_instead_of_intent"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1311110-v1",
+        "n5-vocabulary-jmdict-1524700-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1514320-v1",
+        "n5-vocabulary-jmdict-1392580-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1288850-v1",
+        "n5-vocabulary-jmdict-1603990-v1",
+        "n5-vocabulary-jmdict-1259290-v1",
+        "n5-vocabulary-jmdict-1277450-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-reason-kara-v1",
+        "n5-grammar-preference-no-ga-suki-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-rain-plan-002-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-rain-plan-002-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "明日は雨です。\n山田さんは学校へ行きません。\n家で本を読みます。"
+      },
+      "prompt_zh": "这段话的主要安排是什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "明日は学校へ行きません。家で本を読みます。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "明日は学校で本を読みます。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "今日は家から学校へ行きます。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "来週、駅へ行きます。"
+        }
+      ],
+      "declared_format_tokens": [],
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-condition-negation-contrast-v1",
+        "n5-reading-reason-result-action-v1"
+      ],
+      "failure_signature_targets": [
+        "last_sentence_only_strategy"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1171900-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1456360-v1",
+        "n5-vocabulary-jmdict-1579110-v1",
+        "n5-vocabulary-jmdict-1548010-v1",
+        "n5-vocabulary-jmdict-1175140-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-nai-form-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-teacher-book-003-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-teacher-book-003-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "先生へ。\n今日は本を持って行きません。\n明日、学校へ持って行きます。\n田中"
+      },
+      "prompt_zh": "田中最想告诉老师什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "本は明日持って行きます。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "先生は今日、本を買います。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "田中は明日、学校へ行きません。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "先生は来週、本を読みます。"
+        }
+      ],
+      "declared_format_tokens": [
+        "田中"
+      ],
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-chronology-v1",
+        "n5-reading-condition-negation-contrast-v1"
+      ],
+      "failure_signature_targets": [
+        "true_detail_selected_instead_of_intent"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1387990-v1",
+        "n5-vocabulary-jmdict-1579110-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1315720-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1473740-v1",
+        "n5-vocabulary-jmdict-1548010-v1",
+        "n5-vocabulary-jmdict-1456360-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-nai-form-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-bag-plan-004-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-bag-plan-004-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "来週、兄と店へ行きます。\n青いかばんは高いです。\n赤いかばんは安いですから、赤いかばんを買います。"
+      },
+      "prompt_zh": "全文最主要的计划是什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "来週、赤いかばんを買います。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "今、青いかばんを持っています。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "兄は毎朝、町を歩きます。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "店で本を読みます。"
+        }
+      ],
+      "declared_format_tokens": [],
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reason-result-action-v1",
+        "n5-reading-condition-negation-contrast-v1"
+      ],
+      "failure_signature_targets": [
+        "true_detail_selected_instead_of_intent"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1548010-v1",
+        "n5-vocabulary-jmdict-1249900-v1",
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1383240-v1",
+        "n5-vocabulary-jmdict-1381390-v1",
+        "n5-vocabulary-jmdict-1208910-v1",
+        "n5-vocabulary-jmdict-1153670-v1",
+        "n5-vocabulary-jmdict-1283190-v1",
+        "n5-vocabulary-jmdict-1473740-v1",
+        "n5-vocabulary-jmdict-1288850-v1",
+        "n5-vocabulary-jmdict-1315720-v1",
+        "n5-vocabulary-jmdict-1524700-v1",
+        "n5-vocabulary-jmdict-1603990-v1",
+        "n5-vocabulary-jmdict-1514320-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1456360-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-reason-kara-v1",
+        "n5-grammar-particle-wa-contrast-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-phone-005-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-phone-005-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "木村さんは朝、駅へ行きました。\n雨ですから、駅から会社に電話しました。\n今日は家へ帰ります。"
+      },
+      "prompt_zh": "这段话最主要说明木村接下来怎么安排？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "今日は家へ帰ります。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "朝、駅でパンを買います。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "会社で本を読みます。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "来週、学校へ行きます。"
+        }
+      ],
+      "declared_format_tokens": [],
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reason-result-action-v1",
+        "n5-reading-chronology-v1"
+      ],
+      "failure_signature_targets": [
+        "last_sentence_only_strategy",
+        "background_detail_selected_as_reason"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1428280-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1171900-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1443840-v1",
+        "n5-vocabulary-jmdict-1579110-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1221270-v1",
+        "n5-vocabulary-jmdict-1103090-v1",
+        "n5-vocabulary-jmdict-1473740-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1456360-v1",
+        "n5-vocabulary-jmdict-1548010-v1",
+        "n5-vocabulary-jmdict-1206730-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-reason-kara-v1",
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-ni-action-target-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-reference-006-v1",
+      "stimulus_id": "n5-g3-reading-r03-stimulus-reference-006-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "田中さんは店で花を買いました。\nそれを先生に見せました。\n先生も赤い花が好きです。"
+      },
+      "prompt_zh": "这段话主要在说什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "田中さんは花を買って、先生に見せました。先生も赤い花が好きです。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "先生は店で本を買いました。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "田中さんは花が好きではありません。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "先生は明日、駅へ行きます。"
+        }
+      ],
+      "declared_format_tokens": [],
+      "primary_l2_object_id": "n5-reading-main-intent-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reference-and-ellipsis-v1",
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "failure_signature_targets": [
+        "nearest_noun_selected_without_context",
+        "true_detail_selected_instead_of_intent"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1194500-v1",
+        "n5-vocabulary-jmdict-1473740-v1",
+        "n5-vocabulary-jmdict-1387990-v1",
+        "n5-vocabulary-jmdict-1259210-v1",
+        "n5-vocabulary-jmdict-1383240-v1",
+        "n5-vocabulary-jmdict-1277450-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1578850-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1",
+        "n5-grammar-particle-ni-action-target-v1",
+        "n5-grammar-preference-no-ga-suki-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    }
+  ]
+}

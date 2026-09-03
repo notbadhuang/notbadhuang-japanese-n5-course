@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "mock_exam_id": "n5-self-authored-comprehensive-mock-001-v1",
+  "source": "project_self_authored",
+  "official_score_or_pass_claim": false,
+  "sections": [
+    {
+      "section_id": "vocabulary",
+      "title_zh": "文字·词汇",
+      "duration_minutes": 20,
+      "official_item_type_count": 4,
+      "items": [
+        {
+          "item_id": "n5-mock-voc-kr-001",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-01",
+          "prompt_zh": "「駅」の読み方はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "いえ"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "えき"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "えぎ"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "いき"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-kr-002",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-01",
+          "prompt_zh": "「毎朝」の読み方はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "まいあさ"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "まいばん"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "けさ"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "あした"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-or-001",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-02",
+          "prompt_zh": "「がっこう」の正しい書き方はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "学行"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "学校"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "楽校"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "学交"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-or-002",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-02",
+          "prompt_zh": "「でんしゃ」の正しい書き方はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "電車"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "電気"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "電話"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "車電"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-ctx-001",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-03",
+          "prompt_zh": "（　）に入ることばはどれですか。\n今日は雨ですから、かさを（　）。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "きます"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "もちます"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "はきます"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "あけます"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-ctx-002",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-03",
+          "prompt_zh": "（　）に入ることばはどれですか。\nこの本は図書館で（　）。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "かりました"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "あいました"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "のりました"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "つきました"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-para-001",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-04",
+          "prompt_zh": "「この店は休みです。」と同じ意味に近いものはどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "この店は開いていません。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "この店は大きいです。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "この店は新しいです。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "この店は近いです。"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-voc-para-002",
+          "section_id": "vocabulary",
+          "item_type_id": "JLPT-N5-VOC-04",
+          "prompt_zh": "「すぐ行きます。」と同じ意味に近いものはどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "あとで行きます。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "今から行きます。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "昨日行きました。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "行きません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "grammar_reading",
+      "title_zh": "语法·阅读",
+      "duration_minutes": 40,
+      "official_item_type_count": 6,
+      "items": [
+        {
+          "item_id": "n5-mock-gra-form-001",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-GRA-01",
+          "prompt_zh": "（　）に入るものはどれですか。\n私は毎日六時（　）起きます。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "を"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "に"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "で"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "へ"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-gra-form-002",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-GRA-01",
+          "prompt_zh": "（　）に入るものはどれですか。\n図書館（　）本を読みます。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "で"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "へ"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "を"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "が"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-gra-order-001",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-GRA-02",
+          "prompt_zh": "正しい文はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "私は きのう 映画を 見ました。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "私は 映画を きのう です。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "きのう 見ました 私は 映画。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "映画を 私は です きのう。"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-gra-order-002",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-GRA-02",
+          "prompt_zh": "正しい文はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "田中さんは 学校へ 行きます。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "田中さんを 学校が 行きます。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "学校へ 田中さんを です。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "行きます 学校が 田中さん。"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-mock-gra-text-001",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-GRA-03",
+          "prompt_zh": "文章の（　）に入るものはどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "でも"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "それから"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "から"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "まで"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text_ja": "朝、パンを食べました。（　）、七時に家を出ました。"
+          }
+        },
+        {
+          "item_id": "n5-mock-gra-text-002",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-GRA-03",
+          "prompt_zh": "文章の（　）に入るものはどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "ですから"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "そしても"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "までを"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "だけに"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text_ja": "今日は雨です。（　）、かさを持って行きます。"
+          }
+        },
+        {
+          "item_id": "n5-mock-rea-short-001",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-REA-01",
+          "prompt_zh": "佐藤さんは何時に駅へ行きますか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "七時"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "八時"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "九時"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "十時"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text_ja": "佐藤さんは八時に駅へ行きます。九時に田中さんに会います。"
+          }
+        },
+        {
+          "item_id": "n5-mock-rea-short-002",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-REA-01",
+          "prompt_zh": "山田さんはどこで本を読みましたか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "家"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "学校"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "図書館"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "駅"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text_ja": "山田さんは図書館へ行きました。そこで本を読みました。"
+          }
+        },
+        {
+          "item_id": "n5-mock-rea-mid-001",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-REA-02",
+          "prompt_zh": "木村さんが日曜日にすることは何ですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "会社へ行く"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "妹と買い物をする"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "友だちと映画を見る"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "家で勉強する"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text_ja": "木村さんは土曜日に友だちと映画を見ます。日曜日は妹と買い物をします。月曜日は会社へ行きます。"
+          }
+        },
+        {
+          "item_id": "n5-mock-rea-mid-002",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-REA-02",
+          "prompt_zh": "高橋さんが電車で行く理由は何ですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "雨だから"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "車がないから"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "駅が近いから"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "友だちが来るから"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text_ja": "高橋さんは車で海へ行く予定でした。でも、車が動きません。ですから、電車で行きます。"
+          }
+        },
+        {
+          "item_id": "n5-mock-rea-info-001",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-REA-03",
+          "prompt_zh": "午後三時に利用できる場所はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "図書室"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "食堂"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "体育館"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "受付"
+            }
+          ],
+          "stimulus": {
+            "kind": "table",
+            "title_ja": "施設の時間",
+            "columns": [
+              "場所",
+              "時間"
+            ],
+            "rows": [
+              [
+                "図書室",
+                "9:00–14:00"
+              ],
+              [
+                "食堂",
+                "11:00–14:30"
+              ],
+              [
+                "体育館",
+                "13:00–17:00"
+              ],
+              [
+                "受付",
+                "9:00–12:00"
+              ]
+            ]
+          }
+        },
+        {
+          "item_id": "n5-mock-rea-info-002",
+          "section_id": "grammar_reading",
+          "item_type_id": "JLPT-N5-REA-03",
+          "prompt_zh": "火曜日の午前に参加できる教室はどれですか。",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "料理"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "会話"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "写真"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "音楽"
+            }
+          ],
+          "stimulus": {
+            "kind": "table",
+            "title_ja": "教室の案内",
+            "columns": [
+              "教室",
+              "曜日",
+              "時間"
+            ],
+            "rows": [
+              [
+                "料理",
+                "月曜日",
+                "14:00"
+              ],
+              [
+                "会話",
+                "火曜日",
+                "10:00"
+              ],
+              [
+                "写真",
+                "火曜日",
+                "18:00"
+              ],
+              [
+                "音楽",
+                "水曜日",
+                "10:00"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "listening",
+      "title_zh": "听力",
+      "duration_minutes": 30,
+      "official_item_type_count": 4,
+      "items": [
+        {
+          "item_id": "n5-mock-lis-task-001",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-01",
+          "prompt_zh": "女方接下来先做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "切符を買う"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "駅で待つ"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "電話する"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "パンを食べる"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-task-001-audio",
+          "audio_path": "audio/n5-mock-lis-task-001.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-task-002",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-01",
+          "prompt_zh": "男方到公司后要做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "家へ帰る"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "田中さんに電話する"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "昼ご飯を買う"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "駅へ行く"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-task-002-audio",
+          "audio_path": "audio/n5-mock-lis-task-002.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-key-001",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-02",
+          "prompt_zh": "两人最后几点见面？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "六時"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "七時"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "八時"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "九時"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-key-001-audio",
+          "audio_path": "audio/n5-mock-lis-key-001.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-key-002",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-02",
+          "prompt_zh": "女方最后买什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "白いシャツ"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "青いシャツ"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "白いかばん"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "青いかばん"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-key-002-audio",
+          "audio_path": "audio/n5-mock-lis-key-002.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-verbal-001",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-03",
+          "prompt_zh": "朋友前面有自行车过来，最合适的表达是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "危ないですよ。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "いただきます。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "お元気ですか。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "いくらですか。"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-verbal-001-audio",
+          "audio_path": "audio/n5-mock-lis-verbal-001.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-verbal-002",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-03",
+          "prompt_zh": "想请店员拿给你看，最合适的表达是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "これを見せてください。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "また来週。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "おかえりなさい。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "大丈夫です。"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-verbal-002-audio",
+          "audio_path": "audio/n5-mock-lis-verbal-002.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-quick-001",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-04",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "はい、お願いします。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "昨日です。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "三本です。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "駅へ行きます。"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-quick-001-audio",
+          "audio_path": "audio/n5-mock-lis-quick-001.mp3"
+        },
+        {
+          "item_id": "n5-mock-lis-quick-002",
+          "section_id": "listening",
+          "item_type_id": "JLPT-N5-LIS-04",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "おかえりなさい。"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "いってらっしゃい。"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "ごちそうさま。"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "はじめまして。"
+            }
+          ],
+          "audio_asset_id": "n5-mock-lis-quick-002-audio",
+          "audio_path": "audio/n5-mock-lis-quick-002.mp3"
+        }
+      ]
+    }
+  ]
+}

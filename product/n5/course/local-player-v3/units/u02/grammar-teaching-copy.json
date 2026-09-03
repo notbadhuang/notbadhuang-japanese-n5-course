@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-002-v3",
+  "items": {
+    "n5-module-b-u02-card-grammar-01-v1": {
+      "title_zh": "用「と」连接完整列举",
+      "learner_pattern_zh": "名词1 ＋ と ＋ 名词2",
+      "explanation_zh": "想把两个人或事物一起列出来时，可以在它们中间加「と」。这个单元先把「と」理解成中文里的“和”。",
+      "connection_zh": "把「と」放在两个名词之间，例如「私とあなた」。",
+      "term_note_zh": "这里先学习“把列举的对象全部说完”的用法。表示“和某人一起做”或引用别人说的话，是以后会学到的其他用法。",
+      "example_ja": "私とあなたです。",
+      "example_zh": "是我和你。",
+      "example_explanation_zh": "「と」把「私」和「あなた」连接起来，表示说到的对象就是这两个人。",
+      "error_or_contrast_zh": "「と」表示这里列出的对象就是完整内容；如果只是举几个例子，日语通常会使用别的表达。"
+    },
+    "n5-module-b-u02-card-grammar-02-v1": {
+      "title_zh": "用「か」把句子变成问题",
+      "learner_pattern_zh": "完整的礼貌句 ＋ か",
+      "explanation_zh": "在一个完整的礼貌句末尾加「か」，就可以向对方确认这句话是否成立。中文里可以理解成在句末加上“吗？”。",
+      "connection_zh": "先说完整的「～です」或「～ます」句子，再在句末接「か」。",
+      "term_note_zh": "这个单元只学习句末提问的「か」。像「誰か」中的「か」属于另一种用法，现在不用一起记。",
+      "example_ja": "あの人ですか。",
+      "example_zh": "是那个人吗？",
+      "example_explanation_zh": "「あの人です」原本是在陈述“是那个人”，句末加「か」后就变成向对方确认。",
+      "error_or_contrast_zh": "「か」放在完整礼貌句的末尾，不需要为了变成疑问句而打乱前面的词序。"
+    }
+  }
+}

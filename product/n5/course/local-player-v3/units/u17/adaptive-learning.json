@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-017-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u17-group-01",
+      "title_zh": "靴到コート",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1246700-v1",
+        "n5-vocabulary-jmdict-1301940-v1",
+        "n5-vocabulary-jmdict-1500940-v1",
+        "n5-vocabulary-jmdict-1049000-v1"
+      ],
+      "target_labels_zh": [
+        "靴",
+        "傘",
+        "服",
+        "コート"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u17-group-02",
+      "title_zh": "かばん到脱ぐ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1208910-v1",
+        "n5-vocabulary-jmdict-1092820-v1",
+        "n5-vocabulary-jmdict-1148640-v1",
+        "n5-vocabulary-jmdict-1416400-v1"
+      ],
+      "target_labels_zh": [
+        "かばん",
+        "ネクタイ",
+        "ワイシャツ",
+        "脱ぐ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u17-group-03",
+      "title_zh": "はく到ボタン",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1607260-v1",
+        "n5-vocabulary-jmdict-1061520-v1",
+        "n5-vocabulary-jmdict-1074260-v1",
+        "n5-vocabulary-jmdict-1123880-v1"
+      ],
+      "target_labels_zh": [
+        "はく",
+        "シャツ",
+        "ズボン",
+        "ボタン"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u17-checkpoint-vocab-1246700-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“鞋”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "C",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "D",
+          "text": "靴（くつ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1301940-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“伞”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "B",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "C",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "靴（くつ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1500940-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“衣服／服装”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "B",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "C",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "傘（かさ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1049000-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“外套／大衣”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "B",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "服（ふく）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1208910-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“包”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "D",
+          "text": "かばん（かばん）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1092820-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“领带”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "C",
+          "text": "ネクタイ（ネクタイ）"
+        },
+        {
+          "option_id": "D",
+          "text": "靴（くつ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1148640-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“衬衫”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "B",
+          "text": "ワイシャツ（ワイシャツ）"
+        },
+        {
+          "option_id": "C",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "傘（かさ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1416400-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“脱下（衣服、鞋等）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "脱ぐ（ぬぐ）"
+        },
+        {
+          "option_id": "B",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "服（ふく）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1607260-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“穿（裤子、鞋等下半身衣物）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "D",
+          "text": "はく（はく）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1061520-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“汗衫／内衣”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "C",
+          "text": "シャツ（シャツ）"
+        },
+        {
+          "option_id": "D",
+          "text": "靴（くつ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1074260-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“裤子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "服（ふく）"
+        },
+        {
+          "option_id": "B",
+          "text": "ズボン（ズボン）"
+        },
+        {
+          "option_id": "C",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "傘（かさ）"
+        }
+      ]
+    },
+    "n5-module-b-u17-checkpoint-vocab-1123880-v1": {
+      "prompt_zh": "在新的“衣物与随身物品”情境中，选择表示“衣服的纽扣”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ボタン（ボタン）"
+        },
+        {
+          "option_id": "B",
+          "text": "靴（くつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "傘（かさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "服（ふく）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1246700-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1246700-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "鞋"
+        },
+        {
+          "option_id": "B",
+          "text": "伞"
+        },
+        {
+          "option_id": "C",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "A",
+          "text": "外套／大衣"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「靴」的课程义。",
+      "prompt_ja": "靴です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1301940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1301940-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "鞋"
+        },
+        {
+          "option_id": "B",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "D",
+          "text": "外套／大衣"
+        },
+        {
+          "option_id": "C",
+          "text": "伞"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「傘」的课程义。",
+      "prompt_ja": "傘です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1500940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1500940-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "伞"
+        },
+        {
+          "option_id": "C",
+          "text": "外套／大衣"
+        },
+        {
+          "option_id": "B",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "D",
+          "text": "鞋"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「服」的课程义。",
+      "prompt_ja": "服です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1049000-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1049000-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "A",
+          "text": "外套／大衣"
+        },
+        {
+          "option_id": "C",
+          "text": "鞋"
+        },
+        {
+          "option_id": "D",
+          "text": "伞"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「コート」的课程义。",
+      "prompt_ja": "このコートは暖かいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1208910-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1208910-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "包"
+        },
+        {
+          "option_id": "B",
+          "text": "鞋"
+        },
+        {
+          "option_id": "C",
+          "text": "伞"
+        },
+        {
+          "option_id": "A",
+          "text": "衣服／服装"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「かばん」的课程义。",
+      "prompt_ja": "かばんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1092820-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1092820-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "鞋"
+        },
+        {
+          "option_id": "B",
+          "text": "伞"
+        },
+        {
+          "option_id": "D",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "C",
+          "text": "领带"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ネクタイ」的课程义。",
+      "prompt_ja": "ネクタイです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1148640-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1148640-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "伞"
+        },
+        {
+          "option_id": "C",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "B",
+          "text": "衬衫"
+        },
+        {
+          "option_id": "D",
+          "text": "鞋"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ワイシャツ」的课程义。",
+      "prompt_ja": "ワイシャツです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1416400-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1416400-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "A",
+          "text": "脱下（衣服、鞋等）"
+        },
+        {
+          "option_id": "C",
+          "text": "鞋"
+        },
+        {
+          "option_id": "D",
+          "text": "伞"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「脱ぐ」的课程义。",
+      "prompt_ja": "靴を脱ぎます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1607260-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1607260-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "穿（裤子、鞋等下半身衣物）"
+        },
+        {
+          "option_id": "B",
+          "text": "鞋"
+        },
+        {
+          "option_id": "C",
+          "text": "伞"
+        },
+        {
+          "option_id": "A",
+          "text": "衣服／服装"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「はく」的课程义。",
+      "prompt_ja": "靴をはきます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1061520-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1061520-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "鞋"
+        },
+        {
+          "option_id": "B",
+          "text": "伞"
+        },
+        {
+          "option_id": "D",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "C",
+          "text": "汗衫／内衣"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「シャツ」的课程义。",
+      "prompt_ja": "下着のシャツを着ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1074260-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1074260-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "伞"
+        },
+        {
+          "option_id": "C",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "B",
+          "text": "裤子"
+        },
+        {
+          "option_id": "D",
+          "text": "鞋"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ズボン」的课程义。",
+      "prompt_ja": "ズボンです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u17-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u17-checkpoint-vocab-1123880-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1123880-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "衣服／服装"
+        },
+        {
+          "option_id": "A",
+          "text": "衣服的纽扣"
+        },
+        {
+          "option_id": "C",
+          "text": "鞋"
+        },
+        {
+          "option_id": "D",
+          "text": "伞"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ボタン」的课程义。",
+      "prompt_ja": "シャツのボタンです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

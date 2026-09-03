@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-005-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u05-group-01",
+      "title_zh": "いす到ドア",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1157070-v1",
+        "n5-vocabulary-jmdict-1027180-v1",
+        "n5-vocabulary-jmdict-1266970-v1",
+        "n5-vocabulary-jmdict-1087820-v1"
+      ],
+      "target_labels_zh": [
+        "いす",
+        "エアコン",
+        "戸",
+        "ドア"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u05-group-02",
+      "title_zh": "ビル到かぎ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1106010-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1203020-v1",
+        "n5-vocabulary-jmdict-1260490-v1"
+      ],
+      "target_labels_zh": [
+        "ビル",
+        "家",
+        "かい",
+        "かぎ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u05-group-03",
+      "title_zh": "住む到N1やN2",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1334040-v1",
+        "n5-vocabulary-jmdict-1401400-v1",
+        "n5-vocabulary-jmdict-1436130-v1",
+        "n5-grammar-existence-animate-imasu-v1",
+        "n5-grammar-particle-ya-nonexhaustive-v1"
+      ],
+      "target_labels_zh": [
+        "住む",
+        "窓",
+        "庭",
+        "场所にNがいます",
+        "N1やN2"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u05-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "表达人或动物存在"
+        }
+      ],
+      "feedback_zh": "表达人或动物存在。基本形式是场所にNがいます。存在场所通常用に，存在主体用が。"
+    },
+    "n5-module-b-u05-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "列举若干代表项并暗示还有其他项"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "列举若干代表项并暗示还有其他项。基本形式是N1やN2。名词之间使用や；与封闭列举と对比。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u05-checkpoint-vocab-1157070-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“椅子／座椅”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "B",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "C",
+          "text": "ドア（ドア）"
+        },
+        {
+          "option_id": "D",
+          "text": "いす（いす）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1027180-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“空调”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "B",
+          "text": "ドア（ドア）"
+        },
+        {
+          "option_id": "C",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "D",
+          "text": "いす（いす）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1266970-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“门（日式拉门等）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ドア（ドア）"
+        },
+        {
+          "option_id": "B",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "C",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "D",
+          "text": "エアコン（エアコン）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1087820-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“门”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ドア（ドア）"
+        },
+        {
+          "option_id": "B",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "C",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "D",
+          "text": "戸（と）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1106010-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“大楼／楼房”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "B",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "C",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "D",
+          "text": "ビル（ビル）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1191730-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“房子／家”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "B",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "C",
+          "text": "家（いえ）"
+        },
+        {
+          "option_id": "D",
+          "text": "いす（いす）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1203020-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“楼层／……层”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "B",
+          "text": "かい（かい）"
+        },
+        {
+          "option_id": "C",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "D",
+          "text": "エアコン（エアコン）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1260490-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“钥匙”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "かぎ（かぎ）"
+        },
+        {
+          "option_id": "B",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "C",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "D",
+          "text": "戸（と）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1334040-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“居住”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "B",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "C",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "D",
+          "text": "住む（すむ）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1401400-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“窗户”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "エアコン（エアコン）"
+        },
+        {
+          "option_id": "B",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "C",
+          "text": "窓（まど）"
+        },
+        {
+          "option_id": "D",
+          "text": "いす（いす）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-vocab-1436130-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“院子／庭院”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "戸（と）"
+        },
+        {
+          "option_id": "B",
+          "text": "庭（にわ）"
+        },
+        {
+          "option_id": "C",
+          "text": "いす（いす）"
+        },
+        {
+          "option_id": "D",
+          "text": "エアコン（エアコン）"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表达人或动物存在”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "场所にNがいます"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    },
+    "n5-module-b-u05-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“列举若干代表项并暗示还有其他项”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "N1やN2"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1157070-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1157070-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "B",
+          "text": "空调"
+        },
+        {
+          "option_id": "C",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "A",
+          "text": "门"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「いす」的课程义。",
+      "prompt_ja": "いすです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1027180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1027180-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "B",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "D",
+          "text": "门"
+        },
+        {
+          "option_id": "C",
+          "text": "空调"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「エアコン」的课程义。",
+      "prompt_ja": "エアコンです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1266970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1266970-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "空调"
+        },
+        {
+          "option_id": "C",
+          "text": "门"
+        },
+        {
+          "option_id": "B",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "D",
+          "text": "椅子／座椅"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「戸」的课程义。",
+      "prompt_ja": "戸です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1087820-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1087820-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "A",
+          "text": "门"
+        },
+        {
+          "option_id": "C",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "D",
+          "text": "空调"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ドア」的课程义。",
+      "prompt_ja": "ドアです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1106010-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1106010-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "大楼／楼房"
+        },
+        {
+          "option_id": "B",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "C",
+          "text": "空调"
+        },
+        {
+          "option_id": "A",
+          "text": "门（日式拉门等）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ビル」的课程义。",
+      "prompt_ja": "ビルです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1191730-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1191730-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "B",
+          "text": "空调"
+        },
+        {
+          "option_id": "D",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "C",
+          "text": "房子／家"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「家」的课程义。",
+      "prompt_ja": "家です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1203020-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1203020-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "空调"
+        },
+        {
+          "option_id": "C",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "B",
+          "text": "楼层／……层"
+        },
+        {
+          "option_id": "D",
+          "text": "椅子／座椅"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「かい」的课程义。",
+      "prompt_ja": "二かいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1260490-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1260490-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "A",
+          "text": "钥匙"
+        },
+        {
+          "option_id": "C",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "D",
+          "text": "空调"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「かぎ」的课程义。",
+      "prompt_ja": "かぎです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1334040-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1334040-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "居住"
+        },
+        {
+          "option_id": "B",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "C",
+          "text": "空调"
+        },
+        {
+          "option_id": "A",
+          "text": "门（日式拉门等）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「住む」的课程义。",
+      "prompt_ja": "ここに住みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1401400-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1401400-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "椅子／座椅"
+        },
+        {
+          "option_id": "B",
+          "text": "空调"
+        },
+        {
+          "option_id": "D",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "C",
+          "text": "窗户"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「窓」的课程义。",
+      "prompt_ja": "窓です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-vocab-1436130-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1436130-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "空调"
+        },
+        {
+          "option_id": "C",
+          "text": "门（日式拉门等）"
+        },
+        {
+          "option_id": "B",
+          "text": "院子／庭院"
+        },
+        {
+          "option_id": "D",
+          "text": "椅子／座椅"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「庭」的课程义。",
+      "prompt_ja": "庭です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-existence-animate-imasu-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "表达人或动物存在"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "教室に先生がいます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u05-recovery-13-v1",
+      "source_checkpoint_item_id": "n5-module-b-u05-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-particle-ya-nonexhaustive-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "列举若干代表项并暗示还有其他项"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "かばんに本やノートがあります。"
+    }
+  ],
+  "embedded_support_placements": []
+}

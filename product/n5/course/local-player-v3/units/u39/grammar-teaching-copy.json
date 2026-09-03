@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-039-v3",
+  "items": {
+    "n5-module-b-u39-card-grammar-01-v1": {
+      "title_zh": "ている表示正在进行",
+      "learner_pattern_zh": "动作Vている",
+      "explanation_zh": "表示说话时或某段时间正在进行的动作",
+      "connection_zh": "持续性动作动词て形后接いる",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "今、手紙を書いています。",
+      "example_zh": "现在正在写信。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示说话时或某段时间正在进行的动作”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u39-card-grammar-02-v1": {
+      "title_zh": "ている表示结果或持续状态",
+      "learner_pattern_zh": "状态变化Vている",
+      "explanation_zh": "表示变化发生后保持的状态或持续状态",
+      "connection_zh": "表示结果持续时，状态变化或移动等动词的て形后接いる；住む、立つ、知る、めがねをかける等表示结果状态，行く、来る、帰る、出かける可表示移动后仍在目的地",
+      "term_note_zh": "本对象只讲动作完成后保持的结果或持续状态；正在进行和反复习惯保留为另外两个对象",
+      "example_ja": "兄はこの町に住んでいます。",
+      "example_zh": "哥哥住在这个镇上。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示变化发生后保持的状态或持续状态”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

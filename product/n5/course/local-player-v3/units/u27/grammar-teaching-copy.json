@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-027-v3",
+  "items": {
+    "n5-module-b-u27-card-grammar-01-v1": {
+      "title_zh": "用なる表达状态变化",
+      "learner_pattern_zh": "イAく／ナAに／Nに＋なる",
+      "explanation_zh": "表示变成某种性质、状态或身份",
+      "connection_zh": "い形容词用く，な形容词和名词用に，作为受控变体",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "だんだん寒くなりました。",
+      "example_zh": "渐渐变冷了。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

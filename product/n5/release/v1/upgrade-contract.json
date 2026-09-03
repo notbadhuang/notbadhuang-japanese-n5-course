@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "contract_id": "n5-local-course-upgrade-and-rollback-v1",
+  "status": "g5_candidate_contract",
+  "storage_layout": {
+    "course_installation_root": "user_selected_course_location",
+    "immutable_versions": "courses/<version_id>",
+    "version_records": "records/<version_id>.json",
+    "active_pointer": "current-course.json",
+    "learner_archive": "user_selected_location_outside_course_installation"
+  },
+  "invariants": [
+    "SkillHub distributes only the orchestration Skill; the course package is obtained from the configured GitHub Release channel.",
+    "The release manifest, package size and package SHA-256 are validated before extraction or activation.",
+    "Remote release manifests and packages require HTTPS; loopback HTTP is reserved for local validation.",
+    "A new ZIP is fully extracted and hash-validated in staging before it can become an installed version.",
+    "An installed version directory is immutable and may not be overwritten by different bytes.",
+    "The active version changes only through one atomic current-course.json replacement.",
+    "A failed installation or validation leaves the active pointer unchanged.",
+    "Rollback changes only the active course pointer and never rewrites learner archive files.",
+    "Course installation and version switching never require a learner archive path."
+  ],
+  "commands": {
+    "install_from_release": "install-course-release",
+    "install": "install-course-version",
+    "activate": "activate-course-version",
+    "rollback": "rollback-course-version",
+    "list": "list-course-versions"
+  },
+  "failure_policy": {
+    "inactive_or_mismatched_release_source": "reject_before_download_or_activation",
+    "release_size_or_sha256_mismatch": "reject_before_extraction_or_activation",
+    "invalid_or_corrupt_zip": "reject_before_activation",
+    "artifact_hash_mismatch": "reject_before_activation",
+    "same_version_id_different_bytes": "reject_without_overwrite",
+    "missing_rollback_target": "reject_without_pointer_change",
+    "learner_history_on_any_failure": "unchanged"
+  },
+  "boundaries": {
+    "production_distribution_approved": false,
+    "seed_beta_authorized": false,
+    "real_learner_archive_required_for_validation": false
+  }
+}

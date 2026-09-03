@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-012-v3",
+  "items": {
+    "n5-module-b-u12-card-grammar-01-v1": {
+      "title_zh": "に表示动作对象或到达点",
+      "learner_pattern_zh": "对象NにV",
+      "explanation_zh": "标记询问、给予、会见等动作指向的对象",
+      "connection_zh": "动作指向的对象名词后接に；当前课程基线覆盖売る、電話をかける／する、会う、教える、返す、渡す、話す、見せる、貸す、頼む、手紙を出す／書く、言う等基础动词",
+      "term_note_zh": "这里只讲动作或行为所指向的对象，不并入时间点、存在位置或移动目的地的に；动词表是当前课程基线，不宣称穷尽日语全部搭配",
+      "example_ja": "友達に本を貸します。",
+      "example_zh": "把书借给朋友。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“标记询问、给予、会见等动作指向的对象”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u12-card-grammar-02-v1": {
+      "title_zh": "动词ない形",
+      "learner_pattern_zh": "Vない",
+      "explanation_zh": "连接否定请求和义务表达",
+      "connection_zh": "按动词活用类型生成ない形",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "書きます → 書かない",
+      "example_zh": "書きます变为書かない。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

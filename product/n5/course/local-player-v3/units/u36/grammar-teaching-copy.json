@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-036-v3",
+  "items": {
+    "n5-module-b-u36-card-grammar-01-v1": {
+      "title_zh": "用てから表达动作先后",
+      "learner_pattern_zh": "Vてから、S",
+      "explanation_zh": "表示完成前项动作后再发生后项",
+      "connection_zh": "动词て形后接から；与原因から分开",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "手を洗ってから、パンを食べます。",
+      "example_zh": "洗手以后吃面包。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

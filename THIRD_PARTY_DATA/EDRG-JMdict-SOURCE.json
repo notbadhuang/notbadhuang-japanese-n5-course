@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source_id": "edrg-jmdict-english-2026-08-25",
+  "name": "JMdict English",
+  "provider": "Electronic Dictionary Research and Development Group (EDRG)",
+  "project_url": "https://www.edrdg.org/jmdict/j_jmdict.html",
+  "current_download_url": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+  "snapshot": {
+    "file_name": "JMdict_e-2026-08-25.xml.gz",
+    "acquired_date": "2026-08-25",
+    "upstream_last_modified": "2026-08-25T03:30:25Z",
+    "sha256": "133e2d745f399f7da8f5fef399f43e30fc95f2d662afea7655cf8e2d6d903021"
+  },
+  "public_derivative_scope": {
+    "entry_sequence_count": 701,
+    "form_reading_binding_count": 719,
+    "fields_and_relations": [
+      "jmdict_seq",
+      "stable object identifiers whose documented basis includes jmdict_seq",
+      "approved Japanese form and reading relationships in the vocabulary bindings"
+    ]
+  },
+  "not_included": [
+    "the complete JMdict database snapshot",
+    "JMdict English glosses as a product dictionary",
+    "KANJIDIC2-derived fields unique to KANJIDIC2"
+  ],
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "spdx_expression": "CC-BY-SA-4.0",
+    "edrg_statement_url": "https://www.edrdg.org/edrdg/licence.html",
+    "local_copy": "THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.html"
+  },
+  "update_procedure": {
+    "cadence": "monthly maintainer check while this release line is maintained",
+    "command": "python3 scripts/check_n5_jmdict_updates.py",
+    "comparison_scope": "only the 701 JMdict entries and 719 form-reading bindings used by this course",
+    "effect": "report only; never mutates a course release automatically",
+    "release_handling": "relevant upstream changes are reviewed and, when adopted, shipped in a new immutable course version"
+  }
+}

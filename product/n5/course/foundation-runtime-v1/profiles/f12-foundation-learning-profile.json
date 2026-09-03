@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "profile_id": "n5-foundation-f12-contextual-pattern-profile-v1",
+  "status": "validation_candidate_not_active",
+  "engine_profile": "foundation_contextual_pattern_checkpoint_v1",
+  "work_unit_id": "n5-work-unit-foundation-long-vowel-v1",
+  "phase_order": [
+    "contextual_word_and_mora_exposure",
+    "contextual_pattern_visual_practice",
+    "stage_checkpoint_without_item_feedback",
+    "incorrect_target_brief_repair",
+    "incorrect_target_reordered_retest",
+    "result_mapping"
+  ],
+  "guided_practice_modes": [
+    "contextual_pattern_visual_recognition"
+  ],
+  "micro_batches": [
+    {
+      "batch_number": 1,
+      "micro_batch_id": "u12-hiragana-common-01",
+      "title_zh": "F12 · 平假名长音",
+      "target_ids": [
+        "n5-fnd-u12-target-u3042-u3042-v1",
+        "n5-fnd-u12-target-u3044-u3044-v1",
+        "n5-fnd-u12-target-u3046-u3046-v1",
+        "n5-fnd-u12-target-u3048-u3044-v1",
+        "n5-fnd-u12-target-u3048-u3048-v1",
+        "n5-fnd-u12-target-u304a-u3046-v1",
+        "n5-fnd-u12-target-u304a-u304a-v1"
+      ],
+      "target_displays_ja": [
+        "ああ",
+        "いい",
+        "うう",
+        "えい",
+        "ええ",
+        "おう",
+        "おお"
+      ],
+      "sequence_audio_asset_id": null,
+      "practice_item_ids": [
+        "n5-practice-u12-contextual-visual-u3042-u3042-v1",
+        "n5-practice-u12-contextual-visual-u3044-u3044-v1",
+        "n5-practice-u12-contextual-visual-u3046-u3046-v1",
+        "n5-practice-u12-contextual-visual-u3048-u3044-v1",
+        "n5-practice-u12-contextual-visual-u3048-u3048-v1",
+        "n5-practice-u12-contextual-visual-u304a-u3046-v1",
+        "n5-practice-u12-contextual-visual-u304a-u304a-v1"
+      ],
+      "contextual_lesson": {
+        "lesson_kind": "hiragana_long_vowel",
+        "eyebrow_zh": "F12 · 平假名长音",
+        "title_zh": "从完整词里学会长音的常见写法",
+        "primary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1387990-v1",
+          "form_ja": "先生",
+          "reading_ja": "せんせい",
+          "meaning_zh": "老师",
+          "morae": [
+            "せ",
+            "ん",
+            "せ",
+            "い"
+          ],
+          "focus_indexes": [
+            3
+          ],
+          "audio_asset_id": "n5-vocab-audio-497356cf064630b2-v2"
+        },
+        "secondary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1002590-v1",
+          "form_ja": "お父さん",
+          "reading_ja": "おとうさん",
+          "meaning_zh": "父亲",
+          "morae": [
+            "お",
+            "と",
+            "う",
+            "さ",
+            "ん"
+          ],
+          "focus_indexes": [
+            2
+          ],
+          "audio_asset_id": "n5-vocab-audio-9013d708ded77c7c-v2"
+        },
+        "listen_hint_zh": "先听长度，再看写法",
+        "mora_intro_zh": "最后的「せい」连成拉长的「せー」",
+        "rule_title_zh": "听起来是拉长的音，写下来仍保留两个假名",
+        "rule_body_zh": "平假名长音没有统一符号。先通过 N5 高频词认识常见组合。",
+        "pattern_rows": [
+          {
+            "formula_ja": "え ＋ い",
+            "example_ja": "せんせい"
+          },
+          {
+            "formula_ja": "え ＋ え",
+            "example_ja": "おねえさん"
+          },
+          {
+            "formula_ja": "お ＋ う",
+            "example_ja": "おとうさん"
+          }
+        ],
+        "cta_label_zh": "继续学片假名长音",
+        "audio_asset_ids": [
+          "n5-vocab-audio-497356cf064630b2-v2",
+          "n5-vocab-audio-9013d708ded77c7c-v2"
+        ]
+      }
+    },
+    {
+      "batch_number": 2,
+      "micro_batch_id": "u12-katakana-mark-01",
+      "title_zh": "F12 · 片假名长音",
+      "target_ids": [
+        "n5-fnd-u12-target-u30fc-v1"
+      ],
+      "target_displays_ja": [
+        "ー"
+      ],
+      "sequence_audio_asset_id": null,
+      "practice_item_ids": [
+        "n5-practice-u12-contextual-visual-u30fc-v1"
+      ],
+      "contextual_lesson": {
+        "lesson_kind": "katakana_long_mark",
+        "eyebrow_zh": "F12 · 片假名长音",
+        "title_zh": "把「ー」读成前一个音的延长",
+        "primary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1049180-v1",
+          "form_ja": "コーヒー",
+          "reading_ja": "コーヒー",
+          "meaning_zh": "咖啡",
+          "morae": [
+            "コ",
+            "ー",
+            "ヒ",
+            "ー"
+          ],
+          "focus_indexes": [
+            1,
+            3
+          ],
+          "audio_asset_id": "n5-vocab-audio-f5f2c2dca175f502-v2"
+        },
+        "secondary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1066710-v1",
+          "form_ja": "スーパー",
+          "reading_ja": "スーパー",
+          "meaning_zh": "超市",
+          "morae": [
+            "ス",
+            "ー",
+            "パ",
+            "ー"
+          ],
+          "focus_indexes": [
+            1,
+            3
+          ],
+          "audio_asset_id": "n5-vocab-audio-e830ed120870a0d7-v2"
+        },
+        "listen_hint_zh": "「ー」不单独发音",
+        "mora_intro_zh": "每个「ー」都把前面的音延长一拍",
+        "rule_title_zh": "不要给「ー」另加一个音",
+        "rule_body_zh": "它跟在片假名后面，只让前面的元音继续保持一拍。",
+        "pattern_rows": [
+          {
+            "formula_ja": "コ ＋ ー",
+            "example_ja": "コー"
+          },
+          {
+            "formula_ja": "ヒ ＋ ー",
+            "example_ja": "ヒー"
+          }
+        ],
+        "warning_zh": "它是长音符号，不是汉字「一」。",
+        "cta_label_zh": "进入本组练习",
+        "audio_asset_ids": [
+          "n5-vocab-audio-f5f2c2dca175f502-v2",
+          "n5-vocab-audio-e830ed120870a0d7-v2"
+        ]
+      }
+    }
+  ],
+  "context_audio_assets": [
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-497356cf064630b2-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "先生",
+      "reading": "せんせい",
+      "script_ja": "せんせい",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-497356cf064630b2-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1387990-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "56af7e9e91c6d01105017c03a33140d33852ad6249f5874d96e01300a189dbd1",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.384,
+      "size_bytes": 11757,
+      "bit_rate_bps": 67959
+    },
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-9013d708ded77c7c-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "お父さん",
+      "reading": "おとうさん",
+      "script_ja": "おとうさん",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-9013d708ded77c7c-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1002590-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "823bd1e85cd00e8603e71203f04684b1d06e0b80a3cba4dcfc73f1c1a01d9d84",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.432,
+      "size_bytes": 12141,
+      "bit_rate_bps": 67826
+    },
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-f5f2c2dca175f502-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "コーヒー",
+      "reading": "コーヒー",
+      "script_ja": "コーヒー",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-f5f2c2dca175f502-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1049180-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "154faa47854d8eee8800bf0a86fa43b2866f13a13dc0aa611b460d062648afed",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.408,
+      "size_bytes": 11949,
+      "bit_rate_bps": 67892
+    },
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-e830ed120870a0d7-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "スーパー",
+      "reading": "スーパー",
+      "script_ja": "スーパー",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-e830ed120870a0d7-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1066710-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "31a7ed5d89661e99c4dfcb1ce25d73346c80a44798cbb432c276040cbff33c68",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.36,
+      "size_bytes": 11565,
+      "bit_rate_bps": 68029
+    }
+  ],
+  "stage_checkpoint_item_ids": [
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u3042-u3042-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u3044-u3044-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u3046-u3046-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u3048-u3044-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u3048-u3048-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u304a-u3046-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u304a-u304a-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u12-target-u30fc-v1"
+  ],
+  "feedback_policy": {
+    "guided_practice": "retry_until_correct_with_immediate_feedback",
+    "stage_checkpoint": "withhold_all_item_results_until_checkpoint_completion",
+    "incorrect_target_repair": "only_show_targets_answered_incorrectly",
+    "incorrect_target_retest": "one_reordered_visual_item_per_incorrect_target"
+  },
+  "repair_guidance_by_target": {
+    "n5-fnd-u12-target-u3042-u3042-v1": {
+      "hint_zh": "重新看清「ああ」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u3044-u3044-v1": {
+      "hint_zh": "重新看清「いい」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u3046-u3046-v1": {
+      "hint_zh": "重新看清「うう」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u3048-u3044-v1": {
+      "hint_zh": "重新看清「えい」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u3048-u3048-v1": {
+      "hint_zh": "重新看清「ええ」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u304a-u3046-v1": {
+      "hint_zh": "重新看清「おう」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u304a-u304a-v1": {
+      "hint_zh": "重新看清「おお」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u12-target-u30fc-v1": {
+      "hint_zh": "重新看清「ー」在词语和节拍中的位置，再完成一道换序题。"
+    }
+  },
+  "learner_copy": {
+    "unit_task_brief": "通过真实 N5 词语和节拍认识长音：平假名常见组合与片假名ー，再完成视觉练习与阶段小测。",
+    "batch_intro_title": "先在完整词里听清规则",
+    "batch_intro_body": "可以反复听词语；本单元不制造不存在的孤立发音。",
+    "checkpoint_intro_title": "开始阶段小测",
+    "checkpoint_intro_body": "下面8题只检查字形和规则辨认，不逐题公布对错。",
+    "repair_title": "只补刚才答错的规则",
+    "repair_body": "回到完整词和视觉规则，再确认一次。",
+    "retest_title": "换一下选项顺序，再试一次",
+    "retest_body": "选择与题目描述相符的写法。"
+  },
+  "result_mapping": {
+    "answered_count_source": "stage_checkpoint_responses",
+    "correct_count_source": "server_side_stage_checkpoint_evaluation",
+    "recovered_target_ids_source": "incorrect_target_retest_correct_targets",
+    "delayed_review_target_ids_source": "stage_checkpoint_correct_targets_plus_recovered_targets",
+    "unresolved_target_ids_source": "incorrect_target_retest_incorrect_targets",
+    "mastery_claim": "not_inferred_from_single_session"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-035-v3",
+  "items": {
+    "n5-module-b-u35-card-grammar-01-v1": {
+      "title_zh": "去某处做某事",
+      "learner_pattern_zh": "Vます词干＋に行く",
+      "explanation_zh": "表示移动的目的",
+      "connection_zh": "动词ます形去ます后接に行く",
+      "term_note_zh": "当前对象只固定以行く表达移动目的；来る等相关移动动词以后按真题和课程需要扩展",
+      "example_ja": "図書館へ本を読みに行きます。",
+      "example_zh": "去图书馆看书。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "当前对象只固定以行く表达移动目的；来る等相关移动动词以后按真题和课程需要扩展"
+    }
+  }
+}

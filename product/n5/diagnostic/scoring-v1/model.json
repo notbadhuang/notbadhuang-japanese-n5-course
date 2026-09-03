@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "model_id": "n5-entry-diagnostic-scoring-routing-v1",
+  "status": "active_deterministic_reference_model",
+  "product_id": "0-to-N5",
+  "language_ability_order": [
+    "N5-FND-001",
+    "N5-FND-002",
+    "N5-FND-003",
+    "N5-VOC-001",
+    "N5-VOC-002",
+    "N5-VOC-003",
+    "N5-VOC-004",
+    "N5-KAN-001",
+    "N5-GRA-001",
+    "N5-GRA-002",
+    "N5-GRA-003",
+    "N5-REA-001",
+    "N5-REA-002",
+    "N5-REA-003",
+    "N5-LIS-001",
+    "N5-LIS-002",
+    "N5-LIS-003",
+    "N5-LIS-004"
+  ],
+  "stages": {
+    "foundation_script": [
+      "N5-FND-001",
+      "N5-FND-002"
+    ],
+    "foundation_mora": [
+      "N5-FND-003"
+    ],
+    "core_language": [
+      "N5-VOC-001",
+      "N5-VOC-002",
+      "N5-VOC-003",
+      "N5-VOC-004",
+      "N5-KAN-001",
+      "N5-GRA-001",
+      "N5-GRA-002",
+      "N5-GRA-003"
+    ],
+    "receptive": [
+      "N5-REA-001",
+      "N5-REA-002",
+      "N5-REA-003",
+      "N5-LIS-001",
+      "N5-LIS-002",
+      "N5-LIS-003",
+      "N5-LIS-004"
+    ]
+  },
+  "short_route_limits": {
+    "minimum_valid_scored_items": 6,
+    "normal_fast_path_items": 18,
+    "maximum_scored_items": 24
+  },
+  "ability_status_contract": {
+    "not_measured": "valid_attempt_count=0且没有需要显示的无效作答",
+    "insufficient_evidence": "valid_attempt_count=1，或valid_attempt_count=2且两题全对，或运行条件使结论无效",
+    "emerging": "valid_attempt_count>=2且至少1题错误",
+    "provisionally_secure": "valid_attempt_count=3且correct_count=3且前置未阻断"
+  },
+  "diagnostic_coverage_contract": {
+    "denominator": 18,
+    "numerator_statuses": [
+      "emerging",
+      "provisionally_secure"
+    ],
+    "never_label_as": [
+      "learning_progress",
+      "N5_completion",
+      "pass_probability"
+    ]
+  },
+  "route_next_actions": {
+    "start_from_zero": "start_foundation_course",
+    "foundation_repair": "start_foundation_repair_plan",
+    "core_language_build": "start_core_language_plan",
+    "receptive_integration": "start_receptive_integration_plan",
+    "mock_readiness_candidate": "continue_extended_profile_or_timed_mock",
+    "insufficient_evidence": "resolve_evidence_problem_and_resume"
+  },
+  "pass_confidence": {
+    "entry_diagnostic_value": null,
+    "entry_diagnostic_status": "not_available_from_entry_diagnostic",
+    "next_evidence_source": "separate_timed_mock_validation"
+  },
+  "planning_calculability": {
+    "recommended_start_lane": "calculable_after_routing_rules_are_approved",
+    "remaining_course_work_unit_ids": "not_created_course_sequence_missing",
+    "baseline_minutes_per_work_unit": "not_calibrated",
+    "initial_duration_days": "not_currently_calculable_without_fabricated_assumptions"
+  },
+  "never_reports": [
+    "mastered",
+    "product_progress_percent",
+    "JLPT_official_scaled_score",
+    "JLPT_pass_probability_without_external_calibration",
+    "precise_days_without_workload_and_velocity"
+  ],
+  "implementation_boundaries": {
+    "supported_mode": "short_placement",
+    "extended_profile_engine": "not_implemented",
+    "browser_application": "not_implemented",
+    "numeric_duration_estimate": "not_implemented",
+    "JLPT_pass_probability": "not_implemented",
+    "L3_product_version_count": 0
+  }
+}

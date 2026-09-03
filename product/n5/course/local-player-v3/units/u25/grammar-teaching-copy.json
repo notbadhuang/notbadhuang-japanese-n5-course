@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-025-v3",
+  "items": {
+    "n5-module-b-u25-card-grammar-01-v1": {
+      "title_zh": "用ね确认共识或表达轻微感叹",
+      "learner_pattern_zh": "Sね",
+      "explanation_zh": "把说话人认为双方可共享的判断轻柔地抛给对方",
+      "connection_zh": "完整句末后接ね；礼貌句中常见です／ます＋ね",
+      "term_note_zh": "只覆盖确认共识和轻微感叹，不把命令、男性语气等其他句末用法混入",
+      "example_ja": "いい店ですね。",
+      "example_zh": "是家不错的店啊。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖确认共识和轻微感叹，不把命令、男性语气等其他句末用法混入"
+    },
+    "n5-module-b-u25-card-grammar-02-v1": {
+      "title_zh": "用よ提示对方可能不知道的信息",
+      "learner_pattern_zh": "Sよ",
+      "explanation_zh": "把说话人提供的信息明确提示给听话人",
+      "connection_zh": "完整句末后接よ；礼貌句中常见です／ます＋よ",
+      "term_note_zh": "只覆盖基础信息提示，不展开命令、责备或强烈语气等语用变化",
+      "example_ja": "店は安いですよ。",
+      "example_zh": "这家店很便宜哦。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖基础信息提示，不展开命令、责备或强烈语气等语用变化"
+    }
+  }
+}

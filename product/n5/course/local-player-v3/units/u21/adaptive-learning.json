@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-021-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u21-group-01",
+      "title_zh": "雨到夏",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1171900-v1",
+        "n5-vocabulary-jmdict-1302680-v1",
+        "n5-vocabulary-jmdict-1534520-v1",
+        "n5-vocabulary-jmdict-1191320-v1"
+      ],
+      "target_labels_zh": [
+        "雨",
+        "山",
+        "木",
+        "夏"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u21-group-02",
+      "title_zh": "海到咲く",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1201190-v1",
+        "n5-vocabulary-jmdict-1245290-v1",
+        "n5-vocabulary-jmdict-1282790-v1",
+        "n5-vocabulary-jmdict-1297210-v1"
+      ],
+      "target_labels_zh": [
+        "海",
+        "空",
+        "降る",
+        "咲く"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u21-group-03",
+      "title_zh": "秋到Sから、结果S",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1332650-v1",
+        "n5-grammar-confirmation-deshou-v1",
+        "n5-grammar-reason-kara-v1"
+      ],
+      "target_labels_zh": [
+        "秋",
+        "Sでしょう（？）",
+        "Sから、结果S"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u21-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "期待听者确认说话人的判断"
+        }
+      ],
+      "feedback_zh": "期待听者确认说话人的判断。基本形式是Sでしょう（？）。句子普通形后接でしょう；名词和な形容词把普通形的だ去掉后接でしょう，并以确认语调使用。"
+    },
+    "n5-module-b-u21-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "连接理由与结果"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "连接理由与结果。基本形式是Sから、结果S。理由小句后接から；与起点から分开。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u21-checkpoint-vocab-1171900-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“雨”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "B",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "C",
+          "text": "夏（なつ）"
+        },
+        {
+          "option_id": "D",
+          "text": "雨（あめ）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1302680-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“山／山丘”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "B",
+          "text": "夏（なつ）"
+        },
+        {
+          "option_id": "C",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "D",
+          "text": "雨（あめ）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1534520-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“树木”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夏（なつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "C",
+          "text": "雨（あめ）"
+        },
+        {
+          "option_id": "D",
+          "text": "山（やま）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1191320-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“夏天”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夏（なつ）"
+        },
+        {
+          "option_id": "B",
+          "text": "雨（あめ）"
+        },
+        {
+          "option_id": "C",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "D",
+          "text": "木（き）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1201190-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“海”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "雨（あめ）"
+        },
+        {
+          "option_id": "B",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "C",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "D",
+          "text": "海（うみ）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1245290-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“天空”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "B",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "C",
+          "text": "空（そら）"
+        },
+        {
+          "option_id": "D",
+          "text": "雨（あめ）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1282790-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“下（雨、雪等）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "B",
+          "text": "降る（ふる）"
+        },
+        {
+          "option_id": "C",
+          "text": "雨（あめ）"
+        },
+        {
+          "option_id": "D",
+          "text": "山（やま）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1297210-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“开花”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "咲く（さく）"
+        },
+        {
+          "option_id": "B",
+          "text": "雨（あめ）"
+        },
+        {
+          "option_id": "C",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "D",
+          "text": "木（き）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-vocab-1332650-v1": {
+      "prompt_zh": "在新的“天气、季节与自然”情境中，选择表示“秋天”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "雨（あめ）"
+        },
+        {
+          "option_id": "B",
+          "text": "山（やま）"
+        },
+        {
+          "option_id": "C",
+          "text": "木（き）"
+        },
+        {
+          "option_id": "D",
+          "text": "秋（あき）"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“期待听者确认说话人的判断”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "Sでしょう（？）"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    },
+    "n5-module-b-u21-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“连接理由与结果”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "Sから、结果S"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1171900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1171900-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "雨"
+        },
+        {
+          "option_id": "B",
+          "text": "山／山丘"
+        },
+        {
+          "option_id": "C",
+          "text": "树木"
+        },
+        {
+          "option_id": "A",
+          "text": "夏天"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「雨」的课程义。",
+      "prompt_ja": "雨です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1302680-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1302680-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "雨"
+        },
+        {
+          "option_id": "B",
+          "text": "树木"
+        },
+        {
+          "option_id": "D",
+          "text": "夏天"
+        },
+        {
+          "option_id": "C",
+          "text": "山／山丘"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「山」的课程义。",
+      "prompt_ja": "山です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1534520-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1534520-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "山／山丘"
+        },
+        {
+          "option_id": "C",
+          "text": "夏天"
+        },
+        {
+          "option_id": "B",
+          "text": "树木"
+        },
+        {
+          "option_id": "D",
+          "text": "雨"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「木」的课程义。",
+      "prompt_ja": "庭に木があります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1191320-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1191320-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "树木"
+        },
+        {
+          "option_id": "A",
+          "text": "夏天"
+        },
+        {
+          "option_id": "C",
+          "text": "雨"
+        },
+        {
+          "option_id": "D",
+          "text": "山／山丘"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「夏」的课程义。",
+      "prompt_ja": "夏です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1201190-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1201190-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "海"
+        },
+        {
+          "option_id": "B",
+          "text": "雨"
+        },
+        {
+          "option_id": "C",
+          "text": "山／山丘"
+        },
+        {
+          "option_id": "A",
+          "text": "树木"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「海」的课程义。",
+      "prompt_ja": "海です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1245290-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1245290-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "雨"
+        },
+        {
+          "option_id": "B",
+          "text": "山／山丘"
+        },
+        {
+          "option_id": "D",
+          "text": "树木"
+        },
+        {
+          "option_id": "C",
+          "text": "天空"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「空」的课程义。",
+      "prompt_ja": "空です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1282790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1282790-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "山／山丘"
+        },
+        {
+          "option_id": "C",
+          "text": "树木"
+        },
+        {
+          "option_id": "B",
+          "text": "下（雨、雪等）"
+        },
+        {
+          "option_id": "D",
+          "text": "雨"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「降る」的课程义。",
+      "prompt_ja": "雨が降ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1297210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1297210-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "树木"
+        },
+        {
+          "option_id": "A",
+          "text": "开花"
+        },
+        {
+          "option_id": "C",
+          "text": "雨"
+        },
+        {
+          "option_id": "D",
+          "text": "山／山丘"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「咲く」的课程义。",
+      "prompt_ja": "花が咲きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-vocab-1332650-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1332650-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "秋天"
+        },
+        {
+          "option_id": "B",
+          "text": "雨"
+        },
+        {
+          "option_id": "C",
+          "text": "山／山丘"
+        },
+        {
+          "option_id": "A",
+          "text": "树木"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「秋」的课程义。",
+      "prompt_ja": "秋です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-confirmation-deshou-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "期待听者确认说话人的判断"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "明日は休みでしょう？"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u21-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u21-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-reason-kara-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "连接理由与结果"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "雨ですから、出かけません。"
+    }
+  ],
+  "embedded_support_placements": []
+}

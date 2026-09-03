@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-049-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u49-group-01",
+      "title_zh": "そして到それから",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1006730-v1",
+        "n5-vocabulary-jmdict-1505990-v1",
+        "n5-vocabulary-jmdict-1583250-v1",
+        "n5-vocabulary-jmdict-1006980-v1"
+      ],
+      "target_labels_zh": [
+        "そして",
+        "しかし",
+        "いいえ",
+        "それから"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u49-group-02",
+      "title_zh": "ください到そうして",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1184270-v1",
+        "n5-vocabulary-jmdict-1406050-v1",
+        "n5-vocabulary-jmdict-1612860-v1"
+      ],
+      "target_labels_zh": [
+        "ください",
+        "それでは",
+        "そうして"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u49-checkpoint-vocab-1006730-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“然后／而且”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "しかし（しかし）"
+        },
+        {
+          "option_id": "B",
+          "text": "いいえ（いいえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "それから（それから）"
+        },
+        {
+          "option_id": "D",
+          "text": "そして（そして）"
+        }
+      ]
+    },
+    "n5-module-b-u49-checkpoint-vocab-1505990-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“但是／不过”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いいえ（いいえ）"
+        },
+        {
+          "option_id": "B",
+          "text": "それから（それから）"
+        },
+        {
+          "option_id": "C",
+          "text": "しかし（しかし）"
+        },
+        {
+          "option_id": "D",
+          "text": "そして（そして）"
+        }
+      ]
+    },
+    "n5-module-b-u49-checkpoint-vocab-1583250-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“不／不是（回答）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "それから（それから）"
+        },
+        {
+          "option_id": "B",
+          "text": "いいえ（いいえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "そして（そして）"
+        },
+        {
+          "option_id": "D",
+          "text": "しかし（しかし）"
+        }
+      ]
+    },
+    "n5-module-b-u49-checkpoint-vocab-1006980-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“然后／之后”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "それから（それから）"
+        },
+        {
+          "option_id": "B",
+          "text": "そして（そして）"
+        },
+        {
+          "option_id": "C",
+          "text": "しかし（しかし）"
+        },
+        {
+          "option_id": "D",
+          "text": "いいえ（いいえ）"
+        }
+      ]
+    },
+    "n5-module-b-u49-checkpoint-vocab-1184270-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“请给我……”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "そして（そして）"
+        },
+        {
+          "option_id": "B",
+          "text": "しかし（しかし）"
+        },
+        {
+          "option_id": "C",
+          "text": "いいえ（いいえ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ください（ください）"
+        }
+      ]
+    },
+    "n5-module-b-u49-checkpoint-vocab-1406050-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“那样的话／既然如此”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "しかし（しかし）"
+        },
+        {
+          "option_id": "B",
+          "text": "いいえ（いいえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "それでは（それでは）"
+        },
+        {
+          "option_id": "D",
+          "text": "そして（そして）"
+        }
+      ]
+    },
+    "n5-module-b-u49-checkpoint-vocab-1612860-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“然后／就这样”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "いいえ（いいえ）"
+        },
+        {
+          "option_id": "B",
+          "text": "そうして（そうして）"
+        },
+        {
+          "option_id": "C",
+          "text": "そして（そして）"
+        },
+        {
+          "option_id": "D",
+          "text": "しかし（しかし）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1006730-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1006730-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "然后／而且"
+        },
+        {
+          "option_id": "B",
+          "text": "但是／不过"
+        },
+        {
+          "option_id": "C",
+          "text": "不／不是（回答）"
+        },
+        {
+          "option_id": "A",
+          "text": "然后／之后"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「そして」的课程义。",
+      "prompt_ja": "そして、家に帰ります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1505990-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1505990-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "然后／而且"
+        },
+        {
+          "option_id": "B",
+          "text": "不／不是（回答）"
+        },
+        {
+          "option_id": "D",
+          "text": "然后／之后"
+        },
+        {
+          "option_id": "C",
+          "text": "但是／不过"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「しかし」的课程义。",
+      "prompt_ja": "しかし、行きません。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1583250-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1583250-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "但是／不过"
+        },
+        {
+          "option_id": "C",
+          "text": "然后／之后"
+        },
+        {
+          "option_id": "B",
+          "text": "不／不是（回答）"
+        },
+        {
+          "option_id": "D",
+          "text": "然后／而且"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「いいえ」的课程义。",
+      "prompt_ja": "いいえ、違います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1006980-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1006980-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "不／不是（回答）"
+        },
+        {
+          "option_id": "A",
+          "text": "然后／之后"
+        },
+        {
+          "option_id": "C",
+          "text": "然后／而且"
+        },
+        {
+          "option_id": "D",
+          "text": "但是／不过"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「それから」的课程义。",
+      "prompt_ja": "それから、休みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1184270-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1184270-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "请给我……"
+        },
+        {
+          "option_id": "B",
+          "text": "然后／而且"
+        },
+        {
+          "option_id": "C",
+          "text": "但是／不过"
+        },
+        {
+          "option_id": "A",
+          "text": "不／不是（回答）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ください」的课程义。",
+      "prompt_ja": "水をください。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1406050-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1406050-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "然后／而且"
+        },
+        {
+          "option_id": "B",
+          "text": "但是／不过"
+        },
+        {
+          "option_id": "D",
+          "text": "不／不是（回答）"
+        },
+        {
+          "option_id": "C",
+          "text": "那样的话／既然如此"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「それでは」的课程义。",
+      "prompt_ja": "それでは、始めます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u49-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u49-checkpoint-vocab-1612860-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1612860-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "但是／不过"
+        },
+        {
+          "option_id": "C",
+          "text": "不／不是（回答）"
+        },
+        {
+          "option_id": "B",
+          "text": "然后／就这样"
+        },
+        {
+          "option_id": "D",
+          "text": "然后／而且"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「そうして」的课程义。",
+      "prompt_ja": "そうして、終わりました。"
+    }
+  ],
+  "embedded_support_placements": []
+}

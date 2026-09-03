@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-022-v3",
+  "items": {
+    "n5-module-b-u22-card-grammar-01-v1": {
+      "title_zh": "用ましょう共同提议",
+      "learner_pattern_zh": "Vましょう",
+      "explanation_zh": "提议说话人与对方共同做某事",
+      "connection_zh": "动词ます形词干后接ましょう",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "一緒に帰りましょう。",
+      "example_zh": "一起回去吧。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“提议说话人与对方共同做某事”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u22-card-grammar-02-v1": {
+      "title_zh": "动词普通形基础",
+      "learner_pattern_zh": "V普通形",
+      "explanation_zh": "连接名词化、原因、意图和时间关系",
+      "connection_zh": "至少区分辞书形、ない形、た形及其基本关系",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "遊びます → 遊ぶ／遊びません → 遊ばない",
+      "example_zh": "遊びます变为遊ぶ，遊びません变为遊ばない。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

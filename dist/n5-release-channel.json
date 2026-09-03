@@ -1,0 +1,19 @@
+{
+  "channel_id": "n5-public-github-release-v1",
+  "learner_archive_location": "outside_course_installation",
+  "production_distribution_approved": false,
+  "release": {
+    "asset_name": "n5-0-to-n5-pc-v1.zip",
+    "download_url": "https://github.com/nutletor/japanese-n5-course/releases/download/v0.1.0-rc.1/n5-0-to-n5-pc-v1.zip",
+    "package_id": "n5-0-to-n5-pc-release-candidate-v1",
+    "package_status": "g5_release_candidate_not_approved",
+    "sha256": "bca2849154c4d792cf8cf9a370eaee9027cd05e968b1082b84898f2c92140ca9",
+    "size_bytes": 45477828,
+    "version_id": "n5-0-to-n5-pc-release-candidate-v1"
+  },
+  "repository_url": "https://github.com/nutletor/japanese-n5-course",
+  "schema_version": 1,
+  "status": "unpublished_candidate",
+  "tag_name": "v0.1.0-rc.1",
+  "windows_clean_install_verified": false
+}

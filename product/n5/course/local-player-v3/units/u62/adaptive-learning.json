@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-062-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u62-group-01",
+      "title_zh": "早い到長い",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1404975-v1",
+        "n5-vocabulary-jmdict-1408180-v1",
+        "n5-vocabulary-jmdict-1421970-v1",
+        "n5-vocabulary-jmdict-1429750-v1"
+      ],
+      "target_labels_zh": [
+        "早い",
+        "太い",
+        "遅い",
+        "長い"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u62-group-02",
+      "title_zh": "低い到便利",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1434180-v1",
+        "n5-vocabulary-jmdict-1451750-v1",
+        "n5-vocabulary-jmdict-1475480-v1",
+        "n5-vocabulary-jmdict-1512610-v1"
+      ],
+      "target_labels_zh": [
+        "低い",
+        "同じ",
+        "薄い",
+        "便利"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u62-group-03",
+      "title_zh": "りっぱ到范围の中でXが一番述部",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1551790-v1",
+        "n5-vocabulary-jmdict-1591900-v1",
+        "n5-grammar-superlative-nonakade-ichiban-v1"
+      ],
+      "target_labels_zh": [
+        "りっぱ",
+        "きれい",
+        "范围の中でXが一番述部"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u62-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "表示X在给定范围中最符合某性质"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "表示X在给定范围中最符合某性质。基本形式是范围の中でXが一番述部。范围后接の中で，对象后接が，一番修饰述部。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u62-checkpoint-vocab-1404975-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“快”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "B",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "C",
+          "text": "長い（ながい）"
+        },
+        {
+          "option_id": "D",
+          "text": "早い（はやい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1408180-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“粗的／胖的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "B",
+          "text": "長い（ながい）"
+        },
+        {
+          "option_id": "C",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "D",
+          "text": "早い（はやい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1421970-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“慢的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "長い（ながい）"
+        },
+        {
+          "option_id": "B",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "C",
+          "text": "早い（はやい）"
+        },
+        {
+          "option_id": "D",
+          "text": "太い（ふとい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1429750-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“长（长度或时间）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "長い（ながい）"
+        },
+        {
+          "option_id": "B",
+          "text": "早い（はやい）"
+        },
+        {
+          "option_id": "C",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "D",
+          "text": "遅い（おそい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1434180-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“程度低／水平低”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "早い（はやい）"
+        },
+        {
+          "option_id": "B",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "C",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "D",
+          "text": "低い（ひくい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1451750-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“相同／一样”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "B",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "C",
+          "text": "同じ（おなじ）"
+        },
+        {
+          "option_id": "D",
+          "text": "早い（はやい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1475480-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“薄：厚度小”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "B",
+          "text": "薄い（うすい）"
+        },
+        {
+          "option_id": "C",
+          "text": "早い（はやい）"
+        },
+        {
+          "option_id": "D",
+          "text": "太い（ふとい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1512610-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“方便的”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "便利（べんり）"
+        },
+        {
+          "option_id": "B",
+          "text": "早い（はやい）"
+        },
+        {
+          "option_id": "C",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "D",
+          "text": "遅い（おそい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1551790-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“出色／漂亮／气派”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "早い（はやい）"
+        },
+        {
+          "option_id": "B",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "C",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "D",
+          "text": "りっぱ（りっぱ）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-vocab-1591900-v1": {
+      "prompt_zh": "在新的“大小、状态与评价”情境中，选择表示“漂亮／美丽”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "太い（ふとい）"
+        },
+        {
+          "option_id": "B",
+          "text": "遅い（おそい）"
+        },
+        {
+          "option_id": "C",
+          "text": "きれい（きれい）"
+        },
+        {
+          "option_id": "D",
+          "text": "早い（はやい）"
+        }
+      ]
+    },
+    "n5-module-b-u62-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表示X在给定范围中最符合某性质”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "范围の中でXが一番述部"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1404975-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1404975-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "快"
+        },
+        {
+          "option_id": "B",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "C",
+          "text": "慢的"
+        },
+        {
+          "option_id": "A",
+          "text": "长（长度或时间）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「早い」的课程义。",
+      "prompt_ja": "この電車は速いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1408180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1408180-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "快"
+        },
+        {
+          "option_id": "B",
+          "text": "慢的"
+        },
+        {
+          "option_id": "D",
+          "text": "长（长度或时间）"
+        },
+        {
+          "option_id": "C",
+          "text": "粗的／胖的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「太い」的课程义。",
+      "prompt_ja": "太いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1421970-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1421970-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "C",
+          "text": "长（长度或时间）"
+        },
+        {
+          "option_id": "B",
+          "text": "慢的"
+        },
+        {
+          "option_id": "D",
+          "text": "快"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「遅い」的课程义。",
+      "prompt_ja": "この車は遅いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1429750-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1429750-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "慢的"
+        },
+        {
+          "option_id": "A",
+          "text": "长（长度或时间）"
+        },
+        {
+          "option_id": "C",
+          "text": "快"
+        },
+        {
+          "option_id": "D",
+          "text": "粗的／胖的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「長い」的课程义。",
+      "prompt_ja": "長いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1434180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1434180-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "程度低／水平低"
+        },
+        {
+          "option_id": "B",
+          "text": "快"
+        },
+        {
+          "option_id": "C",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "A",
+          "text": "慢的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「低い」的课程义。",
+      "prompt_ja": "点数が低いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1451750-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1451750-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "快"
+        },
+        {
+          "option_id": "B",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "D",
+          "text": "慢的"
+        },
+        {
+          "option_id": "C",
+          "text": "相同／一样"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「同じ」的课程义。",
+      "prompt_ja": "同じです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1475480-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1475480-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "C",
+          "text": "慢的"
+        },
+        {
+          "option_id": "B",
+          "text": "薄：厚度小"
+        },
+        {
+          "option_id": "D",
+          "text": "快"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「薄い」的课程义。",
+      "prompt_ja": "この紙は薄いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1512610-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1512610-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "慢的"
+        },
+        {
+          "option_id": "A",
+          "text": "方便的"
+        },
+        {
+          "option_id": "C",
+          "text": "快"
+        },
+        {
+          "option_id": "D",
+          "text": "粗的／胖的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「便利」的课程义。",
+      "prompt_ja": "便利です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1551790-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1551790-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "出色／漂亮／气派"
+        },
+        {
+          "option_id": "B",
+          "text": "快"
+        },
+        {
+          "option_id": "C",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "A",
+          "text": "慢的"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「りっぱ」的课程义。",
+      "prompt_ja": "りっぱです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-vocab-1591900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1591900-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "快"
+        },
+        {
+          "option_id": "B",
+          "text": "粗的／胖的"
+        },
+        {
+          "option_id": "D",
+          "text": "慢的"
+        },
+        {
+          "option_id": "C",
+          "text": "漂亮／美丽"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「きれい」的课程义。",
+      "prompt_ja": "この花はきれいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u62-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u62-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-superlative-nonakade-ichiban-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "表示X在给定范围中最符合某性质"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "果物の中で、りんごがいちばん好きです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

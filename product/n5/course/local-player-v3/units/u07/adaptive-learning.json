@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-007-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经掌握？跳过这一项的学习",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u07-group-parts-of-day",
+      "title_zh": "一天中的时段",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1428280-v1",
+        "n5-vocabulary-jmdict-1426250-v1",
+        "n5-vocabulary-jmdict-1268990-v1",
+        "n5-vocabulary-jmdict-1536350-v1"
+      ],
+      "target_labels_zh": [
+        "朝",
+        "昼",
+        "午後",
+        "夜"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u07-group-now-and-order",
+      "title_zh": "现在、今天和先后顺序",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1579110-v1",
+        "n5-vocabulary-jmdict-1288850-v1",
+        "n5-vocabulary-jmdict-1387210-v1",
+        "n5-vocabulary-jmdict-1269320-v1",
+        "n5-vocabulary-jmdict-1316380-v1"
+      ],
+      "target_labels_zh": [
+        "今日",
+        "今",
+        "先",
+        "後",
+        "次"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u07-group-clock-time",
+      "title_zh": "明确时刻和时间点",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1307230-v1",
+        "n5-grammar-particle-ni-time-point-v1"
+      ],
+      "target_labels_zh": [
+        "四時",
+        "时间点的「に」"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u07-guided-grammar-01-v1": {
+      "prompt_ja": "四時___起きます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "に"
+        },
+        {
+          "option_id": "B",
+          "text": "を"
+        },
+        {
+          "option_id": "C",
+          "text": "と"
+        },
+        {
+          "option_id": "D",
+          "text": "か"
+        }
+      ],
+      "feedback_zh": "具体时刻可接「に」；「今、今日、いつ」后不能按本规则机械加「に」。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u07-checkpoint-vocab-1428280-v1": {
+      "prompt_zh": "一天刚开始的时段：___に起きます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夜"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "午後"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1536350-v1": {
+      "prompt_zh": "天黑后的时段：___に寝ます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今日"
+        },
+        {
+          "option_id": "B",
+          "text": "午後"
+        },
+        {
+          "option_id": "C",
+          "text": "夜"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1579110-v1": {
+      "prompt_zh": "不是昨天也不是明天，而是___は休みです。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "午後"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "朝"
+        },
+        {
+          "option_id": "D",
+          "text": "夜"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1268990-v1": {
+      "prompt_zh": "中午以后：___四時に休みます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "午後"
+        },
+        {
+          "option_id": "B",
+          "text": "朝"
+        },
+        {
+          "option_id": "C",
+          "text": "夜"
+        },
+        {
+          "option_id": "D",
+          "text": "今日"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1269320-v1": {
+      "prompt_zh": "表示“休息之后”：休みの___です。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "朝"
+        },
+        {
+          "option_id": "B",
+          "text": "夜"
+        },
+        {
+          "option_id": "C",
+          "text": "今日"
+        },
+        {
+          "option_id": "D",
+          "text": "後"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1288850-v1": {
+      "prompt_zh": "表示动作就在当前发生：___、起きます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夜"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "今"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1307230-v1": {
+      "prompt_zh": "钟表显示4:00：___に起きます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今日"
+        },
+        {
+          "option_id": "B",
+          "text": "四時"
+        },
+        {
+          "option_id": "C",
+          "text": "朝"
+        },
+        {
+          "option_id": "D",
+          "text": "夜"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1316380-v1": {
+      "prompt_zh": "排队时说“下一个是你”：___はあなたです。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "次"
+        },
+        {
+          "option_id": "B",
+          "text": "朝"
+        },
+        {
+          "option_id": "C",
+          "text": "夜"
+        },
+        {
+          "option_id": "D",
+          "text": "今日"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1387210-v1": {
+      "prompt_zh": "比对方先走：___に行きます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "朝"
+        },
+        {
+          "option_id": "B",
+          "text": "夜"
+        },
+        {
+          "option_id": "C",
+          "text": "今日"
+        },
+        {
+          "option_id": "D",
+          "text": "先"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-vocab-1426250-v1": {
+      "prompt_zh": "中午时段休息：___に休みます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夜"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "昼"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ]
+    },
+    "n5-module-b-u07-checkpoint-grammar-01-v1": {
+      "prompt_ja": "午後四時___寝ます。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "と"
+        },
+        {
+          "option_id": "C",
+          "text": "に"
+        },
+        {
+          "option_id": "D",
+          "text": "は"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1428280-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1428280-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夜"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "午後"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ],
+      "prompt_zh": "早晨从睡眠中醒来：___に起きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1536350-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1536350-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今日"
+        },
+        {
+          "option_id": "B",
+          "text": "午後"
+        },
+        {
+          "option_id": "C",
+          "text": "夜"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ],
+      "prompt_zh": "一天结束、准备睡觉的时段：___に寝ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1579110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1579110-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "午後"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "朝"
+        },
+        {
+          "option_id": "D",
+          "text": "夜"
+        }
+      ],
+      "prompt_zh": "说“今天休息”：___は休みです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1268990-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1268990-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "午後"
+        },
+        {
+          "option_id": "B",
+          "text": "朝"
+        },
+        {
+          "option_id": "C",
+          "text": "夜"
+        },
+        {
+          "option_id": "D",
+          "text": "今日"
+        }
+      ],
+      "prompt_zh": "下午四点休息：___四時に休みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1269320-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1269320-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "朝"
+        },
+        {
+          "option_id": "B",
+          "text": "夜"
+        },
+        {
+          "option_id": "C",
+          "text": "今日"
+        },
+        {
+          "option_id": "D",
+          "text": "後"
+        }
+      ],
+      "prompt_zh": "表达“休息以后”：休みの___です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1288850-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1288850-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夜"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "今"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ],
+      "prompt_zh": "表示“现在就起床”：___、起きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1307230-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1307230-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今日"
+        },
+        {
+          "option_id": "B",
+          "text": "四時"
+        },
+        {
+          "option_id": "C",
+          "text": "朝"
+        },
+        {
+          "option_id": "D",
+          "text": "夜"
+        }
+      ],
+      "prompt_zh": "钟表显示下午4:00：午後___に休みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1316380-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1316380-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "次"
+        },
+        {
+          "option_id": "B",
+          "text": "朝"
+        },
+        {
+          "option_id": "C",
+          "text": "夜"
+        },
+        {
+          "option_id": "D",
+          "text": "今日"
+        }
+      ],
+      "prompt_zh": "轮到下一个人：___はあの人です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1387210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1387210-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "朝"
+        },
+        {
+          "option_id": "B",
+          "text": "夜"
+        },
+        {
+          "option_id": "C",
+          "text": "今日"
+        },
+        {
+          "option_id": "D",
+          "text": "先"
+        }
+      ],
+      "prompt_zh": "表达“先走／先去”：___に行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-vocab-1426250-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1426250-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "夜"
+        },
+        {
+          "option_id": "B",
+          "text": "今日"
+        },
+        {
+          "option_id": "C",
+          "text": "昼"
+        },
+        {
+          "option_id": "D",
+          "text": "朝"
+        }
+      ],
+      "prompt_zh": "一天正中的时段：___に休みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u07-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u07-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-particle-ni-time-point-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "を"
+        },
+        {
+          "option_id": "B",
+          "text": "と"
+        },
+        {
+          "option_id": "C",
+          "text": "に"
+        },
+        {
+          "option_id": "D",
+          "text": "は"
+        }
+      ],
+      "prompt_ja": "四時___起きます。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "answer_keys": [
+    {
+      "item_id": "n5-g3-reading-r04-practice-memo-001-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "便条开头的山田是收信人，也是被要求带红色包的人。",
+      "distractor_rationales_zh": {
+        "B": "佐藤是写便条的人。",
+        "C": "田中没有出现在便条中。",
+        "D": "木村没有出现在便条中。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-schedule-002-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "要比较到达列；二班9:50到达且比一班晚，三班10:10太迟。",
+      "distractor_rationales_zh": {
+        "A": "一班能到，但不是最晚可选的班次。",
+        "C": "三班十点以后才到。",
+        "D": "一班和二班都满足十点前到达。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-listing-003-v1",
+      "correct_option_id": "C",
+      "answer_rationale_zh": "星期三所在行写的是休息，价格信息不能覆盖休息日。",
+      "distractor_rationales_zh": {
+        "A": "200日元属于星期一。",
+        "B": "150日元属于星期二。",
+        "D": "文章没有说只有星期一营业。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-route-004-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "电车价格400日元、用时50分钟，同时满足两个条件。",
+      "distractor_rationales_zh": {
+        "A": "公交时间满足，但价格超过500日元。",
+        "C": "自行车价格满足，但用时超过50分钟。",
+        "D": "电车同时满足两个条件。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-extract-005-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "问题给的是到达时间和价格上限，且两个条件都必须保留。",
+      "distractor_rationales_zh": {
+        "B": "把到达误成出发，并把比较方向反转。",
+        "C": "“前”和“まで”不是要求恰好等于。",
+        "D": "不能丢掉价格条件。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-all-constraints-006-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "二班9:40到达、价格220日元，两个条件都满足。",
+      "distractor_rationales_zh": {
+        "A": "一班按时到达，但价格超过250日元。",
+        "C": "三班价格满足，但9:50以后才到。",
+        "D": "二班同时满足全部条件。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "status": "owner_approved_validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-002-v3",
+  "items": [
+    {
+      "system_map_snapshot_id": "n5-module-b-u02-n5-system-demonstratives-v1-snapshot-v1",
+      "eyebrow_zh": "整理一下 · 指示词",
+      "title_zh": "把指示词按距离和用法放回位置",
+      "explanation_zh": "先判断离谁更近，再看它是单独指出东西、修饰名词，还是指出地点。",
+      "columns": [
+        {
+          "label_zh": "离我近",
+          "accent": "blue",
+          "items": [
+            {
+              "form": "ここ",
+              "note_zh": "表示地点“这里”"
+            }
+          ]
+        },
+        {
+          "label_zh": "离你近",
+          "accent": "green",
+          "items": [
+            {
+              "form": "そこ",
+              "note_zh": "表示地点“那里”"
+            },
+            {
+              "form": "その＋名词",
+              "note_zh": "修饰对方一侧的名词"
+            },
+            {
+              "form": "それ",
+              "note_zh": "单独指出对方一侧的东西"
+            }
+          ]
+        },
+        {
+          "label_zh": "离双方都远",
+          "accent": "amber",
+          "items": [
+            {
+              "form": "あの＋名词",
+              "note_zh": "修饰远处的名词"
+            },
+            {
+              "form": "あれ",
+              "note_zh": "单独指出远处的东西"
+            }
+          ]
+        }
+      ],
+      "preview_title_zh": "以后会补全的同一套系统",
+      "preview_items": [
+        "これ",
+        "この＋名词",
+        "あそこ"
+      ],
+      "preview_note_zh": "现在不用会用，也不会计入本单元已学内容。"
+    },
+    {
+      "system_map_snapshot_id": "n5-module-b-u02-n5-system-interrogatives-v1-snapshot-v1",
+      "eyebrow_zh": "整理一下 · 疑问词",
+      "title_zh": "先按“想问什么”来记疑问词",
+      "explanation_zh": "不用把所有疑问词一次背完，先记住这个单元真正会用到的两个位置。",
+      "columns": [
+        {
+          "label_zh": "问选择",
+          "accent": "blue",
+          "items": [
+            {
+              "form": "どれ",
+              "note_zh": "几个东西里问“哪一个”"
+            }
+          ]
+        },
+        {
+          "label_zh": "问时间",
+          "accent": "green",
+          "items": [
+            {
+              "form": "いつ",
+              "note_zh": "询问“什么时候”"
+            }
+          ]
+        }
+      ],
+      "preview_title_zh": "之后再加入的疑问词",
+      "preview_items": [
+        "誰",
+        "何",
+        "どこ",
+        "どの＋名词"
+      ],
+      "preview_note_zh": "「どう」表示“怎么样”，本单元单独学习，不强行塞进这张关系图。"
+    }
+  ]
+}

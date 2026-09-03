@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "profile_id": "n5-foundation-f02-audio-first-profile-v1",
+  "status": "validation_candidate_not_active",
+  "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+  "work_unit_id": "n5-work-unit-foundation-hiragana-ta-na-ha-v1",
+  "phase_order": [
+    "micro_batch_audio_exposure",
+    "micro_batch_immediate_feedback_practice",
+    "stage_checkpoint_without_item_feedback",
+    "incorrect_target_brief_repair",
+    "incorrect_target_reordered_retest",
+    "result_mapping"
+  ],
+  "guided_practice_modes": [
+    "direct_sound_to_shape",
+    "direct_shape_to_sound"
+  ],
+  "micro_batches": [
+    {
+      "batch_number": 1,
+      "micro_batch_id": "u02-ta-na-ha-01",
+      "title_zh": "第1组",
+      "target_ids": [
+        "n5-fnd-u02-target-u305f-v1",
+        "n5-fnd-u02-target-u3061-v1",
+        "n5-fnd-u02-target-u3064-v1",
+        "n5-fnd-u02-target-u3066-v1",
+        "n5-fnd-u02-target-u3068-v1"
+      ],
+      "target_displays_ja": [
+        "た",
+        "ち",
+        "つ",
+        "て",
+        "と"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u305f-u3061-u3064-u3066-u3068-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u305f-u3061-u3064-u3066-u3068-v1",
+      "practice_item_ids": [
+        "n5-practice-u02-sound-to-shape-u305f-v1",
+        "n5-practice-u02-sound-to-shape-u3061-v1",
+        "n5-practice-u02-sound-to-shape-u3064-v1",
+        "n5-practice-u02-sound-to-shape-u3066-v1",
+        "n5-practice-u02-sound-to-shape-u3068-v1"
+      ]
+    },
+    {
+      "batch_number": 2,
+      "micro_batch_id": "u02-ta-na-ha-02",
+      "title_zh": "第2组",
+      "target_ids": [
+        "n5-fnd-u02-target-u306a-v1",
+        "n5-fnd-u02-target-u306b-v1",
+        "n5-fnd-u02-target-u306c-v1",
+        "n5-fnd-u02-target-u306d-v1",
+        "n5-fnd-u02-target-u306e-v1"
+      ],
+      "target_displays_ja": [
+        "な",
+        "に",
+        "ぬ",
+        "ね",
+        "の"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u306a-u306b-u306c-u306d-u306e-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u306a-u306b-u306c-u306d-u306e-v1",
+      "practice_item_ids": [
+        "n5-practice-u02-sound-to-shape-u306a-v1",
+        "n5-practice-u02-sound-to-shape-u306b-v1",
+        "n5-practice-u02-sound-to-shape-u306c-v1",
+        "n5-practice-u02-sound-to-shape-u306d-v1",
+        "n5-practice-u02-sound-to-shape-u306e-v1"
+      ]
+    },
+    {
+      "batch_number": 3,
+      "micro_batch_id": "u02-ta-na-ha-03",
+      "title_zh": "第3组",
+      "target_ids": [
+        "n5-fnd-u02-target-u306f-v1",
+        "n5-fnd-u02-target-u3072-v1",
+        "n5-fnd-u02-target-u3075-v1",
+        "n5-fnd-u02-target-u3078-v1",
+        "n5-fnd-u02-target-u307b-v1"
+      ],
+      "target_displays_ja": [
+        "は",
+        "ひ",
+        "ふ",
+        "へ",
+        "ほ"
+      ],
+      "sequence_audio_asset_id": "n5-fnd-audio-sequence-u306f-u3072-u3075-u3078-u307b-v2",
+      "replaces_sequence_audio_asset_id": "n5-fnd-audio-sequence-u306f-u3072-u3075-u3078-u307b-v1",
+      "practice_item_ids": [
+        "n5-practice-u02-sound-to-shape-u306f-v1",
+        "n5-practice-u02-sound-to-shape-u3072-v1",
+        "n5-practice-u02-sound-to-shape-u3075-v1",
+        "n5-practice-u02-sound-to-shape-u3078-v1",
+        "n5-practice-u02-sound-to-shape-u307b-v1"
+      ]
+    }
+  ],
+  "stage_checkpoint_item_ids": [
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u305f-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3061-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3064-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3066-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3068-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u306a-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u306b-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u306c-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u306d-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u306e-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u306f-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3072-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3075-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u3078-v1",
+    "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u02-target-u307b-v1"
+  ],
+  "feedback_policy": {
+    "guided_practice": "retry_until_correct_with_immediate_feedback",
+    "stage_checkpoint": "withhold_all_item_results_until_checkpoint_completion",
+    "incorrect_target_repair": "only_show_targets_answered_incorrectly",
+    "incorrect_target_retest": "one_reordered_shape_to_sound_item_per_incorrect_target"
+  },
+  "repair_guidance_by_target": {},
+  "learner_copy": {
+    "unit_task_brief": "按组熟悉平假名：た行到は行，完成双向练习和一次不逐题公布答案的阶段小测。",
+    "batch_intro_title": "先听整组发音",
+    "batch_intro_body": "可以重复播放。听过整组后，再分别练习听音选字和看字选音。",
+    "checkpoint_intro_title": "开始阶段小测",
+    "checkpoint_intro_body": "下面15题会打乱同组提示，并且不逐题公布对错。答错的内容会在小测后单独短补和复测。",
+    "repair_title": "只补刚才答错的内容",
+    "repair_body": "重新听清楚这个假名或组合音，再用一道不同排列的题确认。",
+    "retest_title": "换一道题，再试一次",
+    "retest_body": "听过三个选项后，选择和上方写法相符的发音。"
+  },
+  "result_mapping": {
+    "answered_count_source": "stage_checkpoint_responses",
+    "correct_count_source": "server_side_stage_checkpoint_evaluation",
+    "recovered_target_ids_source": "incorrect_target_retest_correct_targets",
+    "delayed_review_target_ids_source": "stage_checkpoint_correct_targets_plus_recovered_targets",
+    "unresolved_target_ids_source": "incorrect_target_retest_incorrect_targets",
+    "mastery_claim": "not_inferred_from_single_session"
+  }
+}

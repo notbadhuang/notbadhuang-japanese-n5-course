@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-062-v3",
+  "items": {
+    "n5-module-b-u62-card-grammar-01-v1": {
+      "title_zh": "在限定范围中表达最高程度",
+      "learner_pattern_zh": "范围の中でXが一番述部",
+      "explanation_zh": "表示X在给定范围中最符合某性质",
+      "connection_zh": "范围后接の中で，对象后接が，一番修饰述部",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "果物の中で、りんごがいちばん好きです。",
+      "example_zh": "在水果中，我最喜欢苹果。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "answer_keys": [
+    {
+      "item_id": "n5-g3-reading-r03-practice-walk-001-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "全文用以前乘公交作对比，重点说明现在步行去公司。",
+      "distractor_rationales_zh": {
+        "B": "这是与现在相反的过去细节。",
+        "C": "文章说现在喜欢看街景。",
+        "D": "文章明确说每天去公司。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-rain-plan-002-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "全文说明明天因下雨不去学校，改在家读书。",
+      "distractor_rationales_zh": {
+        "B": "把地点从家错换成学校。",
+        "C": "文章说的是明天，不是今天。",
+        "D": "文章没有提到下周或车站。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-teacher-book-003-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "今天不带书是背景，主要承诺是明天把书带到学校。",
+      "distractor_rationales_zh": {
+        "B": "文章没有让老师买书。",
+        "C": "文章明确说田中明天会去学校。",
+        "D": "文章没有提到下周读书。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-bag-plan-004-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "其他句子说明同行者和价格对比，核心计划是下周买红色包。",
+      "distractor_rationales_zh": {
+        "B": "文章没有说现在拿着蓝色包。",
+        "C": "文章没有说明哥哥每天散步。",
+        "D": "文章没有说在店里读书。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-phone-005-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "前两句提供早上的经过和原因，最后给出当前决定：今天回家。",
+      "distractor_rationales_zh": {
+        "B": "文章没有提到买面包。",
+        "C": "文章没有提到在公司读书。",
+        "D": "文章没有提到下周去学校。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r03-practice-reference-006-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "三句围绕田中买的花展开；「それ」继续指花，最后补充老师也喜欢红花。",
+      "distractor_rationales_zh": {
+        "B": "买花的是田中，文章也没有书。",
+        "C": "文章没有说田中不喜欢花。",
+        "D": "文章没有说明老师明天去车站。"
+      }
+    }
+  ]
+}

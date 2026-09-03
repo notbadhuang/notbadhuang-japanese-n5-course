@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "answer_keys": [
+    {
+      "item_id": "n5-g3-reading-r02-practice-closed-day-001-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "星期四明确写着休息，所以不能去。",
+      "distractor_rationales_zh": {
+        "A": "忽略了星期四休息这一否定条件。",
+        "C": "星期三是营业范围的终点，但题目问星期四。",
+        "D": "文章没有说明只有星期五可以去。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r02-practice-contrast-002-v1",
+      "correct_option_id": "B",
+      "answer_rationale_zh": "否定形式「行きません」只属于星期二。",
+      "distractor_rationales_zh": {
+        "A": "星期一是去店里的日期。",
+        "C": "文章没有提到星期三。",
+        "D": "文章没有提到星期日。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r02-practice-sequence-003-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「食べてから」后紧接着去车站，乘电车发生得更晚。",
+      "distractor_rationales_zh": {
+        "B": "这是到车站之后的动作。",
+        "C": "文章没有说回家。",
+        "D": "文章说吃面包，没有说在店里买面包。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r02-practice-before-004-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「前に」前面的整体行动是去公司；实际先做的是在车站的店买面包。",
+      "distractor_rationales_zh": {
+        "B": "文章没有提到乘电车。",
+        "C": "文章没有提到回家。",
+        "D": "文章没有提到读书。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r02-practice-reason-005-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "「から」直接把下雨与打电话这一行动连接起来。",
+      "distractor_rationales_zh": {
+        "B": "去公司不是文中给出的原因。",
+        "C": "买面包没有出现在文章中。",
+        "D": "读书没有出现在文章中。"
+      }
+    },
+    {
+      "item_id": "n5-g3-reading-r02-practice-combined-006-v1",
+      "correct_option_id": "A",
+      "answer_rationale_zh": "第二句确定先在家吃面包，第一句说明之后乘公交去车站。",
+      "distractor_rationales_zh": {
+        "B": "文章没有要求给公司打电话。",
+        "C": "文章没有说去店里买书。",
+        "D": "文章没有说从学校回家。"
+      }
+    }
+  ]
+}

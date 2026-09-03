@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-059-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u59-group-01",
+      "title_zh": "働く到食堂",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1451150-v1",
+        "n5-vocabulary-jmdict-1173750-v1",
+        "n5-vocabulary-jmdict-1226440-v1",
+        "n5-vocabulary-jmdict-1358550-v1"
+      ],
+      "target_labels_zh": [
+        "働く",
+        "映画館",
+        "喫茶店",
+        "食堂"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u59-group-02",
+      "title_zh": "図書館到郵便局",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1370420-v1",
+        "n5-vocabulary-jmdict-1413890-v1",
+        "n5-vocabulary-jmdict-1002120-v1",
+        "n5-vocabulary-jmdict-1542430-v1"
+      ],
+      "target_labels_zh": [
+        "図書館",
+        "大使館",
+        "おまわりさん",
+        "郵便局"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u59-checkpoint-vocab-1451150-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“工作／劳动”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "映画館（えいがかん）"
+        },
+        {
+          "option_id": "B",
+          "text": "喫茶店（きっさてん）"
+        },
+        {
+          "option_id": "C",
+          "text": "食堂（しょくどう）"
+        },
+        {
+          "option_id": "D",
+          "text": "働く（はたらく）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1173750-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“电影院”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "喫茶店（きっさてん）"
+        },
+        {
+          "option_id": "B",
+          "text": "食堂（しょくどう）"
+        },
+        {
+          "option_id": "C",
+          "text": "映画館（えいがかん）"
+        },
+        {
+          "option_id": "D",
+          "text": "働く（はたらく）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1226440-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“咖啡店／茶馆”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "食堂（しょくどう）"
+        },
+        {
+          "option_id": "B",
+          "text": "喫茶店（きっさてん）"
+        },
+        {
+          "option_id": "C",
+          "text": "働く（はたらく）"
+        },
+        {
+          "option_id": "D",
+          "text": "映画館（えいがかん）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1358550-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“食堂／餐厅”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "食堂（しょくどう）"
+        },
+        {
+          "option_id": "B",
+          "text": "働く（はたらく）"
+        },
+        {
+          "option_id": "C",
+          "text": "映画館（えいがかん）"
+        },
+        {
+          "option_id": "D",
+          "text": "喫茶店（きっさてん）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1370420-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“图书馆”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "働く（はたらく）"
+        },
+        {
+          "option_id": "B",
+          "text": "映画館（えいがかん）"
+        },
+        {
+          "option_id": "C",
+          "text": "喫茶店（きっさてん）"
+        },
+        {
+          "option_id": "D",
+          "text": "図書館（としょかん）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1413890-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“大使馆”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "映画館（えいがかん）"
+        },
+        {
+          "option_id": "B",
+          "text": "喫茶店（きっさてん）"
+        },
+        {
+          "option_id": "C",
+          "text": "大使館（たいしかん）"
+        },
+        {
+          "option_id": "D",
+          "text": "働く（はたらく）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1002120-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“警察（亲切称呼）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "喫茶店（きっさてん）"
+        },
+        {
+          "option_id": "B",
+          "text": "おまわりさん（おまわりさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "働く（はたらく）"
+        },
+        {
+          "option_id": "D",
+          "text": "映画館（えいがかん）"
+        }
+      ]
+    },
+    "n5-module-b-u59-checkpoint-vocab-1542430-v1": {
+      "prompt_zh": "在新的“工作、设施与公共场所”情境中，选择表示“邮局”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "郵便局（ゆうびんきょく）"
+        },
+        {
+          "option_id": "B",
+          "text": "働く（はたらく）"
+        },
+        {
+          "option_id": "C",
+          "text": "映画館（えいがかん）"
+        },
+        {
+          "option_id": "D",
+          "text": "喫茶店（きっさてん）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1451150-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1451150-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "工作／劳动"
+        },
+        {
+          "option_id": "B",
+          "text": "电影院"
+        },
+        {
+          "option_id": "C",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "A",
+          "text": "食堂／餐厅"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「働く」的课程义。",
+      "prompt_ja": "会社で働きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1173750-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1173750-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "工作／劳动"
+        },
+        {
+          "option_id": "B",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "D",
+          "text": "食堂／餐厅"
+        },
+        {
+          "option_id": "C",
+          "text": "电影院"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「映画館」的课程义。",
+      "prompt_ja": "映画館です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1226440-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1226440-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "电影院"
+        },
+        {
+          "option_id": "C",
+          "text": "食堂／餐厅"
+        },
+        {
+          "option_id": "B",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "D",
+          "text": "工作／劳动"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「喫茶店」的课程义。",
+      "prompt_ja": "喫茶店です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1358550-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1358550-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "A",
+          "text": "食堂／餐厅"
+        },
+        {
+          "option_id": "C",
+          "text": "工作／劳动"
+        },
+        {
+          "option_id": "D",
+          "text": "电影院"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「食堂」的课程义。",
+      "prompt_ja": "食堂です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1370420-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1370420-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "图书馆"
+        },
+        {
+          "option_id": "B",
+          "text": "工作／劳动"
+        },
+        {
+          "option_id": "C",
+          "text": "电影院"
+        },
+        {
+          "option_id": "A",
+          "text": "咖啡店／茶馆"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「図書館」的课程义。",
+      "prompt_ja": "図書館です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1413890-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1413890-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "工作／劳动"
+        },
+        {
+          "option_id": "B",
+          "text": "电影院"
+        },
+        {
+          "option_id": "D",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "C",
+          "text": "大使馆"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「大使館」的课程义。",
+      "prompt_ja": "大使館です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1002120-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1002120-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "电影院"
+        },
+        {
+          "option_id": "C",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "B",
+          "text": "警察（亲切称呼）"
+        },
+        {
+          "option_id": "D",
+          "text": "工作／劳动"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「おまわりさん」的课程义。",
+      "prompt_ja": "おまわりさんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u59-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u59-checkpoint-vocab-1542430-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1542430-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "咖啡店／茶馆"
+        },
+        {
+          "option_id": "A",
+          "text": "邮局"
+        },
+        {
+          "option_id": "C",
+          "text": "工作／劳动"
+        },
+        {
+          "option_id": "D",
+          "text": "电影院"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「郵便局」的课程义。",
+      "prompt_ja": "郵便局です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

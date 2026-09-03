@@ -1,0 +1,573 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-025-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u25-group-01",
+      "title_zh": "じゃ到さあ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1005900-v1",
+        "n5-vocabulary-jmdict-1000430-v1",
+        "n5-vocabulary-jmdict-1001140-v1",
+        "n5-vocabulary-jmdict-1005110-v1"
+      ],
+      "target_labels_zh": [
+        "じゃ",
+        "あの",
+        "ええ",
+        "さあ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u25-group-02",
+      "title_zh": "では到など",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1008450-v1",
+        "n5-vocabulary-jmdict-1008460-v1",
+        "n5-vocabulary-jmdict-1010080-v1",
+        "n5-vocabulary-jmdict-1582300-v1"
+      ],
+      "target_labels_zh": [
+        "では",
+        "でも",
+        "はい",
+        "など"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u25-group-03",
+      "title_zh": "Sね到Sよ",
+      "primary_target_ids": [
+        "n5-grammar-sentence-final-ne-v1",
+        "n5-grammar-sentence-final-yo-v1"
+      ],
+      "target_labels_zh": [
+        "Sね",
+        "Sよ"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u25-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "把说话人认为双方可共享的判断轻柔地抛给对方"
+        }
+      ],
+      "feedback_zh": "ね常用于邀请对方共享感受或确认双方都知道的信息，听力中要能识别它不是新的事实内容。"
+    },
+    "n5-module-b-u25-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "把说话人提供的信息明确提示给听话人"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "よ表示说话人正在告诉对方一条值得注意的信息，听力中要区分它和寻求共识的ね。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u25-checkpoint-vocab-1005900-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“那么／那就”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あの（あの）"
+        },
+        {
+          "option_id": "B",
+          "text": "ええ（ええ）"
+        },
+        {
+          "option_id": "C",
+          "text": "さあ（さあ）"
+        },
+        {
+          "option_id": "D",
+          "text": "じゃ（じゃ）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1000430-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“嗯……／那个……（用于犹豫或引起注意）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ええ（ええ）"
+        },
+        {
+          "option_id": "B",
+          "text": "さあ（さあ）"
+        },
+        {
+          "option_id": "C",
+          "text": "あの（あの）"
+        },
+        {
+          "option_id": "D",
+          "text": "じゃ（じゃ）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1001140-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“是的／对”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "さあ（さあ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ええ（ええ）"
+        },
+        {
+          "option_id": "C",
+          "text": "じゃ（じゃ）"
+        },
+        {
+          "option_id": "D",
+          "text": "あの（あの）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1005110-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“嗯……／这个嘛（表示犹豫）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "さあ（さあ）"
+        },
+        {
+          "option_id": "B",
+          "text": "じゃ（じゃ）"
+        },
+        {
+          "option_id": "C",
+          "text": "あの（あの）"
+        },
+        {
+          "option_id": "D",
+          "text": "ええ（ええ）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1008450-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“那么／那就”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "じゃ（じゃ）"
+        },
+        {
+          "option_id": "B",
+          "text": "あの（あの）"
+        },
+        {
+          "option_id": "C",
+          "text": "ええ（ええ）"
+        },
+        {
+          "option_id": "D",
+          "text": "では（では）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1008460-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“但是／不过”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あの（あの）"
+        },
+        {
+          "option_id": "B",
+          "text": "ええ（ええ）"
+        },
+        {
+          "option_id": "C",
+          "text": "でも（でも）"
+        },
+        {
+          "option_id": "D",
+          "text": "じゃ（じゃ）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1010080-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“是／对”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ええ（ええ）"
+        },
+        {
+          "option_id": "B",
+          "text": "はい（はい）"
+        },
+        {
+          "option_id": "C",
+          "text": "じゃ（じゃ）"
+        },
+        {
+          "option_id": "D",
+          "text": "あの（あの）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-vocab-1582300-v1": {
+      "prompt_zh": "在新的“连接、应答与话语组织”情境中，选择表示“等等／之类”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "など（など）"
+        },
+        {
+          "option_id": "B",
+          "text": "じゃ（じゃ）"
+        },
+        {
+          "option_id": "C",
+          "text": "あの（あの）"
+        },
+        {
+          "option_id": "D",
+          "text": "ええ（ええ）"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“把说话人认为双方可共享的判断轻柔地抛给对方”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "Sね"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    },
+    "n5-module-b-u25-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“把说话人提供的信息明确提示给听话人”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "Sよ"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1005900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1005900-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "那么／那就"
+        },
+        {
+          "option_id": "B",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        },
+        {
+          "option_id": "C",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "A",
+          "text": "嗯……／这个嘛（表示犹豫）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「じゃ」的课程义。",
+      "prompt_ja": "じゃ、行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1000430-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1000430-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "那么／那就"
+        },
+        {
+          "option_id": "B",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "D",
+          "text": "嗯……／这个嘛（表示犹豫）"
+        },
+        {
+          "option_id": "C",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「あの」的课程义。",
+      "prompt_ja": "あの、すみません。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1001140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1001140-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        },
+        {
+          "option_id": "C",
+          "text": "嗯……／这个嘛（表示犹豫）"
+        },
+        {
+          "option_id": "B",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "D",
+          "text": "那么／那就"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ええ」的课程义。",
+      "prompt_ja": "ええ、そうです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1005110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1005110-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "A",
+          "text": "嗯……／这个嘛（表示犹豫）"
+        },
+        {
+          "option_id": "C",
+          "text": "那么／那就"
+        },
+        {
+          "option_id": "D",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「さあ」的课程义。",
+      "prompt_ja": "さあ、分かりません。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1008450-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1008450-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "那么／那就"
+        },
+        {
+          "option_id": "B",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        },
+        {
+          "option_id": "C",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "A",
+          "text": "嗯……／这个嘛（表示犹豫）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「では」的课程义。",
+      "prompt_ja": "では、始めます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1008460-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1008460-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "那么／那就"
+        },
+        {
+          "option_id": "B",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        },
+        {
+          "option_id": "D",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "C",
+          "text": "但是／不过"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「でも」的课程义。",
+      "prompt_ja": "でも、行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1010080-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1010080-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        },
+        {
+          "option_id": "C",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "B",
+          "text": "是／对"
+        },
+        {
+          "option_id": "D",
+          "text": "那么／那就"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「はい」的课程义。",
+      "prompt_ja": "はい、そうです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-vocab-1582300-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1582300-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "是的／对"
+        },
+        {
+          "option_id": "A",
+          "text": "等等／之类"
+        },
+        {
+          "option_id": "C",
+          "text": "那么／那就"
+        },
+        {
+          "option_id": "D",
+          "text": "嗯……／那个……（用于犹豫或引起注意）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「など」的课程义。",
+      "prompt_ja": "本やノートなどです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-sentence-final-ne-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "把说话人认为双方可共享的判断轻柔地抛给对方"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "いい店ですね。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u25-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u25-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-sentence-final-yo-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "把说话人提供的信息明确提示给听话人"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "店は安いですよ。"
+    }
+  ],
+  "embedded_support_placements": []
+}

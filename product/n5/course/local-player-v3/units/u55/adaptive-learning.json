@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-055-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u55-group-01",
+      "title_zh": "あびる到つける",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1547450-v1",
+        "n5-vocabulary-jmdict-1589600-v1",
+        "n5-vocabulary-jmdict-1597150-v1",
+        "n5-vocabulary-jmdict-1610400-v1"
+      ],
+      "target_labels_zh": [
+        "あびる",
+        "終わる",
+        "たばこ",
+        "つける"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u55-group-02",
+      "title_zh": "シャワー到せっけん",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1061820-v1",
+        "n5-vocabulary-jmdict-1201940-v1",
+        "n5-vocabulary-jmdict-1307500-v1",
+        "n5-vocabulary-jmdict-1382590-v1"
+      ],
+      "target_labels_zh": [
+        "シャワー",
+        "灰皿",
+        "始まる",
+        "せっけん"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u55-group-03",
+      "title_zh": "洗濯到Vなくちゃ（いけない／ならない）／Vなくちゃ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1390980-v1",
+        "n5-vocabulary-jmdict-1508390-v1",
+        "n5-vocabulary-jmdict-1519210-v1",
+        "n5-grammar-incompletion-mada-teinai-v1",
+        "n5-grammar-obligation-nakucha-v1"
+      ],
+      "target_labels_zh": [
+        "洗濯",
+        "並べる",
+        "忘れる",
+        "まだVていません",
+        "Vなくちゃ（いけない／ならない）／Vなくちゃ"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u55-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "表示到当前为止某事还没有完成"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "表示到当前为止某事还没有完成。基本形式是まだVていません。まだ与Vている的否定形式共现。"
+    },
+    "n5-module-b-u55-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示必须做某事"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "表示必须做某事。基本形式是Vなくちゃ（いけない／ならない）／Vなくちゃ。动词ない形去ない后接なくちゃ，可接いけない、ならない，口语中也可省略后项。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u55-checkpoint-vocab-1547450-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“淋浴／冲澡”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "B",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "つける（つける）"
+        },
+        {
+          "option_id": "D",
+          "text": "あびる（あびる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1589600-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“结束／完了”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "つける（つける）"
+        },
+        {
+          "option_id": "C",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "D",
+          "text": "あびる（あびる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1597150-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“烟草／香烟”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "つける（つける）"
+        },
+        {
+          "option_id": "B",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "D",
+          "text": "終わる（おわる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1610400-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“打开（电器、灯等）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "つける（つける）"
+        },
+        {
+          "option_id": "B",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "C",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "D",
+          "text": "たばこ（たばこ）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1061820-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“淋浴”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "B",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "C",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "D",
+          "text": "シャワー（シャワー）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1201940-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“烟灰缸”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "B",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "灰皿（はいざら）"
+        },
+        {
+          "option_id": "D",
+          "text": "あびる（あびる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1307500-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“开始”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "始まる（はじまる）"
+        },
+        {
+          "option_id": "C",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "D",
+          "text": "終わる（おわる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1382590-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“肥皂”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "せっけん（せっけん）"
+        },
+        {
+          "option_id": "B",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "C",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "D",
+          "text": "たばこ（たばこ）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1390980-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“洗衣／洗涤”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "B",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "C",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "D",
+          "text": "洗濯（せんたく）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1508390-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“排列／摆成一排”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "終わる（おわる）"
+        },
+        {
+          "option_id": "B",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "並べる（ならべる）"
+        },
+        {
+          "option_id": "D",
+          "text": "あびる（あびる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-vocab-1519210-v1": {
+      "prompt_zh": "在新的“起居、家务与日常动作”情境中，选择表示“忘记”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "たばこ（たばこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "忘れる（わすれる）"
+        },
+        {
+          "option_id": "C",
+          "text": "あびる（あびる）"
+        },
+        {
+          "option_id": "D",
+          "text": "終わる（おわる）"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表示到当前为止某事还没有完成”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "まだVていません"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    },
+    "n5-module-b-u55-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“表示必须做某事”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "Vなくちゃ（いけない／ならない）／Vなくちゃ"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1547450-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1547450-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "B",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "C",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "A",
+          "text": "打开（电器、灯等）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「あびる」的课程义。",
+      "prompt_ja": "シャワーをあびます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1589600-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1589600-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "B",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "D",
+          "text": "打开（电器、灯等）"
+        },
+        {
+          "option_id": "C",
+          "text": "结束／完了"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「終わる」的课程义。",
+      "prompt_ja": "授業が終わります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1597150-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1597150-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "C",
+          "text": "打开（电器、灯等）"
+        },
+        {
+          "option_id": "B",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "D",
+          "text": "淋浴／冲澡"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「たばこ」的课程义。",
+      "prompt_ja": "たばこです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1610400-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1610400-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "A",
+          "text": "打开（电器、灯等）"
+        },
+        {
+          "option_id": "C",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "D",
+          "text": "结束／完了"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「つける」的课程义。",
+      "prompt_ja": "電気をつけます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1061820-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1061820-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "淋浴"
+        },
+        {
+          "option_id": "B",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "C",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "A",
+          "text": "烟草／香烟"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「シャワー」的课程义。",
+      "prompt_ja": "シャワーです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1201940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1201940-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "B",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "D",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "C",
+          "text": "烟灰缸"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「灰皿」的课程义。",
+      "prompt_ja": "灰皿です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1307500-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1307500-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "C",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "B",
+          "text": "开始"
+        },
+        {
+          "option_id": "D",
+          "text": "淋浴／冲澡"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「始まる」的课程义。",
+      "prompt_ja": "授業が始まります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1382590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1382590-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "A",
+          "text": "肥皂"
+        },
+        {
+          "option_id": "C",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "D",
+          "text": "结束／完了"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「せっけん」的课程义。",
+      "prompt_ja": "せっけんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1390980-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1390980-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "洗衣／洗涤"
+        },
+        {
+          "option_id": "B",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "C",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "A",
+          "text": "烟草／香烟"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「洗濯」的课程义。",
+      "prompt_ja": "洗濯です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1508390-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1508390-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "淋浴／冲澡"
+        },
+        {
+          "option_id": "B",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "D",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "C",
+          "text": "排列／摆成一排"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「並べる」的课程义。",
+      "prompt_ja": "本を並べます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-vocab-1519210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1519210-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "结束／完了"
+        },
+        {
+          "option_id": "C",
+          "text": "烟草／香烟"
+        },
+        {
+          "option_id": "B",
+          "text": "忘记"
+        },
+        {
+          "option_id": "D",
+          "text": "淋浴／冲澡"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「忘れる」的课程义。",
+      "prompt_ja": "名前を忘れました。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-incompletion-mada-teinai-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "表示到当前为止某事还没有完成"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "宿題はまだ終わっていません。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u55-recovery-13-v1",
+      "source_checkpoint_item_id": "n5-module-b-u55-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-obligation-nakucha-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "表示必须做某事"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "明日は早く起きなくちゃいけません。"
+    }
+  ],
+  "embedded_support_placements": []
+}

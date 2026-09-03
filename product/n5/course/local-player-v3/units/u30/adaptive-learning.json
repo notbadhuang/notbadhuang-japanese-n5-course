@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-030-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u30-group-01",
+      "title_zh": "妹到伯母さん",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1524590-v1",
+        "n5-vocabulary-jmdict-1581930-v1",
+        "n5-vocabulary-jmdict-2261490-v1",
+        "n5-vocabulary-jmdict-2261500-v1"
+      ],
+      "target_labels_zh": [
+        "妹",
+        "弟",
+        "おじさん",
+        "伯母さん"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u30-group-02",
+      "title_zh": "お兄さん到お母さん",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1001830-v1",
+        "n5-vocabulary-jmdict-1002320-v1",
+        "n5-vocabulary-jmdict-1002330-v1",
+        "n5-vocabulary-jmdict-1002650-v1"
+      ],
+      "target_labels_zh": [
+        "お兄さん",
+        "おじいさん",
+        "おばあさん",
+        "お母さん"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u30-group-03",
+      "title_zh": "兄弟到両親",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1249960-v1",
+        "n5-vocabulary-jmdict-1602710-v1"
+      ],
+      "target_labels_zh": [
+        "兄弟",
+        "両親"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u30-checkpoint-vocab-1524590-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“妹妹（自己的妹妹）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "B",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "伯母さん（おばさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "妹（いもうと）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1581930-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“弟弟”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "伯母さん（おばさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "D",
+          "text": "妹（いもうと）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-2261490-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“叔伯／舅舅等男性长辈”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "伯母さん（おばさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "妹（いもうと）"
+        },
+        {
+          "option_id": "D",
+          "text": "弟（おとうと）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-2261500-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“姑姑／姨妈／伯母／婶婶等女性长辈”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "伯母さん（おばさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "妹（いもうと）"
+        },
+        {
+          "option_id": "C",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "D",
+          "text": "おじさん（おじさん）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1001830-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“哥哥／兄长”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "妹（いもうと）"
+        },
+        {
+          "option_id": "B",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "C",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "お兄さん（おにいさん）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1002320-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“祖父／爷爷／外公”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "B",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "おじいさん（おじいさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "妹（いもうと）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1002330-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“祖母／奶奶／外婆”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "おばあさん（おばあさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "妹（いもうと）"
+        },
+        {
+          "option_id": "D",
+          "text": "弟（おとうと）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1002650-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“妈妈／母亲”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "お母さん（おかあさん）"
+        },
+        {
+          "option_id": "B",
+          "text": "妹（いもうと）"
+        },
+        {
+          "option_id": "C",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "D",
+          "text": "おじさん（おじさん）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1249960-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“兄弟姐妹”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "妹（いもうと）"
+        },
+        {
+          "option_id": "B",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "C",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "兄弟（きょうだい）"
+        }
+      ]
+    },
+    "n5-module-b-u30-checkpoint-vocab-1602710-v1": {
+      "prompt_zh": "在新的“家庭与人物关系”情境中，选择表示“父母”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弟（おとうと）"
+        },
+        {
+          "option_id": "B",
+          "text": "おじさん（おじさん）"
+        },
+        {
+          "option_id": "C",
+          "text": "両親（りょうしん）"
+        },
+        {
+          "option_id": "D",
+          "text": "妹（いもうと）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1524590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1524590-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "B",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "C",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "A",
+          "text": "姑姑／姨妈／伯母／婶婶等女性长辈"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「妹」的课程义。",
+      "prompt_ja": "妹です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1581930-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1581930-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "B",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "D",
+          "text": "姑姑／姨妈／伯母／婶婶等女性长辈"
+        },
+        {
+          "option_id": "C",
+          "text": "弟弟"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「弟」的课程义。",
+      "prompt_ja": "弟です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-2261490-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2261490-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "C",
+          "text": "姑姑／姨妈／伯母／婶婶等女性长辈"
+        },
+        {
+          "option_id": "B",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "D",
+          "text": "妹妹（自己的妹妹）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「おじさん」的课程义。",
+      "prompt_ja": "私のおじさんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-2261500-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2261500-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "A",
+          "text": "姑姑／姨妈／伯母／婶婶等女性长辈"
+        },
+        {
+          "option_id": "C",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "D",
+          "text": "弟弟"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「伯母さん」的课程义。",
+      "prompt_ja": "伯母さんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1001830-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1001830-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "哥哥／兄长"
+        },
+        {
+          "option_id": "B",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "C",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "A",
+          "text": "叔伯／舅舅等男性长辈"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「お兄さん」的课程义。",
+      "prompt_ja": "お兄さんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1002320-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1002320-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "B",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "D",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "C",
+          "text": "祖父／爷爷／外公"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「おじいさん」的课程义。",
+      "prompt_ja": "私のおじいさんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1002330-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1002330-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "C",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "B",
+          "text": "祖母／奶奶／外婆"
+        },
+        {
+          "option_id": "D",
+          "text": "妹妹（自己的妹妹）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「おばあさん」的课程义。",
+      "prompt_ja": "私のおばあさんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1002650-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1002650-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "A",
+          "text": "妈妈／母亲"
+        },
+        {
+          "option_id": "C",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "D",
+          "text": "弟弟"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「お母さん」的课程义。",
+      "prompt_ja": "お母さんです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1249960-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1249960-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "兄弟姐妹"
+        },
+        {
+          "option_id": "B",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "C",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "A",
+          "text": "叔伯／舅舅等男性长辈"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「兄弟」的课程义。",
+      "prompt_ja": "兄弟です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u30-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u30-checkpoint-vocab-1602710-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1602710-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "妹妹（自己的妹妹）"
+        },
+        {
+          "option_id": "B",
+          "text": "弟弟"
+        },
+        {
+          "option_id": "D",
+          "text": "叔伯／舅舅等男性长辈"
+        },
+        {
+          "option_id": "C",
+          "text": "父母"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「両親」的课程义。",
+      "prompt_ja": "両親です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

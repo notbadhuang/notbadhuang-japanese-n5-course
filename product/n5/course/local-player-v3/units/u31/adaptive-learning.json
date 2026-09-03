@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-031-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u31-group-01",
+      "title_zh": "道到間",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1454080-v1",
+        "n5-vocabulary-jmdict-1512070-v1",
+        "n5-vocabulary-jmdict-1520670-v1",
+        "n5-vocabulary-jmdict-1215230-v1"
+      ],
+      "target_labels_zh": [
+        "道",
+        "辺",
+        "北",
+        "間"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u31-group-02",
+      "title_zh": "近く到出口",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1242160-v1",
+        "n5-vocabulary-jmdict-1269410-v1",
+        "n5-vocabulary-jmdict-1277140-v1",
+        "n5-vocabulary-jmdict-1290800-v1",
+        "n5-vocabulary-jmdict-1338850-v1"
+      ],
+      "target_labels_zh": [
+        "近く",
+        "後ろ",
+        "向こう",
+        "左",
+        "出口"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u31-checkpoint-vocab-1454080-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“道路／路”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "B",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "C",
+          "text": "間（あいだ）"
+        },
+        {
+          "option_id": "D",
+          "text": "道（みち）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1512070-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“一带／附近”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "B",
+          "text": "間（あいだ）"
+        },
+        {
+          "option_id": "C",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "D",
+          "text": "道（みち）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1520670-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“北／北方”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "間（あいだ）"
+        },
+        {
+          "option_id": "B",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "C",
+          "text": "道（みち）"
+        },
+        {
+          "option_id": "D",
+          "text": "辺（へん）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1215230-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“中间／间隔”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "間（あいだ）"
+        },
+        {
+          "option_id": "B",
+          "text": "道（みち）"
+        },
+        {
+          "option_id": "C",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "D",
+          "text": "北（きた）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1242160-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“附近／近处”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "道（みち）"
+        },
+        {
+          "option_id": "B",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "C",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "D",
+          "text": "近く（ちかく）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1269410-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“后面／背后”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "B",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "C",
+          "text": "後ろ（うしろ）"
+        },
+        {
+          "option_id": "D",
+          "text": "道（みち）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1277140-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“那边／对面／远处”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "B",
+          "text": "向こう（むこう）"
+        },
+        {
+          "option_id": "C",
+          "text": "道（みち）"
+        },
+        {
+          "option_id": "D",
+          "text": "辺（へん）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1290800-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“左／左边”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "左（ひだり）"
+        },
+        {
+          "option_id": "B",
+          "text": "道（みち）"
+        },
+        {
+          "option_id": "C",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "D",
+          "text": "北（きた）"
+        }
+      ]
+    },
+    "n5-module-b-u31-checkpoint-vocab-1338850-v1": {
+      "prompt_zh": "在新的“位置、方向与道路”情境中，选择表示“出口”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "道（みち）"
+        },
+        {
+          "option_id": "B",
+          "text": "辺（へん）"
+        },
+        {
+          "option_id": "C",
+          "text": "北（きた）"
+        },
+        {
+          "option_id": "D",
+          "text": "出口（でぐち）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1454080-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1454080-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "B",
+          "text": "一带／附近"
+        },
+        {
+          "option_id": "C",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "A",
+          "text": "中间／间隔"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「道」的课程义。",
+      "prompt_ja": "道です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1512070-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1512070-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "B",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "D",
+          "text": "中间／间隔"
+        },
+        {
+          "option_id": "C",
+          "text": "一带／附近"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「辺」的课程义。",
+      "prompt_ja": "辺です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1520670-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1520670-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一带／附近"
+        },
+        {
+          "option_id": "C",
+          "text": "中间／间隔"
+        },
+        {
+          "option_id": "B",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "D",
+          "text": "道路／路"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「北」的课程义。",
+      "prompt_ja": "北です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1215230-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1215230-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "A",
+          "text": "中间／间隔"
+        },
+        {
+          "option_id": "C",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "D",
+          "text": "一带／附近"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「間」的课程义。",
+      "prompt_ja": "間です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1242160-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1242160-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "附近／近处"
+        },
+        {
+          "option_id": "B",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "C",
+          "text": "一带／附近"
+        },
+        {
+          "option_id": "A",
+          "text": "北／北方"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「近く」的课程义。",
+      "prompt_ja": "近くです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1269410-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1269410-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "B",
+          "text": "一带／附近"
+        },
+        {
+          "option_id": "D",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "C",
+          "text": "后面／背后"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「後ろ」的课程义。",
+      "prompt_ja": "後ろです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1277140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1277140-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "一带／附近"
+        },
+        {
+          "option_id": "C",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "B",
+          "text": "那边／对面／远处"
+        },
+        {
+          "option_id": "D",
+          "text": "道路／路"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「向こう」的课程义。",
+      "prompt_ja": "向こうです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1290800-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1290800-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "北／北方"
+        },
+        {
+          "option_id": "A",
+          "text": "左／左边"
+        },
+        {
+          "option_id": "C",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "D",
+          "text": "一带／附近"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「左」的课程义。",
+      "prompt_ja": "左です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u31-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u31-checkpoint-vocab-1338850-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1338850-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "出口"
+        },
+        {
+          "option_id": "B",
+          "text": "道路／路"
+        },
+        {
+          "option_id": "C",
+          "text": "一带／附近"
+        },
+        {
+          "option_id": "A",
+          "text": "北／北方"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「出口」的课程义。",
+      "prompt_ja": "出口です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

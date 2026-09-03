@@ -1,0 +1,710 @@
+{
+  "units": [
+    {
+      "position": 1,
+      "work_unit_id": "n5-work-unit-foundation-hiragana-a-ka-sa-v1",
+      "title_zh": "平假名：あ行到さ行",
+      "status": "approved_assets_ready_runtime_pending",
+      "prerequisite_work_unit_ids": [],
+      "micro_batches": [
+        {
+          "micro_batch_id": "u01-a-ka-sa-01",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "a-ka-sa",
+          "target_ids": [
+            "n5-fnd-u01-target-u3042-v1",
+            "n5-fnd-u01-target-u3044-v1",
+            "n5-fnd-u01-target-u3046-v1",
+            "n5-fnd-u01-target-u3048-v1",
+            "n5-fnd-u01-target-u304a-v1"
+          ],
+          "target_displays_ja": [
+            "あ",
+            "い",
+            "う",
+            "え",
+            "お"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3042-u3044-u3046-u3048-u304a-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u01-a-ka-sa-02",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "a-ka-sa",
+          "target_ids": [
+            "n5-fnd-u01-target-u304b-v1",
+            "n5-fnd-u01-target-u304d-v1",
+            "n5-fnd-u01-target-u304f-v1",
+            "n5-fnd-u01-target-u3051-v1",
+            "n5-fnd-u01-target-u3053-v1"
+          ],
+          "target_displays_ja": [
+            "か",
+            "き",
+            "く",
+            "け",
+            "こ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u304b-u304d-u304f-u3051-u3053-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u01-a-ka-sa-03",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "a-ka-sa",
+          "target_ids": [
+            "n5-fnd-u01-target-u3055-v1",
+            "n5-fnd-u01-target-u3057-v1",
+            "n5-fnd-u01-target-u3059-v1",
+            "n5-fnd-u01-target-u305b-v1",
+            "n5-fnd-u01-target-u305d-v1"
+          ],
+          "target_displays_ja": [
+            "さ",
+            "し",
+            "す",
+            "せ",
+            "そ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3055-u3057-u3059-u305b-u305d-v1",
+          "fixed_day_assignment": null
+        }
+      ],
+      "teaching_target_count": 15,
+      "guided_context_ids": [
+        "n5-context-u01-jmdict-1428280-v1-candidate",
+        "n5-context-u01-jmdict-1157070-v1-candidate",
+        "n5-context-u01-jmdict-1301940-v1-candidate",
+        "n5-context-u01-jmdict-1288810-v1-candidate",
+        "n5-context-u01-jmdict-1001710-v1-candidate"
+      ],
+      "catalog_context_disposition": [
+        {
+          "l2_object_id": "n5-vocabulary-jmdict-1428280-v1",
+          "disposition": "active_target_context",
+          "reason_zh": null
+        }
+      ],
+      "required_completion_event_types": [
+        "teaching_exposure",
+        "independent_practice",
+        "retrieval_review_scheduled"
+      ],
+      "baseline_minutes": null,
+      "numeric_threshold": null,
+      "formal_runtime_active": false,
+      "asset_contract": {
+        "teaching_asset_ids": [
+          "n5-teaching-card-n5-fnd-u01-target-u3042-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3044-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3046-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3048-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u304a-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u304b-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u304d-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u304f-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3051-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3053-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3055-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3057-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u3059-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u305b-v1",
+          "n5-teaching-card-n5-fnd-u01-target-u305d-v1"
+        ],
+        "guided_context_ids": [
+          "n5-context-u01-jmdict-1428280-v1",
+          "n5-context-u01-jmdict-1157070-v1",
+          "n5-context-u01-jmdict-1301940-v1",
+          "n5-context-u01-jmdict-1288810-v1",
+          "n5-context-u01-jmdict-1001710-v1"
+        ],
+        "practice_asset_ids": [
+          "n5-practice-u01-sound-to-shape-u3042-v1",
+          "n5-practice-u01-shape-to-sound-u3042-v1",
+          "n5-practice-u01-sound-to-shape-u3044-v1",
+          "n5-practice-u01-shape-to-sound-u3044-v1",
+          "n5-practice-u01-sound-to-shape-u3046-v1",
+          "n5-practice-u01-shape-to-sound-u3046-v1",
+          "n5-practice-u01-sound-to-shape-u3048-v1",
+          "n5-practice-u01-shape-to-sound-u3048-v1",
+          "n5-practice-u01-sound-to-shape-u304a-v1",
+          "n5-practice-u01-shape-to-sound-u304a-v1",
+          "n5-practice-u01-sound-to-shape-u304b-v1",
+          "n5-practice-u01-shape-to-sound-u304b-v1",
+          "n5-practice-u01-sound-to-shape-u304d-v1",
+          "n5-practice-u01-shape-to-sound-u304d-v1",
+          "n5-practice-u01-sound-to-shape-u304f-v1",
+          "n5-practice-u01-shape-to-sound-u304f-v1",
+          "n5-practice-u01-sound-to-shape-u3051-v1",
+          "n5-practice-u01-shape-to-sound-u3051-v1",
+          "n5-practice-u01-sound-to-shape-u3053-v1",
+          "n5-practice-u01-shape-to-sound-u3053-v1",
+          "n5-practice-u01-sound-to-shape-u3055-v1",
+          "n5-practice-u01-shape-to-sound-u3055-v1",
+          "n5-practice-u01-sound-to-shape-u3057-v1",
+          "n5-practice-u01-shape-to-sound-u3057-v1",
+          "n5-practice-u01-sound-to-shape-u3059-v1",
+          "n5-practice-u01-shape-to-sound-u3059-v1",
+          "n5-practice-u01-sound-to-shape-u305b-v1",
+          "n5-practice-u01-shape-to-sound-u305b-v1",
+          "n5-practice-u01-sound-to-shape-u305d-v1",
+          "n5-practice-u01-shape-to-sound-u305d-v1"
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "work_unit_id": "n5-work-unit-foundation-hiragana-ta-na-ha-v1",
+      "title_zh": "平假名：た行到は行",
+      "status": "approved_assets_ready_runtime_pending",
+      "prerequisite_work_unit_ids": [
+        "n5-work-unit-foundation-hiragana-a-ka-sa-v1"
+      ],
+      "micro_batches": [
+        {
+          "micro_batch_id": "u02-ta-na-ha-01",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ta-na-ha",
+          "target_ids": [
+            "n5-fnd-u02-target-u305f-v1",
+            "n5-fnd-u02-target-u3061-v1",
+            "n5-fnd-u02-target-u3064-v1",
+            "n5-fnd-u02-target-u3066-v1",
+            "n5-fnd-u02-target-u3068-v1"
+          ],
+          "target_displays_ja": [
+            "た",
+            "ち",
+            "つ",
+            "て",
+            "と"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u305f-u3061-u3064-u3066-u3068-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u02-ta-na-ha-02",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ta-na-ha",
+          "target_ids": [
+            "n5-fnd-u02-target-u306a-v1",
+            "n5-fnd-u02-target-u306b-v1",
+            "n5-fnd-u02-target-u306c-v1",
+            "n5-fnd-u02-target-u306d-v1",
+            "n5-fnd-u02-target-u306e-v1"
+          ],
+          "target_displays_ja": [
+            "な",
+            "に",
+            "ぬ",
+            "ね",
+            "の"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u306a-u306b-u306c-u306d-u306e-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u02-ta-na-ha-03",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ta-na-ha",
+          "target_ids": [
+            "n5-fnd-u02-target-u306f-v1",
+            "n5-fnd-u02-target-u3072-v1",
+            "n5-fnd-u02-target-u3075-v1",
+            "n5-fnd-u02-target-u3078-v1",
+            "n5-fnd-u02-target-u307b-v1"
+          ],
+          "target_displays_ja": [
+            "は",
+            "ひ",
+            "ふ",
+            "へ",
+            "ほ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u306f-u3072-u3075-u3078-u307b-v1",
+          "fixed_day_assignment": null
+        }
+      ],
+      "teaching_target_count": 15,
+      "guided_context_ids": [
+        "n5-context-u02-jmdict-1258330-v1-candidate",
+        "n5-context-u02-jmdict-1193180-v1-candidate",
+        "n5-context-u02-jmdict-1500940-v1-candidate",
+        "n5-context-u02-jmdict-1246700-v1-candidate",
+        "n5-context-u02-jmdict-1327190-v1-candidate"
+      ],
+      "catalog_context_disposition": [
+        {
+          "l2_object_id": "n5-vocabulary-jmdict-1258330-v1",
+          "disposition": "active_target_context",
+          "reason_zh": null
+        }
+      ],
+      "required_completion_event_types": [
+        "teaching_exposure",
+        "independent_practice",
+        "retrieval_review_scheduled"
+      ],
+      "baseline_minutes": null,
+      "numeric_threshold": null,
+      "formal_runtime_active": false,
+      "asset_contract": {
+        "teaching_asset_ids": [
+          "n5-teaching-card-n5-fnd-u02-target-u305f-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3061-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3064-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3066-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3068-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u306a-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u306b-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u306c-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u306d-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u306e-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u306f-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3072-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3075-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u3078-v1",
+          "n5-teaching-card-n5-fnd-u02-target-u307b-v1"
+        ],
+        "guided_context_ids": [
+          "n5-context-u02-jmdict-1258330-v1",
+          "n5-context-u02-jmdict-1193180-v1",
+          "n5-context-u02-jmdict-1500940-v1",
+          "n5-context-u02-jmdict-1246700-v1",
+          "n5-context-u02-jmdict-1327190-v1"
+        ],
+        "practice_asset_ids": [
+          "n5-practice-u02-sound-to-shape-u305f-v1",
+          "n5-practice-u02-shape-to-sound-u305f-v1",
+          "n5-practice-u02-sound-to-shape-u3061-v1",
+          "n5-practice-u02-shape-to-sound-u3061-v1",
+          "n5-practice-u02-sound-to-shape-u3064-v1",
+          "n5-practice-u02-shape-to-sound-u3064-v1",
+          "n5-practice-u02-sound-to-shape-u3066-v1",
+          "n5-practice-u02-shape-to-sound-u3066-v1",
+          "n5-practice-u02-sound-to-shape-u3068-v1",
+          "n5-practice-u02-shape-to-sound-u3068-v1",
+          "n5-practice-u02-sound-to-shape-u306a-v1",
+          "n5-practice-u02-shape-to-sound-u306a-v1",
+          "n5-practice-u02-sound-to-shape-u306b-v1",
+          "n5-practice-u02-shape-to-sound-u306b-v1",
+          "n5-practice-u02-sound-to-shape-u306c-v1",
+          "n5-practice-u02-shape-to-sound-u306c-v1",
+          "n5-practice-u02-sound-to-shape-u306d-v1",
+          "n5-practice-u02-shape-to-sound-u306d-v1",
+          "n5-practice-u02-sound-to-shape-u306e-v1",
+          "n5-practice-u02-shape-to-sound-u306e-v1",
+          "n5-practice-u02-sound-to-shape-u306f-v1",
+          "n5-practice-u02-shape-to-sound-u306f-v1",
+          "n5-practice-u02-sound-to-shape-u3072-v1",
+          "n5-practice-u02-shape-to-sound-u3072-v1",
+          "n5-practice-u02-sound-to-shape-u3075-v1",
+          "n5-practice-u02-shape-to-sound-u3075-v1",
+          "n5-practice-u02-sound-to-shape-u3078-v1",
+          "n5-practice-u02-shape-to-sound-u3078-v1",
+          "n5-practice-u02-sound-to-shape-u307b-v1",
+          "n5-practice-u02-shape-to-sound-u307b-v1"
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "work_unit_id": "n5-work-unit-foundation-hiragana-ma-ya-ra-wa-n-v1",
+      "title_zh": "平假名：ま行到ん",
+      "status": "approved_assets_ready_runtime_pending",
+      "prerequisite_work_unit_ids": [
+        "n5-work-unit-foundation-hiragana-ta-na-ha-v1"
+      ],
+      "micro_batches": [
+        {
+          "micro_batch_id": "u03-ma-ya-ra-wa-n-01",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ma-ya-ra-wa-n",
+          "target_ids": [
+            "n5-fnd-u03-target-u307e-v1",
+            "n5-fnd-u03-target-u307f-v1",
+            "n5-fnd-u03-target-u3080-v1",
+            "n5-fnd-u03-target-u3081-v1",
+            "n5-fnd-u03-target-u3082-v1"
+          ],
+          "target_displays_ja": [
+            "ま",
+            "み",
+            "む",
+            "め",
+            "も"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u307e-u307f-u3080-u3081-u3082-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u03-ma-ya-ra-wa-n-02",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ma-ya-ra-wa-n",
+          "target_ids": [
+            "n5-fnd-u03-target-u3084-v1",
+            "n5-fnd-u03-target-u3086-v1",
+            "n5-fnd-u03-target-u3088-v1"
+          ],
+          "target_displays_ja": [
+            "や",
+            "ゆ",
+            "よ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3084-u3086-u3088-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u03-ma-ya-ra-wa-n-03",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ma-ya-ra-wa-n",
+          "target_ids": [
+            "n5-fnd-u03-target-u3089-v1",
+            "n5-fnd-u03-target-u308a-v1",
+            "n5-fnd-u03-target-u308b-v1",
+            "n5-fnd-u03-target-u308c-v1",
+            "n5-fnd-u03-target-u308d-v1"
+          ],
+          "target_displays_ja": [
+            "ら",
+            "り",
+            "る",
+            "れ",
+            "ろ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3089-u308a-u308b-u308c-u308d-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u03-ma-ya-ra-wa-n-04",
+          "source_l2_object_id": "n5-foundation-script-hiragana-core-v1",
+          "coverage_slice_id": "ma-ya-ra-wa-n",
+          "target_ids": [
+            "n5-fnd-u03-target-u308f-v1",
+            "n5-fnd-u03-target-u3092-v1",
+            "n5-fnd-u03-target-u3093-v1"
+          ],
+          "target_displays_ja": [
+            "わ",
+            "を",
+            "ん"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u308f-u3092-u3093-v1",
+          "fixed_day_assignment": null
+        }
+      ],
+      "teaching_target_count": 16,
+      "guided_context_ids": [
+        "n5-context-u03-jmdict-1171900-v1-candidate",
+        "n5-context-u03-jmdict-1317170-v1-candidate",
+        "n5-context-u03-jmdict-1302680-v1-candidate",
+        "n5-context-u03-jmdict-1536350-v1-candidate",
+        "n5-context-u03-jmdict-1311110-v1-candidate"
+      ],
+      "catalog_context_disposition": [
+        {
+          "l2_object_id": "n5-vocabulary-jmdict-1580640-v1",
+          "disposition": "contrast_reference_only",
+          "reason_zh": "该词不直接展示本单元新目标，只保留为已学内容对比。"
+        }
+      ],
+      "required_completion_event_types": [
+        "teaching_exposure",
+        "independent_practice",
+        "retrieval_review_scheduled"
+      ],
+      "baseline_minutes": null,
+      "numeric_threshold": null,
+      "formal_runtime_active": false,
+      "asset_contract": {
+        "teaching_asset_ids": [
+          "n5-teaching-card-n5-fnd-u03-target-u307e-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u307f-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3080-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3081-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3082-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3084-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3086-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3088-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3089-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u308a-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u308b-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u308c-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u308d-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u308f-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3092-v1",
+          "n5-teaching-card-n5-fnd-u03-target-u3093-v1"
+        ],
+        "guided_context_ids": [
+          "n5-context-u03-jmdict-1171900-v1",
+          "n5-context-u03-jmdict-1317170-v1",
+          "n5-context-u03-jmdict-1302680-v1",
+          "n5-context-u03-jmdict-1536350-v1",
+          "n5-context-u03-jmdict-1311110-v1"
+        ],
+        "practice_asset_ids": [
+          "n5-practice-u03-sound-to-shape-u307e-v1",
+          "n5-practice-u03-shape-to-sound-u307e-v1",
+          "n5-practice-u03-sound-to-shape-u307f-v1",
+          "n5-practice-u03-shape-to-sound-u307f-v1",
+          "n5-practice-u03-sound-to-shape-u3080-v1",
+          "n5-practice-u03-shape-to-sound-u3080-v1",
+          "n5-practice-u03-sound-to-shape-u3081-v1",
+          "n5-practice-u03-shape-to-sound-u3081-v1",
+          "n5-practice-u03-sound-to-shape-u3082-v1",
+          "n5-practice-u03-shape-to-sound-u3082-v1",
+          "n5-practice-u03-sound-to-shape-u3084-v1",
+          "n5-practice-u03-shape-to-sound-u3084-v1",
+          "n5-practice-u03-sound-to-shape-u3086-v1",
+          "n5-practice-u03-shape-to-sound-u3086-v1",
+          "n5-practice-u03-sound-to-shape-u3088-v1",
+          "n5-practice-u03-shape-to-sound-u3088-v1",
+          "n5-practice-u03-sound-to-shape-u3089-v1",
+          "n5-practice-u03-shape-to-sound-u3089-v1",
+          "n5-practice-u03-sound-to-shape-u308a-v1",
+          "n5-practice-u03-shape-to-sound-u308a-v1",
+          "n5-practice-u03-sound-to-shape-u308b-v1",
+          "n5-practice-u03-shape-to-sound-u308b-v1",
+          "n5-practice-u03-sound-to-shape-u308c-v1",
+          "n5-practice-u03-shape-to-sound-u308c-v1",
+          "n5-practice-u03-sound-to-shape-u308d-v1",
+          "n5-practice-u03-shape-to-sound-u308d-v1",
+          "n5-practice-u03-sound-to-shape-u308f-v1",
+          "n5-practice-u03-shape-to-sound-u308f-v1",
+          "n5-practice-u03-sound-to-shape-u3092-v1",
+          "n5-practice-u03-shape-to-sound-u3092-v1",
+          "n5-practice-u03-sound-to-shape-u3093-v1",
+          "n5-practice-u03-shape-to-sound-u3093-v1"
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "work_unit_id": "n5-work-unit-foundation-hiragana-diacritics-v1",
+      "title_zh": "平假名：浊音与半浊音",
+      "status": "approved_assets_ready_runtime_pending",
+      "prerequisite_work_unit_ids": [
+        "n5-work-unit-foundation-hiragana-ma-ya-ra-wa-n-v1"
+      ],
+      "micro_batches": [
+        {
+          "micro_batch_id": "u04-voiced-01",
+          "source_l2_object_id": "n5-foundation-script-hiragana-diacritics-v1",
+          "coverage_slice_id": "voiced",
+          "target_ids": [
+            "n5-fnd-u04-target-u304c-v1",
+            "n5-fnd-u04-target-u304e-v1",
+            "n5-fnd-u04-target-u3050-v1",
+            "n5-fnd-u04-target-u3052-v1",
+            "n5-fnd-u04-target-u3054-v1"
+          ],
+          "target_displays_ja": [
+            "が",
+            "ぎ",
+            "ぐ",
+            "げ",
+            "ご"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u304c-u304e-u3050-u3052-u3054-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u04-voiced-02",
+          "source_l2_object_id": "n5-foundation-script-hiragana-diacritics-v1",
+          "coverage_slice_id": "voiced",
+          "target_ids": [
+            "n5-fnd-u04-target-u3056-v1",
+            "n5-fnd-u04-target-u3058-v1",
+            "n5-fnd-u04-target-u305a-v1",
+            "n5-fnd-u04-target-u305c-v1",
+            "n5-fnd-u04-target-u305e-v1"
+          ],
+          "target_displays_ja": [
+            "ざ",
+            "じ",
+            "ず",
+            "ぜ",
+            "ぞ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3056-u3058-u305a-u305c-u305e-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u04-voiced-03",
+          "source_l2_object_id": "n5-foundation-script-hiragana-diacritics-v1",
+          "coverage_slice_id": "voiced",
+          "target_ids": [
+            "n5-fnd-u04-target-u3060-v1",
+            "n5-fnd-u04-target-u3062-v1",
+            "n5-fnd-u04-target-u3065-v1",
+            "n5-fnd-u04-target-u3067-v1",
+            "n5-fnd-u04-target-u3069-v1"
+          ],
+          "target_displays_ja": [
+            "だ",
+            "ぢ",
+            "づ",
+            "で",
+            "ど"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3060-u3062-u3065-u3067-u3069-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u04-voiced-04",
+          "source_l2_object_id": "n5-foundation-script-hiragana-diacritics-v1",
+          "coverage_slice_id": "voiced",
+          "target_ids": [
+            "n5-fnd-u04-target-u3070-v1",
+            "n5-fnd-u04-target-u3073-v1",
+            "n5-fnd-u04-target-u3076-v1",
+            "n5-fnd-u04-target-u3079-v1",
+            "n5-fnd-u04-target-u307c-v1"
+          ],
+          "target_displays_ja": [
+            "ば",
+            "び",
+            "ぶ",
+            "べ",
+            "ぼ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3070-u3073-u3076-u3079-u307c-v1",
+          "fixed_day_assignment": null
+        },
+        {
+          "micro_batch_id": "u04-semi-voiced-01",
+          "source_l2_object_id": "n5-foundation-script-hiragana-diacritics-v1",
+          "coverage_slice_id": "semi-voiced",
+          "target_ids": [
+            "n5-fnd-u04-target-u3071-v1",
+            "n5-fnd-u04-target-u3074-v1",
+            "n5-fnd-u04-target-u3077-v1",
+            "n5-fnd-u04-target-u307a-v1",
+            "n5-fnd-u04-target-u307d-v1"
+          ],
+          "target_displays_ja": [
+            "ぱ",
+            "ぴ",
+            "ぷ",
+            "ぺ",
+            "ぽ"
+          ],
+          "sequence_audio_asset_id": "n5-fnd-audio-sequence-u3071-u3074-u3077-u307a-u307d-v1",
+          "fixed_day_assignment": null
+        }
+      ],
+      "teaching_target_count": 25,
+      "guided_context_ids": [
+        "n5-context-u04-jmdict-1371260-v1-candidate",
+        "n5-context-u04-jmdict-1165970-v1-candidate",
+        "n5-context-u04-jmdict-1208910-v1-candidate",
+        "n5-context-u04-jmdict-1443840-v1-candidate",
+        "n5-context-u04-jmdict-1270590-v1-candidate"
+      ],
+      "catalog_context_disposition": [
+        {
+          "l2_object_id": "n5-vocabulary-jmdict-1002320-v1",
+          "disposition": "contrast_reference_only",
+          "reason_zh": "该词不直接展示本单元新目标，只保留为已学内容对比。"
+        }
+      ],
+      "required_completion_event_types": [
+        "teaching_exposure",
+        "independent_practice",
+        "retrieval_review_scheduled"
+      ],
+      "baseline_minutes": null,
+      "numeric_threshold": null,
+      "formal_runtime_active": false,
+      "asset_contract": {
+        "teaching_asset_ids": [
+          "n5-teaching-card-n5-fnd-u04-target-u304c-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u304e-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3050-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3052-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3054-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3056-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3058-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u305a-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u305c-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u305e-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3060-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3062-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3065-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3067-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3069-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3070-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3073-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3076-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3079-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u307c-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3071-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3074-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u3077-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u307a-v1",
+          "n5-teaching-card-n5-fnd-u04-target-u307d-v1"
+        ],
+        "guided_context_ids": [
+          "n5-context-u04-jmdict-1371260-v1",
+          "n5-context-u04-jmdict-1165970-v1",
+          "n5-context-u04-jmdict-1208910-v1",
+          "n5-context-u04-jmdict-1443840-v1",
+          "n5-context-u04-jmdict-1270590-v1"
+        ],
+        "practice_asset_ids": [
+          "n5-practice-u04-sound-to-shape-u304c-v1",
+          "n5-practice-u04-shape-to-sound-u304c-v1",
+          "n5-practice-u04-sound-to-shape-u304e-v1",
+          "n5-practice-u04-shape-to-sound-u304e-v1",
+          "n5-practice-u04-sound-to-shape-u3050-v1",
+          "n5-practice-u04-shape-to-sound-u3050-v1",
+          "n5-practice-u04-sound-to-shape-u3052-v1",
+          "n5-practice-u04-shape-to-sound-u3052-v1",
+          "n5-practice-u04-sound-to-shape-u3054-v1",
+          "n5-practice-u04-shape-to-sound-u3054-v1",
+          "n5-practice-u04-sound-to-shape-u3056-v1",
+          "n5-practice-u04-shape-to-sound-u3056-v1",
+          "n5-practice-u04-sound-to-shape-u3058-v1",
+          "n5-practice-u04-shape-to-sound-u3058-v1",
+          "n5-practice-u04-sound-to-shape-u305a-v1",
+          "n5-practice-u04-shape-to-sound-u305a-v1",
+          "n5-practice-u04-sound-to-shape-u305c-v1",
+          "n5-practice-u04-shape-to-sound-u305c-v1",
+          "n5-practice-u04-sound-to-shape-u305e-v1",
+          "n5-practice-u04-shape-to-sound-u305e-v1",
+          "n5-practice-u04-sound-to-shape-u3060-v1",
+          "n5-practice-u04-shape-to-sound-u3060-v1",
+          "n5-practice-u04-sound-to-shape-u3062-v1",
+          "n5-practice-u04-shape-to-sound-u3062-v1",
+          "n5-practice-u04-sound-to-shape-u3065-v1",
+          "n5-practice-u04-shape-to-sound-u3065-v1",
+          "n5-practice-u04-sound-to-shape-u3067-v1",
+          "n5-practice-u04-shape-to-sound-u3067-v1",
+          "n5-practice-u04-sound-to-shape-u3069-v1",
+          "n5-practice-u04-shape-to-sound-u3069-v1",
+          "n5-practice-u04-sound-to-shape-u3070-v1",
+          "n5-practice-u04-shape-to-sound-u3070-v1",
+          "n5-practice-u04-sound-to-shape-u3073-v1",
+          "n5-practice-u04-shape-to-sound-u3073-v1",
+          "n5-practice-u04-sound-to-shape-u3076-v1",
+          "n5-practice-u04-shape-to-sound-u3076-v1",
+          "n5-practice-u04-sound-to-shape-u3079-v1",
+          "n5-practice-u04-shape-to-sound-u3079-v1",
+          "n5-practice-u04-sound-to-shape-u307c-v1",
+          "n5-practice-u04-shape-to-sound-u307c-v1",
+          "n5-practice-u04-sound-to-shape-u3071-v1",
+          "n5-practice-u04-shape-to-sound-u3071-v1",
+          "n5-practice-u04-sound-to-shape-u3074-v1",
+          "n5-practice-u04-shape-to-sound-u3074-v1",
+          "n5-practice-u04-sound-to-shape-u3077-v1",
+          "n5-practice-u04-shape-to-sound-u3077-v1",
+          "n5-practice-u04-sound-to-shape-u307a-v1",
+          "n5-practice-u04-shape-to-sound-u307a-v1",
+          "n5-practice-u04-sound-to-shape-u307d-v1",
+          "n5-practice-u04-shape-to-sound-u307d-v1"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "schema_version": 1,
+  "ability_map_id": "n5-product-ability-map-v1",
+  "product_id": "0-to-N5",
+  "target_level": "N5",
+  "status": "active_control_plane_with_foundation_v1_vocabulary_v2_kanji_v2_grammar_v2_reading_v1_listening_v1_and_diagnostic_support_v1",
+  "effective_date": "2026-08-26",
+  "derived_from_research_baseline": "n5-research-baseline-v1",
+  "product_promise": "帮助零基础或基础薄弱的学习者建立完成当前产品自有N5模拟验证所需的基础日语识别、理解和应试能力。",
+  "not_promised": [
+    "官方JLPT合格证或官方尺度分数",
+    "完整生活会话、口语表达或写作能力",
+    "官方固定完整N5词汇、汉字或语法清单",
+    "精确到个位数的学习进度百分比或合格天数"
+  ],
+  "design_principles": [
+    "能力点先于课程单元和内容清单；没有能力去向的内容不进入L2。",
+    "官方题型用于界定外部测量边界，不冒充官方教学大纲。",
+    "汉字通过课程词汇、句子和阅读任务学习，不维护孤立的全量汉字知识库。",
+    "训练、阶段测试和隐藏验证资产相互隔离。",
+    "当前地图只定义能力结构，不设置未经真实数据校准的分数权重和所需天数。"
+  ],
+  "official_references": [
+    {
+      "reference_id": "jlpt-n5-item-purposes-2022",
+      "title": "N5 Purposes of test items",
+      "publisher": "The Japan Foundation and JEES",
+      "source_url": "https://www.jlpt.jp/e/guideline/pdf/n5_e_revised.pdf",
+      "sha256": "ef3090c77a5d07fcd2dededbb8f981d6830f2935951ee15f5f07cf755e29c5ab",
+      "role": "现行N5题型和题型目的边界",
+      "does_not_prove": "完整教学范围或固定词汇、汉字、语法清单"
+    },
+    {
+      "reference_id": "jlpt-guidebook-executive-summary-2009",
+      "title": "New Japanese-Language Proficiency Test Guidebook Executive Summary",
+      "publisher": "The Japan Foundation and JEES",
+      "source_url": "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf",
+      "sha256": "b38beaac905a843c75371911d51fa41c2a49e978221bbdc284b2b8d4705f0d8b",
+      "role": "N5阅读、听力总体能力描述和新版JLPT边界",
+      "does_not_prove": "当前考试时间、固定题数或完整内容规格"
+    }
+  ],
+  "official_item_types": [
+    {
+      "item_type_id": "JLPT-N5-VOC-01",
+      "section": "vocabulary",
+      "name": "kanji_reading",
+      "purpose_zh": "识别用汉字书写的词语读音"
+    },
+    {
+      "item_type_id": "JLPT-N5-VOC-02",
+      "section": "vocabulary",
+      "name": "orthography",
+      "purpose_zh": "从假名词形识别相应汉字或片假名写法"
+    },
+    {
+      "item_type_id": "JLPT-N5-VOC-03",
+      "section": "vocabulary",
+      "name": "contextually_defined_expressions",
+      "purpose_zh": "根据句子语境判断词语意义"
+    },
+    {
+      "item_type_id": "JLPT-N5-VOC-04",
+      "section": "vocabulary",
+      "name": "paraphrases",
+      "purpose_zh": "识别意义相近的词语或表达"
+    },
+    {
+      "item_type_id": "JLPT-N5-GRA-01",
+      "section": "grammar",
+      "name": "selecting_grammar_form",
+      "purpose_zh": "选择适合句子的语法形式"
+    },
+    {
+      "item_type_id": "JLPT-N5-GRA-02",
+      "section": "grammar",
+      "name": "sentence_composition",
+      "purpose_zh": "组合语法正确且意义成立的句子"
+    },
+    {
+      "item_type_id": "JLPT-N5-GRA-03",
+      "section": "grammar",
+      "name": "text_grammar",
+      "purpose_zh": "判断表达是否适合篇章语流"
+    },
+    {
+      "item_type_id": "JLPT-N5-REA-01",
+      "section": "reading",
+      "name": "short_passage_comprehension",
+      "purpose_zh": "理解熟悉主题的简短文本"
+    },
+    {
+      "item_type_id": "JLPT-N5-REA-02",
+      "section": "reading",
+      "name": "mid_size_passage_comprehension",
+      "purpose_zh": "理解日常主题的中等长度文本"
+    },
+    {
+      "item_type_id": "JLPT-N5-REA-03",
+      "section": "reading",
+      "name": "information_retrieval",
+      "purpose_zh": "从通知等材料中检索必要信息"
+    },
+    {
+      "item_type_id": "JLPT-N5-LIS-01",
+      "section": "listening",
+      "name": "task_based_comprehension",
+      "purpose_zh": "听取完成具体任务所需的信息和行动"
+    },
+    {
+      "item_type_id": "JLPT-N5-LIS-02",
+      "section": "listening",
+      "name": "key_point_comprehension",
+      "purpose_zh": "根据预先给出的需要抓取关键点"
+    },
+    {
+      "item_type_id": "JLPT-N5-LIS-03",
+      "section": "listening",
+      "name": "verbal_expressions",
+      "purpose_zh": "结合情境和图示选择合适表达"
+    },
+    {
+      "item_type_id": "JLPT-N5-LIS-04",
+      "section": "listening",
+      "name": "quick_response",
+      "purpose_zh": "对简短话语选择合适回应"
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "foundations",
+      "title_zh": "文字与音拍基础",
+      "role": "product_prerequisite"
+    },
+    {
+      "domain_id": "vocabulary",
+      "title_zh": "词汇理解",
+      "role": "officially_measured"
+    },
+    {
+      "domain_id": "kanji",
+      "title_zh": "基础汉字识别",
+      "role": "integrated_support"
+    },
+    {
+      "domain_id": "grammar",
+      "title_zh": "句子与篇章语法",
+      "role": "officially_measured"
+    },
+    {
+      "domain_id": "reading",
+      "title_zh": "阅读理解",
+      "role": "officially_measured"
+    },
+    {
+      "domain_id": "listening",
+      "title_zh": "听力理解",
+      "role": "officially_measured"
+    },
+    {
+      "domain_id": "exam_execution",
+      "title_zh": "考试执行",
+      "role": "product_support_not_linguistic_claim"
+    }
+  ],
+  "ability_points": [
+    {
+      "ability_point_id": "N5-FND-001",
+      "domain_id": "foundations",
+      "title_zh": "平假名即时识别",
+      "can_do_zh": "能在不依赖罗马字的情况下识别课程范围内的平假名词形和短句。",
+      "ability_kind": "product_prerequisite",
+      "primary_official_item_type_ids": [],
+      "prerequisite_ids": [],
+      "accepted_l2_object_types": [
+        "script_rule",
+        "vocabulary"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test"
+      ],
+      "scope_boundary": "只覆盖N5课程所需的现代平假名识别，不把书写美观或罗马字转写作为结业目标。"
+    },
+    {
+      "ability_point_id": "N5-FND-002",
+      "domain_id": "foundations",
+      "title_zh": "片假名即时识别",
+      "can_do_zh": "能识别课程范围内常见片假名词形，并区分容易混淆的字形。",
+      "ability_kind": "product_prerequisite",
+      "primary_official_item_type_ids": [],
+      "prerequisite_ids": [],
+      "accepted_l2_object_types": [
+        "script_rule",
+        "vocabulary"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test"
+      ],
+      "scope_boundary": "只覆盖N5课程所需的片假名识别，不扩张为外来语大全。"
+    },
+    {
+      "ability_point_id": "N5-FND-003",
+      "domain_id": "foundations",
+      "title_zh": "音拍与特殊假名辨识",
+      "can_do_zh": "能在文字和慢速语音中区分长音、促音、拨音和拗音等会改变词形或意义的基础差异。",
+      "ability_kind": "product_prerequisite",
+      "primary_official_item_type_ids": [],
+      "prerequisite_ids": [
+        "N5-FND-001",
+        "N5-FND-002"
+      ],
+      "accepted_l2_object_types": [
+        "script_rule",
+        "sound_pattern",
+        "vocabulary"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test"
+      ],
+      "scope_boundary": "服务识词和听辨，不承诺完整语音学或口音训练。"
+    },
+    {
+      "ability_point_id": "N5-VOC-001",
+      "domain_id": "vocabulary",
+      "title_zh": "从汉字词形识别读音",
+      "can_do_zh": "能在N5难度短句中识别已审定基础词汇的常用汉字写法和目标读音。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-VOC-01"
+      ],
+      "prerequisite_ids": [
+        "N5-FND-001",
+        "N5-FND-003"
+      ],
+      "accepted_l2_object_types": [
+        "vocabulary",
+        "kanji"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "只要求课程选定词形中的目标读音，不继承JMdict或KANJIDIC2的全部读音。"
+    },
+    {
+      "ability_point_id": "N5-VOC-002",
+      "domain_id": "vocabulary",
+      "title_zh": "从假名词形识别常用写法",
+      "can_do_zh": "能根据假名和短句语境识别已审定词汇的常用汉字或片假名写法。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-VOC-02"
+      ],
+      "prerequisite_ids": [
+        "N5-FND-001",
+        "N5-FND-002",
+        "N5-FND-003"
+      ],
+      "accepted_l2_object_types": [
+        "vocabulary",
+        "kanji"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "只覆盖当前课程采用写法，不要求手写产出和罕见异体。"
+    },
+    {
+      "ability_point_id": "N5-VOC-003",
+      "domain_id": "vocabulary",
+      "title_zh": "根据短句语境判断词义",
+      "can_do_zh": "能利用基础句法和日常情境判断已审定词汇在短句中的课程目标义。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-VOC-03"
+      ],
+      "prerequisite_ids": [
+        "N5-FND-001"
+      ],
+      "accepted_l2_object_types": [
+        "vocabulary",
+        "grammar"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "按课程选定义项判断，不要求掌握词典全部义项。"
+    },
+    {
+      "ability_point_id": "N5-VOC-004",
+      "domain_id": "vocabulary",
+      "title_zh": "识别基础近义改写",
+      "can_do_zh": "能在N5日常情境中识别意义相近的基础词语或短表达。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-VOC-04"
+      ],
+      "prerequisite_ids": [
+        "N5-VOC-003"
+      ],
+      "accepted_l2_object_types": [
+        "vocabulary",
+        "fixed_expression",
+        "paraphrase_relation"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "只审定课程所需的基本替换关系，不建立全量同义词网络。"
+    },
+    {
+      "ability_point_id": "N5-KAN-001",
+      "domain_id": "kanji",
+      "title_zh": "在词语和短句中识别基础汉字",
+      "can_do_zh": "能在已审定词汇、句子和短文中识别课程采用的基础汉字及其目标词内读音。",
+      "ability_kind": "integrated_support",
+      "primary_official_item_type_ids": [],
+      "supports_ability_point_ids": [
+        "N5-VOC-001",
+        "N5-VOC-002",
+        "N5-REA-001",
+        "N5-REA-002",
+        "N5-REA-003"
+      ],
+      "prerequisite_ids": [
+        "N5-FND-001"
+      ],
+      "accepted_l2_object_types": [
+        "kanji",
+        "vocabulary"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test"
+      ],
+      "scope_boundary": "汉字必须绑定课程词汇或阅读用途；不复制KANJIDIC2全部音训、字义和元数据。"
+    },
+    {
+      "ability_point_id": "N5-GRA-001",
+      "domain_id": "grammar",
+      "title_zh": "选择适合句子的语法形式",
+      "can_do_zh": "能根据词性、活用、助词和语境选择使基础句子成立的语法形式。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-GRA-01"
+      ],
+      "prerequisite_ids": [
+        "N5-FND-001",
+        "N5-VOC-003"
+      ],
+      "accepted_l2_object_types": [
+        "grammar",
+        "inflection_rule",
+        "particle",
+        "fixed_expression"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "语法对象必须是可教学、可举例、可测量的最小结构，不直接沿用外部标题。"
+    },
+    {
+      "ability_point_id": "N5-GRA-002",
+      "domain_id": "grammar",
+      "title_zh": "组成语法和意义成立的基础句子",
+      "can_do_zh": "能依据基础语序、修饰关系和句型约束排列成语法正确且意义成立的句子。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-GRA-02"
+      ],
+      "prerequisite_ids": [
+        "N5-GRA-001",
+        "N5-VOC-003"
+      ],
+      "accepted_l2_object_types": [
+        "grammar",
+        "sentence_pattern"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "测理解和排列，不把自由写作作为N5结业承诺。"
+    },
+    {
+      "ability_point_id": "N5-GRA-003",
+      "domain_id": "grammar",
+      "title_zh": "判断基础篇章中的语法衔接",
+      "can_do_zh": "能根据前后句关系、指代和时间顺序选择适合基础篇章语流的表达。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-GRA-03"
+      ],
+      "prerequisite_ids": [
+        "N5-GRA-001",
+        "N5-GRA-002"
+      ],
+      "accepted_l2_object_types": [
+        "grammar",
+        "cohesion_marker",
+        "fixed_expression"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "只覆盖N5短篇章所需衔接，不扩张为完整篇章语言学。"
+    },
+    {
+      "ability_point_id": "N5-REA-001",
+      "domain_id": "reading",
+      "title_zh": "理解熟悉主题的简短文本",
+      "can_do_zh": "能读懂由基础词汇、假名和基础汉字组成的简短日常文本，并定位明确事实或意图。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-REA-01"
+      ],
+      "prerequisite_ids": [
+        "N5-VOC-003",
+        "N5-KAN-001",
+        "N5-GRA-001"
+      ],
+      "accepted_l2_object_types": [
+        "reading_skill",
+        "vocabulary",
+        "grammar"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "训练和测评文章必须自有或明确授权；来源文章只作研究蓝图。"
+    },
+    {
+      "ability_point_id": "N5-REA-002",
+      "domain_id": "reading",
+      "title_zh": "理解日常主题的中等长度文本",
+      "can_do_zh": "能追踪基础文本中的人物、时间、事件关系，区分主旨和必要细节。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-REA-02"
+      ],
+      "prerequisite_ids": [
+        "N5-REA-001",
+        "N5-GRA-003"
+      ],
+      "accepted_l2_object_types": [
+        "reading_skill",
+        "vocabulary",
+        "grammar"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "只覆盖基础日常题材和当前产品定义的文本复杂度。"
+    },
+    {
+      "ability_point_id": "N5-REA-003",
+      "domain_id": "reading",
+      "title_zh": "从通知等材料检索必要信息",
+      "can_do_zh": "能根据问题条件从通知、时间表或简单说明中筛选满足条件的信息。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-REA-03"
+      ],
+      "prerequisite_ids": [
+        "N5-REA-001"
+      ],
+      "accepted_l2_object_types": [
+        "reading_skill",
+        "document_pattern",
+        "vocabulary"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "材料结构可参考官方题型，但产品文本和版式必须自有或明确授权。"
+    },
+    {
+      "ability_point_id": "N5-LIS-001",
+      "domain_id": "listening",
+      "title_zh": "听取完成日常任务所需的信息",
+      "can_do_zh": "能从慢速、简短的日常或课堂对话中提取下一步行动和必要条件。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-LIS-01"
+      ],
+      "prerequisite_ids": [
+        "N5-FND-003",
+        "N5-VOC-003",
+        "N5-GRA-001"
+      ],
+      "accepted_l2_object_types": [
+        "listening_skill",
+        "vocabulary",
+        "grammar",
+        "situation_pattern"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "训练和测评音频必须自有或明确授权；不把ASR结果当正式原文。"
+    },
+    {
+      "ability_point_id": "N5-LIS-002",
+      "domain_id": "listening",
+      "title_zh": "按预设目标抓取听力关键点",
+      "can_do_zh": "能在听前知道所需信息时，从慢速对话中抓取人物、时间、地点、数量或选择等关键点。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-LIS-02"
+      ],
+      "prerequisite_ids": [
+        "N5-LIS-001"
+      ],
+      "accepted_l2_object_types": [
+        "listening_skill",
+        "vocabulary",
+        "grammar"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "只评估目标信息提取，不推断完整自然语速听力能力。"
+    },
+    {
+      "ability_point_id": "N5-LIS-003",
+      "domain_id": "listening",
+      "title_zh": "结合情境选择合适口头表达",
+      "can_do_zh": "能根据日常情境、人物关系和图示选择合适的基础口头表达。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-LIS-03"
+      ],
+      "prerequisite_ids": [
+        "N5-VOC-003",
+        "N5-GRA-001"
+      ],
+      "accepted_l2_object_types": [
+        "listening_skill",
+        "fixed_expression",
+        "situation_pattern"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "这是理解和选择能力，不等同于口语产出测验。"
+    },
+    {
+      "ability_point_id": "N5-LIS-004",
+      "domain_id": "listening",
+      "title_zh": "对简短话语选择合适回应",
+      "can_do_zh": "能理解慢速简短问句、陈述或招呼，并选择符合关系和语境的回应。",
+      "ability_kind": "official_measurement_target",
+      "primary_official_item_type_ids": [
+        "JLPT-N5-LIS-04"
+      ],
+      "prerequisite_ids": [
+        "N5-LIS-003"
+      ],
+      "accepted_l2_object_types": [
+        "listening_skill",
+        "fixed_expression",
+        "situation_pattern"
+      ],
+      "required_asset_roles": [
+        "teaching",
+        "practice",
+        "diagnostic",
+        "stage_test",
+        "hidden_validation"
+      ],
+      "scope_boundary": "不据此宣称学习者具备自由会话能力。"
+    },
+    {
+      "ability_point_id": "N5-EXE-001",
+      "domain_id": "exam_execution",
+      "title_zh": "理解题目操作并在限定时间内完成",
+      "can_do_zh": "能理解产品自有模拟题的操作说明、答案方式和时间安排，避免因不熟悉形式而失分。",
+      "ability_kind": "product_support_not_linguistic_claim",
+      "primary_official_item_type_ids": [],
+      "prerequisite_ids": [],
+      "accepted_l2_object_types": [
+        "exam_instruction",
+        "test_strategy"
+      ],
+      "required_asset_roles": [
+        "orientation",
+        "practice",
+        "mock_exam"
+      ],
+      "scope_boundary": "不通过题型技巧替代语言能力，也不把产品模拟分数称为官方尺度分数。"
+    }
+  ],
+  "measurement_policy": {
+    "progress_weights": "unset_until_validation_data_exists",
+    "mastery_thresholds": "unset_until_item_bank_and_user_data_are_calibrated",
+    "estimated_days_model": "not_defined",
+    "diagnostic_rule": "入口自测只能报告能力点级证据和区间，不把一次普通正确率线性换算成JLPT官方分数。",
+    "asset_separation": {
+      "training": "可向学习者展示并讲解",
+      "stage_test": "与对应训练题隔离，用于阶段复核",
+      "hidden_validation": "自有或明确授权、独立审校、未在训练中泄露，并固定到L3版本"
+    }
+  },
+  "coverage_summary": {
+    "ability_point_count": 19,
+    "official_item_type_count": 14,
+    "official_item_types_with_exactly_one_primary_ability": 14,
+    "l2_learning_object_count": 1237,
+    "l3_product_version_count": 0,
+    "l2_learning_objects_by_type": {
+      "vocabulary": 699,
+      "kanji": 419,
+      "grammar": 67,
+      "script_rule": 4,
+      "sound_pattern": 4,
+      "reading_skill": 8,
+      "document_pattern": 4,
+      "listening_skill": 8,
+      "situation_pattern": 4,
+      "paraphrase_relation": 18,
+      "test_strategy": 2
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-032-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u32-group-01",
+      "title_zh": "部屋到トイレ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1499320-v1",
+        "n5-vocabulary-jmdict-1584800-v1",
+        "n5-vocabulary-jmdict-1585650-v1",
+        "n5-vocabulary-jmdict-1084810-v1"
+      ],
+      "target_labels_zh": [
+        "部屋",
+        "門",
+        "箱",
+        "トイレ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u32-group-02",
+      "title_zh": "ベッド到電気",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1119650-v1",
+        "n5-vocabulary-jmdict-1194870-v1",
+        "n5-vocabulary-jmdict-1220210-v1",
+        "n5-vocabulary-jmdict-1443000-v1"
+      ],
+      "target_labels_zh": [
+        "ベッド",
+        "花瓶",
+        "机",
+        "電気"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u32-group-03",
+      "title_zh": "廊下到お風呂",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1560670-v1",
+        "n5-vocabulary-jmdict-2220600-v1"
+      ],
+      "target_labels_zh": [
+        "廊下",
+        "お風呂"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u32-checkpoint-vocab-1499320-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“房间”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "B",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "トイレ（トイレ）"
+        },
+        {
+          "option_id": "D",
+          "text": "部屋（へや）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1584800-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“大门／门”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "トイレ（トイレ）"
+        },
+        {
+          "option_id": "C",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "D",
+          "text": "部屋（へや）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1585650-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“箱子／盒子”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "トイレ（トイレ）"
+        },
+        {
+          "option_id": "B",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "部屋（へや）"
+        },
+        {
+          "option_id": "D",
+          "text": "門（もん）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1084810-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“厕所／洗手间”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "トイレ（トイレ）"
+        },
+        {
+          "option_id": "B",
+          "text": "部屋（へや）"
+        },
+        {
+          "option_id": "C",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "D",
+          "text": "箱（はこ）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1119650-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“床”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "部屋（へや）"
+        },
+        {
+          "option_id": "B",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "C",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ベッド（ベッド）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1194870-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“花瓶”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "B",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "花瓶（かびん）"
+        },
+        {
+          "option_id": "D",
+          "text": "部屋（へや）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1220210-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“书桌”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "机（つくえ）"
+        },
+        {
+          "option_id": "C",
+          "text": "部屋（へや）"
+        },
+        {
+          "option_id": "D",
+          "text": "門（もん）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1443000-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“电／电力”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "電気（でんき）"
+        },
+        {
+          "option_id": "B",
+          "text": "部屋（へや）"
+        },
+        {
+          "option_id": "C",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "D",
+          "text": "箱（はこ）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-1560670-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“走廊”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "部屋（へや）"
+        },
+        {
+          "option_id": "B",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "C",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "D",
+          "text": "廊下（ろうか）"
+        }
+      ]
+    },
+    "n5-module-b-u32-checkpoint-vocab-2220600-v1": {
+      "prompt_zh": "在新的“住所、房间与家具”情境中，选择表示“洗澡／浴室／浴缸”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "門（もん）"
+        },
+        {
+          "option_id": "B",
+          "text": "箱（はこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "お風呂（おふろ）"
+        },
+        {
+          "option_id": "D",
+          "text": "部屋（へや）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1499320-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1499320-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "房间"
+        },
+        {
+          "option_id": "B",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "C",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "A",
+          "text": "厕所／洗手间"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「部屋」的课程义。",
+      "prompt_ja": "部屋です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1584800-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1584800-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "房间"
+        },
+        {
+          "option_id": "B",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "D",
+          "text": "厕所／洗手间"
+        },
+        {
+          "option_id": "C",
+          "text": "大门／门"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「門」的课程义。",
+      "prompt_ja": "門です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1585650-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1585650-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "C",
+          "text": "厕所／洗手间"
+        },
+        {
+          "option_id": "B",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "D",
+          "text": "房间"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「箱」的课程义。",
+      "prompt_ja": "箱です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1084810-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1084810-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "A",
+          "text": "厕所／洗手间"
+        },
+        {
+          "option_id": "C",
+          "text": "房间"
+        },
+        {
+          "option_id": "D",
+          "text": "大门／门"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「トイレ」的课程义。",
+      "prompt_ja": "トイレです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1119650-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1119650-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "床"
+        },
+        {
+          "option_id": "B",
+          "text": "房间"
+        },
+        {
+          "option_id": "C",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "A",
+          "text": "箱子／盒子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ベッド」的课程义。",
+      "prompt_ja": "ベッドです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1194870-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1194870-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "房间"
+        },
+        {
+          "option_id": "B",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "D",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "C",
+          "text": "花瓶"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「花瓶」的课程义。",
+      "prompt_ja": "花瓶です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1220210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1220210-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "C",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "B",
+          "text": "书桌"
+        },
+        {
+          "option_id": "D",
+          "text": "房间"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「机」的课程义。",
+      "prompt_ja": "机です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1443000-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1443000-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "A",
+          "text": "电／电力"
+        },
+        {
+          "option_id": "C",
+          "text": "房间"
+        },
+        {
+          "option_id": "D",
+          "text": "大门／门"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「電気」的课程义。",
+      "prompt_ja": "電気を使います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-1560670-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1560670-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "走廊"
+        },
+        {
+          "option_id": "B",
+          "text": "房间"
+        },
+        {
+          "option_id": "C",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "A",
+          "text": "箱子／盒子"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「廊下」的课程义。",
+      "prompt_ja": "廊下です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u32-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u32-checkpoint-vocab-2220600-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2220600-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "房间"
+        },
+        {
+          "option_id": "B",
+          "text": "大门／门"
+        },
+        {
+          "option_id": "D",
+          "text": "箱子／盒子"
+        },
+        {
+          "option_id": "C",
+          "text": "洗澡／浴室／浴缸"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「お風呂」的课程义。",
+      "prompt_ja": "お風呂です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-041-v3",
+  "items": {
+    "n5-module-b-u41-card-grammar-01-v1": {
+      "title_zh": "用たい表达愿望",
+      "learner_pattern_zh": "Vます词干＋たいです",
+      "explanation_zh": "表达说话人想做某事",
+      "connection_zh": "动词ます形去ます后接たいです；たい按い形容词方式活用",
+      "term_note_zh": "陈述句主要表达说话人的愿望；たいですか可询问听者愿望，但不直接用Vたいです陈述第二、第三人称愿望，并注意对不熟悉或应表示敬意的对象直接询问可能失礼",
+      "example_ja": "映画を見たいです。",
+      "example_zh": "想看电影。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "陈述句主要表达说话人的愿望；たいですか可询问听者愿望，但不直接用Vたいです陈述第二、第三人称愿望，并注意对不熟悉或应表示敬意的对象直接询问可能失礼"
+    },
+    "n5-module-b-u41-card-grammar-02-v1": {
+      "title_zh": "用てもいい表示许可",
+      "learner_pattern_zh": "Vてもいいです",
+      "explanation_zh": "表示某行为被允许",
+      "connection_zh": "动词て形后接もいい；礼貌终止形式可变化",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "ここに座ってもいいです。",
+      "example_zh": "可以坐在这里。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示某行为被允许”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

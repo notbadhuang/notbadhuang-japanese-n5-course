@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "candidate_id": "n5-g3-reading-r04-complete-content-v1",
+  "status": "validation_candidate_not_active",
+  "unit_code": "R04",
+  "work_unit_id": "n5-work-unit-reading-information-retrieval-v1",
+  "display_title_zh": "结构化材料与信息检索",
+  "learning_task_zh": "把问题拆成条件，再按行列核对全部限制。",
+  "steps": [
+    "提取条件",
+    "认清结构",
+    "逐项排除",
+    "独立判断"
+  ],
+  "teaching_blocks": [
+    {
+      "asset_id": "n5-g3-reading-r04-teaching-query-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-teaching-query-v1",
+      "title_zh": "先把问题改写成条件",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "午後二時より後に出ます。\nお金は五百円までです。"
+      },
+      "reading_focus_zh": "出发时间 ＞ 14:00；价格 ≤ 500円",
+      "explanation_zh": "看表格前先固定字段、数值和比较方向。‘之后’与‘以前’方向相反，‘最多’不是‘至少’。",
+      "primary_l2_object_id": "n5-reading-query-to-constraints-v1",
+      "supporting_l2_object_ids": [],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1268990-v1",
+        "n5-vocabulary-jmdict-1269320-v1",
+        "n5-vocabulary-jmdict-1338240-v1",
+        "n5-vocabulary-jmdict-1001820-v1",
+        "n5-vocabulary-jmdict-1175570-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r04-teaching-memo-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-teaching-memo-v1",
+      "title_zh": "便条先分清写给谁、谁写",
+      "stimulus": {
+        "kind": "memo",
+        "addressee_ja": "木村さんへ",
+        "lines_ja": [
+          "明日は九時に駅で会います。",
+          "青いかばんを持ってきてください。"
+        ],
+        "sender_ja": "田中"
+      },
+      "reading_focus_zh": "木村要在明天九点到车站，并带蓝色包",
+      "explanation_zh": "开头是收信人，末尾是写信人；中间再分离时间、地点和要求执行的动作。",
+      "primary_l2_object_id": "n5-document-message-memo-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1198180-v1",
+        "n5-vocabulary-jmdict-1381390-v1",
+        "n5-vocabulary-jmdict-1208910-v1",
+        "n5-vocabulary-jmdict-1315720-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-request-te-kudasai-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r04-teaching-schedule-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-teaching-schedule-v1",
+      "title_zh": "先锁定行，再读取正确的列",
+      "stimulus": {
+        "kind": "table",
+        "title_ja": "駅から会社まで",
+        "columns_ja": [
+          "バス",
+          "出ます",
+          "着きます"
+        ],
+        "rows": [
+          [
+            "一番",
+            "8:40",
+            "9:20"
+          ],
+          [
+            "二番",
+            "9:00",
+            "9:50"
+          ]
+        ]
+      },
+      "reading_focus_zh": "十点前到达：比较“着きます”列",
+      "explanation_zh": "出发和到达是两个不同字段。题目问到达时间时，不要误读同一行的出发时间。",
+      "primary_l2_object_id": "n5-document-schedule-timetable-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-query-to-constraints-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1338240-v1",
+        "n5-vocabulary-jmdict-1422970-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r04-teaching-all-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-teaching-all-v1",
+      "title_zh": "只有全部条件都满足才保留",
+      "stimulus": {
+        "kind": "table",
+        "title_ja": "会社まで",
+        "columns_ja": [
+          "行き方",
+          "時間",
+          "お金"
+        ],
+        "rows": [
+          [
+            "バス",
+            "40分",
+            "600円"
+          ],
+          [
+            "電車",
+            "50分",
+            "400円"
+          ],
+          [
+            "自転車",
+            "60分",
+            "0円"
+          ]
+        ]
+      },
+      "reading_focus_zh": "条件：500円以内，而且55分钟以内",
+      "explanation_zh": "逐行核对时间和价格；不能把公交的时间与电车的价格拼成一个不存在的方案。",
+      "primary_l2_object_id": "n5-reading-all-constraints-elimination-v1",
+      "supporting_l2_object_ids": [
+        "n5-document-route-option-comparison-v1",
+        "n5-document-listing-price-calendar-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1315920-v1",
+        "n5-vocabulary-jmdict-1001820-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1443530-v1",
+        "n5-vocabulary-jmdict-1318290-v1",
+        "n5-vocabulary-jmdict-1175570-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1"
+      ]
+    }
+  ],
+  "practice_items": [
+    {
+      "item_id": "n5-g3-reading-r04-practice-memo-001-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-memo-001-v1",
+      "stimulus": {
+        "kind": "memo",
+        "addressee_ja": "山田さんへ",
+        "lines_ja": [
+          "明日は八時に駅で会います。",
+          "赤いかばんを持ってきてください。"
+        ],
+        "sender_ja": "佐藤"
+      },
+      "prompt_zh": "谁要带红色包？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "山田さん"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "佐藤さん"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "田中さん"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "木村さん"
+        }
+      ],
+      "declared_format_tokens": [
+        "山田さん",
+        "佐藤",
+        "田中さん",
+        "木村さん",
+        "八時"
+      ],
+      "primary_l2_object_id": "n5-document-message-memo-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "failure_signature_targets": [
+        "sender_recipient_reversed",
+        "request_confused_with_background"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1584660-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1198180-v1",
+        "n5-vocabulary-jmdict-1383240-v1",
+        "n5-vocabulary-jmdict-1208910-v1",
+        "n5-vocabulary-jmdict-1315720-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-request-te-kudasai-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-schedule-002-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-schedule-002-v1",
+      "stimulus": {
+        "kind": "table",
+        "title_ja": "駅から会社まで",
+        "columns_ja": [
+          "バス",
+          "出ます",
+          "着きます"
+        ],
+        "rows": [
+          [
+            "一番",
+            "8:30",
+            "9:20"
+          ],
+          [
+            "二番",
+            "9:10",
+            "9:50"
+          ],
+          [
+            "三番",
+            "9:30",
+            "10:10"
+          ]
+        ]
+      },
+      "prompt_zh": "十点前到公司，最晚可以坐哪一班？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "一番"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "二番"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "三番"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "どれもだめです。"
+        }
+      ],
+      "declared_format_tokens": [
+        "一番",
+        "二番",
+        "三番",
+        "8:30",
+        "9:20",
+        "9:10",
+        "9:50",
+        "9:30",
+        "10:10",
+        "十点"
+      ],
+      "primary_l2_object_id": "n5-document-schedule-timetable-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-query-to-constraints-v1",
+        "n5-reading-all-constraints-elimination-v1"
+      ],
+      "failure_signature_targets": [
+        "wrong_row",
+        "departure_arrival_confused"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1338240-v1",
+        "n5-vocabulary-jmdict-1422970-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-listing-003-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-listing-003-v1",
+      "stimulus": {
+        "kind": "table",
+        "title_ja": "店のコーヒー",
+        "columns_ja": [
+          "曜日",
+          "お金"
+        ],
+        "rows": [
+          [
+            "月曜日",
+            "200円"
+          ],
+          [
+            "火曜日",
+            "150円"
+          ],
+          [
+            "水曜日",
+            "休み"
+          ]
+        ]
+      },
+      "prompt_zh": "星期三可以买咖啡吗？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "はい、200円です。"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "はい、150円です。"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "いいえ、休みです。"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "いいえ、月曜日だけです。"
+        }
+      ],
+      "declared_format_tokens": [],
+      "primary_l2_object_id": "n5-document-listing-price-calendar-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-condition-negation-contrast-v1",
+        "n5-reading-all-constraints-elimination-v1"
+      ],
+      "failure_signature_targets": [
+        "right_item_wrong_date",
+        "footnote_or_closed_day_ignored"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1049180-v1",
+        "n5-vocabulary-jmdict-1255890-v1",
+        "n5-vocabulary-jmdict-1194290-v1",
+        "n5-vocabulary-jmdict-1372190-v1",
+        "n5-vocabulary-jmdict-1001820-v1",
+        "n5-vocabulary-jmdict-1175570-v1",
+        "n5-vocabulary-jmdict-1227500-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-wa-contrast-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-route-004-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-route-004-v1",
+      "stimulus": {
+        "kind": "table",
+        "title_ja": "駅から会社まで",
+        "columns_ja": [
+          "行き方",
+          "時間",
+          "お金"
+        ],
+        "rows": [
+          [
+            "バス",
+            "40分",
+            "600円"
+          ],
+          [
+            "電車",
+            "50分",
+            "400円"
+          ],
+          [
+            "自転車",
+            "60分",
+            "0円"
+          ]
+        ]
+      },
+      "prompt_zh": "500円以内并且用时不超过50分钟，选哪种方式？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "バス"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "電車"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "自転車"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "どれもだめです。"
+        }
+      ],
+      "declared_format_tokens": [
+        "40分",
+        "600円",
+        "50分",
+        "400円",
+        "60分",
+        "0円",
+        "500円"
+      ],
+      "primary_l2_object_id": "n5-document-route-option-comparison-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-query-to-constraints-v1",
+        "n5-reading-all-constraints-elimination-v1"
+      ],
+      "failure_signature_targets": [
+        "fields_combined_across_options",
+        "total_time_or_cost_misread"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1315920-v1",
+        "n5-vocabulary-jmdict-1001820-v1",
+        "n5-vocabulary-jmdict-1098390-v1",
+        "n5-vocabulary-jmdict-1443530-v1",
+        "n5-vocabulary-jmdict-1318290-v1",
+        "n5-vocabulary-jmdict-1175570-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-extract-005-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-extract-005-v1",
+      "stimulus": {
+        "kind": "passage",
+        "text_ja": "午前十時前に着いて、お金は三百円までです。"
+      },
+      "prompt_zh": "查表前必须提取哪两个条件？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "十時前に着く・三百円まで"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "十時より後に出る・三百円より高い"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "十時に着く・三百円です"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "十時前に出る・お金は見ません"
+        }
+      ],
+      "declared_format_tokens": [
+        "十時",
+        "三百円"
+      ],
+      "primary_l2_object_id": "n5-reading-query-to-constraints-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-all-constraints-elimination-v1"
+      ],
+      "failure_signature_targets": [
+        "one_constraint_not_extracted",
+        "comparison_direction_reversed"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1269060-v1",
+        "n5-vocabulary-jmdict-1392580-v1",
+        "n5-vocabulary-jmdict-1422970-v1",
+        "n5-vocabulary-jmdict-1269320-v1",
+        "n5-vocabulary-jmdict-1338240-v1",
+        "n5-vocabulary-jmdict-1001820-v1",
+        "n5-vocabulary-jmdict-1175570-v1",
+        "n5-vocabulary-jmdict-1283190-v1",
+        "n5-vocabulary-jmdict-1259290-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r04-practice-all-constraints-006-v1",
+      "stimulus_id": "n5-g3-reading-r04-stimulus-all-constraints-006-v1",
+      "stimulus": {
+        "kind": "table",
+        "title_ja": "駅から町まで",
+        "columns_ja": [
+          "行き方",
+          "出ます",
+          "着きます",
+          "お金"
+        ],
+        "rows": [
+          [
+            "一番",
+            "8:20",
+            "9:15",
+            "260円"
+          ],
+          [
+            "二番",
+            "8:50",
+            "9:40",
+            "220円"
+          ],
+          [
+            "三番",
+            "9:15",
+            "10:00",
+            "180円"
+          ]
+        ]
+      },
+      "prompt_zh": "九点五十分前到达，而且只能花250円以内，应该选哪一班？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "一番"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "二番"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "三番"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "どれもだめです。"
+        }
+      ],
+      "declared_format_tokens": [
+        "一番",
+        "二番",
+        "三番",
+        "8:20",
+        "9:15",
+        "260円",
+        "8:50",
+        "9:40",
+        "220円",
+        "10:00",
+        "180円",
+        "九点五十分",
+        "250円"
+      ],
+      "primary_l2_object_id": "n5-reading-all-constraints-elimination-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-query-to-constraints-v1",
+        "n5-document-schedule-timetable-v1",
+        "n5-document-route-option-comparison-v1"
+      ],
+      "failure_signature_targets": [
+        "partial_match_selected",
+        "row_column_or_option_mismatch"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1603990-v1",
+        "n5-vocabulary-jmdict-1338240-v1",
+        "n5-vocabulary-jmdict-1422970-v1",
+        "n5-vocabulary-jmdict-1001820-v1",
+        "n5-vocabulary-jmdict-1175570-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-range-kara-made-v1",
+        "n5-grammar-particle-ni-time-point-v1",
+        "n5-grammar-inflection-verb-polite-paradigm-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_stage_check_pool": false,
+      "may_enter_hidden_or_mock_pool": false
+    }
+  ]
+}

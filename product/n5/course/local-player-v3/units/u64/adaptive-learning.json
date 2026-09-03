@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-064-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u64-group-01",
+      "title_zh": "コート到レコード",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-2842174-v1",
+        "n5-vocabulary-jmdict-1073210-v1",
+        "n5-vocabulary-jmdict-1138960-v1",
+        "n5-vocabulary-jmdict-1144940-v1"
+      ],
+      "target_labels_zh": [
+        "コート",
+        "スポーツ",
+        "ラジカセ",
+        "レコード"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u64-group-02",
+      "title_zh": "音楽到ラジオカセット",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1183720-v1",
+        "n5-vocabulary-jmdict-1008190-v1",
+        "n5-vocabulary-jmdict-1533580-v1",
+        "n5-vocabulary-jmdict-1138900-v1"
+      ],
+      "target_labels_zh": [
+        "音楽",
+        "つまらない",
+        "おもしろい",
+        "ラジオカセット"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u64-group-03",
+      "title_zh": "テープレコーダー到V普通形＋のが上手です",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1078810-v1",
+        "n5-grammar-preference-no-ga-suki-v1",
+        "n5-grammar-skill-no-ga-jouzu-v1"
+      ],
+      "target_labels_zh": [
+        "テープレコーダー",
+        "V普通形＋のが好きです",
+        "V普通形＋のが上手です"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u64-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表达对某项活动的喜好"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "表达对某项活动的喜好。基本形式是V普通形＋のが好きです。依赖の名词化，名词化成分以が连接好き。"
+    },
+    "n5-module-b-u64-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "表达某人擅长某项活动"
+        }
+      ],
+      "feedback_zh": "表达某人擅长某项活动。基本形式是V普通形＋のが上手です。依赖の名词化，名词化成分以が连接上手。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u64-checkpoint-vocab-2842174-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“球场”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "C",
+          "text": "レコード（レコード）"
+        },
+        {
+          "option_id": "D",
+          "text": "コート（コート）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1073210-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“运动”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "B",
+          "text": "レコード（レコード）"
+        },
+        {
+          "option_id": "C",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "D",
+          "text": "コート（コート）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1138960-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“收录机”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "レコード（レコード）"
+        },
+        {
+          "option_id": "B",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "C",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "D",
+          "text": "スポーツ（スポーツ）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1144940-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“唱片”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "レコード（レコード）"
+        },
+        {
+          "option_id": "B",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "C",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ラジカセ（ラジカセ）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1183720-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“音乐”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "B",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "D",
+          "text": "音楽（おんがく）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1008190-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“无聊／没意思”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "B",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "C",
+          "text": "つまらない（つまらない）"
+        },
+        {
+          "option_id": "D",
+          "text": "コート（コート）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1533580-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“有趣／有意思”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "B",
+          "text": "おもしろい（おもしろい）"
+        },
+        {
+          "option_id": "C",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "D",
+          "text": "スポーツ（スポーツ）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1138900-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“收录机”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ラジオカセット（ラジオカセット）"
+        },
+        {
+          "option_id": "B",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "C",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "D",
+          "text": "ラジカセ（ラジカセ）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-vocab-1078810-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“录音机”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "コート（コート）"
+        },
+        {
+          "option_id": "B",
+          "text": "スポーツ（スポーツ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ラジカセ（ラジカセ）"
+        },
+        {
+          "option_id": "D",
+          "text": "テープレコーダー（テープレコーダー）"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表达对某项活动的喜好”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "V普通形＋のが好きです"
+        }
+      ]
+    },
+    "n5-module-b-u64-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“表达某人擅长某项活动”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "V普通形＋のが上手です"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-2842174-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2842174-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "球场"
+        },
+        {
+          "option_id": "B",
+          "text": "运动"
+        },
+        {
+          "option_id": "C",
+          "text": "收录机"
+        },
+        {
+          "option_id": "A",
+          "text": "唱片"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「コート」的课程义。",
+      "prompt_ja": "テニスのコートです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1073210-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1073210-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "球场"
+        },
+        {
+          "option_id": "B",
+          "text": "收录机"
+        },
+        {
+          "option_id": "D",
+          "text": "唱片"
+        },
+        {
+          "option_id": "C",
+          "text": "运动"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「スポーツ」的课程义。",
+      "prompt_ja": "スポーツです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1138960-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1138960-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "运动"
+        },
+        {
+          "option_id": "C",
+          "text": "唱片"
+        },
+        {
+          "option_id": "B",
+          "text": "收录机"
+        },
+        {
+          "option_id": "D",
+          "text": "球场"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ラジカセ」的课程义。",
+      "prompt_ja": "ラジカセです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1144940-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1144940-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "收录机"
+        },
+        {
+          "option_id": "A",
+          "text": "唱片"
+        },
+        {
+          "option_id": "C",
+          "text": "球场"
+        },
+        {
+          "option_id": "D",
+          "text": "运动"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「レコード」的课程义。",
+      "prompt_ja": "レコードです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1183720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1183720-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "音乐"
+        },
+        {
+          "option_id": "B",
+          "text": "球场"
+        },
+        {
+          "option_id": "C",
+          "text": "运动"
+        },
+        {
+          "option_id": "A",
+          "text": "收录机"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「音楽」的课程义。",
+      "prompt_ja": "音楽です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1008190-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1008190-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "球场"
+        },
+        {
+          "option_id": "B",
+          "text": "运动"
+        },
+        {
+          "option_id": "D",
+          "text": "收录机"
+        },
+        {
+          "option_id": "C",
+          "text": "无聊／没意思"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「つまらない」的课程义。",
+      "prompt_ja": "つまらないです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1533580-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1533580-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "运动"
+        },
+        {
+          "option_id": "C",
+          "text": "收录机"
+        },
+        {
+          "option_id": "B",
+          "text": "有趣／有意思"
+        },
+        {
+          "option_id": "D",
+          "text": "球场"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「おもしろい」的课程义。",
+      "prompt_ja": "おもしろいです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1138900-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1138900-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "唱片"
+        },
+        {
+          "option_id": "A",
+          "text": "收录机"
+        },
+        {
+          "option_id": "C",
+          "text": "球场"
+        },
+        {
+          "option_id": "D",
+          "text": "运动"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ラジオカセット」的课程义。",
+      "prompt_ja": "ラジオカセットです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-vocab-1078810-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1078810-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "录音机"
+        },
+        {
+          "option_id": "B",
+          "text": "球场"
+        },
+        {
+          "option_id": "C",
+          "text": "运动"
+        },
+        {
+          "option_id": "A",
+          "text": "收录机"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「テープレコーダー」的课程义。",
+      "prompt_ja": "テープレコーダーです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-preference-no-ga-suki-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "表达对某项活动的喜好"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "音楽を聞くのが好きです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u64-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u64-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-skill-no-ga-jouzu-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "表达某人擅长某项活动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "兄は料理を作るのが上手です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

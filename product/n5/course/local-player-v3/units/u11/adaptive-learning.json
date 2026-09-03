@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-011-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u11-group-01",
+      "title_zh": "ペン到ノート",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1121380-v1",
+        "n5-vocabulary-jmdict-1044070-v1",
+        "n5-vocabulary-jmdict-1079760-v1",
+        "n5-vocabulary-jmdict-1093450-v1"
+      ],
+      "target_labels_zh": [
+        "ペン",
+        "クラス",
+        "テスト",
+        "ノート"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u11-group-02",
+      "title_zh": "学校到書く",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1387990-v1",
+        "n5-vocabulary-jmdict-1311530-v1",
+        "n5-vocabulary-jmdict-1343950-v1"
+      ],
+      "target_labels_zh": [
+        "学校",
+        "先生",
+        "紙",
+        "書く"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u11-group-03",
+      "title_zh": "読む到Nが述部",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1456360-v1",
+        "n5-vocabulary-jmdict-1050590-v1",
+        "n5-vocabulary-jmdict-1120410-v1",
+        "n5-vocabulary-jmdict-1174420-v1",
+        "n5-grammar-particle-ga-subject-focus-v1"
+      ],
+      "target_labels_zh": [
+        "読む",
+        "コピー",
+        "ページ",
+        "英語",
+        "Nが述部"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u11-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "B",
+          "text": "标记被说明的主语，尤其用于疑问词及其回答中的新信息"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "feedback_zh": "が前面的名词是后面述部直接说明的主体。先用新信息陈述理解，后续再进入誰が等疑问词问答。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u11-checkpoint-vocab-1121380-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“笔”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "B",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "C",
+          "text": "ノート（ノート）"
+        },
+        {
+          "option_id": "D",
+          "text": "ペン（ペン）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1044070-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“班级／课”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "B",
+          "text": "ノート（ノート）"
+        },
+        {
+          "option_id": "C",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "D",
+          "text": "ペン（ペン）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1079760-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“考试／测验”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ノート（ノート）"
+        },
+        {
+          "option_id": "B",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "C",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "D",
+          "text": "クラス（クラス）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1093450-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“笔记本／练习本”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ノート（ノート）"
+        },
+        {
+          "option_id": "B",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "C",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "D",
+          "text": "テスト（テスト）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1206730-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“学校”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "B",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "C",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "D",
+          "text": "学校（がっこう）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1387990-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“老师／教师”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "B",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "C",
+          "text": "先生（せんせい）"
+        },
+        {
+          "option_id": "D",
+          "text": "ペン（ペン）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1311530-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“纸”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "B",
+          "text": "紙（かみ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "D",
+          "text": "クラス（クラス）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1343950-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“写／书写”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "書く（かく）"
+        },
+        {
+          "option_id": "B",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "C",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "D",
+          "text": "テスト（テスト）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1456360-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“读／阅读”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "B",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "C",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "D",
+          "text": "読む（よむ）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1050590-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“复印／复印件”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "B",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "C",
+          "text": "コピー（コピー）"
+        },
+        {
+          "option_id": "D",
+          "text": "ペン（ペン）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1120410-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“页／页面”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テスト（テスト）"
+        },
+        {
+          "option_id": "B",
+          "text": "ページ（ページ）"
+        },
+        {
+          "option_id": "C",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "D",
+          "text": "クラス（クラス）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-vocab-1174420-v1": {
+      "prompt_zh": "在新的“学校、学习与语言”情境中，选择表示“英语”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "英語（えいご）"
+        },
+        {
+          "option_id": "B",
+          "text": "ペン（ペン）"
+        },
+        {
+          "option_id": "C",
+          "text": "クラス（クラス）"
+        },
+        {
+          "option_id": "D",
+          "text": "テスト（テスト）"
+        }
+      ]
+    },
+    "n5-module-b-u11-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“标记被说明的主语，尤其用于疑问词及其回答中的新信息”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Nが述部"
+        },
+        {
+          "option_id": "B",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "D",
+          "text": "频率表达＋Vている"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1121380-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1121380-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "笔"
+        },
+        {
+          "option_id": "B",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "C",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "A",
+          "text": "笔记本／练习本"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ペン」的课程义。",
+      "prompt_ja": "ペンです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1044070-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1044070-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "笔"
+        },
+        {
+          "option_id": "B",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "D",
+          "text": "笔记本／练习本"
+        },
+        {
+          "option_id": "C",
+          "text": "班级／课"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「クラス」的课程义。",
+      "prompt_ja": "クラスです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1079760-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1079760-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "C",
+          "text": "笔记本／练习本"
+        },
+        {
+          "option_id": "B",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "D",
+          "text": "笔"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「テスト」的课程义。",
+      "prompt_ja": "テストです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1093450-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1093450-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "A",
+          "text": "笔记本／练习本"
+        },
+        {
+          "option_id": "C",
+          "text": "笔"
+        },
+        {
+          "option_id": "D",
+          "text": "班级／课"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ノート」的课程义。",
+      "prompt_ja": "ノートです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1206730-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1206730-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "学校"
+        },
+        {
+          "option_id": "B",
+          "text": "笔"
+        },
+        {
+          "option_id": "C",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "A",
+          "text": "考试／测验"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「学校」的课程义。",
+      "prompt_ja": "学校です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1387990-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1387990-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "笔"
+        },
+        {
+          "option_id": "B",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "D",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "C",
+          "text": "老师／教师"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「先生」的课程义。",
+      "prompt_ja": "田中さんは日本語の先生です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1311530-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1311530-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "C",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "B",
+          "text": "纸"
+        },
+        {
+          "option_id": "D",
+          "text": "笔"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「紙」的课程义。",
+      "prompt_ja": "紙です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1343950-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1343950-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "A",
+          "text": "写／书写"
+        },
+        {
+          "option_id": "C",
+          "text": "笔"
+        },
+        {
+          "option_id": "D",
+          "text": "班级／课"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「書く」的课程义。",
+      "prompt_ja": "名前を書きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1456360-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1456360-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "读／阅读"
+        },
+        {
+          "option_id": "B",
+          "text": "笔"
+        },
+        {
+          "option_id": "C",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "A",
+          "text": "考试／测验"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「読む」的课程义。",
+      "prompt_ja": "本を読みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1050590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1050590-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "笔"
+        },
+        {
+          "option_id": "B",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "D",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "C",
+          "text": "复印／复印件"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「コピー」的课程义。",
+      "prompt_ja": "コピーです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1120410-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1120410-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "班级／课"
+        },
+        {
+          "option_id": "C",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "B",
+          "text": "页／页面"
+        },
+        {
+          "option_id": "D",
+          "text": "笔"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ページ」的课程义。",
+      "prompt_ja": "このページを読みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-12-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-vocab-1174420-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1174420-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "考试／测验"
+        },
+        {
+          "option_id": "A",
+          "text": "英语"
+        },
+        {
+          "option_id": "C",
+          "text": "笔"
+        },
+        {
+          "option_id": "D",
+          "text": "班级／课"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「英語」的课程义。",
+      "prompt_ja": "英語です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u11-recovery-13-v1",
+      "source_checkpoint_item_id": "n5-module-b-u11-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-particle-ga-subject-focus-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "A",
+          "text": "标记被说明的主语，尤其用于疑问词及其回答中的新信息"
+        },
+        {
+          "option_id": "C",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "D",
+          "text": "建议对方采取某行动"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "先生が来ます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

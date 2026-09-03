@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-050-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u50-group-01",
+      "title_zh": "たぶん到ゆっくり",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1407980-v1",
+        "n5-vocabulary-jmdict-1430620-v1",
+        "n5-vocabulary-jmdict-1584930-v1",
+        "n5-vocabulary-jmdict-1013050-v1"
+      ],
+      "target_labels_zh": [
+        "たぶん",
+        "すぐに",
+        "あまり",
+        "ゆっくり"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u50-group-02",
+      "title_zh": "たいへん到だんだん",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1415000-v1",
+        "n5-vocabulary-jmdict-1415870-v1",
+        "n5-vocabulary-jmdict-1427340-v1",
+        "n5-vocabulary-jmdict-1597350-v1"
+      ],
+      "target_labels_zh": [
+        "たいへん",
+        "たくさん",
+        "ちょうど",
+        "だんだん"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u50-group-03",
+      "title_zh": "もう一度到频率表达＋Vている",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-2005860-v1",
+        "n5-grammar-aspect-habitual-teiru-v1"
+      ],
+      "target_labels_zh": [
+        "もう一度",
+        "频率表达＋Vている"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u50-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "B",
+          "text": "表示说话时或某段时间正在进行的动作"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "feedback_zh": "表示经常反复进行的动作或当前习惯。基本形式是频率表达＋Vている。动作动词て形后接いる并常与频率表达共现。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u50-checkpoint-vocab-1407980-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“大概／也许”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "B",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "C",
+          "text": "ゆっくり（ゆっくり）"
+        },
+        {
+          "option_id": "D",
+          "text": "たぶん（たぶん）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1430620-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“马上”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "B",
+          "text": "ゆっくり（ゆっくり）"
+        },
+        {
+          "option_id": "C",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "D",
+          "text": "たぶん（たぶん）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1584930-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“不太……（与否定句连用）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ゆっくり（ゆっくり）"
+        },
+        {
+          "option_id": "B",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "C",
+          "text": "たぶん（たぶん）"
+        },
+        {
+          "option_id": "D",
+          "text": "すぐに（すぐに）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1013050-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“慢慢地／悠闲地”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "ゆっくり（ゆっくり）"
+        },
+        {
+          "option_id": "B",
+          "text": "たぶん（たぶん）"
+        },
+        {
+          "option_id": "C",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "D",
+          "text": "あまり（あまり）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1415000-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“非常／很”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "たぶん（たぶん）"
+        },
+        {
+          "option_id": "B",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "C",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "D",
+          "text": "たいへん（たいへん）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1415870-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“很多／大量”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "B",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "C",
+          "text": "たくさん（たくさん）"
+        },
+        {
+          "option_id": "D",
+          "text": "たぶん（たぶん）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1427340-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“正好／恰好”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "B",
+          "text": "ちょうど（ちょうど）"
+        },
+        {
+          "option_id": "C",
+          "text": "たぶん（たぶん）"
+        },
+        {
+          "option_id": "D",
+          "text": "すぐに（すぐに）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-1597350-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“渐渐／逐渐”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "だんだん（だんだん）"
+        },
+        {
+          "option_id": "B",
+          "text": "たぶん（たぶん）"
+        },
+        {
+          "option_id": "C",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "D",
+          "text": "あまり（あまり）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-vocab-2005860-v1": {
+      "prompt_zh": "在新的“程度、频率与副词表达”情境中，选择表示“再一次”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "たぶん（たぶん）"
+        },
+        {
+          "option_id": "B",
+          "text": "すぐに（すぐに）"
+        },
+        {
+          "option_id": "C",
+          "text": "あまり（あまり）"
+        },
+        {
+          "option_id": "D",
+          "text": "もう一度（もういちど）"
+        }
+      ]
+    },
+    "n5-module-b-u50-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表示经常反复进行的动作或当前习惯”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "动作Vている"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "D",
+          "text": "Vたほうがいいです"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1407980-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1407980-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "B",
+          "text": "马上"
+        },
+        {
+          "option_id": "C",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "A",
+          "text": "慢慢地／悠闲地"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「たぶん」的课程义。",
+      "prompt_ja": "たぶん行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1430620-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1430620-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "B",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "D",
+          "text": "慢慢地／悠闲地"
+        },
+        {
+          "option_id": "C",
+          "text": "马上"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「すぐに」的课程义。",
+      "prompt_ja": "すぐに行きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1584930-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1584930-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "马上"
+        },
+        {
+          "option_id": "C",
+          "text": "慢慢地／悠闲地"
+        },
+        {
+          "option_id": "B",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "D",
+          "text": "大概／也许"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「あまり」的课程义。",
+      "prompt_ja": "あまり行きません。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1013050-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1013050-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "A",
+          "text": "慢慢地／悠闲地"
+        },
+        {
+          "option_id": "C",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "D",
+          "text": "马上"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ゆっくり」的课程义。",
+      "prompt_ja": "ゆっくり休みます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1415000-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1415000-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "非常／很"
+        },
+        {
+          "option_id": "B",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "C",
+          "text": "马上"
+        },
+        {
+          "option_id": "A",
+          "text": "不太……（与否定句连用）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「たいへん」的课程义。",
+      "prompt_ja": "今日はたいへん暑いです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1415870-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1415870-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "B",
+          "text": "马上"
+        },
+        {
+          "option_id": "D",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "C",
+          "text": "很多／大量"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「たくさん」的课程义。",
+      "prompt_ja": "たくさん食べます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1427340-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1427340-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "马上"
+        },
+        {
+          "option_id": "C",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "B",
+          "text": "正好／恰好"
+        },
+        {
+          "option_id": "D",
+          "text": "大概／也许"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「ちょうど」的课程义。",
+      "prompt_ja": "ちょうど四時です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-1597350-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1597350-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "不太……（与否定句连用）"
+        },
+        {
+          "option_id": "A",
+          "text": "渐渐／逐渐"
+        },
+        {
+          "option_id": "C",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "D",
+          "text": "马上"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「だんだん」的课程义。",
+      "prompt_ja": "だんだん暖かくなります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-vocab-2005860-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2005860-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "再一次"
+        },
+        {
+          "option_id": "B",
+          "text": "大概／也许"
+        },
+        {
+          "option_id": "C",
+          "text": "马上"
+        },
+        {
+          "option_id": "A",
+          "text": "不太……（与否定句连用）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「もう一度」的课程义。",
+      "prompt_ja": "もう一度言います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u50-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u50-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-aspect-habitual-teiru-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示说话时或某段时间正在进行的动作"
+        },
+        {
+          "option_id": "B",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "毎朝、家で本を読んでいます。"
+    }
+  ],
+  "embedded_support_placements": []
+}

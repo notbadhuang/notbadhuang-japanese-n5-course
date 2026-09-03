@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-046-v3",
+  "items": {
+    "n5-module-b-u46-card-grammar-01-v1": {
+      "title_zh": "んです用于说明背景或理由",
+      "learner_pattern_zh": "普通形S＋んです",
+      "explanation_zh": "把当前陈述作为对既有情境的说明",
+      "connection_zh": "句子普通形后接んです；名词和な形容词把だ变成な后接んです",
+      "term_note_zh": "用于根据既有情境说明事情、原因或补充信息；不把单纯陈述事实的です／ます句全部替换为んです",
+      "example_ja": "今日は少し忙しいんです。",
+      "example_zh": "今天有点忙。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“把当前陈述作为对既有情境的说明”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u46-card-grammar-02-v1": {
+      "title_zh": "んですか用于询问说明",
+      "learner_pattern_zh": "普通形S＋んですか",
+      "explanation_zh": "根据情境询问原因、背景或补充说明",
+      "connection_zh": "句子普通形后接んですか；名词和な形容词把だ变成な后接んですか",
+      "term_note_zh": "用于根据眼前情境询问原因、情况或进一步信息；与不带情境预设的普通疑问句分开",
+      "example_ja": "どうして学校を休んだんですか。",
+      "example_zh": "为什么没去上学呢？",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“根据情境询问原因、背景或补充说明”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

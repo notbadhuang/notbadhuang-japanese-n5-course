@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-047-v3",
+  "items": {
+    "n5-module-b-u47-card-grammar-01-v1": {
+      "title_zh": "でしょう表示推测",
+      "learner_pattern_zh": "Sでしょう",
+      "explanation_zh": "表示说话人对情况的推测或可能性判断",
+      "connection_zh": "句子普通形后接でしょう；名词和な形容词把普通形的だ去掉后接でしょう",
+      "term_note_zh": "本对象表示对现在、过去或未来的主观推测；寻求听者确认的でしょう另作对象",
+      "example_ja": "明日は雨でしょう。",
+      "example_zh": "明天可能会下雨吧。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示说话人对情况的推测或可能性判断”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u47-card-grammar-02-v1": {
+      "title_zh": "ので表示原因理由",
+      "learner_pattern_zh": "理由Sので、结果S",
+      "explanation_zh": "以较说明性的方式连接原因与结果",
+      "connection_zh": "理由小句用普通形后接ので；名词和な形容词把だ变成な后接ので",
+      "term_note_zh": "表示前项是后项的理由；当前基础教学不接だろう／でしょう，也暂不展开极礼貌的敬体＋ので",
+      "example_ja": "明日は仕事なので、早く寝ます。",
+      "example_zh": "因为明天要工作，所以早点睡。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“以较说明性的方式连接原因与结果”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

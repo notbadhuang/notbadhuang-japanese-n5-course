@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-060-v3",
+  "items": {
+    "n5-module-b-u60-card-grammar-01-v1": {
+      "title_zh": "表达不擅长做某事",
+      "learner_pattern_zh": "V普通形＋のが下手です",
+      "explanation_zh": "表达某人不擅长某项活动",
+      "connection_zh": "依赖の名词化，名词化成分以が连接下手",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "私は漢字を書くのが下手です。",
+      "example_zh": "我不擅长写汉字。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-021-v3",
+  "items": {
+    "n5-module-b-u21-card-grammar-01-v1": {
+      "title_zh": "でしょう用于寻求认同或确认",
+      "learner_pattern_zh": "Sでしょう（？）",
+      "explanation_zh": "期待听者确认说话人的判断",
+      "connection_zh": "句子普通形后接でしょう；名词和な形容词把普通形的だ去掉后接でしょう，并以确认语调使用",
+      "term_note_zh": "用于说话人已有判断并期待听者确认；不把单纯主观推测并入本对象",
+      "example_ja": "明日は休みでしょう？",
+      "example_zh": "明天放假，对吧？",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“期待听者确认说话人的判断”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u21-card-grammar-02-v1": {
+      "title_zh": "から表示原因理由",
+      "learner_pattern_zh": "Sから、结果S",
+      "explanation_zh": "连接理由与结果",
+      "connection_zh": "理由小句后接から；与起点から分开",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "雨ですから、出かけません。",
+      "example_zh": "因为下雨，所以不出门。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“连接理由与结果”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

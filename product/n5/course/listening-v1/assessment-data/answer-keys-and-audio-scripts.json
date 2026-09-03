@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "item_id": "n5-g3-listening-l01-teaching-arrival-v1",
+      "correct_option_id": "D",
+      "explanation_zh": "题目只问到达时间，九点是出发时间。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "九時に出ます。十時半に着きます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-teaching-fruit-count-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "三个对应苹果，橘子的数量是两个。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "りんごを三つと、みかんを二つください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-practice-lunch-place-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "男方说在车站附近的店里吃。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "今日は会社の食堂で昼ご飯を食べます。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "私は駅の近くの店で食べます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-practice-drink-buyer-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "第二个话轮由男方承担买饮料的任务。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "私はパンを買います。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "じゃ、飲み物を買います。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-practice-departure-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "八点十分是出发，九点是到达。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "電車は八時十分に出て、九時に着きます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-practice-notebooks-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "蓝色两本，白色一本。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "青いノートを二冊と、白いノートを一冊ください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-stage_check-teacher-time-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "人物必须和时间绑定，老师是九点半。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "先生は九時半に来ます。学生は九時に来ます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l01-hidden_validation-train-time-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "七点那班已经离开，下一班是七点二十分。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "七時の電車はもう出ました。次は七時二十分です。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-teaching-transport-change-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "公交方案被取消，双方最后同意坐电车。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "バスで行きましょう。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "今日はバスがありません。電車で行きましょう。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "そうしましょう。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-teaching-meeting-change-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "七点因工作被否定，最后确认八点。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "七時に会いましょう。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "七時は仕事です。八時はどうですか。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "わかりました。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-practice-drink-change-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "“やっぱり”之后的红茶是最终决定。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "コーヒーをください。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "あ、やっぱり紅茶にします。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-practice-day-change-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "火曜日不可行，双方同意水曜日。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "火曜日に行きますか。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "火曜日は休みです。水曜日にしましょう。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "はい。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-practice-room-change-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "二〇三不能使用，修正为二〇五。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "会議は二〇三です。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "すみません、二〇三は使えません。二〇五です。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-practice-place-change-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "因下雨从公园改为车站。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "公園で会いましょう。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "雨ですから、駅で会いましょう。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "そうですね。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-stage_check-lunch-change-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "拉面不可用，最后接受荞麦面。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "ラーメンを食べましょう。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "この店はラーメンがありません。そばはどうですか。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "いいですね。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l02-hidden_validation-send-change-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "今天邮局休息，最终改为明天。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "今日、手紙を出します。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "今日は郵便局が休みです。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "では、明日出します。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-teaching-ticket-first-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "明确的先后是先买票，再等待。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "先に切符を買ってください。そのあと、ここで待ってください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-teaching-name-box-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "“てから”之后的动作是放进箱子。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "名前を書いてから、この箱に入れてください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-practice-wash-cut-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "洗是前置动作，之后切。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "野菜を洗ってから、切ってください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-practice-home-call-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "到家是条件，满足后打电话。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "家に着いたら、電話してください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-practice-bread-before-station-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "“前に”标出先买面包。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "駅へ行く前に、パンを買います。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-practice-homework-tv-v1",
+      "correct_option_id": "C",
+      "explanation_zh": "完成作业是看电视的前置条件。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "宿題が終わったら、テレビを見てもいいです。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-stage_check-key-door-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "拿钥匙之后开门。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "鍵を取ってから、ドアを開けてください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l03-hidden_validation-pay-receipt-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "付钱后领取收据。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "お金を払って、レシートをもらってください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-teaching-service-request-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "“見せてください”是请店员展示商品。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "すみません、このシャツを見せてください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-teaching-offer-help-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "女方主动提出帮忙拿包。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "そのかばん、持ちましょうか。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-practice-restaurant-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "呼叫后用“ください”请求服务。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "すみません、水をください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-practice-decline-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "说明已有工作是在婉拒邀请。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "日曜日、一緒に映画を見ませんか。"
+        },
+        {
+          "voice_role": "male",
+          "text_ja": "すみません、日曜日は仕事です。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-practice-home-greeting-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "这是家人回家时的固定应答。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "ただいま。"
+        },
+        {
+          "voice_role": "female",
+          "text_ja": "おかえりなさい。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-practice-car-warning-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "直接指出危险并提醒对方。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "危ない！車が来ます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-stage_check-luggage-help-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "观察到行李重后提出帮忙。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "荷物が重いですね。持ちましょうか。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-hidden_validation-meal-close-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "这是用餐结束后的致意。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "ごちそうさまでした。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l04-hidden_validation-attention-v1",
+      "correct_option_id": "B",
+      "explanation_zh": "用“よ”提醒对方忘了伞。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "すみません、傘を忘れていますよ。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-teaching-thanks-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "感谢后用“不客气”类回应。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-teaching-invitation-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "邀请需要接受或婉拒，A为自然接受。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "一緒に昼ご飯を食べませんか。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-practice-apology-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "道歉后用“大丈夫です”表示没关系。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "遅くなって、すみません。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-practice-weather-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "对共同感受的评论用“そうですね”呼应。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "今日は暑いですね。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-practice-welcome-home-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "“ただいま”与“おかえりなさい”成对。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "ただいま。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-practice-accept-help-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "接受帮助时先表达感谢。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "荷物を持ちましょうか。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-stage_check-request-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "请求之后用“明白了”回应并执行。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "窓を開けてください。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-hidden_validation-goodbye-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "告别“明天见”应以同类告别回应。",
+      "audio_segments": [
+        {
+          "voice_role": "male",
+          "text_ja": "では、また明日。"
+        }
+      ]
+    },
+    {
+      "item_id": "n5-g3-listening-l05-hidden_validation-wellbeing-v1",
+      "correct_option_id": "A",
+      "explanation_zh": "这是询问近况，回答“我很好”。",
+      "audio_segments": [
+        {
+          "voice_role": "female",
+          "text_ja": "お元気ですか。"
+        }
+      ]
+    }
+  ]
+}

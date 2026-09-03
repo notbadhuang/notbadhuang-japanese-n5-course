@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "runtime_contract_id": "n5-local-player-foundation-microbatch-runtime-v1",
+  "status": "active",
+  "release_level": "owner_demo",
+  "work_unit_id": "n5-work-unit-foundation-hiragana-ta-na-ha-v1",
+  "unit_code": "F02",
+  "display_title_zh": "平假名：た行到は行",
+  "delivery_surface": "localhost_browser_player",
+  "engine_profile": "foundation_microbatch_audio_checkpoint_v1",
+  "content_sources": {
+    "unit_file": "product/n5/course/foundation-v1/stage-01/units.json",
+    "teaching_cards": "product/n5/course/foundation-v1/stage-01/teaching-cards.jsonl",
+    "practice_items": "product/n5/course/foundation-v1/stage-01/practice-items.jsonl",
+    "checkpoint_items": "product/n5/course/foundation-v1/stage-01/checkpoint-items.jsonl",
+    "audio_assets": "product/n5/audio/foundation-v2/audio-assets.jsonl"
+  },
+  "runtime_overlays": {
+    "foundation_learning_profile": "product/n5/course/foundation-runtime-v1/profiles/f02-foundation-learning-profile.json"
+  },
+  "result_contract": {
+    "session_request_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器会话请求",
+    "result_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器结果",
+    "scoring_contract_id": "n5-foundation-audio-shape-checkpoint-v1",
+    "mastery_claim": "not_inferred_from_single_session"
+  },
+  "calibration": {
+    "baseline_minutes": null,
+    "numeric_mastery_threshold": null
+  }
+}

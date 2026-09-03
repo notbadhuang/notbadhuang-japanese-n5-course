@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-029-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u29-group-01",
+      "title_zh": "誰到どこ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1416830-v1",
+        "n5-vocabulary-jmdict-1577100-v1",
+        "n5-vocabulary-jmdict-1577120-v1",
+        "n5-vocabulary-jmdict-1577140-v1"
+      ],
+      "target_labels_zh": [
+        "誰",
+        "何",
+        "なぜ",
+        "どこ"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u29-group-02",
+      "title_zh": "この到あそこ",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1582920-v1",
+        "n5-vocabulary-jmdict-1628530-v1",
+        "n5-vocabulary-jmdict-1920240-v1",
+        "n5-vocabulary-jmdict-2846738-v1",
+        "n5-vocabulary-jmdict-1000320-v1"
+      ],
+      "target_labels_zh": [
+        "この",
+        "これ",
+        "どの",
+        "何",
+        "あそこ"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u29-checkpoint-vocab-1416830-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“谁”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "B",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "C",
+          "text": "どこ（どこ）"
+        },
+        {
+          "option_id": "D",
+          "text": "誰（だれ）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1577100-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“什么”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "B",
+          "text": "どこ（どこ）"
+        },
+        {
+          "option_id": "C",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "D",
+          "text": "誰（だれ）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1577120-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“为什么”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "どこ（どこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "C",
+          "text": "誰（だれ）"
+        },
+        {
+          "option_id": "D",
+          "text": "何（なに）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1577140-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“哪里”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "どこ（どこ）"
+        },
+        {
+          "option_id": "B",
+          "text": "誰（だれ）"
+        },
+        {
+          "option_id": "C",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "D",
+          "text": "なぜ（なぜ）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1582920-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“这个／这些（修饰名词）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "誰（だれ）"
+        },
+        {
+          "option_id": "B",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "C",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "D",
+          "text": "この（この）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1628530-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“这个／这件事”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "B",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "C",
+          "text": "これ（これ）"
+        },
+        {
+          "option_id": "D",
+          "text": "誰（だれ）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1920240-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“哪个（修饰名词）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "B",
+          "text": "どの（どの）"
+        },
+        {
+          "option_id": "C",
+          "text": "誰（だれ）"
+        },
+        {
+          "option_id": "D",
+          "text": "何（なに）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-2846738-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“什么”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "何（なん）"
+        },
+        {
+          "option_id": "B",
+          "text": "誰（だれ）"
+        },
+        {
+          "option_id": "C",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "D",
+          "text": "なぜ（なぜ）"
+        }
+      ]
+    },
+    "n5-module-b-u29-checkpoint-vocab-1000320-v1": {
+      "prompt_zh": "在新的“指示、疑问与选择”情境中，选择表示“那里／那边”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "誰（だれ）"
+        },
+        {
+          "option_id": "B",
+          "text": "何（なに）"
+        },
+        {
+          "option_id": "C",
+          "text": "なぜ（なぜ）"
+        },
+        {
+          "option_id": "D",
+          "text": "あそこ（あそこ）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1416830-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1416830-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "谁"
+        },
+        {
+          "option_id": "B",
+          "text": "什么"
+        },
+        {
+          "option_id": "C",
+          "text": "为什么"
+        },
+        {
+          "option_id": "A",
+          "text": "哪里"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「誰」的课程义。",
+      "prompt_ja": "誰です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1577100-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1577100-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "谁"
+        },
+        {
+          "option_id": "B",
+          "text": "为什么"
+        },
+        {
+          "option_id": "D",
+          "text": "哪里"
+        },
+        {
+          "option_id": "C",
+          "text": "什么"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「何」的课程义。",
+      "prompt_ja": "何を食べますか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1577120-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1577120-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "什么"
+        },
+        {
+          "option_id": "C",
+          "text": "哪里"
+        },
+        {
+          "option_id": "B",
+          "text": "为什么"
+        },
+        {
+          "option_id": "D",
+          "text": "谁"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「なぜ」的课程义。",
+      "prompt_ja": "なぜですか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1577140-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1577140-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "为什么"
+        },
+        {
+          "option_id": "A",
+          "text": "哪里"
+        },
+        {
+          "option_id": "C",
+          "text": "谁"
+        },
+        {
+          "option_id": "D",
+          "text": "什么"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どこ」的课程义。",
+      "prompt_ja": "どこです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1582920-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1582920-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "这个／这些（修饰名词）"
+        },
+        {
+          "option_id": "B",
+          "text": "谁"
+        },
+        {
+          "option_id": "C",
+          "text": "什么"
+        },
+        {
+          "option_id": "A",
+          "text": "为什么"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「この」的课程义。",
+      "prompt_ja": "この本です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1628530-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1628530-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "谁"
+        },
+        {
+          "option_id": "B",
+          "text": "什么"
+        },
+        {
+          "option_id": "D",
+          "text": "为什么"
+        },
+        {
+          "option_id": "C",
+          "text": "这个／这件事"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「これ」的课程义。",
+      "prompt_ja": "これです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1920240-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1920240-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "什么"
+        },
+        {
+          "option_id": "C",
+          "text": "为什么"
+        },
+        {
+          "option_id": "B",
+          "text": "哪个（修饰名词）"
+        },
+        {
+          "option_id": "D",
+          "text": "谁"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「どの」的课程义。",
+      "prompt_ja": "どの本ですか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-2846738-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2846738-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "哪里"
+        },
+        {
+          "option_id": "A",
+          "text": "什么"
+        },
+        {
+          "option_id": "C",
+          "text": "谁"
+        },
+        {
+          "option_id": "D",
+          "text": "为什么"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「何」的课程义。",
+      "prompt_ja": "これは何ですか。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u29-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u29-checkpoint-vocab-1000320-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1000320-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "那里／那边"
+        },
+        {
+          "option_id": "B",
+          "text": "谁"
+        },
+        {
+          "option_id": "C",
+          "text": "什么"
+        },
+        {
+          "option_id": "A",
+          "text": "为什么"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「あそこ」的课程义。",
+      "prompt_ja": "あそこです。"
+    }
+  ],
+  "embedded_support_placements": []
+}

@@ -1,0 +1,1254 @@
+{
+  "schema_version": 1,
+  "product_version_id": "n5-g3-listening-product-v1",
+  "units": [
+    {
+      "unit_code": "L01",
+      "title_zh": "目标槽位、说话人与明确细节",
+      "l2_object_ids": [
+        "n5-listening-target-slot-setup-v1",
+        "n5-listening-speaker-role-binding-v1",
+        "n5-listening-explicit-detail-capture-v1"
+      ],
+      "items": [
+        {
+          "item_id": "n5-g3-listening-l01-teaching-arrival-v1",
+          "unit_code": "L01",
+          "pool": "teaching",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-target-slot-setup-v1",
+          "audio_asset_id": "n5-g3-listening-l01-teaching-arrival-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-teaching-arrival-v1.mp3",
+          "prompt_zh": "什么时候到？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "九時"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "九時半"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "十時"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "十時半"
+            }
+          ],
+          "transcript_ja": "九時に出ます。十時半に着きます。",
+          "explanation_zh": "题目只问到达时间，九点是出发时间。"
+        },
+        {
+          "item_id": "n5-g3-listening-l01-teaching-fruit-count-v1",
+          "unit_code": "L01",
+          "pool": "teaching",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-explicit-detail-capture-v1",
+          "audio_asset_id": "n5-g3-listening-l01-teaching-fruit-count-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-teaching-fruit-count-v1.mp3",
+          "prompt_zh": "橘子要几个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "一つ"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "二つ"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "三つ"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "四つ"
+            }
+          ],
+          "transcript_ja": "りんごを三つと、みかんを二つください。",
+          "explanation_zh": "三个对应苹果，橘子的数量是两个。"
+        },
+        {
+          "item_id": "n5-g3-listening-l01-practice-lunch-place-v1",
+          "unit_code": "L01",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-target-slot-setup-v1",
+          "audio_asset_id": "n5-g3-listening-l01-practice-lunch-place-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-practice-lunch-place-v1.mp3",
+          "prompt_zh": "男方在哪里吃午饭？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "会社の食堂"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "駅の近くの店"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "学校"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "家"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l01-practice-drink-buyer-v1",
+          "unit_code": "L01",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-speaker-role-binding-v1",
+          "audio_asset_id": "n5-g3-listening-l01-practice-drink-buyer-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-practice-drink-buyer-v1.mp3",
+          "prompt_zh": "谁买饮料？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "女の人"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "男の人"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "先生"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "店の人"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l01-practice-departure-v1",
+          "unit_code": "L01",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-explicit-detail-capture-v1",
+          "audio_asset_id": "n5-g3-listening-l01-practice-departure-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-practice-departure-v1.mp3",
+          "prompt_zh": "电车几点出发？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "八時"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "八時十分"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "九時"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "九時十分"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l01-practice-notebooks-v1",
+          "unit_code": "L01",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-explicit-detail-capture-v1",
+          "audio_asset_id": "n5-g3-listening-l01-practice-notebooks-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-practice-notebooks-v1.mp3",
+          "prompt_zh": "蓝色笔记本要几本？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "一冊"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "二冊"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "三冊"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "四冊"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l01-stage_check-teacher-time-v1",
+          "unit_code": "L01",
+          "pool": "stage_check",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-speaker-role-binding-v1",
+          "audio_asset_id": "n5-g3-listening-l01-stage_check-teacher-time-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-stage_check-teacher-time-v1.mp3",
+          "prompt_zh": "老师几点来？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "八時半"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "九時"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "九時半"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "十時"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l01-hidden_validation-train-time-v1",
+          "unit_code": "L01",
+          "pool": "hidden_validation",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-explicit-detail-capture-v1",
+          "audio_asset_id": "n5-g3-listening-l01-hidden_validation-train-time-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l01-hidden_validation-train-time-v1.mp3",
+          "prompt_zh": "下一班电车几点？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "七時"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "七時十分"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "七時二十分"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "八時"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_code": "L02",
+      "title_zh": "修正、取消与最终决定",
+      "l2_object_ids": [
+        "n5-listening-revision-final-decision-v1"
+      ],
+      "items": [
+        {
+          "item_id": "n5-g3-listening-l02-teaching-transport-change-v1",
+          "unit_code": "L02",
+          "pool": "teaching",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-teaching-transport-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-teaching-transport-change-v1.mp3",
+          "prompt_zh": "最后怎么去？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "バス"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "電車"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "タクシー"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "歩いて"
+            }
+          ],
+          "transcript_ja": "バスで行きましょう。\n今日はバスがありません。電車で行きましょう。\nそうしましょう。",
+          "explanation_zh": "公交方案被取消，双方最后同意坐电车。"
+        },
+        {
+          "item_id": "n5-g3-listening-l02-teaching-meeting-change-v1",
+          "unit_code": "L02",
+          "pool": "teaching",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-teaching-meeting-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-teaching-meeting-change-v1.mp3",
+          "prompt_zh": "最后几点见面？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "六時"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "七時"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "八時"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "九時"
+            }
+          ],
+          "transcript_ja": "七時に会いましょう。\n七時は仕事です。八時はどうですか。\nわかりました。",
+          "explanation_zh": "七点因工作被否定，最后确认八点。"
+        },
+        {
+          "item_id": "n5-g3-listening-l02-practice-drink-change-v1",
+          "unit_code": "L02",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-practice-drink-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-practice-drink-change-v1.mp3",
+          "prompt_zh": "最后要什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "水"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "コーヒー"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "紅茶"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "ジュース"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l02-practice-day-change-v1",
+          "unit_code": "L02",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-practice-day-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-practice-day-change-v1.mp3",
+          "prompt_zh": "最后哪天去？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "月曜日"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "火曜日"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "水曜日"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "木曜日"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l02-practice-room-change-v1",
+          "unit_code": "L02",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-practice-room-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-practice-room-change-v1.mp3",
+          "prompt_zh": "会议最终在哪个房间？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "二〇一"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "二〇三"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "二〇五"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "三〇五"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l02-practice-place-change-v1",
+          "unit_code": "L02",
+          "pool": "practice",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-practice-place-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-practice-place-change-v1.mp3",
+          "prompt_zh": "最后在哪里见面？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "公園"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "駅"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "学校"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "店"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l02-stage_check-lunch-change-v1",
+          "unit_code": "L02",
+          "pool": "stage_check",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-stage_check-lunch-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-stage_check-lunch-change-v1.mp3",
+          "prompt_zh": "最后吃什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "ラーメン"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "そば"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "すし"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "パン"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l02-hidden_validation-send-change-v1",
+          "unit_code": "L02",
+          "pool": "hidden_validation",
+          "item_type": "key_point_comprehension",
+          "primary_l2_object_id": "n5-listening-revision-final-decision-v1",
+          "audio_asset_id": "n5-g3-listening-l02-hidden_validation-send-change-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l02-hidden_validation-send-change-v1.mp3",
+          "prompt_zh": "最后什么时候寄信？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "今日"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "今夜"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "明日"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "来週"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_code": "L03",
+      "title_zh": "顺序、条件与下一步行动",
+      "l2_object_ids": [
+        "n5-listening-sequence-condition-action-v1"
+      ],
+      "items": [
+        {
+          "item_id": "n5-g3-listening-l03-teaching-ticket-first-v1",
+          "unit_code": "L03",
+          "pool": "teaching",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-teaching-ticket-first-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-teaching-ticket-first-v1.mp3",
+          "prompt_zh": "先做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "待つ"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "切符を買う"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "電車に乗る"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "電話する"
+            }
+          ],
+          "transcript_ja": "先に切符を買ってください。そのあと、ここで待ってください。",
+          "explanation_zh": "明确的先后是先买票，再等待。"
+        },
+        {
+          "item_id": "n5-g3-listening-l03-teaching-name-box-v1",
+          "unit_code": "L03",
+          "pool": "teaching",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-teaching-name-box-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-teaching-name-box-v1.mp3",
+          "prompt_zh": "写完名字后做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "箱に入れる"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "読む"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "先生に聞く"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "帰る"
+            }
+          ],
+          "transcript_ja": "名前を書いてから、この箱に入れてください。",
+          "explanation_zh": "“てから”之后的动作是放进箱子。"
+        },
+        {
+          "item_id": "n5-g3-listening-l03-practice-wash-cut-v1",
+          "unit_code": "L03",
+          "pool": "practice",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-practice-wash-cut-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-practice-wash-cut-v1.mp3",
+          "prompt_zh": "洗完蔬菜后做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "食べる"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "切る"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "買う"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "冷蔵庫に入れる"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l03-practice-home-call-v1",
+          "unit_code": "L03",
+          "pool": "practice",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-practice-home-call-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-practice-home-call-v1.mp3",
+          "prompt_zh": "到家后做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "寝る"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "電話する"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "勉強する"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "買い物する"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l03-practice-bread-before-station-v1",
+          "unit_code": "L03",
+          "pool": "practice",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-practice-bread-before-station-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-practice-bread-before-station-v1.mp3",
+          "prompt_zh": "去车站之前做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "パンを買う"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "駅で待つ"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "電車に乗る"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "家へ帰る"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l03-practice-homework-tv-v1",
+          "unit_code": "L03",
+          "pool": "practice",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-practice-homework-tv-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-practice-homework-tv-v1.mp3",
+          "prompt_zh": "看电视前必须完成什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "掃除"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "料理"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "宿題"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "買い物"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l03-stage_check-key-door-v1",
+          "unit_code": "L03",
+          "pool": "stage_check",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-stage_check-key-door-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-stage_check-key-door-v1.mp3",
+          "prompt_zh": "拿钥匙后做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "ドアを開ける"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "窓を閉める"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "電話する"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "座る"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l03-hidden_validation-pay-receipt-v1",
+          "unit_code": "L03",
+          "pool": "hidden_validation",
+          "item_type": "task_based_comprehension",
+          "primary_l2_object_id": "n5-listening-sequence-condition-action-v1",
+          "audio_asset_id": "n5-g3-listening-l03-hidden_validation-pay-receipt-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l03-hidden_validation-pay-receipt-v1.mp3",
+          "prompt_zh": "付钱后做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "店を出る"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "レシートをもらう"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "商品を返す"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "名前を書く"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_code": "L04",
+      "title_zh": "情境、角色与合适表达",
+      "l2_object_ids": [
+        "n5-listening-situation-role-goal-v1",
+        "n5-situation-service-request-v1",
+        "n5-situation-offer-invitation-v1",
+        "n5-situation-social-routine-v1",
+        "n5-situation-warning-attention-assistance-v1"
+      ],
+      "items": [
+        {
+          "item_id": "n5-g3-listening-l04-teaching-service-request-v1",
+          "unit_code": "L04",
+          "pool": "teaching",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-service-request-v1",
+          "audio_asset_id": "n5-g3-listening-l04-teaching-service-request-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-teaching-service-request-v1.mp3",
+          "prompt_zh": "顾客在做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "道歉离开"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "请求看商品"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "邀请店员"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "询问时间"
+            }
+          ],
+          "transcript_ja": "すみません、このシャツを見せてください。",
+          "explanation_zh": "“見せてください”是请店员展示商品。"
+        },
+        {
+          "item_id": "n5-g3-listening-l04-teaching-offer-help-v1",
+          "unit_code": "L04",
+          "pool": "teaching",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-offer-invitation-v1",
+          "audio_asset_id": "n5-g3-listening-l04-teaching-offer-help-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-teaching-offer-help-v1.mp3",
+          "prompt_zh": "女方在做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "提出帮忙"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "表示拒绝"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "询问价格"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "发出警告"
+            }
+          ],
+          "transcript_ja": "そのかばん、持ちましょうか。\nありがとうございます。",
+          "explanation_zh": "女方主动提出帮忙拿包。"
+        },
+        {
+          "item_id": "n5-g3-listening-l04-practice-restaurant-v1",
+          "unit_code": "L04",
+          "pool": "practice",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-service-request-v1",
+          "audio_asset_id": "n5-g3-listening-l04-practice-restaurant-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-practice-restaurant-v1.mp3",
+          "prompt_zh": "最合适的情境是什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "在餐厅请求水"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "邀请朋友喝水"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "在家道别"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "提醒危险"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l04-practice-decline-v1",
+          "unit_code": "L04",
+          "pool": "practice",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-offer-invitation-v1",
+          "audio_asset_id": "n5-g3-listening-l04-practice-decline-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-practice-decline-v1.mp3",
+          "prompt_zh": "男方完成了什么交际功能？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "接受邀请"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "婉拒邀请"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "提供帮助"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "感谢礼物"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l04-practice-home-greeting-v1",
+          "unit_code": "L04",
+          "pool": "practice",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-social-routine-v1",
+          "audio_asset_id": "n5-g3-listening-l04-practice-home-greeting-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-practice-home-greeting-v1.mp3",
+          "prompt_zh": "这组表达发生在什么时候？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "出门时"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "回家时"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "吃饭前"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "初次见面"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l04-practice-car-warning-v1",
+          "unit_code": "L04",
+          "pool": "practice",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-warning-attention-assistance-v1",
+          "audio_asset_id": "n5-g3-listening-l04-practice-car-warning-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-practice-car-warning-v1.mp3",
+          "prompt_zh": "女方在做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "提醒危险"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "提出邀请"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "请求服务"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "表示感谢"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l04-stage_check-luggage-help-v1",
+          "unit_code": "L04",
+          "pool": "stage_check",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-listening-situation-role-goal-v1",
+          "audio_asset_id": "n5-g3-listening-l04-stage_check-luggage-help-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-stage_check-luggage-help-v1.mp3",
+          "prompt_zh": "男方的目的是什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "借行李"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "提供帮助"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "询问地点"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "拒绝请求"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l04-hidden_validation-meal-close-v1",
+          "unit_code": "L04",
+          "pool": "hidden_validation",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-social-routine-v1",
+          "audio_asset_id": "n5-g3-listening-l04-hidden_validation-meal-close-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-hidden_validation-meal-close-v1.mp3",
+          "prompt_zh": "最合适的使用时机是什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "吃饭前"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "吃完饭后"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "第一次见面"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "离开车站"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l04-hidden_validation-attention-v1",
+          "unit_code": "L04",
+          "pool": "hidden_validation",
+          "item_type": "verbal_expressions",
+          "primary_l2_object_id": "n5-situation-warning-attention-assistance-v1",
+          "audio_asset_id": "n5-g3-listening-l04-hidden_validation-attention-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l04-hidden_validation-attention-v1.mp3",
+          "prompt_zh": "男方在做什么？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "借雨伞"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "提醒遗忘物品"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "邀请散步"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "询问天气"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_code": "L05",
+      "title_zh": "话语功能与快速应答",
+      "l2_object_ids": [
+        "n5-listening-utterance-function-v1",
+        "n5-listening-adjacency-response-fit-v1"
+      ],
+      "items": [
+        {
+          "item_id": "n5-g3-listening-l05-teaching-thanks-v1",
+          "unit_code": "L05",
+          "pool": "teaching",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-adjacency-response-fit-v1",
+          "audio_asset_id": "n5-g3-listening-l05-teaching-thanks-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-teaching-thanks-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "いいえ、どういたしまして"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "おはようございます"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "いただきます"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "行ってきます"
+            }
+          ],
+          "transcript_ja": "ありがとうございます。",
+          "explanation_zh": "感谢后用“不客气”类回应。"
+        },
+        {
+          "item_id": "n5-g3-listening-l05-teaching-invitation-v1",
+          "unit_code": "L05",
+          "pool": "teaching",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-utterance-function-v1",
+          "audio_asset_id": "n5-g3-listening-l05-teaching-invitation-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-teaching-invitation-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "はい、食べましょう"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "いい天気ですね"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "もう帰りました"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "三つください"
+            }
+          ],
+          "transcript_ja": "一緒に昼ご飯を食べませんか。",
+          "explanation_zh": "邀请需要接受或婉拒，A为自然接受。"
+        },
+        {
+          "item_id": "n5-g3-listening-l05-practice-apology-v1",
+          "unit_code": "L05",
+          "pool": "practice",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-adjacency-response-fit-v1",
+          "audio_asset_id": "n5-g3-listening-l05-practice-apology-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-practice-apology-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "大丈夫です"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "ごちそうさま"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "いってらっしゃい"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "これです"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l05-practice-weather-v1",
+          "unit_code": "L05",
+          "pool": "practice",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-utterance-function-v1",
+          "audio_asset_id": "n5-g3-listening-l05-practice-weather-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-practice-weather-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "そうですね"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "二人です"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "駅です"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "読みました"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l05-practice-welcome-home-v1",
+          "unit_code": "L05",
+          "pool": "practice",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-adjacency-response-fit-v1",
+          "audio_asset_id": "n5-g3-listening-l05-practice-welcome-home-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-practice-welcome-home-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "おかえりなさい"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "いってきます"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "はじめまして"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "おやすみなさい"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l05-practice-accept-help-v1",
+          "unit_code": "L05",
+          "pool": "practice",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-adjacency-response-fit-v1",
+          "audio_asset_id": "n5-g3-listening-l05-practice-accept-help-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-practice-accept-help-v1.mp3",
+          "prompt_zh": "想接受帮助时怎么回应？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "ありがとうございます"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "いいえ、雨です"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "もう食べました"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "八時です"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l05-stage_check-request-v1",
+          "unit_code": "L05",
+          "pool": "stage_check",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-adjacency-response-fit-v1",
+          "audio_asset_id": "n5-g3-listening-l05-stage_check-request-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-stage_check-request-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "はい、わかりました"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "昨日でした"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "青いです"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "三冊です"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l05-hidden_validation-goodbye-v1",
+          "unit_code": "L05",
+          "pool": "hidden_validation",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-adjacency-response-fit-v1",
+          "audio_asset_id": "n5-g3-listening-l05-hidden_validation-goodbye-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-hidden_validation-goodbye-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "また明日"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "いただきます"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "どうぞよろしく"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "おかえり"
+            }
+          ]
+        },
+        {
+          "item_id": "n5-g3-listening-l05-hidden_validation-wellbeing-v1",
+          "unit_code": "L05",
+          "pool": "hidden_validation",
+          "item_type": "quick_response",
+          "primary_l2_object_id": "n5-listening-utterance-function-v1",
+          "audio_asset_id": "n5-g3-listening-l05-hidden_validation-wellbeing-v1-audio",
+          "audio_path": "audio/n5-g3-listening-l05-hidden_validation-wellbeing-v1.mp3",
+          "prompt_zh": "最自然的回应是哪一个？",
+          "options": [
+            {
+              "option_id": "A",
+              "display_text_ja": "はい、元気です"
+            },
+            {
+              "option_id": "B",
+              "display_text_ja": "五百円です"
+            },
+            {
+              "option_id": "C",
+              "display_text_ja": "右です"
+            },
+            {
+              "option_id": "D",
+              "display_text_ja": "飲みません"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

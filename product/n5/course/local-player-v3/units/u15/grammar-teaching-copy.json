@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-015-v3",
+  "items": {
+    "n5-module-b-u15-card-grammar-01-v1": {
+      "title_zh": "用ませんか发出邀请",
+      "learner_pattern_zh": "Vませんか",
+      "explanation_zh": "礼貌邀请对方共同做某事",
+      "connection_zh": "动词ます形的否定疑问形式",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "一緒にパンを食べませんか。",
+      "example_zh": "要不要一起吃面包？",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“礼貌邀请对方共同做某事”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u15-card-grammar-02-v1": {
+      "title_zh": "と表示共同动作对象",
+      "learner_pattern_zh": "NとV",
+      "explanation_zh": "表示与某人共同进行动作",
+      "connection_zh": "共同参与者名词后接と",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "友達と映画を見ます。",
+      "example_zh": "和朋友一起看电影。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示与某人共同进行动作”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

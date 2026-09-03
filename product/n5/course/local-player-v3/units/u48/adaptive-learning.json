@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-048-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u48-group-01",
+      "title_zh": "弾く到映画",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1419370-v1",
+        "n5-vocabulary-jmdict-1078750-v1",
+        "n5-vocabulary-jmdict-1115150-v1",
+        "n5-vocabulary-jmdict-1173720-v1"
+      ],
+      "target_labels_zh": [
+        "弾く",
+        "テープ",
+        "プール",
+        "映画"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u48-group-02",
+      "title_zh": "泳ぐ到歌う",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1174340-v1",
+        "n5-vocabulary-jmdict-1299400-v1",
+        "n5-vocabulary-jmdict-1542160-v1",
+        "n5-vocabulary-jmdict-1588120-v1"
+      ],
+      "target_labels_zh": [
+        "泳ぐ",
+        "雑誌",
+        "遊ぶ",
+        "歌う"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u48-group-03",
+      "title_zh": "マッチ到Vたり、Vたりする",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-2784220-v1",
+        "n5-grammar-prohibition-tewa-ikenai-v1",
+        "n5-grammar-representative-listing-tari-v1"
+      ],
+      "target_labels_zh": [
+        "マッチ",
+        "Vてはいけません",
+        "Vたり、Vたりする"
+      ],
+      "guided_practice_limit": 3
+    }
+  ],
+  "guided_practice_overrides": {
+    "n5-module-b-u48-guided-grammar-01-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "表示某行为不被允许"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "feedback_zh": "表示某行为不被允许。基本形式是Vてはいけません。动词て形后接はいけない／いけません。"
+    },
+    "n5-module-b-u48-guided-grammar-02-v1": {
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "C",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "D",
+          "text": "列举若干代表性动作而非穷尽全部"
+        }
+      ],
+      "feedback_zh": "列举若干代表性动作而非穷尽全部。基本形式是Vたり、Vたりする。动词た形中的た变为たり并以する收束。"
+    }
+  },
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u48-checkpoint-vocab-1419370-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“弹奏（弦乐器或键盘乐器）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "B",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "C",
+          "text": "映画（えいが）"
+        },
+        {
+          "option_id": "D",
+          "text": "弾く（ひく）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1078750-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“胶带／磁带”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "B",
+          "text": "映画（えいが）"
+        },
+        {
+          "option_id": "C",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "D",
+          "text": "弾く（ひく）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1115150-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“游泳池”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "映画（えいが）"
+        },
+        {
+          "option_id": "B",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "C",
+          "text": "弾く（ひく）"
+        },
+        {
+          "option_id": "D",
+          "text": "テープ（テープ）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1173720-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“电影”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "映画（えいが）"
+        },
+        {
+          "option_id": "B",
+          "text": "弾く（ひく）"
+        },
+        {
+          "option_id": "C",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "D",
+          "text": "プール（プール）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1174340-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“游泳”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弾く（ひく）"
+        },
+        {
+          "option_id": "B",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "C",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "D",
+          "text": "泳ぐ（およぐ）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1299400-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“杂志”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "B",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "C",
+          "text": "雑誌（ざっし）"
+        },
+        {
+          "option_id": "D",
+          "text": "弾く（ひく）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1542160-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“玩／游玩”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "B",
+          "text": "遊ぶ（あそぶ）"
+        },
+        {
+          "option_id": "C",
+          "text": "弾く（ひく）"
+        },
+        {
+          "option_id": "D",
+          "text": "テープ（テープ）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-1588120-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“唱歌”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "歌う（うたう）"
+        },
+        {
+          "option_id": "B",
+          "text": "弾く（ひく）"
+        },
+        {
+          "option_id": "C",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "D",
+          "text": "プール（プール）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-vocab-2784220-v1": {
+      "prompt_zh": "在新的“媒体、艺术与娱乐”情境中，选择表示“比赛／对局”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弾く（ひく）"
+        },
+        {
+          "option_id": "B",
+          "text": "テープ（テープ）"
+        },
+        {
+          "option_id": "C",
+          "text": "プール（プール）"
+        },
+        {
+          "option_id": "D",
+          "text": "マッチ（マッチ）"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-grammar-01-v1": {
+      "prompt_zh": "选择能够表达“表示某行为不被允许”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "イA＋N／ナAな＋N"
+        },
+        {
+          "option_id": "B",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "C",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "D",
+          "text": "Vてはいけません"
+        }
+      ]
+    },
+    "n5-module-b-u48-checkpoint-grammar-02-v1": {
+      "prompt_zh": "选择能够表达“列举若干代表性动作而非穷尽全部”的结构。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Vたほうがいいです"
+        },
+        {
+          "option_id": "B",
+          "text": "频率表达＋Vている"
+        },
+        {
+          "option_id": "C",
+          "text": "Vたり、Vたりする"
+        },
+        {
+          "option_id": "D",
+          "text": "イA＋N／ナAな＋N"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1419370-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1419370-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "B",
+          "text": "胶带／磁带"
+        },
+        {
+          "option_id": "C",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "A",
+          "text": "电影"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「弾く」的课程义。",
+      "prompt_ja": "ギターを弾きます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1078750-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1078750-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "B",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "D",
+          "text": "电影"
+        },
+        {
+          "option_id": "C",
+          "text": "胶带／磁带"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「テープ」的课程义。",
+      "prompt_ja": "テープです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1115150-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1115150-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "胶带／磁带"
+        },
+        {
+          "option_id": "C",
+          "text": "电影"
+        },
+        {
+          "option_id": "B",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "D",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「プール」的课程义。",
+      "prompt_ja": "プールです。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1173720-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1173720-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "A",
+          "text": "电影"
+        },
+        {
+          "option_id": "C",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "D",
+          "text": "胶带／磁带"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「映画」的课程义。",
+      "prompt_ja": "映画です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1174340-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1174340-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "游泳"
+        },
+        {
+          "option_id": "B",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "C",
+          "text": "胶带／磁带"
+        },
+        {
+          "option_id": "A",
+          "text": "游泳池"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「泳ぐ」的课程义。",
+      "prompt_ja": "プールで泳ぎます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1299400-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1299400-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "B",
+          "text": "胶带／磁带"
+        },
+        {
+          "option_id": "D",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "C",
+          "text": "杂志"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「雑誌」的课程义。",
+      "prompt_ja": "雑誌です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1542160-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1542160-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "胶带／磁带"
+        },
+        {
+          "option_id": "C",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "B",
+          "text": "玩／游玩"
+        },
+        {
+          "option_id": "D",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「遊ぶ」的课程义。",
+      "prompt_ja": "公園で遊びます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-1588120-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1588120-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "游泳池"
+        },
+        {
+          "option_id": "A",
+          "text": "唱歌"
+        },
+        {
+          "option_id": "C",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "D",
+          "text": "胶带／磁带"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「歌う」的课程义。",
+      "prompt_ja": "歌を歌います。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-vocab-2784220-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-2784220-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "比赛／对局"
+        },
+        {
+          "option_id": "B",
+          "text": "弹奏（弦乐器或键盘乐器）"
+        },
+        {
+          "option_id": "C",
+          "text": "胶带／磁带"
+        },
+        {
+          "option_id": "A",
+          "text": "游泳池"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「マッチ」的课程义。",
+      "prompt_ja": "サッカーのマッチを見ます。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-grammar-01-v1",
+      "primary_target_id": "n5-grammar-prohibition-tewa-ikenai-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "表示某行为不被允许"
+        },
+        {
+          "option_id": "B",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "C",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "A",
+          "text": "表示经常反复进行的动作或当前习惯"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "ここで写真を撮ってはいけません。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u48-recovery-11-v1",
+      "source_checkpoint_item_id": "n5-module-b-u48-checkpoint-grammar-02-v1",
+      "primary_target_id": "n5-grammar-representative-listing-tari-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "把性质或状态放在名词前面，组成一个名词短语"
+        },
+        {
+          "option_id": "B",
+          "text": "建议对方采取某行动"
+        },
+        {
+          "option_id": "D",
+          "text": "表示经常反复进行的动作或当前习惯"
+        },
+        {
+          "option_id": "C",
+          "text": "列举若干代表性动作而非穷尽全部"
+        }
+      ],
+      "prompt_zh": "选择这个结构在当前例句中的核心功能。",
+      "prompt_ja": "日曜日は本を読んだり、映画を見たりします。"
+    }
+  ],
+  "embedded_support_placements": []
+}

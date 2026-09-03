@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-048-v3",
+  "items": {
+    "n5-module-b-u48-card-grammar-01-v1": {
+      "title_zh": "用てはいけない表示禁止",
+      "learner_pattern_zh": "Vてはいけません",
+      "explanation_zh": "表示某行为不被允许",
+      "connection_zh": "动词て形后接はいけない／いけません",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "ここで写真を撮ってはいけません。",
+      "example_zh": "不可以在这里拍照。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“表示某行为不被允许”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u48-card-grammar-02-v1": {
+      "title_zh": "用たり列举代表性动作",
+      "learner_pattern_zh": "Vたり、Vたりする",
+      "explanation_zh": "列举若干代表性动作而非穷尽全部",
+      "connection_zh": "动词た形中的た变为たり并以する收束",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "日曜日は本を読んだり、映画を見たりします。",
+      "example_zh": "星期天会看看书、看看电影之类。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

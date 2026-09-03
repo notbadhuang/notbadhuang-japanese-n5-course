@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-009-v3",
+  "items": {
+    "n5-module-b-u09-card-grammar-01-v1": {
+      "title_zh": "で表示动作场所",
+      "learner_pattern_zh": "场所NでV",
+      "explanation_zh": "标记动作进行的场所",
+      "connection_zh": "场所名词后接で并连接动作动词",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "公園でパンを食べます。",
+      "example_zh": "在公园吃面包。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“标记动作进行的场所”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u09-card-grammar-02-v1": {
+      "title_zh": "は表示对比",
+      "learner_pattern_zh": "Xは…（Yは…）",
+      "explanation_zh": "突出与其他对象不同或对照的信息",
+      "connection_zh": "附着于对比成分；与普通话题功能分开审定",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "肉は食べます。魚は食べません。",
+      "example_zh": "肉会吃，鱼不吃。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“突出与其他对象不同或对照的信息”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

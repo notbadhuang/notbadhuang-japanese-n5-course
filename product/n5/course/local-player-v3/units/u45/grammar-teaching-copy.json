@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-045-v3",
+  "items": {
+    "n5-module-b-u45-card-grammar-01-v1": {
+      "title_zh": "用より和ほうが比较两项",
+      "learner_pattern_zh": "AよりBのほうが述部",
+      "explanation_zh": "表示B在某性质上比A更符合述部",
+      "connection_zh": "比较基准后接より，被比较重点后接のほうが",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "電車よりバスのほうが安いです。",
+      "example_zh": "公共汽车比电车便宜。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明"
+    }
+  }
+}

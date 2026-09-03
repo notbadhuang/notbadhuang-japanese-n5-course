@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-014-v3",
+  "items": {
+    "n5-module-b-u14-card-grammar-01-v1": {
+      "title_zh": "用ましょうか主动提供帮助",
+      "learner_pattern_zh": "Vましょうか",
+      "explanation_zh": "主动提出由说话人做某事",
+      "connection_zh": "动词ます形词干后接ましょうか",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "荷物を持ちましょうか。",
+      "example_zh": "我来帮你拿行李吧？",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“主动提出由说话人做某事”；同形或近似结构的其他功能必须按各自对象判断。"
+    },
+    "n5-module-b-u14-card-grammar-02-v1": {
+      "title_zh": "と标记引用内容",
+      "learner_pattern_zh": "引用内容＋と＋言う等",
+      "explanation_zh": "标记说话、思考或称呼的内容",
+      "connection_zh": "引用内容后接と并连接有限的引用动词",
+      "term_note_zh": "只覆盖当前对象记录的核心功能；同形异功能或近义形式通过对比关系另行说明",
+      "example_ja": "先生は「明日、テストです」と言いました。",
+      "example_zh": "老师说：“明天考试。”",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "本卡只讲“标记说话、思考或称呼的内容”；同形或近似结构的其他功能必须按各自对象判断。"
+    }
+  }
+}

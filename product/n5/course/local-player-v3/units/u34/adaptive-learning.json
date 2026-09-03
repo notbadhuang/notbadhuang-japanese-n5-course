@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-034-v3",
+  "route_copy": {
+    "next_action_zh": "下一个",
+    "finish_group_action_zh": "完成本组学习",
+    "skip_action_zh": "已经会了？跳过这一项",
+    "skip_confirm_title_zh": "确定跳过这一项的学习？",
+    "skip_confirm_action_zh": "确认跳过",
+    "skip_evidence_zh": "跳过学习只改变本次路线，不代表已经掌握。",
+    "checkpoint_intro_zh": "接下来使用新的情境检查本单元内容，不逐题公布答案。答错后只补练对应知识点。",
+    "recovery_intro_zh": "下面只补练本轮没有答对的知识点，已经答对的内容不会重学。"
+  },
+  "learning_groups": [
+    {
+      "group_id": "u34-group-01",
+      "title_zh": "年到かかる",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1468060-v1",
+        "n5-vocabulary-jmdict-1482110-v1",
+        "n5-vocabulary-jmdict-1579100-v1",
+        "n5-vocabulary-jmdict-1207590-v1"
+      ],
+      "target_labels_zh": [
+        "年",
+        "晩",
+        "今朝",
+        "かかる"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u34-group-02",
+      "title_zh": "九月到三日",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1243660-v1",
+        "n5-vocabulary-jmdict-1268570-v1",
+        "n5-vocabulary-jmdict-1269060-v1",
+        "n5-vocabulary-jmdict-1301330-v1"
+      ],
+      "target_labels_zh": [
+        "九月",
+        "五日",
+        "午前",
+        "三日"
+      ],
+      "guided_practice_limit": 3
+    },
+    {
+      "group_id": "u34-group-03",
+      "title_zh": "四月到四日",
+      "primary_target_ids": [
+        "n5-vocabulary-jmdict-1307180-v1",
+        "n5-vocabulary-jmdict-1307320-v1"
+      ],
+      "target_labels_zh": [
+        "四月",
+        "四日"
+      ],
+      "guided_practice_limit": 2
+    }
+  ],
+  "guided_practice_overrides": {},
+  "initial_checkpoint_overrides": {
+    "n5-module-b-u34-checkpoint-vocab-1468060-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“年／岁月”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "B",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "かかる（かかる）"
+        },
+        {
+          "option_id": "D",
+          "text": "年（とし）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1482110-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“晚上／夜晚”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "かかる（かかる）"
+        },
+        {
+          "option_id": "C",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "D",
+          "text": "年（とし）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1579100-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“今天早晨”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "かかる（かかる）"
+        },
+        {
+          "option_id": "B",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "年（とし）"
+        },
+        {
+          "option_id": "D",
+          "text": "晩（ばん）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1207590-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“花费（时间或金钱）”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "かかる（かかる）"
+        },
+        {
+          "option_id": "B",
+          "text": "年（とし）"
+        },
+        {
+          "option_id": "C",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "D",
+          "text": "今朝（けさ）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1243660-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“九月”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "年（とし）"
+        },
+        {
+          "option_id": "B",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "C",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "九月（くがつ）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1268570-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“五号／五日”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "B",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "五日（いつか）"
+        },
+        {
+          "option_id": "D",
+          "text": "年（とし）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1269060-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“上午”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "B",
+          "text": "午前（ごぜん）"
+        },
+        {
+          "option_id": "C",
+          "text": "年（とし）"
+        },
+        {
+          "option_id": "D",
+          "text": "晩（ばん）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1301330-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“三号／三日”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "三日（みっか）"
+        },
+        {
+          "option_id": "B",
+          "text": "年（とし）"
+        },
+        {
+          "option_id": "C",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "D",
+          "text": "今朝（けさ）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1307180-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“四月”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "年（とし）"
+        },
+        {
+          "option_id": "B",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "C",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "D",
+          "text": "四月（しがつ）"
+        }
+      ]
+    },
+    "n5-module-b-u34-checkpoint-vocab-1307320-v1": {
+      "prompt_zh": "在新的“日期、时刻与频率”情境中，选择表示“四号／四日”的词形和读音。",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晩（ばん）"
+        },
+        {
+          "option_id": "B",
+          "text": "今朝（けさ）"
+        },
+        {
+          "option_id": "C",
+          "text": "四日（よっか）"
+        },
+        {
+          "option_id": "D",
+          "text": "年（とし）"
+        }
+      ]
+    }
+  },
+  "recovery_verification_items": [
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-01-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1468060-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1468060-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "B",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "C",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "A",
+          "text": "花费（时间或金钱）"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「年」的课程义。",
+      "prompt_ja": "年です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-02-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1482110-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1482110-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "B",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "D",
+          "text": "花费（时间或金钱）"
+        },
+        {
+          "option_id": "C",
+          "text": "晚上／夜晚"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「晩」的课程义。",
+      "prompt_ja": "晩です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-03-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1579100-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1579100-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "C",
+          "text": "花费（时间或金钱）"
+        },
+        {
+          "option_id": "B",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "D",
+          "text": "年／岁月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「今朝」的课程义。",
+      "prompt_ja": "今朝です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-04-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1207590-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1207590-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "A",
+          "text": "花费（时间或金钱）"
+        },
+        {
+          "option_id": "C",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "D",
+          "text": "晚上／夜晚"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「かかる」的课程义。",
+      "prompt_ja": "一時間かかります。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-05-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1243660-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1243660-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "九月"
+        },
+        {
+          "option_id": "B",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "C",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "A",
+          "text": "今天早晨"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「九月」的课程义。",
+      "prompt_ja": "九月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-06-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1268570-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1268570-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "B",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "D",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "C",
+          "text": "五号／五日"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「五日」的课程义。",
+      "prompt_ja": "五月五日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-07-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1269060-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1269060-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "C",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "B",
+          "text": "上午"
+        },
+        {
+          "option_id": "D",
+          "text": "年／岁月"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「午前」的课程义。",
+      "prompt_ja": "午前です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-08-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1301330-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1301330-v1",
+      "options": [
+        {
+          "option_id": "B",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "A",
+          "text": "三号／三日"
+        },
+        {
+          "option_id": "C",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "D",
+          "text": "晚上／夜晚"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「三日」的课程义。",
+      "prompt_ja": "三月三日です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-09-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1307180-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1307180-v1",
+      "options": [
+        {
+          "option_id": "D",
+          "text": "四月"
+        },
+        {
+          "option_id": "B",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "C",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "A",
+          "text": "今天早晨"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「四月」的课程义。",
+      "prompt_ja": "四月です。"
+    },
+    {
+      "verification_item_id": "n5-core-runtime-u34-recovery-10-v1",
+      "source_checkpoint_item_id": "n5-module-b-u34-checkpoint-vocab-1307320-v1",
+      "primary_target_id": "n5-vocabulary-jmdict-1307320-v1",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "年／岁月"
+        },
+        {
+          "option_id": "B",
+          "text": "晚上／夜晚"
+        },
+        {
+          "option_id": "D",
+          "text": "今天早晨"
+        },
+        {
+          "option_id": "C",
+          "text": "四号／四日"
+        }
+      ],
+      "prompt_zh": "结合任务语境，选择「四日」的课程义。",
+      "prompt_ja": "四月四日です。"
+    }
+  ],
+  "embedded_support_placements": []
+}

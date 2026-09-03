@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "n5-calendar-plan-v1.schema.json",
+  "title": "N5 deterministic calendar learning-block plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "plan_id",
+    "handoff_id",
+    "catalog_id",
+    "status",
+    "timezone",
+    "planning_start_date",
+    "planning_end_date",
+    "work_unit_id",
+    "calendar_blocks",
+    "unavailable_period_ids",
+    "allocation_basis",
+    "forecast",
+    "mastery_claim"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "plan_id": {
+      "type": "string",
+      "pattern": "^n5-calendar-plan-[a-f0-9]{16}$"
+    },
+    "handoff_id": {
+      "type": "string"
+    },
+    "catalog_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "scheduled",
+        "no_available_blocks"
+      ]
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "planning_start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "planning_end_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "work_unit_id": {
+      "type": "string"
+    },
+    "calendar_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "block_id",
+          "work_unit_id",
+          "block_role",
+          "scheduled_date",
+          "starts_at",
+          "ends_at",
+          "allocated_minutes"
+        ],
+        "properties": {
+          "block_id": {
+            "type": "string"
+          },
+          "work_unit_id": {
+            "type": "string"
+          },
+          "block_role": {
+            "const": "learn"
+          },
+          "scheduled_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ends_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "allocated_minutes": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "unavailable_period_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "allocation_basis": {
+      "const": "learner_available_capacity_not_work_unit_duration"
+    },
+    "forecast": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "optimistic_days",
+        "baseline_days",
+        "conservative_days",
+        "guaranteed_pass"
+      ],
+      "properties": {
+        "status": {
+          "const": "pending_personal_calibration"
+        },
+        "optimistic_days": {
+          "type": "null"
+        },
+        "baseline_days": {
+          "type": "null"
+        },
+        "conservative_days": {
+          "type": "null"
+        },
+        "guaranteed_pass": {
+          "const": false
+        }
+      }
+    },
+    "mastery_claim": {
+      "const": "not_inferred_from_calendar_allocation"
+    }
+  }
+}

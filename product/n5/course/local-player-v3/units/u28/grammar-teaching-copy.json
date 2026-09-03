@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "validation_candidate_not_active",
+  "work_unit_id": "n5-work-unit-core-028-v3",
+  "items": {
+    "n5-module-b-u28-card-grammar-01-v1": {
+      "title_zh": "名词和な形容词礼貌体的否定与过去",
+      "learner_pattern_zh": "N／ナAではありません・でした・ではありませんでした",
+      "explanation_zh": "在已有肯定式之外表达否定、过去和过去否定",
+      "connection_zh": "名词或な形容词词干后接ではありません、でした或ではありませんでした",
+      "term_note_zh": "当前对象以ではありません系统为正式基础；じゃありません可作为会话变体后续登记，不把普通形混入",
+      "example_ja": "私は留学生でした。",
+      "example_zh": "我以前是留学生。",
+      "example_explanation_zh": "例句展示这张语法卡在完整句子中的用法。",
+      "error_or_contrast_zh": "当前对象以ではありません系统为正式基础；じゃありません可作为会话变体后续登记，不把普通形混入"
+    }
+  }
+}

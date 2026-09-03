@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "candidate_id": "n5-g3-reading-r01-complete-content-v1",
+  "status": "validation_candidate_not_active",
+  "unit_code": "R01",
+  "work_unit_id": "n5-work-unit-reading-short-fact-reference-v1",
+  "display_title_zh": "短文事实、对象与指代",
+  "learning_task_zh": "先分清人物与信息，再处理指代和省略。",
+  "steps": [
+    "分清人物",
+    "绑定事实",
+    "追踪指代",
+    "补全省略"
+  ],
+  "teaching_blocks": [
+    {
+      "asset_id": "n5-g3-reading-sample-r01-teaching-v1",
+      "stimulus_id": "n5-g3-reading-stimulus-r01-teaching-v1",
+      "title_zh": "人物与事实要连在一起",
+      "passage_ja": "小林さんは八時に駅へ行きます。\n田中さんは九時に学校へ行きます。\n小林さんはそこで山田さんに会います。",
+      "reading_focus_zh": "小林 → 八时 → 车站",
+      "explanation_zh": "先锁定问题中的人物，再沿着同一人物的信息线找时间、地点和动作。不能因为“学校”离问题近，就把田中的地点错给小林。",
+      "primary_l2_object_id": "n5-reading-explicit-fact-binding-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reference-and-ellipsis-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1006670-v1",
+        "n5-vocabulary-jmdict-1198180-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-ni-time-point-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r01-teaching-reference-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-teaching-reference-v1",
+      "title_zh": "给「そこ／それ」画回指箭头",
+      "passage_ja": "山田さんは駅へ行きました。\nそこで佐藤さんに会いました。\n佐藤さんは手紙を書きました。それを先生に渡しました。",
+      "reading_focus_zh": "そこ → 车站；それ → 信",
+      "explanation_zh": "先找代词前面已经出现的候选对象，再用后面的动作检查是否合理：能在那里见人的是车站，能交给老师的是信。",
+      "primary_l2_object_id": "n5-reading-reference-and-ellipsis-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1006670-v1",
+        "n5-vocabulary-jmdict-1198180-v1",
+        "n5-vocabulary-jmdict-1327720-v1",
+        "n5-vocabulary-jmdict-1343950-v1",
+        "n5-vocabulary-jmdict-1006970-v1",
+        "n5-vocabulary-jmdict-1387990-v1",
+        "n5-vocabulary-jmdict-1444610-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-polite-paradigm-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-wo-direct-object-v1"
+      ]
+    },
+    {
+      "asset_id": "n5-g3-reading-r01-teaching-ellipsis-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-teaching-ellipsis-v1",
+      "title_zh": "省略不等于换了人物",
+      "passage_ja": "中村さんは図書館で本を読みました。\nそれから、先生に返しました。",
+      "reading_focus_zh": "第二句仍是中村，归还的是书",
+      "explanation_zh": "日语常省略已经明确的主语和宾语。前后没有出现切换人物的理由时，先保持原来的话题，再用“归还什么”检查被省略的对象。",
+      "primary_l2_object_id": "n5-reading-reference-and-ellipsis-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1370420-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1456360-v1",
+        "n5-vocabulary-jmdict-1387990-v1",
+        "n5-vocabulary-jmdict-1512130-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-polite-paradigm-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1"
+      ]
+    }
+  ],
+  "practice_items": [
+    {
+      "item_id": "n5-g3-reading-r01-transfer-practice-001-v1",
+      "stimulus_id": "n5-g3-reading-r01-transfer-stimulus-001-v1",
+      "passage_ja": "佐藤さんは八時に駅へ行きます。\n山田さんは九時に学校へ行きます。\n佐藤さんはそこで田中さんに会います。",
+      "prompt_zh": "佐藤在哪里见田中？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "駅"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "学校"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "会社"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "家"
+        }
+      ],
+      "declared_format_tokens": [
+        "佐藤さん",
+        "山田さん",
+        "田中さん",
+        "八時",
+        "九時"
+      ],
+      "primary_l2_object_id": "n5-reading-explicit-fact-binding-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reference-and-ellipsis-v1"
+      ],
+      "failure_signature_targets": [
+        "wrong_person_time_or_object"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1006670-v1",
+        "n5-vocabulary-jmdict-1198180-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1191730-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-ni-time-point-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-fact-time-002-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-fact-time-002-v1",
+      "passage_ja": "木村さんは七時に駅へ行きます。\n山本さんは八時に学校へ行きます。\n木村さんは九時に会社へ行きます。",
+      "prompt_zh": "木村几点去公司？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "七時"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "八時"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "九時"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "十時"
+        }
+      ],
+      "declared_format_tokens": [
+        "木村さん",
+        "山本さん",
+        "七時",
+        "八時",
+        "九時",
+        "十時"
+      ],
+      "primary_l2_object_id": "n5-reading-explicit-fact-binding-v1",
+      "supporting_l2_object_ids": [],
+      "failure_signature_targets": [
+        "keyword_match_without_entity_binding",
+        "wrong_person_time_or_object"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1198550-v1",
+        "n5-vocabulary-jmdict-1578850-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-ni-time-point-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-sore-003-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-sore-003-v1",
+      "passage_ja": "田中さんは店でパンを買いました。\nそれを家で食べました。",
+      "prompt_zh": "「それ」指什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "パン"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "本"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "花"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "手紙"
+        }
+      ],
+      "declared_format_tokens": [
+        "田中さん"
+      ],
+      "primary_l2_object_id": "n5-reading-reference-and-ellipsis-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "failure_signature_targets": [
+        "nearest_noun_selected_without_context"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1103090-v1",
+        "n5-vocabulary-jmdict-1473740-v1",
+        "n5-vocabulary-jmdict-1006970-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1358280-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1194500-v1",
+        "n5-vocabulary-jmdict-1327720-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-polite-paradigm-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-soko-004-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-soko-004-v1",
+      "passage_ja": "山田さんは図書館へ行きました。\nそこで本を読みました。",
+      "prompt_zh": "山田在哪里读书？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "図書館"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "駅"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "学校"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "会社"
+        }
+      ],
+      "declared_format_tokens": [
+        "山田さん"
+      ],
+      "primary_l2_object_id": "n5-reading-reference-and-ellipsis-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "failure_signature_targets": [
+        "nearest_noun_selected_without_context"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1370420-v1",
+        "n5-vocabulary-jmdict-1578850-v1",
+        "n5-vocabulary-jmdict-1006670-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1456360-v1",
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1206730-v1",
+        "n5-vocabulary-jmdict-1198550-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-polite-paradigm-v1",
+        "n5-grammar-particle-ni-e-movement-goal-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-ellipsis-005-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-ellipsis-005-v1",
+      "passage_ja": "佐藤さんは朝、手紙を書きました。\nそれから、先生に出しました。",
+      "prompt_zh": "第二句省略的主语是谁？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "佐藤さん"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "先生"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "田中さん"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "山田さん"
+        }
+      ],
+      "declared_format_tokens": [
+        "佐藤さん",
+        "田中さん",
+        "山田さん"
+      ],
+      "primary_l2_object_id": "n5-reading-reference-and-ellipsis-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-explicit-fact-binding-v1"
+      ],
+      "failure_signature_targets": [
+        "omitted_subject_switched"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1428280-v1",
+        "n5-vocabulary-jmdict-1327720-v1",
+        "n5-vocabulary-jmdict-1343950-v1",
+        "n5-vocabulary-jmdict-1387990-v1",
+        "n5-vocabulary-jmdict-1338180-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-polite-paradigm-v1",
+        "n5-grammar-particle-wo-direct-object-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_hidden_or_mock_pool": false
+    },
+    {
+      "item_id": "n5-g3-reading-r01-practice-mixed-006-v1",
+      "stimulus_id": "n5-g3-reading-r01-stimulus-mixed-006-v1",
+      "passage_ja": "木村さんは駅で本を買いました。\n中村さんは店で花を買いました。\n木村さんはそれを家で読みました。",
+      "prompt_zh": "木村在家读的是什么？",
+      "response_mode": "single_choice",
+      "options": [
+        {
+          "option_id": "A",
+          "display_text_ja": "本"
+        },
+        {
+          "option_id": "B",
+          "display_text_ja": "花"
+        },
+        {
+          "option_id": "C",
+          "display_text_ja": "手紙"
+        },
+        {
+          "option_id": "D",
+          "display_text_ja": "パン"
+        }
+      ],
+      "declared_format_tokens": [
+        "木村さん",
+        "中村さん"
+      ],
+      "primary_l2_object_id": "n5-reading-explicit-fact-binding-v1",
+      "supporting_l2_object_ids": [
+        "n5-reading-reference-and-ellipsis-v1"
+      ],
+      "failure_signature_targets": [
+        "keyword_match_without_entity_binding",
+        "nearest_noun_selected_without_context"
+      ],
+      "active_vocabulary_l2_object_ids": [
+        "n5-vocabulary-jmdict-1175140-v1",
+        "n5-vocabulary-jmdict-1522150-v1",
+        "n5-vocabulary-jmdict-1473740-v1",
+        "n5-vocabulary-jmdict-1582120-v1",
+        "n5-vocabulary-jmdict-1194500-v1",
+        "n5-vocabulary-jmdict-1006970-v1",
+        "n5-vocabulary-jmdict-1191730-v1",
+        "n5-vocabulary-jmdict-1456360-v1",
+        "n5-vocabulary-jmdict-1327720-v1",
+        "n5-vocabulary-jmdict-1103090-v1"
+      ],
+      "active_grammar_l2_object_ids": [
+        "n5-grammar-inflection-verb-polite-paradigm-v1",
+        "n5-grammar-particle-de-action-location-v1",
+        "n5-grammar-particle-wo-direct-object-v1"
+      ],
+      "public_payload_contains_answer": false,
+      "audio_allowed": false,
+      "may_enter_hidden_or_mock_pool": false
+    }
+  ]
+}

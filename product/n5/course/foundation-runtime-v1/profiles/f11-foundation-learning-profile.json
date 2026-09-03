@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "profile_id": "n5-foundation-f11-contextual-pattern-profile-v1",
+  "status": "validation_candidate_not_active",
+  "engine_profile": "foundation_contextual_pattern_checkpoint_v1",
+  "work_unit_id": "n5-work-unit-foundation-sokuon-and-nasal-v1",
+  "phase_order": [
+    "contextual_word_and_mora_exposure",
+    "contextual_pattern_visual_practice",
+    "stage_checkpoint_without_item_feedback",
+    "incorrect_target_brief_repair",
+    "incorrect_target_reordered_retest",
+    "result_mapping"
+  ],
+  "guided_practice_modes": [
+    "contextual_pattern_visual_recognition"
+  ],
+  "micro_batches": [
+    {
+      "batch_number": 1,
+      "micro_batch_id": "u11-hiragana-katakana-core-01",
+      "title_zh": "F11 · 促音",
+      "target_ids": [
+        "n5-fnd-u11-target-u3063-v1",
+        "n5-fnd-u11-target-u30c3-v1"
+      ],
+      "target_displays_ja": [
+        "っ",
+        "ッ"
+      ],
+      "sequence_audio_asset_id": null,
+      "practice_item_ids": [
+        "n5-practice-u11-contextual-visual-u3063-v1",
+        "n5-practice-u11-contextual-visual-u30c3-v1"
+      ],
+      "contextual_lesson": {
+        "lesson_kind": "sokuon",
+        "eyebrow_zh": "F11 · 促音",
+        "title_zh": "先听完整词，再看停顿落在哪一拍",
+        "primary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1385070-v1",
+          "form_ja": "切手",
+          "reading_ja": "きって",
+          "meaning_zh": "邮票",
+          "morae": [
+            "き",
+            "っ",
+            "て"
+          ],
+          "focus_indexes": [
+            1
+          ],
+          "audio_asset_id": "n5-vocab-audio-36897e1da4acc4a1-v2"
+        },
+        "secondary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1206730-v1",
+          "form_ja": "学校",
+          "reading_ja": "がっこう",
+          "meaning_zh": "学校",
+          "morae": [
+            "が",
+            "っ",
+            "こ",
+            "う"
+          ],
+          "focus_indexes": [
+            1
+          ],
+          "audio_asset_id": "n5-vocab-audio-42edc1b837791e0c-v2"
+        },
+        "listen_hint_zh": "「っ」不单独发音",
+        "mora_intro_zh": "把每一拍分开看",
+        "rule_title_zh": "后面的辅音先被“卡住”一拍，再放出来",
+        "rule_body_zh": "重点不是把「っ」读成一个音，而是不要把这一拍漏掉。",
+        "visual_title_zh": "小写「っ」比普通「つ」更小，位置也更低。",
+        "visual_cards": [
+          {
+            "symbol": "っ",
+            "label_zh": "小写 · 促音",
+            "active": true
+          },
+          {
+            "symbol": "つ",
+            "label_zh": "普通大小 · つ",
+            "active": false
+          }
+        ],
+        "cta_label_zh": "继续学「ん」",
+        "audio_asset_ids": [
+          "n5-vocab-audio-36897e1da4acc4a1-v2",
+          "n5-vocab-audio-42edc1b837791e0c-v2"
+        ]
+      }
+    },
+    {
+      "batch_number": 2,
+      "micro_batch_id": "u11-hiragana-katakana-core-02",
+      "title_zh": "F11 · 拨音",
+      "target_ids": [
+        "n5-fnd-u11-target-u3093-v1",
+        "n5-fnd-u11-target-u30f3-v1"
+      ],
+      "target_displays_ja": [
+        "ん",
+        "ン"
+      ],
+      "sequence_audio_asset_id": null,
+      "practice_item_ids": [
+        "n5-practice-u11-contextual-visual-u3093-v1",
+        "n5-practice-u11-contextual-visual-u30f3-v1"
+      ],
+      "contextual_lesson": {
+        "lesson_kind": "moraic_nasal",
+        "eyebrow_zh": "F11 · 拨音",
+        "title_zh": "把「ん」当作完整的一拍听出来",
+        "primary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1362360-v1",
+          "form_ja": "新聞",
+          "reading_ja": "しんぶん",
+          "meaning_zh": "报纸",
+          "morae": [
+            "し",
+            "ん",
+            "ぶ",
+            "ん"
+          ],
+          "focus_indexes": [
+            1,
+            3
+          ],
+          "audio_asset_id": "n5-vocab-audio-f906b238c9c2ae0d-v2"
+        },
+        "secondary_word": {
+          "l2_object_id": "n5-vocabulary-jmdict-1027180-v1",
+          "form_ja": "エアコン",
+          "reading_ja": "エアコン",
+          "meaning_zh": "空调",
+          "morae": [
+            "エ",
+            "ア",
+            "コ",
+            "ン"
+          ],
+          "focus_indexes": [
+            3
+          ],
+          "audio_asset_id": "n5-vocab-audio-dfdd6cec62be3902-v2"
+        },
+        "listen_hint_zh": "「ん」要在词里听",
+        "mora_intro_zh": "「ん」自己占一拍，不要跳过去",
+        "rule_title_zh": "后一个音会影响「ん」的细微发音",
+        "rule_body_zh": "初学先稳定听出这一拍，不把它固定成一个孤立口型。",
+        "visual_title_zh": "两套文字都表示拨音；先认清字形，再回到完整词里听。",
+        "visual_cards": [
+          {
+            "symbol": "ん",
+            "label_zh": "平假名 · ん",
+            "active": true
+          },
+          {
+            "symbol": "ン",
+            "label_zh": "片假名 · ン",
+            "active": false
+          }
+        ],
+        "cta_label_zh": "进入本组练习",
+        "audio_asset_ids": [
+          "n5-vocab-audio-f906b238c9c2ae0d-v2",
+          "n5-vocab-audio-dfdd6cec62be3902-v2"
+        ]
+      }
+    }
+  ],
+  "context_audio_assets": [
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-36897e1da4acc4a1-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "切手",
+      "reading": "きって",
+      "script_ja": "きって",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-36897e1da4acc4a1-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1385070-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "cb269cabaa1e565295e94233e6a72671ae194d0005a8681378eadb8f77e5f3ad",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.288,
+      "size_bytes": 10989,
+      "bit_rate_bps": 68254
+    },
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-42edc1b837791e0c-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "学校",
+      "reading": "がっこう",
+      "script_ja": "がっこう",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-42edc1b837791e0c-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1206730-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "32a0dff093a944729ada0e5f6bd00837fd58eefe7f61763c2e783ef9dad592e8",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.384,
+      "size_bytes": 11757,
+      "bit_rate_bps": 67959
+    },
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-f906b238c9c2ae0d-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "新聞",
+      "reading": "しんぶん",
+      "script_ja": "しんぶん",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-f906b238c9c2ae0d-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1362360-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "addde9997f7ca5b7420227911262f991c611422ba806aaf38966867bf23a1b53",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.36,
+      "size_bytes": 11565,
+      "bit_rate_bps": 68029
+    },
+    {
+      "schema_version": 1,
+      "audio_asset_id": "n5-vocab-audio-dfdd6cec62be3902-v2",
+      "asset_role": "isolated_vocabulary_pronunciation",
+      "form": "エアコン",
+      "reading": "エアコン",
+      "script_ja": "エアコン",
+      "speaking_rate": 1.0,
+      "path": "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-dfdd6cec62be3902-v2.mp3",
+      "bound_l2_object_ids": [
+        "n5-vocabulary-jmdict-1027180-v1"
+      ],
+      "binding_count": 1,
+      "status": "approved_product_audio",
+      "sha256": "025f818c3a608f6633e292ab93aea174263d7eccceb846a97c060fae3ec5db6a",
+      "codec": "mp3",
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "duration_seconds": 1.264,
+      "size_bytes": 10797,
+      "bit_rate_bps": 68335
+    }
+  ],
+  "stage_checkpoint_item_ids": [
+    "n5-checkpoint-stage-03-visual-n5-fnd-u11-target-u3063-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u11-target-u30c3-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u11-target-u3093-v1",
+    "n5-checkpoint-stage-03-visual-n5-fnd-u11-target-u30f3-v1"
+  ],
+  "feedback_policy": {
+    "guided_practice": "retry_until_correct_with_immediate_feedback",
+    "stage_checkpoint": "withhold_all_item_results_until_checkpoint_completion",
+    "incorrect_target_repair": "only_show_targets_answered_incorrectly",
+    "incorrect_target_retest": "one_reordered_visual_item_per_incorrect_target"
+  },
+  "repair_guidance_by_target": {
+    "n5-fnd-u11-target-u3063-v1": {
+      "hint_zh": "重新看清「っ」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u11-target-u30c3-v1": {
+      "hint_zh": "重新看清「ッ」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u11-target-u3093-v1": {
+      "hint_zh": "重新看清「ん」在词语和节拍中的位置，再完成一道换序题。"
+    },
+    "n5-fnd-u11-target-u30f3-v1": {
+      "hint_zh": "重新看清「ン」在词语和节拍中的位置，再完成一道换序题。"
+    }
+  },
+  "learner_copy": {
+    "unit_task_brief": "通过真实 N5 词语和节拍认识促音与拨音：不漏掉小写っ／ッ和ん／ン，再完成视觉练习与阶段小测。",
+    "batch_intro_title": "先在完整词里听清规则",
+    "batch_intro_body": "可以反复听词语；本单元不制造不存在的孤立发音。",
+    "checkpoint_intro_title": "开始阶段小测",
+    "checkpoint_intro_body": "下面4题只检查字形和规则辨认，不逐题公布对错。",
+    "repair_title": "只补刚才答错的规则",
+    "repair_body": "回到完整词和视觉规则，再确认一次。",
+    "retest_title": "换一下选项顺序，再试一次",
+    "retest_body": "选择与题目描述相符的写法。"
+  },
+  "result_mapping": {
+    "answered_count_source": "stage_checkpoint_responses",
+    "correct_count_source": "server_side_stage_checkpoint_evaluation",
+    "recovered_target_ids_source": "incorrect_target_retest_correct_targets",
+    "delayed_review_target_ids_source": "stage_checkpoint_correct_targets_plus_recovered_targets",
+    "unresolved_target_ids_source": "incorrect_target_retest_incorrect_targets",
+    "mastery_claim": "not_inferred_from_single_session"
+  }
+}
