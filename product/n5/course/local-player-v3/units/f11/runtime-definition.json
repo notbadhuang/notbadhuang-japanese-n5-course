@@ -19,8 +19,8 @@
     "foundation_learning_profile": "product/n5/course/foundation-runtime-v1/profiles/f11-foundation-learning-profile.json"
   },
   "result_contract": {
-    "session_request_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器会话请求",
-    "result_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器结果",
+    "session_request_anchor": "notbadhuang-japanese/references/runtime-contract.md#浏览器播放器会话请求",
+    "result_anchor": "notbadhuang-japanese/references/runtime-contract.md#浏览器播放器结果",
     "scoring_contract_id": "n5-foundation-contextual-pattern-checkpoint-v1",
     "mastery_claim": "not_inferred_from_single_session"
   },

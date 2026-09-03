@@ -4,7 +4,7 @@
 
 - 许可证摘要：https://creativecommons.org/licenses/by-nc/4.0/
 - 完整法律文本：https://creativecommons.org/licenses/by-nc/4.0/legalcode
-- 建议署名：`0→N5 日语课程项目（nutletor/japanese-n5-course）`
+- 建议署名：`正能日语 0→N5课程项目（notbadhuang/notbadhuang-japanese-n5-course）`
 
 你可以在非商业目的下复制、分享和改编上述项目自有材料，但必须按许可证要求署名、提供许可证链接并说明是否作过修改。商业使用不在本许可授权范围内；如需商业授权，应另行取得项目权利人的许可。
 

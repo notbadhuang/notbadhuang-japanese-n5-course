@@ -24,8 +24,8 @@
     "adaptive_learning": "product/n5/course/local-player-v3/units/u01/u01-adaptive-learning.json"
   },
   "result_contract": {
-    "session_request_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器会话请求",
-    "result_anchor": "n5-pc-learning/references/runtime-contract.md#浏览器播放器结果",
+    "session_request_anchor": "notbadhuang-japanese/references/runtime-contract.md#浏览器播放器会话请求",
+    "result_anchor": "notbadhuang-japanese/references/runtime-contract.md#浏览器播放器结果",
     "scoring_contract_id": "n5-core-grouped-practice-v1",
     "mastery_claim": "not_inferred_from_single_session"
   },

@@ -4,16 +4,16 @@
   "production_distribution_approved": false,
   "release": {
     "asset_name": "n5-0-to-n5-pc-v1.zip",
-    "download_url": "https://github.com/nutletor/japanese-n5-course/releases/download/v0.1.0-rc.1/n5-0-to-n5-pc-v1.zip",
-    "package_id": "n5-0-to-n5-pc-release-candidate-v1",
+    "download_url": "https://github.com/notbadhuang/notbadhuang-japanese-n5-course/releases/download/v0.1.0-rc.2/n5-0-to-n5-pc-v1.zip",
+    "package_id": "n5-0-to-n5-pc-release-candidate-v2",
     "package_status": "g5_release_candidate_not_approved",
-    "sha256": "bca2849154c4d792cf8cf9a370eaee9027cd05e968b1082b84898f2c92140ca9",
-    "size_bytes": 45477828,
-    "version_id": "n5-0-to-n5-pc-release-candidate-v1"
+    "sha256": "da509bc4fa723c740e5796457c8c6e9ebaf7cbdab9f426d1ba97d46ebb1a772c",
+    "size_bytes": 45478518,
+    "version_id": "n5-0-to-n5-pc-release-candidate-v2"
   },
-  "repository_url": "https://github.com/nutletor/japanese-n5-course",
+  "repository_url": "https://github.com/notbadhuang/notbadhuang-japanese-n5-course",
   "schema_version": 1,
   "status": "public_prerelease",
-  "tag_name": "v0.1.0-rc.1",
+  "tag_name": "v0.1.0-rc.2",
   "windows_clean_install_verified": false
 }

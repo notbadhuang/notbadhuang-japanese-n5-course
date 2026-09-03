@@ -5,7 +5,7 @@
 1. 在附件中定位唯一的`日语0到N5课程-v1候选/course-package.json`，先核对`package_id`、`status`和全部`artifacts`哈希；不符合时停止。
 2. 获得用户对持久保存位置的一次确认后，将课程完整解压到当前课程工作空间；不得从临时解压目录长期运行，也不得覆盖其他版本或非空同名目录。
 3. 学习档案必须由用户选择并保存在课程目录外。不得扫描其他个人目录，不得读取或改写其他学员档案。
-4. 如未安装`n5-pc-learning`，停止运行课程并提示用户先通过SkillHub安装；课程包不内嵌或替代SkillHub版本。
+4. 如未安装`notbadhuang-japanese`，停止运行课程并提示用户先通过SkillHub安装；课程包不内嵌或替代SkillHub版本。
 5. 先由Skill校验课程包。需要判断起点时启动`activities.entry_diagnostic`；导入诊断结果后只按学习档案和课程目录安排内容。
 6. F01—F12和U01—U72使用`player`入口；R01—R04使用`activities.g3_reading`，听力抽样与综合模拟考试使用`activities.g3_integrated`。三类学习结果都必须通过Skill回收到学员自选的本地档案；未完成的会话不得写成完成。
 7. 一次学习结果不得写成已经掌握，不得推断JLPT合格、精确学习天数、固定学习分钟或数值掌握阈值。
