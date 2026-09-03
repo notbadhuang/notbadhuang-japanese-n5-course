@@ -13,7 +13,7 @@
   },
   "repository_url": "https://github.com/nutletor/japanese-n5-course",
   "schema_version": 1,
-  "status": "unpublished_candidate",
+  "status": "public_prerelease",
   "tag_name": "v0.1.0-rc.1",
   "windows_clean_install_verified": false
 }
