@@ -75,6 +75,16 @@ class SessionStore:
         write_json_atomic(self.path, {"schema_version": 1, "sessions": self.sessions})
 
 
+def renderer_item(item: dict) -> dict:
+    """Adapt legacy passage-only assets without rewriting approved content."""
+    if "stimulus" in item:
+        return dict(item)
+    passage = item.get("passage_ja")
+    if not isinstance(passage, str) or not passage.strip():
+        raise ValueError("reading item is missing its stimulus or passage_ja")
+    return {**item, "stimulus": {"kind": "passage", "text_ja": passage}}
+
+
 def public_payload(session_id: str, session: dict) -> dict:
     content = PUBLIC_BY_WORK_UNIT[session["work_unit_id"]]
     answers = ANSWERS_BY_WORK_UNIT[session["work_unit_id"]]
@@ -114,10 +124,10 @@ def public_payload(session_id: str, session: dict) -> dict:
         },
     }
     if stage == "teaching":
-        payload["content"]["teaching"] = content["teaching_blocks"][session["teaching_index"]]
+        payload["content"]["teaching"] = renderer_item(content["teaching_blocks"][session["teaching_index"]])
     elif stage in {"practice", "feedback"}:
         item = content["practice_items"][session["practice_index"]]
-        payload["content"]["practice"] = item
+        payload["content"]["practice"] = renderer_item(item)
         if stage == "feedback":
             answer = answers[item["item_id"]]
             selected = session["responses"][-1]["selected_option_id"]
@@ -317,7 +327,12 @@ def main() -> None:
     if args.host not in {"127.0.0.1", "localhost"}:
         raise SystemExit("This local reading server only binds to localhost")
     Handler.store = SessionStore(args.session_store)
-    server = ThreadingHTTPServer((args.host, args.port), Handler)
+    import os
+    handler = Handler
+    if os.environ.get('N5_CONTINUATION_ARCHIVE'):
+        from n5_browser_continuation import attach
+        handler = attach(Handler, ROOT, 'reading')
+    server = ThreadingHTTPServer((args.host, args.port), handler)
     print(f"http://{args.host}:{args.port}/", flush=True)
     server.serve_forever()
 

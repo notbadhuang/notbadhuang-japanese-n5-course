@@ -4,16 +4,16 @@
   "production_distribution_approved": false,
   "release": {
     "asset_name": "n5-0-to-n5-pc-v1.zip",
-    "download_url": "https://github.com/notbadhuang/notbadhuang-japanese-n5-course/releases/download/v0.1.0-rc.2/n5-0-to-n5-pc-v1.zip",
-    "package_id": "n5-0-to-n5-pc-release-candidate-v2",
+    "download_url": "https://github.com/notbadhuang/notbadhuang-japanese-n5-course/releases/download/v0.1.0-rc.3/n5-0-to-n5-pc-v1.zip",
+    "package_id": "n5-0-to-n5-pc-release-candidate-v3",
     "package_status": "g5_release_candidate_not_approved",
-    "sha256": "da509bc4fa723c740e5796457c8c6e9ebaf7cbdab9f426d1ba97d46ebb1a772c",
-    "size_bytes": 45478518,
-    "version_id": "n5-0-to-n5-pc-release-candidate-v2"
+    "sha256": "3a2584318e2705357a1effbe6c47d74713e499892639bd60c74d01a300cb37f1",
+    "size_bytes": 61507790,
+    "version_id": "n5-0-to-n5-pc-release-candidate-v3"
   },
   "repository_url": "https://github.com/notbadhuang/notbadhuang-japanese-n5-course",
   "schema_version": 1,
   "status": "public_prerelease",
-  "tag_name": "v0.1.0-rc.2",
+  "tag_name": "v0.1.0-rc.3",
   "windows_clean_install_verified": false
 }

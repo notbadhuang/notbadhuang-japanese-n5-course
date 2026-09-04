@@ -305,7 +305,11 @@ def main() -> None:
     else:
         core.SESSIONS.configure_store(None)
         foundation.SESSIONS.configure_store(None)
-    server = ThreadingHTTPServer((args.host, args.port), MultiContractLearningHandler)
+    handler = MultiContractLearningHandler
+    if os.environ.get('N5_CONTINUATION_ARCHIVE'):
+        from n5_browser_continuation import attach
+        handler = attach(MultiContractLearningHandler, ROOT, 'course')
+    server = ThreadingHTTPServer((args.host, args.port), handler)
     print(
         f"N5 multi-contract local player ({len(ACTIVE_ENTRIES)} active units): "
         f"http://{args.host}:{server.server_address[1]}/",
