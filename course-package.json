@@ -1,85 +1,10 @@
 {
-  "activities": {
-    "entry_diagnostic": {
-      "base_url": "http://127.0.0.1:18803",
-      "host": "127.0.0.1",
-      "port": 18803,
-      "runtime_contract": "n5-learning-route-candidate-v1",
-      "script": "scripts/run_n5_learning_route_candidate.py",
-      "title_zh": "入口诊断",
-      "work_unit_ids": [
-        ""
-      ]
-    },
-    "g3_integrated": {
-      "base_url": "http://127.0.0.1:18804",
-      "host": "127.0.0.1",
-      "listening_units": 5,
-      "mock_exam_count": 1,
-      "port": 18804,
-      "reading_units": 4,
-      "result_mode": "persistent_record_api",
-      "result_path": "/api/result",
-      "script": "scripts/run_n5_g3_integrated_acceptance.py",
-      "status": "packaged_owner_approved_product",
-      "work_unit_id": "n5-g3-listening-and-integrated-mock-v1"
-    },
-    "g3_listening": {
-      "base_url": "http://127.0.0.1:18806",
-      "host": "127.0.0.1",
-      "port": 18806,
-      "runtime_contract": "n5-learning-route-candidate-v1",
-      "script": "scripts/run_n5_learning_route_candidate.py",
-      "title_zh": "听力练习",
-      "work_unit_ids": [
-        "L01",
-        "L02",
-        "L03",
-        "L04",
-        "L05"
-      ]
-    },
-    "g3_mock": {
-      "base_url": "http://127.0.0.1:18807",
-      "host": "127.0.0.1",
-      "port": 18807,
-      "runtime_contract": "n5-learning-route-candidate-v1",
-      "script": "scripts/run_n5_learning_route_candidate.py",
-      "title_zh": "自编综合模拟",
-      "work_unit_ids": [
-        ""
-      ]
-    },
-    "g3_reading": {
-      "base_url": "http://127.0.0.1:18805",
-      "health_contract": {
-        "persistent_session_store": true,
-        "reading_work_unit_count": 4
-      },
-      "host": "127.0.0.1",
-      "port": 18805,
-      "result_mode": "practice_session_api",
-      "script": "scripts/run_n5_g3_reading_app.py",
-      "session_store_argument": "--session-store",
-      "status": "packaged_owner_approved_product",
-      "work_unit_ids": [
-        "n5-work-unit-reading-short-fact-reference-v1",
-        "n5-work-unit-reading-logic-time-cause-v1",
-        "n5-work-unit-reading-medium-main-intent-v1",
-        "n5-work-unit-reading-information-retrieval-v1"
-      ]
-    }
-  },
   "artifacts": {
     "LICENSE.md": "f2d96eef505d12df551f51b9ea1aadb38d6b6210b2c86b939e9bcd7d9351fbec",
-    "PRODUCT-OVERVIEW.md": "3582c12857fa90281a7382bbc9f3ff22bbb5802f0dc7ff54b7f43c0d52ebc5ed",
-    "THIRD_PARTY_DATA/EDRG-JMdict-SOURCE.json": "b2d5267ee91247e0ed7fe81d2d1b89d8bee73940fba1fcf61d6aa0b364babbd1",
-    "THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.html": "52f60ea9ca68170a2f0663d7dba381ebf1bd57c17a3347dfe21153865c156692",
+    "THIRD_PARTY_DATA/EDRG-JMdict-SOURCE.json": "0be68c3c7122cf06fa8f1f8c728f268b50cf3d8d2155b2b86aeebd4d794ae778",
+    "THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.txt": "5a1b6e9491c0c13637885e5db107aa8450cdfbc17a513539b4a024f4307c1e2a",
     "THIRD_PARTY_LICENSES/KanjiVG-CC-BY-SA-3.0.txt": "d255e07978fd16ddfec38bc59dc9d857b885dd44ddbf4e79baf207d30746bdcc",
-    "THIRD_PARTY_NOTICES.md": "004954228cafb42e1e050f216c1edfee239931f660d28d9d031e8edf77176714",
-    "USER-GUIDE.md": "ce6955f582c17670fed939d02858c49dacf5b9d3eb6d829eee52d75fbde86273",
-    "WORKBUDDY_START_HERE.md": "476f560e4a969b5f53b585ef0cc86bfd68658496f96ab0b4b7c7ba9a56182b6b",
-    "customer-package-allowlist.json": "efbba67c88b7639412070b76d241920507b278739563ec3b55737f984faf3d73",
+    "THIRD_PARTY_NOTICES.md": "615c6edffb397abb26d33447ba22667f1e8f7ea1629fa3d22b6afce430606b21",
     "product/n5/ability-map-v1.json": "228a00af58d836c6ea65da9a6f2cb47c9edd01fe965b2408043f44eea09fbd4c",
     "product/n5/audio/core-v1/mp3/active-variant-audio-1319210-02.mp3": "e2b66334a22e8c2e246f0d7ed6abc08a1937640bbb4d19870015bd5cd6d7632d",
     "product/n5/audio/core-v1/mp3/active-variant-audio-1578150-02.mp3": "76872f1b6fc82f00569c7f0b5ae3778e627caa52a721142109f72ad85fee6203",
@@ -2708,9 +2633,6 @@
     "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-ff1cb3f792338b31-v2.mp3": "6a72f4da3fa673b91da028c439f51312f59dd9a9a25c4592b3724093ac947274",
     "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-ffc41bd9a841a1a8-v2.mp3": "ad337d1018e6f96891419abc48ddca2e5591530a7e5bc777b6b4f283910a2978",
     "product/n5/audio/vocabulary-v2/mp3/n5-vocab-audio-ffe18de42b4b1316-v2.mp3": "b6d4211c53ec7dc60922801c5354f03f1757a1ee57272c87de43b28bb7048690",
-    "product/n5/course/core-runtime-v1/runtime/app.js": "5deea34a2d1878b698d2ffa85a8fbc77e7747eb9e14fe6681c263f6a76a7bf32",
-    "product/n5/course/core-runtime-v1/runtime/index.html": "42a1e3382f7272119d7148d02eecd1b53e99067733a09fa6971fdc0ef8b7d3f9",
-    "product/n5/course/core-runtime-v1/runtime/styles.css": "922834b81643248765541d64ce74406e43efdbffa372b038d11000be6d85c57a",
     "product/n5/course/core-v2/assessment-data/answer-keys.jsonl": "76a9f3ff6fb65351cb893e08e2bd89a785c0b116a291c24efced298a8fee9b31",
     "product/n5/course/core-v2/embedded-support-cards.jsonl": "bcb4c3ed995270f2361ca2d7aa9e8df0bcecad1b413ac88e8e9ba4cd2ccaf8a2",
     "product/n5/course/core-v2/form-reading-variant-cards.jsonl": "5b7029ae0767484fc8f931bc3cd66723b08f69a16c0cd94d88400b75c6f729a6",
@@ -2733,9 +2655,6 @@
     "product/n5/course/foundation-runtime-v1/profiles/f10-foundation-learning-profile.json": "5041d4d799b0fb03ab630b22c200b578706ea939ed2b3d4ed8e3fc524ebfdcd7",
     "product/n5/course/foundation-runtime-v1/profiles/f11-foundation-learning-profile.json": "e81a8dc3286e318fa3dcf18b16cd62b7acd1dac9669e485840aea1f826a21e82",
     "product/n5/course/foundation-runtime-v1/profiles/f12-foundation-learning-profile.json": "e76cdfcd7e7ac7bb377a0248ce6e9f7e8d0b09482d29a8df4fe74f061af644b8",
-    "product/n5/course/foundation-runtime-v1/runtime/app.js": "cbc8e945bfdbedf870bf9339cf241a0a2d77cc25eda0418b9cfd43ea0f45c791",
-    "product/n5/course/foundation-runtime-v1/runtime/index.html": "b837cd977cd80715e186faef8a27f763e84320da1bd53122effa74f7a8c81a31",
-    "product/n5/course/foundation-runtime-v1/runtime/styles.css": "df88a8e686f4f65a3168540568a4761bb1226f5c4cbc3a47f7487c9f4d77bbb2",
     "product/n5/course/foundation-v1/stage-01/checkpoint-items.jsonl": "97aba504933f6ded9f1ecf05bb80910fa4c09712d42827ce2eb3c23a345928df",
     "product/n5/course/foundation-v1/stage-01/practice-items.jsonl": "ed29e3db63b3c847f70022be8e6d2c8d48dea423a4e73adc82f51766601b19cf",
     "product/n5/course/foundation-v1/stage-01/teaching-cards.jsonl": "0a6a0cb4adff833beeeb211528f43851f499cc5d36111f37758ae222578bc081",
@@ -2749,14 +2668,6 @@
     "product/n5/course/foundation-v1/stage-03/practice-items.jsonl": "bf16f26743fdfe5ae75f17cd940e7c9a78c9f4f72aa1860205f987ee8b98f168",
     "product/n5/course/foundation-v1/stage-03/teaching-cards.jsonl": "5300e20313e844a2712d3b2b767313655d404f61471061e94ec0f753eb4d62f1",
     "product/n5/course/foundation-v1/stage-03/units.json": "edd9045d3d45392f102f489caab64a94167b1771174f7083d5ffa9866b163dec",
-    "product/n5/course/g3-acceptance-runtime-v1/runtime/app.js": "5a46ef302c8a066efcb03a2d7d408d28507a46685dfbbd1c96fc2eb63a3c2f69",
-    "product/n5/course/g3-acceptance-runtime-v1/runtime/index.html": "6296d7b6105819e1b6ef4c98ee3771bc44a3d590343b5feb1c5bd77034ed15fc",
-    "product/n5/course/g3-acceptance-runtime-v1/runtime/styles.css": "6e30be2ed98018242831a55d2f9b1bd3613efe91c5af131fd53000ad735c563e",
-    "product/n5/course/learning-route-runtime-v1/runtime/app.js": "422f925dc698d8ddf2edacbf172191ebc00994cf64ea4663746042761c4177af",
-    "product/n5/course/learning-route-runtime-v1/runtime/continuity.css": "5b788116fe3d0b37027ce1c5eecf1ec698fd93ca88ae4eea31d72e78267c8271",
-    "product/n5/course/learning-route-runtime-v1/runtime/continuity.js": "cf4fb81c8f02c16d82858933a8889d5ba4b0fa2186252f59b98bbdde168da02e",
-    "product/n5/course/learning-route-runtime-v1/runtime/index.html": "069a89ad88d6a016b800eee15a348a8564f487de69808888e480e137b6a0b7cd",
-    "product/n5/course/learning-route-runtime-v1/runtime/styles.css": "49f4bea751a961004f4d163a6fbd10ffe6c90a0bdeacdc34b2060cf2e52b0b43",
     "product/n5/course/listening-v1/assessment-data/answer-keys-and-audio-scripts.json": "c1ab905e2806ea0033dcecc055c3c0dae87d62007ae35a6a378a3851cef07a66",
     "product/n5/course/listening-v1/audio/n5-g3-listening-l01-hidden_validation-train-time-v1.mp3": "91cd502e7a516c893df829f4ae1c2f74565cd7aa2fbfe9bd20ae0ae637342b76",
     "product/n5/course/listening-v1/audio/n5-g3-listening-l01-practice-departure-v1.mp3": "284b3bffaa700ee51a22ad18e018d590e46abc3bd6fd3cec4ab6f6d5d4712392",
@@ -3131,9 +3042,6 @@
     "product/n5/course/mock-exam-v1/audio/n5-mock-lis-verbal-001.mp3": "4a53c1ed6c62e138742986f9852a88c4b65224e5d1b35601e9c9f902c66c39f8",
     "product/n5/course/mock-exam-v1/audio/n5-mock-lis-verbal-002.mp3": "ee3a74514b1bcd656539138cf7b51f4aa6d592c9fb607565581bbb3c3f4fd1ae",
     "product/n5/course/mock-exam-v1/public/exam.json": "b46e609dc2cead421885a721ba4e1b026bae11993998c4092cf2e2b48fb0e106",
-    "product/n5/course/reading-runtime-v1/runtime/app.js": "0c86185e58d53b2a47ec0955c9beb306b9f4922ebbe6d182119c6fd6d8c696fa",
-    "product/n5/course/reading-runtime-v1/runtime/index.html": "1852eb686cd45e79077734a1ea0e5a71e455c93f7874c1c926b5b0759557d0e1",
-    "product/n5/course/reading-runtime-v1/runtime/styles.css": "dd62bd2f1d5bc50b71fd8d6e3899e3d6623b3fe1e9d3bef46518de8437941916",
     "product/n5/course/reading-v1/assessment-data/r01-answer-keys.json": "8d4d11c85bdc95fe57de8eaad61c502dcafd3972671433a6c0a41c413807d324",
     "product/n5/course/reading-v1/assessment-data/r02-answer-keys.json": "4f71cfc2417b9423e13d7a8b6453559911c7dec955e51a3dc7d0751bbc6f73d6",
     "product/n5/course/reading-v1/assessment-data/r03-answer-keys.json": "5040ba12d0f0212597753834ca24ea03759036a9752f5aadc21665d90f373f59",
@@ -3144,9 +3052,6 @@
     "product/n5/course/reading-v1/public/r03.json": "c2cf8d254a14dcf68b77fc5e95b2b960f83a4e43256ee91ded67a1caf47f407e",
     "product/n5/course/reading-v1/public/r04.json": "570e1760eba4163650530f815a33c5589ea60dae4c7af257761fdcdcef25470a",
     "product/n5/course/reading-v1/public/validation.json": "b1dca08ad88003f2f28d7761b199d5a33ce824b50c9652d8dc9de83bd52a00f5",
-    "product/n5/diagnostic/entry-v1/runtime/app.js": "95b091e92107b255d69615848a2e7f7db0df964100f81aee862285e5fe2ffbe8",
-    "product/n5/diagnostic/entry-v1/runtime/index.html": "3b0d10fc7988255be5b46b00be6420afdefc9c16d3b9798aa3bcc9889fe97012",
-    "product/n5/diagnostic/entry-v1/runtime/styles.css": "f449b71d2ca306a27bc6b3b2d33249d0e551002e08e143f3e74f13eed331137b",
     "product/n5/diagnostic/foundation-v1/audio-manifest.json": "d660d6bded1d9dedc9f83d8a1c9f79dbc62532d92ed16142208a36e9295bc266",
     "product/n5/diagnostic/foundation-v1/audio/female/asa.mp3": "8b0fa8ff6fcec3e48e863167853abac580a4ddf6fa547941c276e6ddd42e01d5",
     "product/n5/diagnostic/foundation-v1/audio/female/byouin.mp3": "bbc299d65bf1193900511c128dcfcd20c344d8c97e0e359486db9931cabe6085",
@@ -3194,25 +3099,24 @@
     "product/n5/planning/contracts-v1/calendar-plan.schema.json": "0eb5940ab09fc565b95dd2d0ec3dec6cbb763c255b845a999fbacbf6309d6d22",
     "product/n5/planning/contracts-v1/handoff.schema.json": "139c44efa31e6463adb086c8428339c47e608196c2d6cf51460bb14b21ca5b24",
     "product/n5/release-assets/foundation/f01/articulation/k-row-closure-f01-style-v2.png": "5af0227d8b6c8ba96e5132a18adfbcee48e47e50bbbb6fd29113f670eebee6f8",
-    "product/n5/release-assets/foundation/f01/kanjivg/03042.svg": "3553cd24cba506dffe12e1214f231fc129c2535f719c1bdc86a9fb651aa9ec9b",
-    "product/n5/release-assets/foundation/f01/kanjivg/03044.svg": "af6b59de47a27d48f952092182fe9f222b0a6c7c6aacf67386b0eeaf8c35b86e",
-    "product/n5/release-assets/foundation/f01/kanjivg/03046.svg": "57039965dc929d72ef3bdb9d12187099e99bcf99504e1b0d3ce5eff0552237f0",
-    "product/n5/release-assets/foundation/f01/kanjivg/03048.svg": "e97c7c98b19b06d004b2addeab5f69f9262265bebf06e83dad7e77d217be5b16",
-    "product/n5/release-assets/foundation/f01/kanjivg/0304a.svg": "2211aa7b4825d5aed8d30b05df5c939a903599f13827531828aeb019efbf1414",
-    "product/n5/release-assets/foundation/f01/kanjivg/0304b.svg": "3b3bcd50c1bd4fcde1cfefd2e552ae9f1f1dacb618a3b5a0a96b9dcd719aa439",
-    "product/n5/release-assets/foundation/f01/kanjivg/0304d.svg": "8f4376853a758ce9710d8b312d93deef512a36a9626bad2f180b46655d23e76a",
-    "product/n5/release-assets/foundation/f01/kanjivg/0304f.svg": "8ab7bbab9a6c8dc911b5e67b4b6b54fa133e3dc6a2d57eeb353084ece5e26f40",
-    "product/n5/release-assets/foundation/f01/kanjivg/03051.svg": "cbc38d14ca6ad327a93c2e4b338bac47eeaeb66ba7ecca3e4afcd8ac4d9a9d32",
-    "product/n5/release-assets/foundation/f01/kanjivg/03053.svg": "b2ad2786cc3ef74f5c339e0cd7093e17a3c4d13c11dfb6eed4e6ee6b3e702782",
+    "product/n5/release-assets/foundation/f01/kanjivg/03042.svg": "181e7edecc0741236db6fa77002389c31a530fd63a7c11b4dc96d56867a31fb8",
+    "product/n5/release-assets/foundation/f01/kanjivg/03044.svg": "c7353d43fc38c830cc754c7c05649277bdd066d34f187151c47f0066e913fe9b",
+    "product/n5/release-assets/foundation/f01/kanjivg/03046.svg": "85397dedf2c56e6a7d6e7cf0086d184dd89f38286dfe71af9e2782dc73d40fae",
+    "product/n5/release-assets/foundation/f01/kanjivg/03048.svg": "ea550c78115a4147d2d375e37f9501e7a9b81960806492ffa62133e348cdc996",
+    "product/n5/release-assets/foundation/f01/kanjivg/0304a.svg": "4af1a5b55df1013ac8f531999e319ce3d3790fd32790cba6a1a4f7440d6352c0",
+    "product/n5/release-assets/foundation/f01/kanjivg/0304b.svg": "f9bd3c03c10945b69bfed7ab3ed8e21ced34986ac2b54fe0acdd86e8d1b9260b",
+    "product/n5/release-assets/foundation/f01/kanjivg/0304d.svg": "017e6574d84e28d61c01ef4fa4874810c62df87ea19631f9e92c2ac9210fb70b",
+    "product/n5/release-assets/foundation/f01/kanjivg/0304f.svg": "46a328690e829caaa8d88753b7fbcc04b04b5e4c4238ed4486124df68ce55320",
+    "product/n5/release-assets/foundation/f01/kanjivg/03051.svg": "bfd38c7700dc24d9bc5b0accfb174b28261677bde009dd19ce297a870c6afb6e",
+    "product/n5/release-assets/foundation/f01/kanjivg/03053.svg": "840e7d9efe1284e55fb6394eb9ab0abf672ea40de97844efe35b6a488df1f198",
     "product/n5/release-assets/foundation/f01/mouth/a.png": "8ceb041399b25fba57e9ca48b55a105ea960f1a8b4cf0474999efa2e2012201d",
     "product/n5/release-assets/foundation/f01/mouth/e.png": "9dea99ac8c7d99b41c556b1dffbcd5551f0f19df98b78a3c44e23952b777a334",
     "product/n5/release-assets/foundation/f01/mouth/i.png": "220bafb7d306abeb63371138105d5b1cf3bc3327c112a409483abf440e41ed49",
     "product/n5/release-assets/foundation/f01/mouth/o.png": "307e5cd94b34f4d4f527d4af018d95b08da7bc0cf11230ee0c6c8291da347d93",
     "product/n5/release-assets/foundation/f01/mouth/u.png": "add9544ece83b92834c7ddd6126db0aa3c93d446bc18a5b3a0004734d70b073f",
     "product/n5/release/v1/upgrade-contract.json": "4037e7b26476130fd7b33a517fb3cdaf66618508d032b5d79914d9788a0e5ff0",
-    "reference/EDRG-General-Dictionary-Licence.html": "52f60ea9ca68170a2f0663d7dba381ebf1bd57c17a3347dfe21153865c156692",
-    "reference/THIRD_PARTY_NOTICES.md": "21379357c3e164fcc61fffc6687beb202f203c58f466199ac0636a53ad12ee9a",
-    "reference/app.js": "5fbeda82d7fa5a94e635e4b350f2ff7be0abf69ea63ea1bc2853c8b857641454",
+    "reference/EDRG-General-Dictionary-Licence.txt": "5a1b6e9491c0c13637885e5db107aa8450cdfbc17a513539b4a024f4307c1e2a",
+    "reference/THIRD_PARTY_NOTICES.md": "e92a8be5091b0ec56751715e8fe0d55bd8ef502593c0efb08c6feec91ce06684",
     "reference/audio/0007f7cccd736aacaf895002b938f90a967bff7f8b69f1254f72df2aa6be352d.mp3": "0007f7cccd736aacaf895002b938f90a967bff7f8b69f1254f72df2aa6be352d",
     "reference/audio/0029a574a104aa4c3e57f1fe3e4ad13e4e4724060a58e9955922f8c28e5cbc45.mp3": "0029a574a104aa4c3e57f1fe3e4ad13e4e4724060a58e9955922f8c28e5cbc45",
     "reference/audio/003a1f2509bcbad93a9ae5c5ce7fef8b6b578e6dcdfe95b54b81c1b210b594ab.mp3": "003a1f2509bcbad93a9ae5c5ce7fef8b6b578e6dcdfe95b54b81c1b210b594ab",
@@ -4790,112 +4694,10 @@
     "reference/audio/ffa6cdd07f76e24ddbdbe958a6b2ee4468ab4827b401a7d1f6dfac80d09904ef.mp3": "ffa6cdd07f76e24ddbdbe958a6b2ee4468ab4827b401a7d1f6dfac80d09904ef",
     "reference/audio/ffcabefedf5d6425b67c085ce6d10b5d64ff4d8097cf434b84a5e8b39c88cf76.mp3": "ffcabefedf5d6425b67c085ce6d10b5d64ff4d8097cf434b84a5e8b39c88cf76",
     "reference/audio/ffd53c9f426c299fd81dba08f4cfd6104913013aa0afac36b8fe90153c1269e7.mp3": "ffd53c9f426c299fd81dba08f4cfd6104913013aa0afac36b8fe90153c1269e7",
-    "reference/data.js": "0fc8b24be1f807b6c1a1df84e2782aefe0ae390e9c611b7caf05fa0c7f3de048",
-    "reference/index.html": "aa06f6150b4f255e0f66bf64487aac0819ae7709b9d3edd6745ce8458a86b51c",
-    "reference/manifest.json": "e4a067f426aea34bb7fbc6137cac49831bd89ff25607479228c81de02aa808b2",
-    "reference/styles.css": "d52a6e72c0dcf40700c582eb5c7641f190780ce370e74b9cd7df9a370af3db34",
-    "reference/tour.css": "71c256369f5f56e9595d22c54ead150b090189ab100db0a340d009764d4a840a",
-    "reference/tour.html": "ba3363a251fa231db1c6416ecd791bbadd159c34b3f88857d53f9717e5c96b3f",
-    "reference/tour.js": "fa697287d578bf119a9f4744e8a19bf0e260c39202d14419c19fc779c44537c3",
-    "scripts/check_n5_jmdict_updates.py": "2a03e49f1e03232e51c1f873d322750dc3ba8d207c2a43d9a98668359f5138e4",
-    "scripts/n5_browser_continuation.py": "6197c7abffce3b180538d13192f1ef57202cdfa50929515165f687206bb670a6",
-    "scripts/n5_core_runtime_context.py": "30d0eea6907fe945cc308dc13f8e1aa605b898c60c062be24cfa4f8c42102d12",
-    "scripts/n5_diagnostic_presentation.py": "e6efcd4dc6c3a65ee6baecda0e5823b7b6e5f108191f6a384b1384112961dd3d",
-    "scripts/n5_foundation_runtime_context.py": "a4a8ef36a8ef48c77baa7c37adfda0e9950871934098ec535e93f7ad40a55514",
-    "scripts/run_n5_core_learning_app.py": "c1d2dac01095fb67095d1a890a0259e4c9b9e8b0cf2503953a65c1f9f87e7903",
-    "scripts/run_n5_entry_diagnostic_app.py": "fda664f8e9aadde959bd3ff18283e14ef65e5fbd578378279df27be14b6d49c1",
-    "scripts/run_n5_entry_diagnostic_scoring_model.py": "8419f2cb6a9a541fa4a365dcedbbab3676022baa2433bb6fae25fd1af1e8b6e5",
-    "scripts/run_n5_foundation_learning_app.py": "25e25865ac1e34ba03d8e66346763d619e47a515594a8237ff7af6022187aebc",
-    "scripts/run_n5_g3_integrated_acceptance.py": "6afffc46a2fe833080e7be047ab4691f327e9e2a10103989f8c0cc7bb2fcc6a1",
-    "scripts/run_n5_g3_reading_app.py": "16668090d2af8c6f42feb6daa365da3aa52135698febe038168d4ef8513c60a8",
-    "scripts/run_n5_learning_route_candidate.py": "cca4b66623876c17764a18cd5edadcf14a725a9022d2c054986ebc77cb429353",
-    "scripts/run_n5_multi_contract_learning_app.py": "4560981539eb821bfcbf790955448ff4d32f0f5da2eff6b2e58630de5f8e45d9",
-    "scripts/run_n5_multi_contract_learning_app_v3.py": "3245dd2d5b1e63785fd1148f29dbfa933c085b75ec6bcc461991ef4e68b1375a",
-    "开始使用.md": "c43d67cae00845997fadb60adffd6b49ae61eef14b7be74795598bfdd6f74e7a"
+    "reference/data.json": "a4ee42cb71aab4c33d7caad14a62e7c98c76c31c369b1e74b7e39356ae4012a4"
   },
-  "boundaries": {
-    "active_catalog_modified": false,
-    "local_risk_ledger_included": false,
-    "production_distribution_approved": false,
-    "real_learner_archive_included": false,
-    "seed_beta_authorized": false,
-    "third_party_original_audio_included": false
-  },
-  "browser_continuation_contract": "n5-browser-continuation-v1",
-  "counts": {
-    "active_work_units": 84,
-    "core_work_units": 72,
-    "diagnostic_items": 54,
-    "foundation_work_units": 12,
-    "integrated_mock_exams": 1,
-    "listening_units": 5,
-    "reading_units": 4
-  },
-  "course_catalog": {
-    "catalog_id": "n5-local-player-multi-contract-active-catalog-v3",
-    "path": "product/n5/course/local-player-v3/active-catalog.json"
-  },
-  "entry": {
-    "practice_asset_ids": [
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3042-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3044-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3046-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3048-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304a-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304b-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304d-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u304f-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3051-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3053-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3055-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3057-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u3059-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u305b-v1",
-      "n5-checkpoint-hiragana-sound-to-shape-n5-fnd-u01-target-u305d-v1"
-    ],
-    "work_unit_id": "n5-work-unit-foundation-hiragana-a-ka-sa-v1"
-  },
-  "learning_recovery_contract": "n5-managed-service-v1",
-  "learning_reference": {
-    "contract": "n5-read-only-reference-v1",
-    "entry": "reference/index.html"
-  },
-  "learning_route_contract": "n5-learning-route-candidate-v1",
-  "learning_tour": {
-    "contract": "n5-first-use-tour-v1",
-    "entry": "reference/tour.html"
-  },
-  "onboarding": {
-    "agent_entry_file": "WORKBUDDY_START_HERE.md",
-    "learner_archive_location": "outside_course_package_user_selected",
-    "recommended_user_prompt": "请按课程包内的启动说明带我开始学习。",
-    "source_project_required_after_install": false
-  },
-  "package_id": "n5-0-to-n5-pc-release-candidate-v3",
-  "planning_contract": {
-    "ability_map_path": "product/n5/ability-map-v1.json",
-    "calendar_constraints_schema_path": "product/n5/planning/contracts-v1/calendar-constraints.schema.json",
-    "calendar_plan_schema_path": "product/n5/planning/contracts-v1/calendar-plan.schema.json",
-    "handoff_schema_path": "product/n5/planning/contracts-v1/handoff.schema.json"
-  },
-  "player": {
-    "base_url": "http://127.0.0.1:18802",
-    "health_contract": {
-      "active_work_unit_count": 84,
-      "default_work_unit_id": "n5-work-unit-core-001-v3",
-      "persistent_session_store": true
-    },
-    "host": "127.0.0.1",
-    "port": 18802,
-    "script": "scripts/run_n5_multi_contract_learning_app_v3.py",
-    "session_store_argument": "--session-store-dir"
-  },
+  "data_contract": "n5-data-only-v1",
+  "package_id": "n5-0-to-n5-data-release-candidate-v4",
   "schema_version": 1,
-  "scope": "complete local PC candidate: diagnostic, 84 course units, reading, listening and one integrated mock exam",
-  "status": "g5_release_candidate_not_approved",
-  "upgrade_contract": {
-    "contract_id": "n5-local-course-upgrade-and-rollback-v1",
-    "learner_archive_location": "outside_course_installation",
-    "path": "product/n5/release/v1/upgrade-contract.json"
-  }
+  "status": "g5_release_candidate_not_approved"
 }

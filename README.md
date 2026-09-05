@@ -1,30 +1,19 @@
 # 日语0到N5课程
 
-这是面向中文使用者、日语零基础或希望补齐基础的电脑端日语0到N5课程。课程通过WorkBuddy中的“正能日语”Skill安装和运行；安装优先从CNB下载，失败时切换GitHub，并核对固定版本、课程身份、文件大小和SHA-256。
+当前课程为 **v0.1.0-rc.4**，配套[正能日语 Skill 0.2.12](https://github.com/notbadhuang/notbadhuang-japanese-skill/releases/tag/v0.2.12)；Skill 0.2.11也使用同一份rc.4数据。课程内容与媒体未因Skill更新而变化。
 
-本仓库对应 `v0.1.0-rc.3` 课程公开预发布，配套Skill为 `0.2.5`。最新版Windows全流程验收和真实目标用户试学仍待完成；这不是正式版或付费版本，不承诺学习天数或考试结果。
+## 安装与更新
 
-## 如何开始
+先通过原宿主安装或更新正能日语Skill，再说“检查日语课程有没有更新”或“从零开始学习”。旧Skill没有更新入口时，先去原技能平台或[Skill发布页](https://github.com/notbadhuang/notbadhuang-japanese-skill/releases)取得对应客户端安装包。
 
-先安装[正能日语Skill](https://github.com/notbadhuang/notbadhuang-japanese-skill)。已在WorkBuddy安装后，可以说：
+课程包只含固定课程数据、音频、图像及必要许可；播放器程序和使用指南已移到[Skill仓库](https://github.com/notbadhuang/notbadhuang-japanese-skill)。课程和学习记录推荐分别保存在当前工作空间的`japanese-course`和`japanese-learning-records`，不能互相包含。下载与版本切换需按Skill展示的具体计划确认，安装不会启动播放器或修改学习记录。
 
-> 使用正能日语Skill，安装课程并打开使用介绍。我想开始从0到N5学习。
+固定下载：[GitHub rc.4](https://github.com/notbadhuang/notbadhuang-japanese-n5-course/releases/tag/v0.1.0-rc.4)、[CNB rc.4](https://cnb.cool/notbadhuang-japanese/notbadhuang-japanese-n5-course/-/releases/tag/v0.1.0-rc.4)。两处`n5-0-to-n5-pc-v1.zip`和`n5-release-channel.json`一致，优先CNB，GitHub作为备用源。请使用明确命名的课程ZIP；平台自动生成的Source code源码压缩包不是可安装课程包。
 
-也可以只说“打开词汇表”“查一下駅”或“打开语法目录”；查资料不要求建学习档案、不计入学习进度。正式学习时再选择从零开始或进行起点诊断。以后说“继续学习”；无法打开时说“帮我恢复学习服务，保留我的学习记录”。
+rc.4附件保持不可变；公开main同步对应课程数据。rc.4的历史标签保留原提交，不改写已发布标签；其显式课程ZIP才是安装时校验的固定产物。配对及文件摘要见`dist/publication.json`。
 
-本版包含基础与核心课程、阅读、听力、自编模考、资料目录、首次使用介绍和受控恢复。WorkBuddy负责交流与编排，浏览器承接课程活动；具体能力与限制见[产品概览](PRODUCT-OVERVIEW.md)及[用户指南](USER-GUIDE.md)。
+## 范围与许可
 
-## 仓库边界
+课程面向中文使用者、日语零基础或需要补齐基础的电脑端学习者，包含基础、核心、阅读、听力及自编模考数据。仍为公开预发布，暂不开放购买；不承诺学习天数或考试结果，Windows完整流程及真实目标用户试学仍待验收。
 
-- 本仓库仅包含发行允许清单内的课程、播放器、音频、必要许可证和公开说明。
-- 研发来源、内部审计、风险说明、设计稿、候选材料和学员档案不在本仓库中。
-- 学习Skill在独立仓库 `notbadhuang/notbadhuang-japanese-skill` 维护。
-- `dist/`中的ZIP和发布清单用于创建GitHub Release；ZIP不提交到Git历史。
-
-## 答案与评分
-
-下载后的课程页面使用本地资源；安装、更新及WorkBuddy对话仍依赖网络或WorkBuddy服务。答案、听力脚本和本地评分实现也会随仓库公开，并集中放在`assessment-data`等课程数据中。正常学习界面仍只会在提交答案或完成相应阶段后显示反馈；本仓库不对答案作保密承诺。
-
-## 许可
-
-本项目完全自有且明确纳入授权范围的课程内容、文档和代码采用CC BY-NC 4.0。第三方素材不被该许可覆盖，继续遵守各自许可证，详见`LICENSE.md`、`THIRD_PARTY_NOTICES.md`、`THIRD_PARTY_DATA/`与`THIRD_PARTY_LICENSES/`。
+答案、听力脚本和评分数据随本地课程公开，不对答案作保密承诺。研发来源、内部审计、设计稿及学员档案不在本仓库中。自有授权内容采用CC BY-NC 4.0，第三方材料遵守各自许可，见`LICENSE.md`、`THIRD_PARTY_NOTICES.md`、`THIRD_PARTY_DATA/`及`THIRD_PARTY_LICENSES/`。

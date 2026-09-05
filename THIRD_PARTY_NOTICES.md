@@ -19,7 +19,7 @@ F01 的 10 个平假名笔顺 SVG 来自 KanjiVG 项目，文件保持原始 SVG
 - JMdict 项目：https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project
 - 许可证：Creative Commons Attribution-ShareAlike 4.0（CC BY-SA 4.0）
 - EDRG 许可证说明：https://www.edrdg.org/edrdg/licence.html
-- 随包许可证页面：`THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.html`
+- 随包许可证页面：`THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.txt`
 - 来源版本、校验值和适用字段：`THIRD_PARTY_DATA/EDRG-JMdict-SOURCE.json`
 
 `jmdict_seq`、以该编号建立的稳定对象关联及上述词形／读音关系继续按 CC BY-SA 4.0 和 EDRG 说明提供；项目独立编写的中文讲解、学习顺序、例句、练习、界面和音频不因此被表示为 EDRG 制作或背书。

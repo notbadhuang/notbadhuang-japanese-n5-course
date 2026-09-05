@@ -12,7 +12,7 @@ https://creativecommons.org/licenses/by-nc/4.0/legalcode.zh-hans
 - 上述编号、关联和词形／读音字段按 CC BY-SA 4.0 提供，不适用项目内容的 NC 限制。
 - 许可证：https://creativecommons.org/licenses/by-sa/4.0/
 - EDRG 说明：https://www.edrdg.org/edrdg/licence.html
-- 本地许可证副本：EDRG-General-Dictionary-Licence.html
+- 本地许可证副本：EDRG-General-Dictionary-Licence.txt
 
 项目自行制作的讲解、例句和音频不表示 EDRG 背书。上游变化按项目既有每月检查流程核对，采用时进入新版本，不静默修改本地资料。
 

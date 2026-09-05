@@ -29,7 +29,7 @@
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
     "spdx_expression": "CC-BY-SA-4.0",
     "edrg_statement_url": "https://www.edrdg.org/edrdg/licence.html",
-    "local_copy": "THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.html"
+    "local_copy": "THIRD_PARTY_LICENSES/EDRG-General-Dictionary-Licence.txt"
   },
   "update_procedure": {
     "cadence": "monthly maintainer check while this release line is maintained",
