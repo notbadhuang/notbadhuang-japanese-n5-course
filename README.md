@@ -1,6 +1,6 @@
 # 日语0到N5课程
 
-当前课程为 **v0.1.0-rc.4**，配套[正能日语 Skill 0.2.12](https://github.com/notbadhuang/notbadhuang-japanese-skill/releases/tag/v0.2.12)；Skill 0.2.11也使用同一份rc.4数据。课程内容与媒体未因Skill更新而变化。
+当前课程为 **v0.1.0-rc.4**，配套[正能日语 Skill 0.2.13](https://github.com/notbadhuang/notbadhuang-japanese-skill/releases/tag/v0.2.13)；Skill 0.2.11和0.2.12也使用同一份rc.4数据。课程内容与媒体未因Skill更新而变化。
 
 ## 安装与更新
 

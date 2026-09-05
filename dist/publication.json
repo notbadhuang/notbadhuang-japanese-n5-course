@@ -1,16 +1,16 @@
 {
-  "skill_version": "0.2.12",
+  "skill_version": "0.2.13",
   "course_tag": "v0.1.0-rc.4",
   "course_sha256": "4748be4dccf109130a3a232b7715b96c4311647d2d284345fbac1ca940b41ab7",
   "course_size_bytes": 61181688,
   "skill_assets": {
-    "notbadhuang-japanese-0.2.12.zip": {
-      "sha256": "26de22fb82df0783533664f737e903e8b53d8269514abea3b10749926635df98",
-      "size_bytes": 691491
+    "notbadhuang-japanese-0.2.13.zip": {
+      "sha256": "97ff969d2c974f7f5efed0d64b26818185c302e90e347f3be2b16a49c4c1511a",
+      "size_bytes": 693609
     },
-    "notbadhuang-japanese-codex-0.2.12.zip": {
-      "sha256": "90ba0c6f9d7a934a1f816ffbe9c29e917c2a5dde274180e26dd742062c60d2b2",
-      "size_bytes": 691834
+    "notbadhuang-japanese-codex-0.2.13.zip": {
+      "sha256": "50c2f07f8f3717946621890b6502ee1b98efc5d6f9c284774e414e0a07ec8e10",
+      "size_bytes": 693945
     }
   }
 }
